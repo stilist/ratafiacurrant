@@ -46,6 +46,19 @@ code {
  position: absolute;
  text-indent: -1000em;
 }
+#nameplate #logo {
+ background-image: url('http://img.photobucket.com/albums/v240/stilist/Tumblr%20interface/ricardologo.png');
+ height: 67px;
+ width: 536px;
+}
+#nameplate #archives {
+ height: 27px;
+ width: 114px;
+}
+#nameplate #links {
+ height: 27px;
+ width: 67px;
+}
 
 #footer {
 }
