@@ -4,10 +4,50 @@
 }
 
 body {
- background: #333;
- font: 9pt 'Trebuchet MS', Arial, sans-serif;
+ background: #371d10;
+ border-bottom: 10px solid #aa5a32;
+ border-top: 10px solid #aa5a32;
+ color: #ab8876;
+ font: 8pt 'Trebuchet MS', Arial, sans-serif;
+ line-height: 1.8em;
  margin: 15px auto;
  width: 800px;
+}
+
+a {
+ border-bottom: 1px solid #c12d2d;
+ color: #c12d2d;
+ text-decoration: none;
+}
+a:hover {
+ background-color: #640a00;
+}
+abbr.smallcaps {
+ font-size: .8em;
+ text-transform: uppercase;
+}
+blockquote {
+ border-left: 2px solid #aa5a32;
+}
+code {
+ font-family: Monaco, monospace;
+ font-size: 8pt;
+ line-height: 1.6em;
+}
+
+#nameplate {
+ height: 100px;
+ margin-bottom: 36px;
+}
+#nameplate a {
+ background-position: bottom right;
+ background-repeat: no-repeat;
+ display: block;
+ position: absolute;
+ text-indent: -1000em;
+}
+
+#footer {
 }
 
 /* 500/300 */

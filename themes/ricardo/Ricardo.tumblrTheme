@@ -15,7 +15,6 @@
         content='http://www.myopenid.com/xrds?username=stilist.myopenid.com'>
   <link rel='alternate' type='application/rss+xml' title='Ratafia Currant'
         href='http://feeds.feedburner.com/ratafia'>
-  <meta name='viewport' content='width=800'> <!-- iPhone -->
  </head>
  <body>
   <ul id='nameplate'>
@@ -24,6 +23,35 @@
    <li><a href='http://delicious.com/stilist'>Links</a></li>
   </ul>
 
-  <p id='footer'>Copyright <a href='http://twitter.com/stilist'>stilist</a>, and provided under the <a href='http://creativecommons.org/'><acronym title='Creative Commons'>CC</acronym></a> <a href='http://creativecommons.org/licenses/by-nc/3.0/us/' rel='license'><acronym title='attribution, non-commercial'>BY-NC</acronym></a> license.</p>
+  {block:Posts}
+  <div class='entry'>
+   {block:Regular}
+   <h1><a href='{Permalink}'>⁋ {block:PostTitle}{PostTitle}{/block:PostTitle}</a></h1>
+   <div class='copy'>
+    {Body}
+   </div>
+   {/block:Regular}
+   {block:Link}
+   <h1><a href='{Permalink}'>⁋</a> <a href='{URL}'>{Name}</a></h1>
+   {block:Description}
+   <div class='copy'>
+    {Description}
+   </div>
+   {/block:Description}
+   {/block:Link}
+   {block:Video}
+   <h1><a href='{Permalink}'>⁋</a> {block:Caption}{Caption}{/block:Caption}</a>
+   {Video-500}
+   {/block:Video}
+   <div class='signoff'>written <a href='/day/{Year}/{Month}/{DayOfMonth}/'>{DayOfMonth} {Month}, 0{Year}</a></div>
+  </div>
+  {block:Posts}
+
+  {block:Pagination}<div class='nextprev'>
+   {block:PreviousPage}<a href='{PreviousPage}'>← Newer</a>{/block:PreviousPage}
+   {block:NextPage}<a href='{NextPage}'>→{NextPage}</a>{/block:NextPage}
+  </div>{/block:Pagination}
+
+  <p id='footer'>Copyright <a href='http://twitter.com/stilist'>stilist</a>, and provided under the <a href='http://creativecommons.org/licenses/by-nc/3.0/us/' rel='license'><abbr class='smallcaps' title='Creative Commons attribution, non-commercial'>CC:BY-NC</abbr></a> license.</p>
  </body>
 </html>
