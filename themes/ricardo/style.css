@@ -1,0 +1,13 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ background: #333;
+ font: 9pt 'Trebuchet MS', Arial, sans-serif;
+ margin: 15px auto;
+ width: 800px;
+}
+
+/* 500/300 */

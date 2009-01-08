@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta name="verify-v1" content="fBP5k+EA4BFJx2aaK3hiOymbZSUbEAkp8OcEdeK/Fk8=">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>{Title}{block:PostTitle} - {PostTitle}{/block:PostTitle}</title>
+  <link rel="icon" href="{Favicon}">
+  <link rel="openid.server"
+        href="http://www.myopenid.com/server" />
+  <link rel="openid.delegate"
+        href="http://stilist.myopenid.com/" />
+  <link rel="openid2.local_id"
+        href="http://stilist.myopenid.com" />
+  <link rel="openid2.provider"
+        href="http://www.myopenid.com/server" />
+  <meta http-equiv="X-XRDS-Location"
+        content="http://www.myopenid.com/xrds?username=stilist.myopenid.com" />
+  <link rel="alternate" type="application/rss+xml" title="Full feed" href="{RSS}">
+  <meta name="viewport" content="width=800"> <!-- iPhone -->
+
+  <style type="text/css">
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ background: #000 top left no-repeat fixed;
+ background-image: url('http://img.photobucket.com/albums/v240/stilist/Tumblr%20interface/background.gif');
+ font: 62.5% "Trebuchet MS", Arial, sans-serif;
+ margin: 15px auto;
+ padding: 0 15px;
+ width: 815px;
+}
+
+a { color: #aaa; }
+abbr.smallcaps { text-transform: uppercase; }
+code { font-size: 1.2em; }
+
+#masthead {
+ height: 90px;
+ margin-bottom: 50px;
+ position: relative;
+}
+#masthead a {
+ background-position: bottom right;
+ background-repeat: no-repeat;
+ display: block;
+ text-indent: -1000em;
+}
+#masthead #logo {
+ background-image: url('http://img.photobucket.com/albums/v240/stilist/Tumblr%20interface/logo.png');
+ height: 91px;
+ width: 255px;
+}
+#masthead #archives {
+ background-image: url('http://img.photobucket.com/albums/v240/stilist/Tumblr%20interface/archives.png');
+ bottom: -1px;
+ height: 27px;
+ left: 280px;
+ position: absolute;
+ width: 114px;
+}
+
+#content {
+ color: #ccc;
+ margin-bottom: 50px;
+ margin-left: 238px;
+ width: 535px;
+}
+#content blockquote {
+ border-left: 2px solid #ccc;
+ padding-left: 1em;
+}
+#content blockquote ol, #content blockquote ul {
+ margin: 1em 0 1em 1.5em;
+}
+#content h1 {
+ background-color: #111;
+ font-size: 2.1em;
+ font-weight: normal;
+ margin-left: -238px;
+ padding-bottom: .125em;
+ padding-left: 237px;
+ width: 535px;
+}
+#content h1 a { text-decoration: none; }
+#content h2 { margin: 1em 0 .5em 0; }
+#content li p {
+ font-size: 1em;
+ margin: 0;
+}
+#content p {
+ font-size: 1.2em;
+ line-height: 1.85em;
+ margin: 1em 0;
+}
+#content .chat .permalink {
+ background-image: url('http://img.photobucket.com/albums/v240/stilist/Tumblr%20interface/chat.gif');
+}
+#content .date {
+ font-size: 1.5em;
+ left: -218px;
+ margin-top: .25em;
+ position: absolute;
+ width: 208px;
+}
+#content .link .permalink {
+ background-image: url('http://img.photobucket.com/albums/v240/stilist/Tumblr%20interface/link.gif');
+}
+#content .permalink {
+ background-position: top right;
+ background-repeat: no-repeat;
+ font-size: .8em;
+ height: 16px;
+ padding-right: 20px;
+ position: absolute;
+ left: -238px;
+ text-align: right;
+ width: 208px;
+}
+#content .permalink a { text-decoration: none; }
+#content .post {
+ margin-bottom: 50px;
+ position: relative;
+}
+#content .post ol, #content .post ul {
+ font-size: 1.2em;
+ line-height: 1.85em;
+}
+#content .regular .permalink {
+ background-image: url('http://img.photobucket.com/albums/v240/stilist/Tumblr%20interface/text.gif');
+ margin-top: -2.5em;
+}
+
+#footer {
+ border-top: 1px dashed #8c8c8c;
+ clear: both;
+ color: #8c8c8c;
+ font-size: 1.2em;
+ line-height: 1.85em;
+ padding: .5em 0;
+}
+
+.smallcaps { font-size: .8em; }
+
+   {CustomCSS}
+  </style>
+ </head>
+ <body>
+  <div id="masthead">
+   <a href="http://ratafia.info/" id="logo">{Title}</a>
+   <a href="/archive" id="archives">Archive</a>
+  </div>
+
+  <div id="content">
+   {block:Posts}
+   <div class="post">
+    {block:NewDayDate}
+    <div class="date">
+     {DayOfMonth} <abbr>{ShortMonth}.</abbr>, {Year}
+    </div>
+    {/block:NewDayDate}
+
+    {block:Regular}
+    <div class="regular">
+     {block:Title}<h1><a href="{Permalink}">{Title}</a></h1>{/block:Title}
+     <p class="permalink"><a href="{Permalink}">Permalink</a></p>
+     {Body}
+    </div>
+    {/block:Regular}
+
+    {block:Photo}
+    <div class="photo">
+     <p class="permalink"><a href="{Permalink}">Permalink</a></p>
+     {LinkOpenTag}<img src="{PhotoURL-400}" alt="{PhotoAlt}"/>{LinkCloseTag}
+     {block:Caption}
+     <div class="caption">{Caption}</div>
+     {/block:Caption}
+    </div>
+    {/block:Photo}
+
+    {block:Quote}
+    <div class="quote">
+     <p class="permalink"><a href="{Permalink}">Permalink</a></p>
+     <div class="quote_text"><p class="{Length}">{Quote}</p></div>
+     {block:Source}
+     <div class="source">&mdash; {Source}</div>
+     {/block:Source}
+    </div>
+    {/block:Quote}
+
+    {block:Link}
+    <div class="link">
+     <p class="permalink"><a href="{Permalink}">Permalink</a></p>
+     <p><a href="{URL}" class="link" {Target}>{Name}</a></p>
+     {block:Description}
+     <p class="description">{Description}</p>
+     {/block:Description}
+    </div>
+    {/block:Link}
+
+    {block:Conversation}
+    <div class="conversation">
+     <p class="permalink"><a href="{Permalink}">Permalink</a></p>
+     {block:Title}
+     <h1><a href="{Permalink}">{Title}</a></h1>
+     {/block:Title}
+     <ul>
+     {block:Lines}
+     <li class="{Alt}">
+      {block:Label}
+      <span class="label user_{UserNumber}">{Label}</span>
+      {/block:Label}
+      {Line}
+     </li>
+     {/block:Lines}
+     </ul>
+    </div>
+    {/block:Conversation}
+
+    {block:Audio}
+    <div class="audio">
+     <p class="permalink"><a href="{Permalink}">Permalink</a></p>
+     {AudioPlayerBlack}
+     {block:Caption}
+     <div class="caption">{Caption}</div>
+     {/block:Caption}
+    </div>
+    {/block:Audio}
+                    
+    {block:Video}
+    <div class="video">
+     <p class="permalink"><a href="{Permalink}">Permalink</a></p>
+     {Video-400}
+     {block:Caption}
+     <div class="caption">{Caption}</div>
+     {/block:Caption}
+    </div>
+    {/block:Video}
+   </div>
+   {/block:Posts}
+
+   <div id="nextprev">
+    {block:PreviousPage}
+     <a href="{PreviousPage}">&larrow; Older</a>
+    {/block:PreviousPage}
+
+    {block:NextPage}
+     <a href="{NextPage}">Newer &rarrow;</a>
+    {/block:NextPage}
+   </div>
+
+   <p id="footer">Copyright <a href="http://twitter.com/stilist">stilist</a>, except as follows: text is provided under the <a href="http://creativecommons.org/"><acronym title="Creative Commons">CC</acronym></a> <a href="http://creativecommons.org/licenses/by-nc/3.0/us/" rel="license"><acronym title="attribution, non-commercial">BY-NC</acronym></a> license; <a href="http://code.google.com/p/twotiny/">twotone icons</a> are released by <a href="http://twothirty.com/">Paul Jarvis</a> under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"><acronym title="GNU Public License">GPL</acronym><abbr title="version">v</abbr>2</a>.</p>
+  </div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-450269-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+ </body>
+</html>

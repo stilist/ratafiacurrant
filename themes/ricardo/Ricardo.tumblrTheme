@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang='en'>
+ <head>
+  <meta name='verify-v1' content='fBP5k+EA4BFJx2aaK3hiOymbZSUbEAkp8OcEdeK/Fk8='>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+  <title>{block:PostTitle}{PostTitle}{/block:PostTitle} — Ratafia Currant</title>
+  <link rel='icon' href='{Favicon}'>
+  <link rel='stylesheet' type='text/css' media='screen'
+        href='http://github.com/stilist/ratafiacurrant/themes/ricardo/style.css'>
+  <link rel='openid.server' href='http://www.myopenid.com/server'>
+  <link rel='openid.delegate' href='http://stilist.myopenid.com/'>
+  <link rel='openid2.local_id' href='http://stilist.myopenid.com'>
+  <link rel='openid2.provider' href='http://www.myopenid.com/server'>
+  <meta http-equiv='X-XRDS-Location'
+        content='http://www.myopenid.com/xrds?username=stilist.myopenid.com'>
+  <link rel='alternate' type='application/rss+xml' title='Ratafia Currant'
+        href='http://feeds.feedburner.com/ratafia'>
+  <meta name='viewport' content='width=800'> <!-- iPhone -->
+ </head>
+ <body>
+  <ul id='nameplate'>
+   <li><a href='http://ratafia.info' id='logo'>Ratafia Currant</a></li>
+   <li><a href='/archive' id='archives'>Archives</a></li>
+   <li><a href='http://delicious.com/stilist'>Links</a></li>
+  </ul>
+
+  <p id='footer'>Copyright <a href='http://twitter.com/stilist'>stilist</a>, and provided under the <a href='http://creativecommons.org/'><acronym title='Creative Commons'>CC</acronym></a> <a href='http://creativecommons.org/licenses/by-nc/3.0/us/' rel='license'><acronym title='attribution, non-commercial'>BY-NC</acronym></a> license.</p>
+ </body>
+</html>
