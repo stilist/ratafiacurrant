@@ -8,10 +8,12 @@ The `themes` directory holds a few Tumblr themes I’ve made.
 
 The `entries` directory holds most of the stuff I’ve written for my blog. The
 formatting is in [Markdown][mdown], but with a few additional bits that match
-my way of doing things.
+my way of doing things. At the moment nothing actually _uses_ the extra stuff,
+but it’s a platform-independent way of storing it in case I want to move on
+to a different publishing system.
 
 The entries are organized into a subdirectory structure that follows the format
-`<four-digit year>/<full month in English>/<zero-led date>/<entry name>.mdown`
+`<four-digit year>/<full month in English>/<two-digit day>/<entry name>.mdown`
 
 ### Metadata tags
 
