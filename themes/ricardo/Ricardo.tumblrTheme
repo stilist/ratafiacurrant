@@ -45,7 +45,7 @@
     {Video-500}
    </div>
    {/block:Video}
-   <p class='signoff'>written <a href='/day/{Year}/{Month}/{DayOfMonth}/'>{DayOfMonth} {Month}, 0{Year}</a></p>
+   <p class='signoff'>written <a href='/day/{Year}/{Month}/{DayOfMonth}/'>{DayOfMonth} {Month}, 0{Year}</a> <a href='{Permalink}' class='pilcrow'>⁋</a></p>
   </div>
   {block:Posts}
 

@@ -1,0 +1,17 @@
+TAGS: microformats, persona, web
+
+In order to have a single image representing me, I need to put it in the following places:
+
+* Address Book.app
+* Dopplr
+* Facebook
+* Flickr
+* myOpenID
+* Twitter
+* Tumblr
+
+… and stuff I only use occasionally: Gmail, Vimeo, iusethis, YouTube, FriendFeed, and so on.
+
+There are a variety of roads to the goal of a single profile image — Gravatar, the [hCard microformat][hcard], and OpenID, among others — but none are universal. I’d like to see the latter two win, but microformats are a solution whose problem hasn’t fully appeared, and OpenID has only begun to see any sort of widespread implementation. OpenID does seem to be on an upward rise, though, so I have hope there; microformats are still uncertain, due to both the lack of practical application and the technicality of implementation.
+
+ [hcard]: http://microformats.org/wiki/hcard

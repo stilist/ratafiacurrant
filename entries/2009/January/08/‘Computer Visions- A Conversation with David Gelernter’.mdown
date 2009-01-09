@@ -1,0 +1,37 @@
+BOOKMARK: http://java.sun.com/jsp_utils/PrintPage.jsp?url=http%3A%2F%2Fjava.sun.com%2Fdeveloper%2FtechnicalArticles%2FInterviews%2Fgelernter_qa.html
+LINK: http://java.sun.com/jsp_utils/PrintPage.jsp?url=http%3A%2F%2Fjava.sun.com%2Fdeveloper%2FtechnicalArticles%2FInterviews%2Fgelernter_qa.html
+TAGS: davidgelernter, interview, lifestream
+
+## On lifestreams
+
+> Those are the goals of our [lifestream][ls] (or “information beam”) project. In our
+> view of the future, users will no longer care about operating systems or
+> computers; they’ll care about their own streams, and other people’s. I can
+> tune in my stream wherever I am. I can shuffle other streams into mine — to the
+> extent I have permission to use other people’s streams. My own personal
+> stream, my electronic life story, can have other streams shuffled into
+> it — streams belonging to groups or organizations I’m part of. And eventually
+> I'll have, for example, newspaper and magazine streams shuffled into my
+> stream also. I follow my own life, and the lives of the organizations I’m
+> part of, and the news, etc., by watching the stream flow.
+
+ [ls]: http://cs-www.cs.yale.edu/homes/freeman/lifestreams.html
+
+## On document previews
+
+> My desktop might be crammed with icons, but the icons tell me basically
+> nothing about what’s inside the corresponding files, apps, and so on. My
+> file system, mailer and net search engine return mainly lists of words; I
+> have to read them line by line.
+
+> Compare that to how I search my office for a document. My visual sense is
+> key. I remember roughly where I put the document and what it looks like.
+> Or compare this to how I interact with a magazine stand: my visual sense
+> guides me to things that interest me. Once I’ve got a magazine in hand, I can
+> flip through it and find what’s interesting.
+
+> If info-beams weren’t visual and browsable, they’d be worthless. Each element
+> in the stream must show you a compressed visual summary of its document; when
+> you touch a stream element, you instantly get a larger visual summary.
+
+This interview took place in 2003, several years before technology like Quick Look was released.

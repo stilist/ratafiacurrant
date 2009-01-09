@@ -1,0 +1,9 @@
+TAGS: ricardo, tumblr
+
+A brief note to mention that I’ve put up the theme’s beginnings. It’s almost unstyled right now; colors are present, and a few of my other design ideas, but there’s a lot of work left to do. Forgive the clutter as I work out what I’m doing.
+
+I’ve also moved the feed over to FeedBurner. It gives a little separation from Tumblr, but mostly I did it for Atom support.
+
+Here’s [a screenshot for posterity.][ss]
+
+ [ss]: http://flickr.com/photos/stilist/3181721790/

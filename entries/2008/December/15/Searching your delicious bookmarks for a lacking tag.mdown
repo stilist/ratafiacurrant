@@ -1,0 +1,44 @@
+TAGS: bash, delicious, hacking
+
+Several months ago I began to more thoroughly tag things as I [bookmarked them][mydel], adding in things like the publication year, authors, and source websites. Unfortunately, this meant that I had several years of bookmarks _without_ these tags. This information is particularly useful with my [free music bookmarks][fm], allowing me to quickly find all albums from a given year or artist.
+
+ [fm]: http://delicious.com/stilist/free+music
+ [mydel]: http://delicious.com/stilist
+
+The specific problem that inspired this post was a wish to find everything I’d bookmarked from [the Internet Archive][aorg] that didn’t have the associated [`src:archive.org`][daorg] tag. Although delicious has a little-known `system:has:x` search, it [doesn’t have a negation operator][dfaq].
+
+ [aorg]: http://www.archive.org
+ [daorg]: http://delicious.com/stilist/src%3aarchive.org
+ [dfaq]: http://delicious.com/help/faq
+
+But! Because delicious has [a nice <abbr class="smallcaps">API</abbr>][dapi], we can get around this limitation by stringing together a few command line tools.
+
+ [dapi]: http://delicious.com/help/api
+
+## How it works
+
+(Note: the following assumes a command prompt and a Mac or Linux system, and is written from the perspective of a Mac. I don’t know how this would be accomplished with Windows, and don’t particularly care.)
+
+Because we can’t do this via the web, we’ll download a copy of our bookmarks and work locally:
+
+    curl --user username:password -o ~/Desktop/delicious.xml -O 'https://api.del.icio.us/v1/posts/all'
+
+Inserting your own delicious username and password in the appropriate spots. Try not to do this _too_ often, because a large number of bookmarks mean a lot of work for the servers.
+
+Now to do the actual processing:
+
+    cat delicious.xml |grep archive.org |grep -v src:archive.org > del.txt
+
+What this line does:
+
+* opens the file that holds our downloaded bookmarks
+* hands it over to grep, which
+* looks for bookmarks that include the text `archive.org` (_i.e._ they’re from the site)
+* but _not_ (`-v`) `src:archive.org` (they’re missing the tag)
+* then spits the results into a new text file
+
+## Finishing up
+
+From there, we can just open the text file and add in the tags via the web interface.
+
+Not an especially elegant solution (particularly as adding the tags is a slow process), but still much simpler than checking every link manually through the website.

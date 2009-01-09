@@ -1,0 +1,23 @@
+BOOKMARK: http://delicious.com/url/9f22e8ecf1e91bc40ae8df618faeee06
+LINK: http://www.wired.com/wired/archive/5.02/fflifestreams_pr.html
+TAGS: davidgelernter, lifestream
+
+In contrast with the 2003 comment about how stream entries that lack a preview are ‘worthless’:
+
+> On the other hand, proofreaders definitely have their place, and there is a
+> consensus among the user interface researchers I spoke with that Gelernter’s
+> ideas could use a little more copyediting. As Don Norman, the Apple fellow
+> and cognitive psychologist puts it, “Gelernter is a brilliant man and very
+> logical, but he doesn’t know human memory.” While it’s true, Norman says,
+> that people often remember things with temporal clues, this is just one of
+> many ways — and not necessarily the best way. “The proper solution,” he says,
+> “is multiple solutions.” This was a line echoed by nearly everyone. Agrees
+> Jakob Nielsen, a user interface researcher at Sun Microsystems, “The temporal
+> dimension is very important, but you cannot just do a time-based interface — it
+> would be as bad as today’s spatial interface. People are multidimensional.”
+
+> Gelernter rebuts these objections by pointing out that Lifestreams is
+> multidimensional: it has the Find command that allows for other searches
+> based on keywords or tags. True — but both of these dimensions are profoundly
+> nonvisual. Given that 70 percent of human input capacity is through our eyes,
+> this seems like a serious shortcoming.
