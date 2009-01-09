@@ -5,14 +5,13 @@
 
 body {
  background: #371d10;
- border-bottom: 10px solid #aa5a32;
- border-top: 10px solid #aa5a32;
+ border-top: 1em solid #aa5a32;
  color: #ab8876;
- font: 8pt 'Trebuchet MS', Arial, sans-serif;
+ font: 9.5pt 'Trebuchet MS', Arial, sans-serif;
  line-height: 1.8em;
  margin: 0 auto;
- padding: 15px 0;
- width: 800px;
+ padding: 2em 0;
+ width: 750px;
 }
 
 a {
@@ -39,11 +38,13 @@ code {
 
 #nameplate {
  height: 100px;
- margin-bottom: 36px;
+ margin-bottom: 4em;
+ list-style: none;
+ position: relative;
 }
 #nameplate a {
- background-position: bottom right;
- background-repeat: no-repeat;
+ background: none bottom center no-repeat;
+ border-bottom: none;
  display: block;
  position: absolute;
  text-indent: -1000em;
@@ -51,20 +52,52 @@ code {
 #nameplate #logo {
  background-image: url('http://img.photobucket.com/albums/v240/stilist/Tumblr%20interface/ricardologo.png');
  height: 67px;
- width: 536px;
+ width: 750px;
 }
 #nameplate #archives {
  background-image: url('http://img.photobucket.com/albums/v240/stilist/Tumblr%20interface/ricardoarchives.png');
+ bottom: 0;
  height: 27px;
+ left: 252px;
  width: 114px;
 }
 #nameplate #links {
  background-image: url('http://img.photobucket.com/albums/v240/stilist/Tumblr%20interface/ricardolinks.png');
+ bottom: 0;
  height: 27px;
+ right: 299px;
  width: 67px;
 }
 
-#footer {
+.entry {
+ padding: 0 2em;
+}
+.entry h1 {
+ font-weight: normal;
+ margin: 2em 0 1em 0; 
+}
+.entry h2 {
+ font-size: 1em;
+ margin: 2em 0 1em 0;
+}
+.entry blockquote {
+ padding-left: 1em;
+}
+.copy p {
+ margin: 1em 0;
+}
+.entry .signoff {
+ font-size: .8em;
+ text-align: right;
 }
 
-/* 500/300 */
+#nextprev {
+ margin: 2em;
+}
+
+#footer {
+ margin-top: 2em;
+}
+
+/* hide Tumblr’s reblog bar */
+iframe { display: none; }
