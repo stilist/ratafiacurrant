@@ -6,7 +6,7 @@
   <title>{block:PostTitle}{PostTitle}{/block:PostTitle} — Ratafia Currant</title>
   <link rel='icon' href='{Favicon}'>
   <link rel='stylesheet' type='text/css' media='screen'
-        href='http://github.com/stilist/ratafiacurrant/themes/ricardo/style.css'>
+        href='http://github.com/stilist/ratafiacurrant/raw/master/themes/ricardo/style.css'>
   <link rel='openid.server' href='http://www.myopenid.com/server'>
   <link rel='openid.delegate' href='http://stilist.myopenid.com/'>
   <link rel='openid2.local_id' href='http://stilist.myopenid.com'>

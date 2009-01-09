@@ -10,7 +10,8 @@ body {
  color: #ab8876;
  font: 8pt 'Trebuchet MS', Arial, sans-serif;
  line-height: 1.8em;
- margin: 15px auto;
+ margin: 0 auto;
+ padding: 15px 0;
  width: 800px;
 }
 
@@ -21,6 +22,7 @@ a {
 }
 a:hover {
  background-color: #640a00;
+ color: #ffa2a2;
 }
 abbr.smallcaps {
  font-size: .8em;
@@ -52,10 +54,12 @@ code {
  width: 536px;
 }
 #nameplate #archives {
+ background-image: url('http://img.photobucket.com/albums/v240/stilist/Tumblr%20interface/ricardoarchives.png');
  height: 27px;
  width: 114px;
 }
 #nameplate #links {
+ background-image: url('http://img.photobucket.com/albums/v240/stilist/Tumblr%20interface/ricardolinks.png');
  height: 27px;
  width: 67px;
 }
