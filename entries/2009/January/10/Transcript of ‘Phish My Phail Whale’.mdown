@@ -21,6 +21,10 @@ microformats wiki. Suggestions for improvement are welcome!
 
 ## Participants
 
+* [Larry Halff][lhalff]
+* [Chris Messina][cmessina]
+* [Alex Payne][apayne]
+
  [lhalff]: http://ma.gnolia.com/people/lhalff
  [cmessina]: http://factoryjoe.com
  [apayne]: http://al3x.net/
