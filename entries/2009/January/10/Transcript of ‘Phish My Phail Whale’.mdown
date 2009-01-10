@@ -921,7 +921,7 @@ microformats wiki. Suggestions for improvement are welcome!
 > <q>Yeah, appreciate it.</q>
 
 > <cite><abbr>LH:</abbr> </cite>
-> <q>And we’ll talk at you next time.
+> <q>And we’ll talk at you next time.</q>
 
  [1pw]: http://agilewebsolutions.com/products/1Password
  [access]: http://google.com/search?q=Twitter+access-logins
