@@ -14,10 +14,11 @@ The detectors are in plain-text format, and can be seen in the
 `Resources/Patterns` subdirectory.
 
 The system seems to have a loose library structure. There is a `common.ddn`
-file that defines keywords similar to [<abbr class='smallcaps'>POSIX</abbr>’s
-character classes][pcc]; this file is often `import`ed into more specific detectors.
-There also appears to be some minor similarity to the syntax of Pascal, but I’m
-not a programmer so don’t assume this means anything.
+file that defines keywords in a manner similar to
+[<abbr class='smallcaps'>POSIX</abbr>’s character classes][pcc]; this file is
+often `import`ed into more specific detectors. There also appears to be some
+minor similarity to the syntax of Pascal, but I’m not a programmer so don’t
+assume this means anything.
 
  [pcc]: http://www.regular-expressions.info/posixbrackets.html
 
