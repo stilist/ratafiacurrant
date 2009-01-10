@@ -1,6 +1,6 @@
 TAGS: apple, artificialintelligence, datadetector, technology
 
-Today I’ve trying to looking for information about the origins of Apple’s ‘data
+Today I’ve been looking for information about the origins of Apple’s ‘data
 detector’ technology. Although it was available in some form starting in the
 late 90s, it seems to have disappeared at some point, [resurfacing][leodd] with
 the release of Leopard. ([See also][mwdd].)

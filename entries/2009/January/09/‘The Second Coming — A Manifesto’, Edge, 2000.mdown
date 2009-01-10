@@ -125,8 +125,8 @@ direction. Of course, the idea (and even software) isn’t really new. From
 
 > I came to Apple to work on its Unix products — at the time, a version of Unix
 > called <abbr class='smallcaps'>A/UX</abbr>. I spent the first half of my time
-> there working with a wide array of things, mostly enterprise products — 
-> <abbr class='smallcaps'>A/UX</abbr>, Data Access Language, AppleShare,
+> there working with a wide array of things, mostly enterprise products
+>  — <abbr class='smallcaps'>A/UX</abbr>, Data Access Language, AppleShare,
 > AppleSearch, 3270 and Token Ring. Other than Unix, most of the products were
 > at best marginal successes and generally soon cancelled. AppleSearch was by
 > far my favorite — a technology to help you find content on your server. You
@@ -135,6 +135,8 @@ direction. Of course, the idea (and even software) isn’t really new. From
 
  [cvr]: http://www.guardian.co.uk/technology/2009/jan/02/apple-macworld-lookback/print
 
+Back to the manifesto.
+
 > The lifestream (or some other system with the same properties) will
 > become the most important information-organizing structure in computing — 
 > because even a rough imitation of the human mind is vastly more powerful than
@@ -142,9 +144,9 @@ direction. Of course, the idea (and even software) isn’t really new. From
 
 Although my first thought was ‘it depends on just how rough that is’, a
 moment’s consideration is enough to convince me this is true. Certainly our
-[present attempts][ase] are fairly weak attempts that just summarize what’s
-going on, but they’re already more humanizing because they 1) turn the data
-back into a human story, and 2) make it simpler to watch what’s going on.
+[present attempts][ase] are fairly weak and just summarize what’s going on, but
+they’re already more humanizing because they 1) turn the data back into a human
+story, and 2) make it simpler to watch what’s going on.
 
  [ase]: http://wiki.diso-project.org/activity-streams-examples
 

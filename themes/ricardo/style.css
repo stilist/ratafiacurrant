@@ -29,11 +29,33 @@ abbr.smallcaps {
 }
 blockquote {
  border-left: 2px solid #aa5a32;
+ margin-right: 2em;
+ padding-left: 1em;
 }
 code {
  font-family: Monaco, monospace;
  font-size: 8pt;
  line-height: 1.6em;
+}
+h1 {
+ font-size: 1.75em;
+ font-weight: normal;
+ line-height: 1.5em;
+ margin: 3em 0 1em 0; 
+}
+h1 a {
+ border: none;
+}
+h2 {
+ font-size: 1.1em;
+ line-height: 1.6em;
+ margin: 3em 0 1em 0;
+}
+strong {
+ font-size: .9em;
+ font-weight: normal;
+ letter-spacing: .1em;
+ text-transform: uppercase;
 }
 
 #nameplate {
@@ -70,37 +92,29 @@ code {
 }
 
 .entry {
- padding: 0 2em;
+ margin: 0 auto;
+ width: 536px;
 }
 .entry a img {
  background: none;
  border: none;
 }
-.entry h1 {
- font-weight: normal;
- margin: 2em 0 1em 0; 
-}
-.entry h2 {
- font-size: 1em;
- margin: 2em 0 1em 0;
-}
-.entry blockquote {
- padding-left: 1em;
-}
-.copy p {
+.entry p {
  margin: 1em 0;
 }
 .entry .signoff {
- font-size: .8em;
+ font-size: .9em;
  text-align: right;
 }
 
 #nextprev {
- margin: 2em;
+ margin: 4em;
+ text-align: center;
 }
 
 #footer {
- margin-top: 2em;
+ margin: 0 auto;
+ width: 536px;
 }
 
 /* hide Tumblr’s reblog bar */
