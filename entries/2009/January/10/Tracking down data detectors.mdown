@@ -28,9 +28,12 @@ roughly by publication date:
 
  [cpia]: http://miramontes.com/writing/add-cacm/index.php
 
-This is presumably the first public mention of the technology, and the paper
+This is presumably the first public mention of the technology [<ins>**UPDATE:**
+It is not; [see here][nytdd]</ins>], and the paper
 was published in <i>Communications of the <abbr class='smallcaps'
 title='Association for Computing Machinery'>ACM</abbr></i> in March of 1998.
+
+ [nytdd]: http://query.nytimes.com/gst/fullpage.html?res=990CE3DB1238F930A25752C0A961958260&pagewanted=print
 
 It seems that even from the start, the system was intended to be a plugin
 architecture — there would perhaps be some included detectors, but users could
