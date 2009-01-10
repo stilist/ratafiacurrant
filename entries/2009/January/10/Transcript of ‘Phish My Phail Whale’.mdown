@@ -42,7 +42,7 @@ microformats wiki. Suggestions for improvement are welcome!
 > <q>And today we are joined by…</q>
 
 > <cite><abbr title='Alex Payne'>AP:</abbr> </cite>
-> <q>Alex Payne, I’m <abbr class='smallcaps'>API</abbr> lead over at Twitter.
+> <q>Alex Payne, I’m <abbr class='smallcaps'>API</abbr> lead over at Twitter.</q>
 
 > <cite><abbr>LH:</abbr> </cite>
 > <q>So it’s been an exciting week over here…</q>
