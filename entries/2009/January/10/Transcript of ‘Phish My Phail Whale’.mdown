@@ -67,10 +67,10 @@ microformats wiki. Suggestions for improvement are welcome!
 > <q>I don’t think that’s how they were distributed, though.</q>
 
 > <cite><abbr>CM:</abbr> </cite>
-> <q>No. Anyways. So, it’s january seventh, happens to be my birthday…</q>
+> <q>No. Anyways. So, it’s January seventh, happens to be my birthday…</q>
 
 > <cite><abbr>AP:</abbr> </cite>
-> <q>Aappy birthday!</q>
+> <q>Happy birthday!</q>
 
 > <cite><abbr>LH:</abbr> </cite>
 > <q>Happy birthday!</q>

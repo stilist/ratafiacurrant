@@ -72,6 +72,10 @@ code {
 .entry {
  padding: 0 2em;
 }
+.entry a img {
+ background: none;
+ border: none;
+}
 .entry h1 {
  font-weight: normal;
  margin: 2em 0 1em 0; 
