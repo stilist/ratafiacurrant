@@ -823,7 +823,7 @@ microformats wiki. Suggestions for improvement are welcome!
 > <q>It’s basic, as you’ve said.</q>
 
 > <cite><abbr>AP:</abbr> </cite>
-> <q>yeah. they can use `curl` and just poke at
+> <q>Yeah. They can use `curl` and just poke at
 > <abbr class='smallcaps'>API</abbr> methods, see what they get back. In the
 > absence of that, we’re gonna need to provide a nice sort of interactive
 > sandbox for the <abbr class='smallcaps'>API</abbr>.</q>
@@ -895,7 +895,7 @@ microformats wiki. Suggestions for improvement are welcome!
 
 > <cite><abbr>AP:</abbr> </cite>
 > <q>We’re doing enough specialization at this point that, y’know, I can
-> kinda say it’s their problem. I honestly think that’d be nice. at the very
+> kinda say it’s their problem. I honestly think that’d be nice. At the very
 > least, it would be nice if people can log in with their OpenID and make use
 > of it. Twitter as an OpenID provider — I think we’d want to have a really
 > great handle on the kind of phishing problems out there before we did
