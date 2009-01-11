@@ -118,5 +118,23 @@ strong {
  text-align: center;
 }
 
+/* disqus */
+#disqus_thread {
+ margin: 66px auto 50px auto;
+ width: 536px;
+}
+#disqus_thread #dsq-add-new-comment {
+ font-size: 1.1em;
+ line-height: 1.6em;
+ margin: 3em 0 1em 0;
+}
+#disqus_thread #dsq-by a, #disqus_thread #dsq-options-toggle {
+ background: transparent;
+ border: none;
+}
+#disqus_thread #dsq-content {
+ font-size: inherit !important;
+}
+
 /* hide Tumblr’s reblog bar */
-iframe { display: none; }
+iframe#tumblr_controls { display: none; }

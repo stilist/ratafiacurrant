@@ -49,6 +49,31 @@
   </div>
   {block:Posts}
 
+  {block:PermalinkPage}
+  <!-- disqus -->
+  <script type="text/javascript">
+   var disqus_url = "{Permalink}";
+   var disqus_title ="{block:PostTitle}{PostTitle}{/block:PostTitle}";
+  </script>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript" src="http://disqus.com/forums/ratafia/embed.js"></script>
+  <script type="text/javascript">
+   //<![CDATA[
+   (function() {
+    var links = document.getElementsByTagName('a');
+    var query = '?';
+    for(var i = 0; i < links.length; i++) {
+     if(links[i].href.indexOf('#disqus_thread') >= 0) {
+      query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+     }
+    }
+    document.write('<script type="text/javascript" src="http://disqus.com/forums/ratafia/get_num_replies.js' + query + '"></' + 'script>');
+   })();
+   //]]>
+  </script>
+  <!-- /disqus -->
+  {/block:PermalinkPage}
+
   {block:Pagination}<div id='nextprev'>
    {block:PreviousPage}<a href='{PreviousPage}'>← Newer</a>{/block:PreviousPage}
    {block:NextPage}<a href='{NextPage}'>Older →</a>{/block:NextPage}
