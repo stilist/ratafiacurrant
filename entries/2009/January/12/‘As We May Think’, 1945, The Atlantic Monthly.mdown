@@ -1,5 +1,6 @@
 BOOKMARK: http://delicious.com/url/87079e3db23512bea77271e54c1bce98
 LINK: http://www.theatlantic.com/doc/print/194507/bush
+PUBLISHED: Jan 12th, 2009 7:02pm
 TAGS: future, technology, vannevarbush
 
 Vannevar Bush’s famous essay predicting the course of technology in the
@@ -7,7 +8,7 @@ twentieth century.
 
 His section on the memex contains a paragraph that serves as an effective
 mission statement for many of the sites that inspire me, and one I hope to
-prove worth of:
+prove worthy of:
 
 > The historian, with a vast chronological account of a people, parallels it
 > with a skip trail which stops only on the salient items, and can follow at
