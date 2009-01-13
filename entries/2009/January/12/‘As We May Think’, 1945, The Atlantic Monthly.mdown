@@ -1,0 +1,19 @@
+BOOKMARK: http://delicious.com/url/87079e3db23512bea77271e54c1bce98
+LINK: http://www.theatlantic.com/doc/print/194507/bush
+TAGS: future, technology, vannevarbush
+
+Vannevar Bush’s famous essay predicting the course of technology in the
+twentieth century.
+
+His section on the memex contains a paragraph that serves as an effective
+mission statement for many of the sites that inspire me, and one I hope to
+prove worth of:
+
+> The historian, with a vast chronological account of a people, parallels it
+> with a skip trail which stops only on the salient items, and can follow at
+> any time contemporary trails which lead him all over civilization at a
+> particular epoch. There is a new profession of trail blazers, those who find
+> delight in the task of establishing useful trails through the enormous mass
+> of the common record. The inheritance from the master becomes, not only his
+> additions to the world’s record, but for his disciples the entire scaffolding
+> by which they were erected.

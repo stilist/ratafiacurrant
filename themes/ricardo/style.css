@@ -1,3 +1,5 @@
+@charset "utf-8"; /* via John Gruber */
+
 * {
  margin: 0;
  padding: 0;
@@ -17,6 +19,7 @@ body {
 a {
  border-bottom: 1px solid #c12d2d;
  color: #c12d2d;
+ padding: 1px 1px 0 1px;
  text-decoration: none;
 }
 a:hover {
@@ -48,6 +51,8 @@ h1 {
 }
 h1 a {
  border: none;
+ display: block;
+ margin-left: -1px;
 }
 h1 + .copy > h2:first-child {
  margin-top: 0.9em;
@@ -118,6 +123,10 @@ strong {
  text-align: center;
 }
 
+#footer {
+ margin-top: 4em;
+}
+
 /* disqus */
 #disqus_thread {
  margin: 66px auto 50px auto;
@@ -128,7 +137,7 @@ strong {
  line-height: 1.6em;
  margin: 3em 0 1em 0;
 }
-#disqus_thread #dsq-by a, #disqus_thread #dsq-options-toggle {
+#disqus_thread .dsq-by a {
  background: transparent;
  border: none;
 }
