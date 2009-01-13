@@ -1,0 +1,13 @@
+BOOKMARK: http://delicious.com/url/fb6758cfa6de9f89a3405ed88c8bb6b1
+LINK: http://ccs.mit.edu/papers/CCSWP197/CCSWP197.html
+TAGS: decentralization, internet, technology, web
+PUBLISHED: Jan 13th, 2009 11:14am
+
+I tend to forget how fortunate we are that the Internet is largely
+decentralized, free from the control of organizations that would force us to
+pay for the right to do anything.
+
+There are still plenty of [walled gardens][wg], but over time they open or
+crumble.
+
+ [wg]: http://en.wikipedia.org/wiki/Walled_garden_(technology)
