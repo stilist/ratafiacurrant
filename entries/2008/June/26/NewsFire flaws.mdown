@@ -1,3 +1,6 @@
+PUBLISHED: Jun 26th, 2008 3:30pm
+TAGS: newsfire, software
+
 I recently switched over to [NewsFire][newsfi] as my feed reader, after
 becoming increasingly annoyed with the performance problems and ‘open source
 feel’ of [Vienna][vienna]. While the experience has been largely positive,
@@ -30,7 +33,7 @@ feeds when I’m presented with the [import box][import]. Something like a
 checkbox would make the process clearer. Second, and more infuriatingly,
 opening an <abbr class="smallcaps">OPML</abbr> file that contains existing
 feeds will [blank said feeds][feedblank], even if the import is canceled.
-Re-importing a large number of feeds can have [drastic results].
+Re-importing a large number of feeds can have [drastic results][results].
 
  [chrome]: http://flickr.com/photos/stilist/2562970710/
  [chrome2]: http://flickr.com/photos/stilist/2513482203/

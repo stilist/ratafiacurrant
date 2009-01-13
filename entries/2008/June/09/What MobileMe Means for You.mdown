@@ -1,4 +1,7 @@
-Today, among a number of other things, Apple announced [MobileMe][mm]—a service based around the idea of personal ‘cloud computing’. In essence, the idea is that any time one updates certain information—email, photos, addressbook, &c.—at one machine, it will be updated almost instantaneously for all the user’s devices.
+PUBLISHED: Jun 9th, 2008 8:34pm
+TAGS: apple, cloudcomputing, mobileme
+
+Today, among a number of other things, Apple announced [MobileMe][mm] — a service based around the idea of personal ‘cloud computing’. In essence, the idea is that any time one updates certain information — email, photos, addressbook, &c. — at one machine, it will be updated almost instantaneously for all the user’s devices.
 
  [mm]: http://www.apple.com/mobileme/
 
@@ -10,7 +13,7 @@ Hints of interest in cloud storage came with the Macworld 2008 [announcements][m
  [mw08atv]: http://arstechnica.com/news.ars/post/20080115-apple-macworld-keynote-announcements.html
  [twitcloud]: http://twitter.com/stilist/statuses/602562272
 
-The iPhone is really the motivator for much of this direction, in my opinion. MobileMe is generally about easy access and instant propagation, yes, but at the core it’s about being able to use the iPhone as a ultra-mobile computer that can call people. Digital media, contacts, email, data storage, and [native applications][appstore]—everything about the iPhone centres on the idea of the cell phone being subservient to the user.
+The iPhone is really the motivator for much of this direction, in my opinion. MobileMe is generally about easy access and instant propagation, yes, but at the core it’s about being able to use the iPhone as a ultra-mobile computer that can call people. Digital media, contacts, email, data storage, and [native applications][appstore] — everything about the iPhone centres on the idea of the cell phone being subservient to the user.
 
  [appstore]: http://www.apple.com/iphone/appstore/
 
@@ -18,8 +21,8 @@ However: Apple is far from being first with any of this. Cloud computing? Google
 
  [dbox]: http://www.getdropbox.com/
 
-Apple differs from these others due to how completeness of the service. It has Google’s web-based data access; Microsoft’s automatic syncing; Dropbox’s file management; it works equally well with desktop computers, the web, and—most importantly—the iPhone.
+Apple differs from these others due to how completeness of the service. It has Google’s web-based data access; Microsoft’s automatic syncing; Dropbox’s file management; it works equally well with desktop computers, the web, and — most importantly — the iPhone.
 
-I think this is part of why ‘Mac’ was [missing from the <abbr class="smallcaps" title="World Wide Developers’ Conference">WWDC</abbr> banners][banners]—the iPhone is a major part of Apple’s plans, and <abbr>OS</abbr> Ⅹ is more about users than hardware.
+I think this is part of why ‘Mac’ was [missing from the <abbr class="smallcaps" title="World Wide Developers’ Conference">WWDC</abbr> banners][banners] — the iPhone is a major part of Apple’s plans, and <abbr>OS</abbr> Ⅹ is more about users than hardware.
 
  [banners]: http://theappleblog.com/2008/06/05/spy-shots-show-os-x-without-the-mac/

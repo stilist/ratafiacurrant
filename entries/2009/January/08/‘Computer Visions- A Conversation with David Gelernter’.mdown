@@ -1,5 +1,6 @@
-BOOKMARK: http://java.sun.com/jsp_utils/PrintPage.jsp?url=http%3A%2F%2Fjava.sun.com%2Fdeveloper%2FtechnicalArticles%2FInterviews%2Fgelernter_qa.html
+BOOKMARK: http://delicious.com/url/cb549baccd9429b1b8cb84b8b30539f2
 LINK: http://java.sun.com/jsp_utils/PrintPage.jsp?url=http%3A%2F%2Fjava.sun.com%2Fdeveloper%2FtechnicalArticles%2FInterviews%2Fgelernter_qa.html
+PUBLISHED: Jan 8th, 2009 11:25am
 TAGS: davidgelernter, interview, lifestream
 
 ## On lifestreams

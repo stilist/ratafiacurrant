@@ -1,3 +1,4 @@
+PUBLISHED: Jan 7th, 2009 11:57pm
 TAGS: microformats, persona, web
 
 In order to have a single image representing me, I need to put it in the following places:

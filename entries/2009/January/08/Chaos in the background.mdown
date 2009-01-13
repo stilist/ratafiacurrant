@@ -1,3 +1,4 @@
+PUBLISHED: Jan 8th, 2009 8:27pm
 TAGS: github, tumblr
 
 Today I began work on a new Tumblr theme. I decided I’d start keeping everything related to the blog [in GitHub][rcgh], and develop ‘live’ by pushing <abbr class='smallcaps'>CSS</abbr> updates and working in the Tumblr editor. Great idea, but there’s a problem: trying to load the <abbr class='smallcaps'>CSS</abbr> file doesn’t work right. Most of the time there’s a [delay of at least a minute][ghwi] before it loads, even when it’s already in my browser cache. In my cursory search I wasn’t able to find any mention by GitHub for or against using it as a file server. They evidently support it in some capacity since they launched ‘pages’; I may try to set up the needed files as a branch of some sort inside my page repository and see if I can fix it that way. It’d give me a much shorter <abbr class='smallcaps'>URL</abbr>, if nothing else!

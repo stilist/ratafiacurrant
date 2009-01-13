@@ -1,3 +1,6 @@
+PUBLISHED: Apr 16th, 2008 1:55pm
+TAGS: adium, design
+
 I’ve just pushed out [version 1.1][paraphernalia] of my [Adium][adium] message style.
 
    [paraphernalia]: http://adiumxtras.com/index.php?a=xtras&xtra_id=5493

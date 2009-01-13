@@ -1,3 +1,4 @@
+PUBLISHED: Dec 15th, 2008 10:05pm
 TAGS: bash, delicious, hacking
 
 Several months ago I began to more thoroughly tag things as I [bookmarked them][mydel], adding in things like the publication year, authors, and source websites. Unfortunately, this meant that I had several years of bookmarks _without_ these tags. This information is particularly useful with my [free music bookmarks][fm], allowing me to quickly find all albums from a given year or artist.

@@ -1,5 +1,6 @@
 BOOKMARK: http://delicious.com/url/9f22e8ecf1e91bc40ae8df618faeee06
 LINK: http://www.wired.com/wired/archive/5.02/fflifestreams_pr.html
+PUBLISHED: Jan 8th, 2009 12:05pm
 TAGS: davidgelernter, lifestream
 
 In contrast with the 2003 comment about how stream entries that lack a preview are ‘worthless’:

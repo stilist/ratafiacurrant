@@ -1,3 +1,6 @@
+PUBLISHED: Nov 17th, 2008 4:03pm
+TAGS: javascript
+
 Last week I got the idea for a cool clock widget based on the pie-chat–style loading graphics that are sometimes used for various Flash sites. <abbr class="smallcaps" title="Scalable Vector Graphics">SVG</abbr> seemed like a good way to write it. I quickly realized that this was impractical, because I haven’t figured how the math works for showing nine o’clock.
 
 So instead I decided to do something simpler, like representing time with vertical bars. It was fairly easy to get the basics going; it’s just lines and some JavaScript fiddling. I then discovered this wouldn’t work either, because Dashboard apparently doesn’t render embedded <abbr class="smallcaps">SVG</abbr>.

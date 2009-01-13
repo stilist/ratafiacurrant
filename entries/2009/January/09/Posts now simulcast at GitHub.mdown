@@ -1,3 +1,4 @@
+PUBLISHED: Jan 9th, 2009 5:14pm
 TAGS: github, ratafia
 
 I’ve copied and pasted most of the stuff I’ve published here into Markdown
