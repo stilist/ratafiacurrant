@@ -1,3 +1,5 @@
+PERMALINK: /post/67832896/javascript-bookmarklet-for-a-word-count-on-selected
+PUBLISHED: Jan 1st, 2009 1:16pm
 TAGS: bookmarklet, javascript
 
 Sometimes I read lengthy articles or essays online and I’m curious how just how much the author has put down. I could copy the text into a text editor and find out, but why leave the browser?
@@ -24,7 +26,7 @@ It’s pretty easy to write a code snippet that gives a dumb count—meaning tha
     }
 
 ## The bookmarklet
-Simply drag the following link to your bookmarks bar (or select some text and click to see it in action): <a href="javascript:var%20t=0;var%20s='';var%20a=[];s=document.getSelection().toString();if(s!=''){a=s.split(' ');t=a.length;alert(t+'%20words.');a=[];}">word count</a>
+Simply drag the following link to your bookmarks bar (or select some text and click to see it in action): <a href="javascript:var%20t=0;var%20s='';var%20a=[];s=document.getSelection().toString();if(s!=''){a=s.split(' ');t=a.length;alert(t+'%20words.');a=[];}">word count</a>.
 
 For added convenience, Safari provides shortcuts to items in the bookmarks bar—if the bookmarklet is the third item on the bar, ⌘+3 will run it.
 

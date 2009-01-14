@@ -1,3 +1,4 @@
+PERMALINK: /post/65077849/searching-your-delicious-bookmarks-for-a-lacking-tag
 PUBLISHED: Dec 15th, 2008 10:05pm
 TAGS: bash, delicious, hacking
 

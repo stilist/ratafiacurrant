@@ -20,9 +20,11 @@ The entries are organized into a subdirectory structure that follows the format
 
 ### Metadata tags
 
-At the moment, there are four metadata tags that can appear
-at the start of an entry: `BOOKMARK`, `LINK`, `PUBLISHED`, and `TAGS`; they are
-followed by a colon, a single space, and a single line of data.
+At the moment, there are five metadata tags that can appear
+at the start of an entry: `BOOKMARK`, `LINK`, `PERMALINK`, `PUBLISHED`, and
+`TAGS`; they are followed by a colon, a single space, and a single line of
+data. None of these should be assumed to exist, and they may be in any
+order.
 
  [mdown]: http://daringfireball.net/projects/markdown/
 
@@ -31,18 +33,23 @@ delicious), and provides the destination service’s unique address (such as
 delicious’ hash lookup). I have a pretty well-developed bookmarking system
 that’s very helpful for finding things, so it’s convenient to have the lookup
 available. The field is only included with link articles, but isn’t guaranteed
-to be accompany the `LINK` tag. Speaking of which…
+to be accompany the `LINK` tag. 
 
 `LINK`: Only appears when the entry is a link to an external address. These
 entries are rendered in the linking style used by Tumblr and Daring Fireball
 (meaning that the article title serves as a link to the targeted URL).
+
+`PERMALINK`: The relative address where the entry is located. Domain name is
+assumed. Useful for restoring backups or changing services because it allows
+me to avoid 404s.
 
 `PUBLISHED`: Date and time first published. Because I’m currently based in
 Tumblr, this takes the form `%b %D, %Y %l:%i%p` (again, using MySQL’s
 `DATE_FORMAT` as a reference).
 
 And, finally, `TAGS`. This is simply a list of terms associated with the entry,
-separated by a comma and a space.
+separated by a comma and a space. I generally put them in alphabetical order
+but sometimes I mess up.
 
 ## Of course…
 

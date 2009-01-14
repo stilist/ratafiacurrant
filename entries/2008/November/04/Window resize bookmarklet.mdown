@@ -1,3 +1,4 @@
+PERMALINK: /post/57974751/window-resize-bookmarklet
 PUBLISHED: Nov 4th, 2008 3:48pm
 TAGS: bookmarklet, browser, javascript
 

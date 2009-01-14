@@ -1,7 +1,8 @@
 BOOKMARK: http://delicious.com/url/fb6758cfa6de9f89a3405ed88c8bb6b1
 LINK: http://ccs.mit.edu/papers/CCSWP197/CCSWP197.html
-TAGS: decentralization, internet, technology, web
+PERMALINK: /post/70219751/the-self-governing-internet-coordination-by-design
 PUBLISHED: Jan 13th, 2009 11:14am
+TAGS: decentralization, internet, technology, web
 
 I tend to forget how fortunate we are that the Internet is largely
 decentralized, free from the control of organizations that would force us to

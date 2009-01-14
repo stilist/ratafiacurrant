@@ -1,5 +1,6 @@
 BOOKMARK: http://delicious.com/url/e93d70d2ea17379f389b0dd9782da792
 LINK: http://www.oblomovka.com/wp/2008/11/01/confirmed-by-android-team-g1-only-accepts-firmware-signed-by-manufacturer/
+PERMALINK: /post/57443749/g1-for-users-not-developers
 PUBLISHED: Nov 1st, 2008 10:44am
 TAGS: android, g1, google, t-mobile, telephone
 
