@@ -1,0 +1,7 @@
+POSTED: Jan 13th, 2009 7:56pm
+TAGS: meta
+
+It appears that whatever server was hosting my
+<abbr class='smallcaps'>CSS</abbr> file has decided to stop responding, so I’ve
+temporarily put a whitespace-vacuumed version in the page header. Hopefully
+this is only a temporary issue.
