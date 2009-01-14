@@ -5,3 +5,5 @@ It appears that whatever server was hosting my
 <abbr class='smallcaps'>CSS</abbr> file has decided to stop responding, so I’ve
 temporarily put a whitespace-vacuumed version in the page header. Hopefully
 this is only a temporary issue.
+
+<ins>**Update:** Ten minutes later and it seems to have fixed itself. Who knows!</ins>

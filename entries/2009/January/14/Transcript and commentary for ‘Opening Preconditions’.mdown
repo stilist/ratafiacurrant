@@ -1,0 +1,186 @@
+PUBLISHED: 
+TAGS: audio, citizengarden, dataportability, ma.gnolia, oauth, openid, openweb, transcript
+
+Transcription of Citizen Garden episode 9, [‘Opening Preconditions’][cgop].
+
+ [cgop]: http://citizengarden.com/2008/08/27/episode-9-opening-preconditions/
+
+This one was informative for me because although I was vaguely aware of
+Ma.gnolia’s plans for their [version two release][mgv2], I didn’t know about
+the technical aspects — requiring OAuth, self-hosting, and open source code.
+
+ [mgv2]: http://ma.gnolia.org/
+
+The discussion about using OpenID and related ‘open web’ technologies to
+automatically tell web services where things is quite appealing. This podcast
+episode is from late August, so maybe work has already begun on implementing
+such concepts.
+
+But the *most* interesting part, to my mind, was the idea of using the fact
+that services tend to come in categories — bookmarks, social networks, and so
+on — we can export data from those services on a regular schedule and back it
+up for safekeeping. Then, if we decide to move services (<abbr lang='lat'>e.g.
+MySpace to</abbr> Facebook) or the service goes offline, we’ll have full access
+and control over our ‘social objects’.
+
+If you think about it, this is really why the open web movement exists. The
+open web revolves around the idea that if I put information into the system
+then that data belongs to me. If I fill out a Facebook profile or use Twitter
+or make a bookmark on delicious, it’s true that somebody owns the system that
+allows those things — but what use would the system be if I didn’t use it?
+
+So it’s about ownership. But ownership implies freedom — freedom to do whatever
+I want with my information, since I control who has it and what they can do
+with it.
+
+This is something that companies offering hosted services dislike. Their
+business model is generally based on the idea that once you put your
+information into the system it’s stuck there. Investors see much more revenue
+potential in a captive audience, because the audience has no choice but to
+use whatever’s being offered, unimpressive as it may be — a non-technical
+example would be product placement.
+
+And this is where the whole idea really becomes useful. An important part of
+the open web is data portability — the ability to easily transfer my
+information between services. Suppose I’m on Facebook, and I decide I want to
+try a different social network. With data portability, I’m able to tell the new
+site about my existing Facebook account and let it import all my friends.
+
+This means that the power situation is changed. I’m no longer stuck using
+whatever site my friends have chosen. I’m no longer forced to trust that the
+site I’m on will continue to provide new features and a useful service.
+Instead, by using a service I’m actually endorsing it, because I’m not
+obligated to stay there.
+
+It also entices the site’s owner to improve their service. When a site
+maintains its userbase through feature offerings, they’re less able to simply
+make something good and then let it sit. Innovation is hard, but when it works
+everybody wins.
+
+But despite all that, I set out to publish a transcript, not an essay. Here we
+go!
+
+## Participants
+
+* [Larry Halff][lhalff]
+* [Scott Kveton][skveton]
+* [Chris Messina][cmessina]
+* [Will Norris][wnorris]
+
+ [lhalff]: http://larryhalff.com
+ [skveton]: http://kveton.com/blog/
+ [cmessina]: http://factoryjoe.com
+ [wnorris]: http://willnorris.com
+
+## Transcript
+
+> <cite><abbr title='Larry Halff'>LH:</abbr></cite>
+> <q>Hello!, and welcome to episode nine of Citizen Garden. I’m Larry Halff…
+
+cm. I’m Chris Messina.
+
+sk. I’m Scott Kveton.
+
+wn. And I’m Will Norris.
+
+lh. and we're here today… i'm freshly back from seattle after making a big announcement at gnomedex that magnolia is being rewritten from the ground up as an open source, downloadable tool. actually it's being broken up into several pieces. i think as the more important announcement, there's a lot of open source publishing platforms out there… blogging tools, there's even, y'know, i think, a handful of open source social bookmarking systems. a more important thing about what we're doing is that we're really trying to pave the way forward with the open web, and part of that is getting these decentralized and federated systems talking to each other. and open source happens to be one way to advance that cause.
+
+cm. let's back up here a little bit, 'cause i'd like to sort of understand better where this idea came from--why you would take this approach when, y'know, you've built up a pretty good audience on magnolia, you've got a good user base there, and you've done really well so far in supporting a number of these open protocols like openid and supporting microformats and oauth and so forth. but how does open source or open sourcing the platform actually support the open web, and what actually motivated that decision?
+
+lh. well, i think the primary motivation was seeing that the social aspects of these publishing tools doesn't really scale when there's the big single point of failure. and magnolia has had downtime, twitter has the infamous 'fail whale', flickr gets massages--and all these things happen, and when it happens you sort of… you lose access to a pretty important piece the flow of your online life. and as they grow, the load that's caused by exponentially putting out… the exponential effect of putting out all these social connections and publishing and keeping everyone up-to-date just doesn’t… just isn't really gonna scale in the long term. and i think, y'know, what we're seeing with twitter now is nothing like what we're gonna see with that kind of tool down the road. i mean, hardly anyone really uses twitter…
+
+??. yeah, like a million users maybe. [2:30]
+
+lh. so i think we really see an important next step is to finding out a way that these things can be pushed out to the edges, yet still have the social functionality of getting everyone talking to one another.
+
+cm. now one of the things i think, y'know is interesting… so, scott is with us at vidoop; he's also the chair of the openid foundation, and he's, y'know, sort of one of the champions of decentralizing identity and things like that. i think it's sort of interesting to think about how openid in some ways creates the preconditions for magnolia going open source, by allowing people essentially to have sort of a cargo horse on which they stack a bunch of things--their photos, their bookmarks, and so forth. maybe you can--scott-talk to us a little bit about how you see openid maybe as that beginning point that… allows for this type of decentralization that larry's talking about, where there are much fewer single points of failures, or at least these concentrations that maybe are creating these pressures on the network.
+
+sk. okay! uh, yeah, absolutely! so there's, y'know, we're three years into openid now, and it was really funny at <abbr class='smallcaps'>OSCON</abbr>, actually — and i think chris you were on that panel with me, weren't you?
+
+cm. possibly, yeah.
+
+sk. leah culver got up…
+
+cm. oh, right.
+
+sk. … started just dropping f-bombs about how she just thought openid was dumb, she'd never use it, da da da da. and y'know, in reality, it's… it is a <abbr class='smallcaps'>URL</abbr>-based system, and that's just… users have not, y'know, grokked that. but i think what we're starting to realize is the value is proving a potential service endpoint, which means nothing to users.
+
+cm. [not necessarily?] should it…
+
+sk. right, absolutely.
+
+cm. for now.
+
+sk. … but for developers it's extremely important. so, y'know, some of the challenges that we've been facing in the openid community are around security and usability. if we can make it easier for people to identify themselves--whether with an email address or identity in the browser--then they can get in, prove that they are some end point without having to know what that endpoint is, and then start to put their data there. and then we start that… that lays the groundwork for things like y'know, lower-case data portability and the ability to, y'know, have more control over who provides your… or manages your data.
+
+cm. yeah, i've been thinking about these things lately, and it… it's interesting to reflect on what assumptions we bring to these problems, especially around sort of, as you talked about, the developer part of the equation, where you're starting to think about and understanding well, if a developer starts to tackle a problem, trying to build a new service on the social web, what assumptions can they make today that they couldn't make before? and previously maybe you made an assumption that people would have an email address before; okay, great, then you could send them a password or a token, and they can prove received that token--that's a way of confirming… that's a durable identifier, but you can't really attach services to it. you can't actually look up that email address and ask it, y'know, 'well where is this person's photo store', y'know, 'where is this…'--there's no directory for that. using <abbr class='smallcaps'>URL</abbr>s as identifiers sort of helps to at least make that situation a little bit better. so i'm actually interested in hearing from will, 'cause will and i work on the diso project together. how do you think the ability to use unique <abbr class='smallcaps'>URL</abbr>s to identify people--which then have services offered at the end of them--changes what you can sort of take for granted? what are the building blocks now, that when you approach building a new application, you're like oh, well they probably have identity, they probably have, y'know, some service that they're gonna use, we're just gonna throw it all together and make it happen?
+
+wn. yeah, right. i mean, we've been trying to address those exact problems of 'how can we build that infrastructure so that you can take advantage or take it for granted?'. and like you said, y'know, you can't attach these services to email addresses. recently, i co-authored a spec--and we're now using this with a lot of our stuff--called '<abbr class='smallcaps'>EAUT</abbr>', which is e.a.u.t. it's email address to <abbr class='smallcaps'>URL</abbr> transformation. it basically allows… it's a really standard way of taking that email address and talking to whichever email provider it is that provides that, and say, y'know, 'how can i turn this into a <abbr class='smallcaps'>URL</abbr> that i can then go and try to find these kinds of services on that <abbr class='smallcaps'>URL</abbr>?'. so y'know, yahoo! can host their own thing, google and all this, and then we also have this fallback service. but the idea is that, so, we can use an identifier that users are familiar with, and comfortable with, and use everyday, and they love, it's their email address, but still be able to get these additional kinds of things. so, y'know, when i go in to whatever it is, i can give my email address, it can be converted into an openid; this application can then go and look at my openid and say 'hey, y'know, we need to publish a bookmark, where should i do that?' and, y'know, i could be doing that on magnolia proper, or if, y'know, i have my own magnolia instance running, with the new open source version, or if i've, y'know, maybe… maybe vidoop, y'know, we set up our own, for our employees, i can say y'know what, that's where i do mine. and so all i have to do is present my identifier, and, y'know, magic happens, basically, and this consumer can push that bookmark out to wherever it is that that i store them.
+
+lh. right. i think it's important, it's like that's another precondition we haven't explicitly mentioned. it's like, we have the… we know identity exists, and we also, with the unsung but super-important <abbr>spec</abbr> <abbr class='smallcaps'>XRDS</abbr>-Simple is really key to making that happen, because at least for programmers, it's like, they can go to the end of your openid, and they can say 'well, this is someone's identity <abbr class='smallcaps'>URL</abbr>', and they can get a whole bunch of links off of that. but they're really meaningless until we have a way of saying 'what do each of these links do?', and so i think, i just… point that out as a key piece to that, which isn't just having the thing, but also having the mechanism to say 'what can we do with these different things?'.
+
+cm. to put that another way, it's kind of like when you go to someone's blog and they have a sidebar that lists all their other profiles. what we're trying to do, i think--and this is sort of what this discovery protocol is all about--is taking that list of <abbr class='smallcaps'>URL</abbr>s and making them make sense to computers, essentially. so that when it sees a twitter icon, y'know, more or less, it's like 'oh, that's a status update service', or 'that's a microblogging service, therefore i can post messages to it, if i'm authorized to do so'. very similarly, if you see a little flickr icon, or if you see a youtube icon, those are different services that someone might use that actually have <abbr class='smallcaps'>API</abbr>s that you can talk to. so if you can advertise those <abbr class='smallcaps'>URL</abbr>s through this discovery/specifications at the end of an openid identifier, that's where the magic starts to happen. so, what i was actually interested in hearing you two guys talk about a little bit--and recently, y'know, you're wearing the wordcamp shirt, and you were at wordcamp, will, and you talked about oauth for wordpress. and this is, i think, very interesting, because we're at a point where wordpress currently does not support oauth. most of its transactions are done with the standard username and password, which means that if you wanna, let's say, blog from your igoogle home page, you're gonna have to enter in your wordpress username and password into igoogle. well that's great, except when you start doing this across the web and so on, and that's the password anti-pattern. now on the other side, we have magnolia, which already supports oauth in the platform. and i'm interested sort of in hearing you guys talk a little bit about the pros and cons and the challenges of retrofitting oauth and authorization-based permissioning into a platform like wordpress, whereas magnolia already has that--magnolia open is gonna come out supporting that from the get-go--what does that mean for people building on these different platforms? how does that actually improve the situation?
+
+lh. i think it improves the situation that enables a lot more seamless experience for the end user that… i think combining openid with discovery with something like oauth is, y'know… this is a whole lot of hot air, so i'm ashamed of the words that are about to leave my mouth, but the browser of the future…
+
+cm. uh-oh.
+
+lh. there, i did it.
+
+unknown. he did it! he did it!
+
+lh. … will be like…
+
+sk. tshirt's already been ordered.
+
+lh. the browser of the future…
+
+cm. dot com!
+
+unknown. that's right. do we have that yet?
+
+lh. … when i go to save a bookmark, instead of it saving in by browser--it will have known my openid already, because when i launch my browser and it's first setup, it says 'what is your openid?'--it will have verified that, it will have discovered my online bookmarking service, and it will know where that lives, and as part of that process it will have authorized access to my bookmarking service account though oauth, and i will have said 'yes, this browser allowed to post things to my bookmarking service'. and so 'save bookmark', it will be seamlessly integrated to me. and that really is the end-user benefit for all this, despite all the horrible, geeky, completely incomprehensible nerdiness and the ongoing usability issues with openid, which magnolia open has cracked open again.
+
+cm. yes.
+
+lh. if you wanna participate in a great little thread about openid usability, go to the magnolia 2 discuss group on google.
+
+sk. yeah, y'know, if there's one thing i've learned over the last three years of the openid stuff, is it doesn't matter how open it is, if it's not usable, it's broken. and so that means, y'know, i think usability has to come first, and i think we have to break some things around the openness of it to get it right first. and we're seeing, y'know, facebook--we were talking about this today. y'know, what facebook is doing sort of, y'know, in the eyes of a lot of folks who are very open-centric--which doesn't really make sense, but anyway--they see that as awful, because they…
+
+cm. whoa, wait; be more specific about what facebook's doing.
+
+sk. well, they're embedding an iframe, effectively, on other sites--and this is effectively what google is doing as well.
+
+cm. that's right, that's right.
+
+sk. and, y'know, that's all well and good for the sites themselves--they don't actually get the access to the user information--but, they can get more people and pageviews, which could be really important to them. but from an open perspective, it's not that open, to be able to do that. and… what's the other thing i was gonna say? god, this coffee really does--oh my god! sorry. 
+
+unknown. these guys bought you blue bottle before?
+
+unknown. sponsored by blue bottle…
+
+lh. i am writing without blue bottle here.
+
+unknown. [something]. oh my god.
+
+unknown. good stuff.
+
+lh. so i think we were getting… we were also talking about the whole convergence to this stuff, and what's, like, what's… the work you're doing with wordpress, and like, where's… do you see that headed in a similar direction? is wordpress thinking about this?
+
+wn. in a similar direction as..?
+
+lh. as sort of, like, end-to-end integration…
+
+cm. well the interesting thing is that weave--which is a mozilla labs project--is kind of in that direction, where it actually does kind of what you described, larry, in allowing you to kind of sign in with some accounts, through oauth actually authorize the browser to both publish your bookmarks and download ones that you've already saved--very much like a mobileme for the rest of us, in a sense, for those of us who are not gonna pay apple or whatever to do so. and all of… the entire sort of service stack of mobileme could be more or less built on open technologies. it's interesting, though, to think about what it would mean for someone like wordpress, or even someone like drupals of the world and so on to really embrace some of these technologies, and to look at the opportunity that the browser, y'know, deep browser integration and web service access and offline storage, to some degree, would offer. and so i guess the question for will is sort of around, y'know, what would oauth mean to the wordpress platform? how would that accelerate the development of things, how might that make wordpress a different type of integral platform for publishing all sorts of different services on the web, perhaps?
+
+wn. well i guess, i mean… the most immediate use case, i think, that we're gonna see with getting oauth into wordpress is just allowing whatever service it is to publish to wordpress without needing the user's credentials. so, this could be something like the wordpress iphone app, this could be marsedit, it could be flickr already has a way where you can push your photos directly from flickr into your wordpress blog…
+
+cm. well magnolia 2 actually offers publishing your bookmarks to your blog.
+
+wn. oh, does it?
+
+cm. but right now, i believe, you have to take… it's the password anti-pattern.
+
+lh. yeah. it's the password… nobody… yeah. the major blogging platforms except for blogger--which we don't support because they don't use the metaweblog <abbr class='smallcaps'>API</abbr>--use oauth authentication. and i mean, that's great for the 
+
+
