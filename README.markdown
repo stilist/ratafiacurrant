@@ -33,7 +33,7 @@ delicious), and provides the destination service’s unique address (such as
 delicious’ hash lookup). I have a pretty well-developed bookmarking system
 that’s very helpful for finding things, so it’s convenient to have the lookup
 available. The field is only included with link articles, but isn’t guaranteed
-to be accompany the `LINK` tag. 
+to accompany the `LINK` tag. 
 
 `LINK`: Only appears when the entry is a link to an external address. These
 entries are rendered in the linking style used by Tumblr and Daring Fireball
