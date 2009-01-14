@@ -358,7 +358,7 @@ go!
 > more people and pageviews, which could be really important to them. but from
 > an open perspective, it’s not that open, to be able to do that. And… what’s
 > the other thing I was gonna say? God, this coffee really does — oh my god!
-> sorry.</p>
+> sorry.</q>
 
 > <cite><abbr>LH:</abbr></cite>
 > <q>These guys bought you Blue Bbottle before?</q>
@@ -589,7 +589,7 @@ go!
 > <q>Come and join and contribute to the discussion.</q>
 
 > <cite><abbr>CM:</abbr></cite>
-> <q>There you go.
+> <q>There you go.</q>
 
  [m2dg]: http://groups.Google.com/group/magnolia-2-discuss
  [mwapi]: http://en.wikipedia.org/wiki/MetaWeblog
