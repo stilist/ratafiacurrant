@@ -2,7 +2,7 @@ PERMALINK: /post/57974751/window-resize-bookmarklet
 PUBLISHED: Nov 4th, 2008 3:48pm
 TAGS: bookmarklet, browser, javascript
 
-##The code
+## The code
 
     s=self;
     h=screen.availHeight;
@@ -18,12 +18,20 @@ TAGS: bookmarklet, browser, javascript
 
 ## What it does
 
-There are two modes: fat and skinny. Skinny mode is 800 pixels wide and fills the display vertically. Fat mode fills the screen, but with a slight amount of ‘breathing space’ on all sides of the window. Both formats are centered in the display.
+There are two modes: fat and skinny. Skinny mode is 800 pixels wide and fills
+the display vertically. Fat mode fills the screen, but with a slight amount of
+‘breathing space’ on all sides of the window. Both formats are centered in the
+display.
 
 ## How to use it
 
-Simply drag the following link to your bookmarks bar (or click it twice to see it in action): [resize](javascript:s=self;h=screen.availHeight;w=screen.availWidth;if(window.innerWidth==800){s.resizeTo(w-80,h-50);s.moveTo(40,20)}else{s.resizeTo(800,h);s.moveTo((w-800)/2,0)}). For added convenience, Safari provides shortcuts to items in the bookmarks bar—if the bookmarklet is the third item on the bar, ⌘+3 will run it.
+Simply drag the following link to your bookmarks bar (or click it twice to see
+it in action):
+<a href="javascript:s=self;h=screen.availHeight;w=screen.availWidth;if(window.innerWidth==800){s.resizeTo(w-80,h-50);s.moveTo(40,20)}else{s.resizeTo(800,h);s.moveTo((w-800)/2,0)}">resize</a>.
+For added convenience, Safari provides shortcuts to items in the bookmarks
+bar — if the bookmarklet is the third item on the bar, ⌘+3 will run it.
 
 ## A final note
 
-You are free to use and modify the code as desired. A link back is appreciated if you find this useful. Please share with others if you make changes.
+You are free to use and modify the code as desired. A link back is appreciated
+if you find this useful. Please share with others if you make changes.

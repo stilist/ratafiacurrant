@@ -3,22 +3,34 @@ PUBLISHED: Dec 30th, 2008 3:14pm
 TAGS: audio, conversion, dts, flac, foobar2000, itunes, osx, tutorial
 
 ## Why?
-[<abbr class='smallcaps'>DTS</abbr>][dts] is a fancy audio format that jams extra data into generic <abbr class='smallcaps'>WAV</abbr> files. Because jukebox software generally doesn’t expect this, attempting to play the files results in static. Thus, we want to convert to something useful. The additional conversion to Apple Lossless is due to iTunes not having native support for any other lossless audio formats (to my knowledge).
+
+[<abbr class='smallcaps'>DTS</abbr>][dts] is a fancy audio format that jams
+extra data into generic <abbr class='smallcaps'>WAV</abbr> files. Because
+jukebox software generally doesn’t expect this, attempting to play the files
+results in static. Thus, we want to convert to something useful. The additional
+conversion to Apple Lossless is due to iTunes not having native support for any
+other lossless audio formats (to my knowledge).
 
  [dts]: http://en.wikipedia.org/wiki/DTS_(sound_system)
 
 ## Before we get started…
-This documents what worked for me. I have no idea if this will be useful or correct for anyone else. The [basic methodology][bm] used comes from [dtsguide.de.vu][ddv].
 
-<em>Be aware that our resulting files will only be in stereo, rather than the source’s four channels!</em>
+This documents what worked for me. I have no idea if this will be useful or
+correct for anyone else. The [basic methodology][bm] used comes from
+[dtsguide.de.vu][ddv].
+
+<em>Be aware that our resulting files will only be in stereo, rather than the
+source’s four channels!</em>
 
  [bm]: http://www.schudy.de/dts/dts2all-e.htm
  [ddv]: http://dtsguide.de.vu
 
 ## Software used
+
 * <abbr class='smallcaps'>OS Ⅹ</abbr> 10.5.6
 * iTunes 8.0.2
-* [CrossOver Pro][cop] v7.1 (though CrossOver standard or [Darwine][dw] may work equally well)
+* [CrossOver Pro][cop] v7.1 (though CrossOver standard or [Darwine][dw] may
+work equally well)
 * [foobar2000][fb2] v0.9.6
 * [foo_input_dts][fid] v0.1.7
 * [flac.exe][fexe] v1.2.1
@@ -32,25 +44,38 @@ This documents what worked for me. I have no idea if this will be useful or corr
  [fluke]: http://cubicfruit.com/fluke/
 
 ## Two notes regarding CrossOver
-* The Windows software used here will need to be installed to a Windows <abbr class='smallcaps'>XP</abbr> bottle; the General bottle should work.
-* The General bottle’s Windows profile directory is located at `~/Library/Application Support/CrossOver/Bottles/General/drive_c/windows/profiles/crossover/`
+
+* The Windows software used here will need to be installed to a Windows
+<abbr class='smallcaps'>XP</abbr> bottle; the General bottle should work.
+* The General bottle’s Windows profile directory is located at
+`~/Library/Application Support/CrossOver/Bottles/General/drive_c/windows/profiles/crossover/`
 
 ## Install the <abbr class='smallcaps'>FLAC</abbr> decoder
+
 1. Download and extract the `flac-1.2.1-win.zip` archive.
 1. `flac.exe` is located in the `bin` directory.
-1. Move `flac.exe` to `[profile directory]/Desktop/` (see previous section for profile location).
+1. Move `flac.exe` to `[profile directory]/Desktop/` (see previous section for
+profile location).
 
 ## Prepare foobar2000
-2. Install foobar2000 (<abbr>fb2k</abbr> from now on). I chose to do a single-user install of the normal package.
+
+2. Install foobar2000 (<abbr>fb2k</abbr> from now on). I chose to do a
+single-user install of the normal package.
 2. Quit <abbr>fb2k</abbr>.
-2. Open <abbr>fb2k</abbr>’s components directory. By default, this is located at `[profile directory]/Desktop/foobar2000/components`.
+2. Open <abbr>fb2k</abbr>’s components directory. By default, this is located
+at `[profile directory]/Desktop/foobar2000/components`.
 2. Re-open <abbr>fb2k</abbr>.
-2. Open the preferences window. The ‘Components’ section should include the <abbr class='smallcaps'>DTS</abbr> decoder.
+2. Open the preferences window. The ‘Components’ section should include the
+<abbr class='smallcaps'>DTS</abbr> decoder.
 
 ## Converting from <abbr class='smallcaps'>DTS</abbr> to <abbr class='smallcaps'>FLAC</abbr>
-3. The <abbr class='smallcaps'>DTS</abbr> files need to have a `.dts` file extension. If they have a `.wav` extension, rename them.
-3. For convenience, the files (or their containing folder) should be moved to your (<abbr class='smallcaps'>OS Ⅹ</abbr>) desktop.
-3. In <abbr>fb2k</abbr> add the files to the playlist (File → Add Files/Add Folder → My Mac Desktop)
+
+3. The <abbr class='smallcaps'>DTS</abbr> files need to have a `.dts` file
+extension. If they have a `.wav` extension, rename them.
+3. For convenience, the files (or their containing folder) should be moved to
+your (<abbr class='smallcaps'>OS Ⅹ</abbr>) desktop.
+3. In <abbr>fb2k</abbr> add the files to the playlist (File → Add Files/Add
+Folder → My Mac Desktop)
 3. Make sure the files are selected in the playlist.
 3. Right-click the selected files and select ‘Convert…’.
 3. Change the output format to <abbr class='smallcaps'>FLAC</abbr>.
@@ -61,28 +86,45 @@ This documents what worked for me. I have no idea if this will be useful or corr
 3. Add ‘Convert 5.1 to stereo’ to the list of active <abbr class='smallcaps'>DSP</abbr>s.
 3. Optionally, enable Other → Show full status report.
 3. Click ‘OK’.
-3. You may be warned about upconverting from a lossy to lossless format. This warning is likely bogus, so ignore it.
-3. If this is the first time through, you will be prompted for the location of `flac.exe`. 
+3. You may be warned about upconverting from a lossy to lossless format. This
+warning is likely bogus, so ignore it.
+3. If this is the first time through, you will be prompted for the location of
+`flac.exe`.
 3. Conversion will begin.
 3. After completion, <abbr>fb2k</abbr> and CrossOver can be quit.
 
 ## Prepare iTunes
+
 Originally, this required [more work][flacman], but the above-linked [Fluke][fluke] does it automatically.
 
  [flacman]: http://earpick.wordpress.com/2007/06/11/how-to-play-flac-in-itunes-on-mac/
  [fluke]: http://cubicfruit.com/fluke/
 
 ## Converting from <abbr class='smallcaps'>FLAC</abbr> to <abbr class='smallcaps'>ALAC</abbr> (Apple Lossless)
-4. Drag the <abbr class='smallcaps'>FLAC</abbr> files created in the previous steps onto `set OggS.app`. A log window will appear stating that everything worked; click ‘Quit’.
-4. In iTunes’ preferences change the importer to Apple Lossless (General → Import Settings… → Import Using: Apple Lossless Encoder).
+
+4. Drag the <abbr class='smallcaps'>FLAC</abbr> files created in the previous
+steps onto `set OggS.app`. A log window will appear stating that everything
+worked; click ‘Quit’.
+4. In iTunes’ preferences change the importer to Apple Lossless (General → Import
+Settings… → Import Using: Apple Lossless Encoder).
 4. Select the <abbr class='smallcaps'>FLAC</abbr> files you want to convert.
 4. Right-click the selected files and select ‘Create Apple Lossless version’.
-4. The conversion may take a while. When it completes, remove the <abbr='smallcaps'>FLAC</abbr> files from iTunes.
+4. The conversion may take a while. When it completes, remove the
+<abbr='smallcaps'>FLAC</abbr> files from iTunes.
 
 ## That’s it!
-If everything’s gone well, you’ll have the converted Apple Lossless files sitting in iTunes.
+
+If everything’s gone well, you’ll have the converted Apple Lossless files
+sitting in iTunes.
 
 ## Final comments
-You may want to keep the original <abbr class='smallcaps'>DTS</abbr> files around in case they or their extra channels are eventually useful; you’ll have to decide whether disk space or quality are more important.
 
-Originally, I attempted to do a straight conversion and retain the four channels across each step, but that didn’t quite work out. Although Apple Lossless is capable of handling up to eight channels, it seems iTunes’ converter doesn’t understand more than two. Hopefully this will change in the future.
+You may want to keep the original <abbr class='smallcaps'>DTS</abbr> files
+around in case they or their extra channels are eventually useful; you’ll have
+to decide whether disk space or quality are more important.
+
+Originally, I attempted to do a straight conversion and retain the four
+channels across each step, but that didn’t quite work out. Although Apple
+Lossless is capable of handling up to eight channels, it seems iTunes’
+converter doesn’t understand more than two. Hopefully this will change in the
+future.

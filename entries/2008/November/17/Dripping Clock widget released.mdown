@@ -2,15 +2,30 @@ PERMALINK: /post/60171966/dripping-clock-widget-released
 PUBLISHED: Nov 17th, 2008 4:03pm
 TAGS: javascript
 
-Last week I got the idea for a cool clock widget based on the pie-chat–style loading graphics that are sometimes used for various Flash sites. <abbr class="smallcaps" title="Scalable Vector Graphics">SVG</abbr> seemed like a good way to write it. I quickly realized that this was impractical, because I haven’t figured how the math works for showing nine o’clock.
+Last week I got the idea for a cool clock widget based on the pie-chat–style
+loading graphics that are sometimes used for various Flash sites.
+<abbr class="smallcaps" title="Scalable Vector Graphics">SVG</abbr> seemed like
+a good way to write it. I quickly realized that this was impractical, because I
+haven’t figured how the math works for showing nine o’clock.
 
-So instead I decided to do something simpler, like representing time with vertical bars. It was fairly easy to get the basics going; it’s just lines and some JavaScript fiddling. I then discovered this wouldn’t work either, because Dashboard apparently doesn’t render embedded <abbr class="smallcaps">SVG</abbr>.
+So instead I decided to do something simpler, like representing time with
+vertical bars. It was fairly easy to get the basics going; it’s just lines and
+some JavaScript fiddling. I then discovered this wouldn’t work either, because
+Dashboard apparently doesn’t render embedded
+<abbr class="smallcaps">SVG</abbr>.
 
-So instead I swapped out my existing <abbr class="smallcaps">SVG</abbr> for a few `<div>`s (non-semantic). Despite the inevitable frustration that my attempts at JavaScript involve, I managed to get everything working. I ran the code through [JSLint][jslint] and made some recommended changes and a bit of refactoring. Unfortunately, I still had no way of releasing the widget. Because I’m using Tumblr as the entirety of my web site, I had no file space.
+So instead I swapped out my existing <abbr class="smallcaps">SVG</abbr> for a
+few `<div>`s (non-semantic). Despite the inevitable frustration that my
+attempts at JavaScript involve, I managed to get everything working. I ran the
+code through [JSLint][jslint] and made some recommended changes and a bit of
+refactoring. Unfortunately, I still had no way of releasing the widget. Because
+I’m using Tumblr as the entirety of my web site, I had no file space.
 
  [jslint]: http://www.jslint.com/
 
-Today I decided to experiment with git, and dropped by GitHub. I noticed that free accounts include free repositories. After some surprisingly simple setup, I now have a nicely open source distribution method.
+Today I decided to experiment with git, and dropped by GitHub. I noticed that
+free accounts include free repositories. After some surprisingly simple setup,
+I now have a nicely open source distribution method.
 
 [Get the Dripping Clock widget!][dc]
 

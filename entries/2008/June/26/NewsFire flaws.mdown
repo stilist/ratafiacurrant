@@ -11,6 +11,7 @@ there are a number of bugs and annoying aspects that I wish to document.
  [vienna]: http://www.vienna-rss.org/vienna2.php
 
 ## Visual
+
 * **Mandatory colour bubbles on groups:** I dislike colour bubbles. I never use
 them in the Finder and rarely them in [Transmission][transmi]. Presumably the
 idea is to help reduce visual clutter for some people, but I am not in this
@@ -27,6 +28,7 @@ the pane’s not active?
  [transmi]: http://www.transmissionbt.com/
 
 ## Bugs/design flaws
+
 * **Visual glitches:** Not [entirely][chrome] [uncommon][chrome2].
 * **<abbr class="smallcaps" title="Outline Processor Markup Language">OPML</abbr>:**
 There are two major problems here. First, there’s not clear how to ‘select’

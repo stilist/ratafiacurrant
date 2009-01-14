@@ -2,13 +2,15 @@ PERMALINK: /post/31961887/paraphernalia-update-released
 PUBLISHED: Apr 16th, 2008 1:55pm
 TAGS: adium, design
 
-I’ve just pushed out [version 1.1][paraphernalia] of my [Adium][adium] message style.
+I’ve just pushed out [version 1.1][paraphernalia] of my [Adium][adium] message
+style.
 
    [paraphernalia]: http://adiumxtras.com/index.php?a=xtras&xtra_id=5493
    [adium]: http://adiumx.com/
 
 ## Changelist
 
-* Margin above the first message, so it doesn’t look like it’s stuck to the window’s title bar.
+* Margin above the first message, so it doesn’t look like it’s stuck to the
+window’s title bar.
 * Long usernames are cut off if they don’t fit.
 * Two new background images.
