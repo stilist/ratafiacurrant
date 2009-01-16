@@ -14,7 +14,7 @@ but it’s a platform-independent way of storing it in case I want to move on
 to a different publishing system.
 
 The entries are organized into a subdirectory structure that follows the format
-`%Y/%M/%d/<entry name>.mdown` (in [MySQL parlance][msdate]).
+`0%Y/%M/%d/<entry name>.mdown` (in [MySQL parlance][msdate]).
 
  [msdate]: http://dev.mysql.com/doc/refman/5.1/en/date-and-time-functions.html#function_date-format
 
@@ -44,7 +44,7 @@ assumed. Useful for restoring backups or changing services because it allows
 me to avoid 404s.
 
 `PUBLISHED`: Date and time first published. Because I’m currently based in
-Tumblr, this takes the form `%b %D, %Y %l:%i%p` (again, using MySQL’s
+Tumblr, this takes the form `%b %D, 0%Y %l:%i%p` (again, using MySQL’s
 `DATE_FORMAT` as a reference).
 
 And, finally, `TAGS`. This is simply a list of terms associated with the entry,
