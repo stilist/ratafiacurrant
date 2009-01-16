@@ -9,8 +9,8 @@ bookmarks _without_ these tags. This information is particularly useful with my
 [free music bookmarks][fm], allowing me to quickly find all albums from a given
 year or artist.
 
- [fm]: http://delicious.com/stilist/free+music
- [mydel]: http://delicious.com/stilist
+ [fm]: http://delicious.com/stilist/free+music "List of my bookmarks on delicious tagged with ‘free’ and ‘music’"
+ [mydel]: http://delicious.com/stilist "My profile on delicious"
 
 The specific problem that inspired this post was a wish to find everything I’d
 bookmarked from [the Internet Archive][aorg] that didn’t have the associated
@@ -18,14 +18,14 @@ bookmarked from [the Internet Archive][aorg] that didn’t have the associated
 `system:has:x` search, it [doesn’t have a negation operator][dfaq].
 
  [aorg]: http://www.archive.org
- [daorg]: http://delicious.com/stilist/src%3aarchive.org
- [dfaq]: http://delicious.com/help/faq
+ [daorg]: http://delicious.com/stilist/src%3aarchive.org "List of my bookmarks on delicious tagged with ‘src:archive.org’"
+ [dfaq]: http://delicious.com/help/faq "delicious FAQ page"
 
 But! Because delicious has [a nice <abbr class="smallcaps">API</abbr>][dapi],
 we can get around this limitation by stringing together a few command line
 tools.
 
- [dapi]: http://delicious.com/help/api
+ [dapi]: http://delicious.com/help/api "delicious’ API documentation"
 
 ## How it works
 

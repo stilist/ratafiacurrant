@@ -36,12 +36,12 @@ work equally well)
 * [flac.exe][fexe] v1.2.1
 * [Fluke][fluke] v0.11
 
- [cop]: http://www.codeweavers.com/products/cxmac/
- [dw]: http://www.kronenberg.org/darwine/
- [fb2]: http://www.foobar2000.org/?page=Download
- [fexe]: http://sourceforge.net/project/showfiles.php?group_id=13478&package_id=12675
- [fid]: http://www.softpedia.com/progDownload/foo-dtsSTAR-Download-107229.html
- [fluke]: http://cubicfruit.com/fluke/
+ [cop]: http://www.codeweavers.com/products/cxmac/ "CrossOver Pro product page"
+ [dw]: http://www.kronenberg.org/darwine/ "Darwine builds"
+ [fb2]: http://www.foobar2000.org/?page=Download "foobar2000 download page"
+ [fexe]: http://sourceforge.net/project/showfiles.php?group_id=13478&package_id=12675 "flac.exe download page"
+ [fid]: http://www.softpedia.com/progDownload/foo-dtsSTAR-Download-107229.html "foo_input_dts download page"
+ [fluke]: http://cubicfruit.com/fluke/ "Fluke download"
 
 ## Two notes regarding CrossOver
 
@@ -79,11 +79,13 @@ Folder → My Mac Desktop)
 3. Make sure the files are selected in the playlist.
 3. Right-click the selected files and select ‘Convert…’.
 3. Change the output format to <abbr class='smallcaps'>FLAC</abbr>.
-3. Create a destination folder on the <abbr class='smallcaps'>OS Ⅹ</abbr> desktop.
+3. Create a destination folder on the <abbr class='smallcaps'>OS Ⅹ</abbr>
+desktop.
 3. Set this folder as <abbr>fb2k</abbr>’s output path.
 3. Go to the Processing tab.
 3. Enable <abbr class='smallcaps'>DSP</abbr>.
-3. Add ‘Convert 5.1 to stereo’ to the list of active <abbr class='smallcaps'>DSP</abbr>s.
+3. Add ‘Convert 5.1 to stereo’ to the list of active
+<abbr class='smallcaps'>DSP</abbr>s.
 3. Optionally, enable Other → Show full status report.
 3. Click ‘OK’.
 3. You may be warned about upconverting from a lossy to lossless format. This
@@ -95,9 +97,10 @@ warning is likely bogus, so ignore it.
 
 ## Prepare iTunes
 
-Originally, this required [more work][flacman], but the above-linked [Fluke][fluke] does it automatically.
+Originally, this required [more work][flacman], but the above-linked
+[Fluke][fluke] does it automatically.
 
- [flacman]: http://earpick.wordpress.com/2007/06/11/how-to-play-flac-in-itunes-on-mac/
+ [flacman]: http://earpick.wordpress.com/2007/06/11/how-to-play-flac-in-itunes-on-mac/ "‘How to play FLAC in iTunes on Mac’"
  [fluke]: http://cubicfruit.com/fluke/
 
 ## Converting from <abbr class='smallcaps'>FLAC</abbr> to <abbr class='smallcaps'>ALAC</abbr> (Apple Lossless)

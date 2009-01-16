@@ -22,7 +22,7 @@ revolved around the Apple<abbr class="smallcaps">TV</abbr> and the MacBook Air,
 but [I felt][twitcloud] that there was something deeper going on.
 
  [dotmac]: http://www.apple.com/dotmac/
- [mw08atv]: http://arstechnica.com/news.ars/post/20080115-apple-macworld-keynote-announcements.html
+ [mw08atv]: http://arstechnica.com/news.ars/post/20080115-apple-macworld-keynote-announcements.html "Ars Technica article on announcements at Macworld Conference & Expo 02008"
  [twitcloud]: http://twitter.com/stilist/statuses/602562272
 
 The iPhone is really the motivator for much of this direction, in my opinion.

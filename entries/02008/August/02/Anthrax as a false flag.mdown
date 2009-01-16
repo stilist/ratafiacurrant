@@ -5,30 +5,30 @@ TAGS: 9-11, anthrax, politics
 [Scary overview of current evidence regarding the 02001 anthrax
 letters.][salon]
 
- [salon]: http://www.salon.com/opinion/greenwald/2008/08/01/anthrax/index.html
+ [salon]: http://www.salon.com/opinion/greenwald/2008/08/01/anthrax/index.html "‘Vital unresolved anthrax questions and ABC News’"
 
-On 29 August 2008, the
-<abbr class="smallcaps" title="Federal Bureau of Investigation">FBI</abbr>’s
+On 29 August 02008, the
+<abbr class='smallcaps' title='Federal Bureau of Investigation'>FBI</abbr>’s
 primary suspect (Bruce Ivins) committed suicide. Ivins worked at the government
 post that analyzed the letters, and possibly sent the letters (though this is
-uncertain). The <abbr class="smallcaps">US</abbr> government itself says that
+uncertain). The <abbr class='smallcaps'>US</abbr> government itself says that
 the letters were an inside job.
 
 The anthrax letters were a key part of linking Saddam with 9/11; early
 confusion suggested Iraq as a likely culprit for the
-<abbr class="smallcaps" title="World Trade Center">WTC</abbr> attacks partly
+<abbr class='smallcaps' title='World Trade Center'>WTC</abbr> attacks partly
 due to a general lack of information, but it quickly became a ‘fact’ in popular
 conception.
 
-<abbr class="smallcaps">ABC</abbr> News had very quickly presented claims that
+<abbr class='smallcaps'>ABC</abbr> News had very quickly presented claims that
 the anthrax contained material that could only come from Iraq, but there were
 never scientific claims of this nature. This has long since been proven false,
-but <abbr class="smallcaps">ABC</abbr> have shown no interest in revealing the
+but <abbr class='smallcaps'>ABC</abbr> have shown no interest in revealing the
 four sources who provided the false information.
 
 Given that there were hints by October 18 that the
-<abbr class="smallcaps">US</abbr> was considering an Iraq invasion, the false
+<abbr class='smallcaps'>US</abbr> was considering an Iraq invasion, the false
 evidence regarding
-<abbr class="smallcaps" title="weapons of mass destruction">WMD</abbr>s, and
+<abbr class='smallcaps' title='weapons of mass destruction'>WMD</abbr>s, and
 general warmongering, it would not be surprising if this were a deliberate move
 on the government’s part to create a case for invading Iraq.

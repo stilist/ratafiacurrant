@@ -17,7 +17,7 @@ TAGS: davidgelernter, interview, lifestream
 > stream also. I follow my own life, and the lives of the organizations I’m
 > part of, and the news, etc., by watching the stream flow.
 
- [ls]: http://cs-www.cs.yale.edu/homes/freeman/lifestreams.html "1996 webpage by David Gelernter and Eric Freeman about their Lifestreams project (updated in 2000)"
+ [ls]: http://cs-www.cs.yale.edu/homes/freeman/lifestreams.html "01996 webpage by David Gelernter and Eric Freeman about their Lifestreams project (updated in 02000)"
 
 ## On document previews
 
@@ -36,4 +36,4 @@ TAGS: davidgelernter, interview, lifestream
 > in the stream must show you a compressed visual summary of its document; when
 > you touch a stream element, you instantly get a larger visual summary.
 
-This interview took place in 2003, several years before technology like Quick Look was released.
+This interview took place in 02003, several years before technology like Quick Look was released.

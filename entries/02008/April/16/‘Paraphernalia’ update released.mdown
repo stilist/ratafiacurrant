@@ -5,8 +5,8 @@ TAGS: adium, design
 I’ve just pushed out [version 1.1][paraphernalia] of my [Adium][adium] message
 style.
 
-   [paraphernalia]: http://adiumxtras.com/index.php?a=xtras&xtra_id=5493
-   [adium]: http://adiumx.com/
+   [paraphernalia]: http://adiumxtras.com/index.php?a=xtras&xtra_id=5493 "‘Paraphernalia’ listing at Adium Xtras"
+   [adium]: http://adiumx.com/ "Adium home page"
 
 ## Changelist
 

@@ -8,7 +8,7 @@ anywhere, one might expect a massive decentralised scene to emerge. While this
 does happen in a small way, cities still form musical eddies.
 
  [cos]: http://www.cityofsound.com/
- [cosp]: http://www.cityofsound.com/blog/2008/06/i-come-from-bri.html
+ [cosp]: http://www.cityofsound.com/blog/2008/06/i-come-from-bri.html "‘“I come from Brisbane and I’m quite plain”* Cities have music scenes and that’s why ICT doesn’t enable decentralisation’"
 
 Really, it all comes down to the fact that humans are, by and large, very
 social creatures. The immediacy of feedback and rapport in a city simply can’t

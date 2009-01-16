@@ -30,11 +30,11 @@ the pane’s not active?
 ## Bugs/design flaws
 
 * **Visual glitches:** Not [entirely][chrome] [uncommon][chrome2].
-* **<abbr class="smallcaps" title="Outline Processor Markup Language">OPML</abbr>:**
+* **<abbr class='smallcaps' title='Outline Processor Markup Language'>OPML</abbr>:**
 There are two major problems here. First, there’s not clear how to ‘select’
 feeds when I’m presented with the [import box][import]. Something like a
 checkbox would make the process clearer. Second, and more infuriatingly,
-opening an <abbr class="smallcaps">OPML</abbr> file that contains existing
+opening an <abbr class='smallcaps'>OPML</abbr> file that contains existing
 feeds will [blank said feeds][feedblank], even if the import is canceled.
 Re-importing a large number of feeds can have [drastic results][results].
 
