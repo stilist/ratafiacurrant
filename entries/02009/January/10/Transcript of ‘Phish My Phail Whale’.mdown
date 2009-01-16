@@ -1,0 +1,942 @@
+PERMALINK: /post/69521533/transcription-of-phish-my-phail-whale
+PUBLISHED: Jan 10th, 02009 12:50am
+TAGS: alexpayne, audio, chrismessina, citizengarden, larryhalff, OAuth, OpenID, podcast, transcript, Twitter
+
+Transcription of Citizen Garden episode 10, [‘Phish My Phail Whale’][cgphish].
+
+This took about four and a half hours to transcribe, and another to edit for
+publication — not a very good rate, but this is my first attempt at
+something like this. I think podcast transcription is important, if not
+necessarily exciting — even ignoring the accessibility issues of podcasting,
+transcriptions allow search indexing and make it more convenient to
+refer to topics that are discussed.
+
+I’m willing to do more of this sort of thing for interesting material, though
+I’m not sure I’d want to go much longer than the half hour presented here.
+
+PS: I’m not sure what would be the ideal markup for transcriptions, so I’ve
+made a guess based on an Adium message style I wrote that’s in turn based on an
+experimental conversation microformat which has since disappeared from the
+microformats wiki. Suggestions for improvement are welcome!
+
+ [cgphish]: http://citizengarden.com/2009/01/08/episode-10-phish-my-phail-whale/ "Citizen Garden entry for ‘Phish My Phail Whale’"
+
+## Participants
+
+* [Larry Halff][lhalff]
+* [Chris Messina][cmessina]
+* [Alex Payne][apayne]
+
+ [lhalff]: http://ma.gnolia.com/people/lhalff "Larry Halff’s home page"
+ [cmessina]: http://factoryjoe.com "Chris Messina’s home page"
+ [apayne]: http://al3x.net/ "Alex Payne’s home page"
+
+## Transcript
+
+> <cite><abbr title='Larry Halff'>LH:</abbr> </cite>
+> <q>Hello, and welcome to episode ten of the Citizen Garden Podcast. I’m Larry
+> Halff…</q>
+
+> <cite><abbr title='Chris Messina'>CM:</abbr> </cite>
+> <q>I’m Chris Messina.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>And today we are joined by…</q>
+
+> <cite><abbr title='Alex Payne'>AP:</abbr> </cite>
+> <q>Alex Payne, I’m <abbr class='smallcaps'>API</abbr> lead over at Twitter.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>So it’s been an exciting week over here…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Yeah, it’s actually, it’s been a while since we did our last podcast.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>It’s true. But this is episode ten, which means we actually did nine of
+> them last year.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>That’s true, so that’s not too bad; that’s almost once a month.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>Almost.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Almost, y’know. That’s like a baker’s dozen.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>I don’t think that’s how they were distributed, though.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>No. Anyways. So, it’s January seventh, happens to be my birthday…</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Happy birthday!</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>Happy birthday!</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Thank you. We’re talking today about Twitter, but in the context of
+> perhaps a larger story around security, phishing, authorization, identity,
+> blah blah blah, all that good stuff. Maybe for some background, Alex, you
+> wanna tell your story or your impression of what actually happened in the two
+> incidents that seemed to cause so much controversy over the last week.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Sure. So, sometime over this past kinda New Year’s holiday weekend, we
+> started noticing several phishing attacks going around. The first one was
+> pretty benign, and then the subsequent ones seemed to grab a user’s account
+> and sent around some direct messages propagating links to not just this
+> Twitter-oriented phishing site, but also to phishing sites for Facebook and a
+> couple of other social networks.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>This is, like, [the `access-logins.com` website][access].</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Yeah, which could not be a more blatant… I mean, we were joking about it
+> around the office. It might as well have been `phishing-site.com`, but…</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>I got that one link!</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Yeah, I’m registering that domain when I get home, actually; backup
+> career. But, so, it turns out phishing… we think of Twitter’s user base as
+> getting more mainstream, but the core of it is very techy; but even against
+> our relatively techy userbase it was still pretty successful. So, our
+> administrators and support folks spent a bunch of time clearing out affected
+> accounts and resetting passwords for people, trying to scrub out the phishing
+> <abbr class='smallcaps'>URL</abbr>s, and we mostly put a stop to that. But
+> just before that crisis ended, someone decided to use a dictionary attack
+> against one of our support staff, and she happened to have a common
+> dictionary word — [‘happiness’][twhap], since it’s been reported in the news.
+> It’s…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>It makes me happy that that’s her password.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Yeah, I mean, I’d love to log in with that password every day, but… so, a
+> dictionary is just… you try every word in a dictionary against a username.
+> It’s been an attack people have been using since back in the days of
+> <abbr class='smallcaps'>VAX</abbr> systems and that kind of thing. And
+> unfortunately it still works, and because we didn’t have any rate-limiting on
+> authentication, we didn’t force people to solve a
+> <abbr class='smallcaps'>CAPTCHA</abbr> or do something like that after
+> they’ve logged in with lousy credentials too many times. So, we fixed that — 
+> it’s reactive security in action! — and we’ve now got all of our support
+> staff using strong passwords, and I’ve been encouraging people to use a great
+> tool for the Mac called [1Password][1pw], which lets you generate strong
+> passwords, store them, that kind of thing. So, we’re talking a bit more
+> internally about building security into our day-to-day practice. It’s
+> something that I think is really difficult for a fast-moving business to do.
+> You wanna spend your time building exciting user-facing features, not
+> locking stuff down, but it’s just the reality of being on the web. There’s
+> lots of bad folks out there.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Now, what kind of background would you say you have in security issues and
+> things like that? What kind of experience are you bringing to this current
+> situation?</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>I’ve kind of bounced back and forth between doing web development and
+> doing security stuff. Actually, one of my very first jobs when I was still a
+> teenager, I was a web developer, and the company got broken into, someone
+> decided to…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>… physically, or..?</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Electronically.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Okay.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>So, someone decided to use our server to hang out on chat rooms in
+> Lithuania or something, and trade warez and that sort of thing.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>There’s like ten people in Lithuania, so it’s…</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Right, and they were all on this <abbr class='smallcaps'>IRC</abbr>
+> channel. So, I got a very rapid education in, y’know, all right, this is how
+> we wipe and reinstall machines, secure it from the ground up. I got really
+> interested in intrusion detection, all that security stuff that big in the
+> ’90s, and just kinda continued down that road. I spent a couple of years
+> working for a sorta information-security–oriented government intelligence
+> contractor, and there I continued to do sort of a mix of web stuff with
+> towards security. And as a hobby around that time, some friends of mine and I
+> helped run the hacker game at the <abbr class='smallcaps'>DEFCON</abbr>
+> conference every year, ‘capture the flag’. So, we competed in that one year,
+> and then this group of friends took it over, and they’re still doing that.
+> Most of them are back on the east coast. That was fun. I got to write web
+> apps and see if they stood up against the best hackers in the world, and that
+> sort of thing. So, security’s been both a hobby and sort of a professional
+> thing for me, from time to time.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>so that brings up an interesting point… I was sort of aware of some of
+> your background in security stuff. It kind of leads into a question about
+> Twitter, of course. I mean, if this was your hobby, and you’re the lead of
+> the <abbr class='smallcaps'>API</abbr> stuff… Twitter is more or less a
+> porous application. I mean, it’s been reported, actually, I think in 2007,
+> that most of your traffic comes from off-site sources — meaning that people
+> are not coming to `twitter.com`, necessarily, and interacting with the
+> service; they’re doing it from Twitterrific or from other applications, or
+> third-party websites like [Hahlo?] and things like that. So I guess, the
+> first part of this question is ‘how secure *is* Twitter’? I mean, when people
+> are using it and so on… if you were back playing capture the flag, how long
+> would it take you to capture the Twitter flag?</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Well, I think there’s sort of a couple of things. The first is that most
+> of the information on Twitter is designed to be open. People can have
+> protected accounts… my personal opinion is that I wish we didn’t have that
+> feature. I feel like people get so much more out of Twitter when they have a
+> public account. I know that there are some people who just aren’t comfortable
+> with taking their thoughts or taking their social network out in the open. So
+> we accommodate them, but it’s a relatively small part of our userbase. And
+> one of the main problems we’ve had over the past couple of years has been
+> ensuring that protected accounts never leak. We’ve definitely had points at
+> which our <abbr class='smallcaps'>API</abbr> has inadvertently exposed
+> people’s protected tweets because our code has to accommodate this
+> complicated privacy intersection of ‘<var>user a</var> is looking at
+> <var>user b</var>’s friends, which can include <var>user c</var>, who may or
+> may not have authorized <var>user a</var>, but has authorized <var>user
+> b</var>’. And with all the caching logic and stuff in the middle of that,
+> there are bound to be bugs, and there have been security problems around it.
+> That’s, I think, the biggest issue we’ve had with Twitter. I’m pretty
+> confident, given that we’ve got two different test suites now for the
+> <abbr class='smallcaps'>API</abbr>, one sort of baked into our application
+> and one completely external, that look for some of these security issues… and
+> we’ve hired other kind of security-minded folks — one of our hires last year
+> was [John Adams][netik], who was a member of the l0pht hacking group back in
+> the day…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>He also wrote some of the Declaration of Independence, I heard… sorry.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Took me a second. So, between John and I and the other folks, we’ve tried
+> to sort of, in our spare time, look at Twitter from a security perspective. I
+> wish that we could say that we’d done a full security audit and that we’d
+> brought in an outside team — that’s one of the things I’m hoping we can fit
+> into our schedule sooner rather than later.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>One of the interesting things is the phishing attack that happened. It’s
+> sort of like, outside of the realm of a lot of the standard security
+> procedures.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Oh, sure.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>And it’s like, very… securing your site against, like, engineering-type
+> hacking is very different than trying to secure your against social-type
+> hacking. And it’s really easy to hack around sites where you’ve tried the
+> security and social hacking. So, for instance, it was one of the things — I
+> think it was even someone [who] was at the OAuth summit, or was it the OpenID
+> summit? — they were talking about one of the new anti-phishing things is
+> showing… you pick an image when you log in…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Site seal.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>… the site seal idea, which a lot of banks have now. But they found
+> basically, you can trick people out of that almost all the time by saying
+> ‘site seal is not available at the moment'. So people read that and say ‘oh,
+> well I can’t get my site seal, but I need to get to my bank account, so I’m
+> gonna sign in anyway'.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>You should just put, like, a broken image or something like that.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>And I mean, certainly the fact that most of our longer-term users know
+> that we do occasionally enable and disable features depending on traffic and
+> that kind of thing; they’re used to saying ‘well, I can’t get to this part of
+> Twitter right now’, so I don’t know how effective that would be. This other
+> social kinda web-oriented security thing that’s come up is just… we’ve had
+> problem after problem with sharing stuff via
+> <abbr class='smallcaps'>JSON</abbr>, having callbacks, and… you’re trying to
+> support mashups… a couple of folks — older, kinda comp. sci. folks — that I
+> follow on Twitter have joked at times that from their perspective, the whole
+> social web is kinda one big cross-site request forgery attack. Y’know, if
+> you’re not involved in the social web culture day-to-day, where you’re
+> excited about this stuff — if you come at it from more of a privacy
+> perspective, it’s like ‘this is really scary’. Y’know, the whole mashup thing
+> is basically… it takes advantage of the fact that browsers still have a
+> pretty primitive security model. I sorta wonder how much of the mashup
+> culture if people went back to the drawing board with browsers; went back to
+> kind of…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Well, if they did it the right way.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Yeah, basically.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Yeah.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Yeah, so, we’ll see. And people having to come up with *really* complex
+> solutions for that.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Yeah.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Like Yahoo! sort of turning Yahoo! Mail into this host for JavaScript
+> apps, mashups, and that kind of thing. But they’ve had to implement…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Basically they have to rewrite JavaScript.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Yeah, Ben Laurie’s [Caja project][caja], which is a whole
+> capabilities-based secure reimplementation of JavaScript. So, y’know, that’s
+> pretty heady lengths to go to just to be able to support mashups. But over
+> and over again, we’ve had people point out that ‘Hey, I can get to this data
+> via Javascript, and a malicious site can control it’ because some old browser
+> allows them to redefine the array data structure, or take control of
+> callbacks, or that sort of thing. So that’s another area where we’ve had to
+> be reactive and not proactive because, y’know, the community has been out
+> there finding all of these bugs that you wouldn’t find if you sat down for a
+> hundred hours.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>There was sort of…</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>And the other thing is…</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>And the angry mob sort of misguidedly decided that the solution to the
+> phishing attack was the long-awaited Twitter implementing OAuth. So the meme
+> went around of, like, ‘Why hasn’t… I’ve been phished; why hasn’t Twitter
+> implemented OAuth?’.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Well, the [password anti-pattern][pap] became kind of a household word,
+> like, over the past two weeks.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>It was like… people… it was pretty wrong, because OAuth is not… would not
+> secure against phishing.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>… would not have solved these problems.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Right. Yeah, I mean, it’s become so much of a household concern that I was
+> talking to a reporter the <span class='newspaper'>New York Times</span> about
+> it the other night, and she was asking for sort of a layman’s explanation of
+> OAuth — but, thankfully, she read enough of what was going around on the web
+> that day that her angle on the story wasn’t ‘if only Twitter had put out
+> OAuth there would have been no phishing.’</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>Wouldn’t that be great if OAuth had solved all phishing?</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Or OpenID, for that matter.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>It basically… it made everybody like fifteen
+> <abbr class='smallcaps'>IQ</abbr> points smarter. It’s amazing! It’s amazing
+> what the internet does.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>I mean yeah, so it’s like, I think that’s the problem, it’s… when people
+> start doing armchair security…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Let’s talk about that, though. that’s… I think on the one hand, there’ve
+> been, y’know, some of us geeks that are out there, sort of pushing the meme
+> of the password anti-pattern, because it is actually something that people
+> should take seriously. More from the perspective that, y’know, just like with
+> good… what I call ‘data hygiene’, you should be checking out the
+> <abbr class='smallcaps'>URL</abbr>s of the sites that you’re visiting and so
+> on to make sure that they are actually Facebook and not
+> `facebook.access-login.com`, you should be considering where you put your
+> password in on the web. And one of the problems we’ve seen is, of course,
+> that with Twitter, on the one hand, you can make the argument that no, it’s
+> not your bank, so you’re not gonna go broke if someone hacks your account — 
+> *but* on the other hand, there’s a point to be made that Twitter stores a
+> great deal of what I call sort of ‘data capital’ or ‘social capital’, and
+> that if someone took over one of our accounts and we’ve been tweeting for a
+> while, and we have some followers, that all of a sudden large number of
+> people immediately are going to see something that we can’t take back.
+> Y’know, it goes out over <abbr class='smallcaps'>SMS</abbr>, there’s no
+> takebacks. So, this happened, of course, with [Barack Obama’s account][botw],
+> y’know; a hundred and sixty thousand people, let’s say, receive an
+> <abbr class='smallcaps'>SMS</abbr> from Barack Obama saying, y’know, go check
+> out, y’know, this survey and get a free iPhone or whatever. And that’s a very
+> strange thing to get from the president-elect.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Sure.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>So, I think that the real consequence of not providing people who have,
+> let’s say, accrued that social capital or data capital the opportunity to
+> secure their accounts somehow means that there will be these mobs that say
+> ‘Why didn’t you do this? This could have been prevented.’</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Sure.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>And the answer is, well, no, maybe it actually could not have been
+> prevented, because people were tricked, and this technology doesn’t prevent
+> people from being tricked. But by the omission of not doing it, you gave
+> people that opening to complain and bitch and moan.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Sure.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>And so one of the things I wanna talk to you about, though, specifically,
+> is I know you’ve had some criticisms about OpenID and OAuth; you sound very
+> skeptical of them. You’ve also said that the technology is not… even though
+> Blaine and Twitter were part of the creation of OAuth — in fact Larry was the
+> other sort of 50% of that — Twitter still does not offer that. So it would
+> not have… you can’t say, ‘Well, they did have OAuth and the problem happened
+> anyways, so clearly the OAuth was not the solution. Oh! the solution must
+> have been to make people smarter.’ Instead, it fell onto OAuth. So I’m
+> curious, what’s your thinking about that, and, y’know, what’s next in terms
+> of this conversation?</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Sure. So, the road to OAuth has been kind of complicated for us.
+> [Blaine][blaine] sketched out a prototype of OAuth in the Twitter codebase.
+> It was there for a while, but like our early
+> <abbr class='smallcaps'>API</abbr>, it was present but not documented. And a
+> handful of developers, mostly via word-of-mouth from Blaine — folks like
+> Kellen over at Flickr — started building Twitter applications that talked to
+> this early sketch of OAuth.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>He’s one of the authors of flickrauth and one of the early writers of
+> some of the OAuth [something]</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Sure.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>And the OAuth validation was wrong. It doesn’t…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>That’s right.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>It signs differently than OAuth does.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Right, right. I mean…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>So it was there, it was wrong, it was taken away.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>It was a pre-spec implementation. I mean, it wasn’t even called OAuth per
+> se, y’know; all the internal code had no reference to OAuth or the
+> nomenclature of OAuth. And so at a certain point in the middle of last year,
+> we said okay, there’s a real spec. I sat down to implement it. I took out
+> Blaine’s old code, started putting in the new code, and was concerned about
+> the quality of some of the Ruby code out there to handle OAuth, and at that
+> point in time, working on the Twitter <abbr class='smallcaps'>API</abbr> was
+> essentially what I did in my spare time after not sleeping after not working
+> on other Twitter features…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Which creates, usually, very secure code, y’know.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Right, exactly. And so at the time, I was terrified to implement this kind
+> of half-baked support for OAuth when the <abbr class='smallcaps'>API</abbr>
+> wasn’t my full-time job, we hadn’t had time for a proper security review, and
+> then talking to Eran Hammer-Lahav, who’s been a big voice on the OpenID spec.
+> He happened to be in San Francisco, and talking to him, he said well, there’s
+> a couple of things in the spec right now that we still wanna iron out; you
+> shouldn’t necessarily put a full stop on implementing OAuth, but if you
+> wanted to wait several months, you’d be implementing the sort of most secure
+> version of the specification. I guess there was some chance that a timing
+> attack could be accomplished…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Do you know when that was, when you had that conversation?</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>I wanna say this past summer.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Okay.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>So with all those factors convening, we just decided to table it for a
+> while, and at the end of last year, as Twitter had grown a bit, I was given
+> the role of <abbr class='smallcaps'>API</abbr> lead and allowed to focus on
+> that full-time, and was given one other employee to work with me on the
+> <abbr class='smallcaps'>API</abbr> — who, up until recently, has been doing
+> administrative duties on our search site. But getting the OAuth
+> implementation done has been his project and now that most of his other work
+> is behind him, that’s why it’s finally happening.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Yeah.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>So that’s why it’s taken so bloody long just to get it out there — it’s
+> just a matter of internal priorities. My opinion about the technology is kind
+> of separate. I haven’t been dragging my feet on OAuth because I’m concerned
+> about its threat profile or something. I agree completely that it’s a step
+> forward from basic auth and having people submit their username and password,
+> but mostly I’ve just wanted to make sure that it’s deployed with the same
+> level of care that we’ve tried to deploy everything, particularly since kind
+> of mid-2008 when we’ve really just tried to make a push to turn Twitter’s
+> reputation as an unstable service around. And it seems like following that
+> kind of slower development model has worked out pretty well — people don’t
+> talk about Twitter’s instability quite as much.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>The fail whale just doesn’t show up quite as much.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Yeah, exactly.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>We miss it dearly, but…</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>So…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>But, y’know, I mean… not to [mislead?] or completely throw your words at you,
+> but you did say — or tweeted, at one point — that, yes you’ll do OAuth at
+> some point, but users and developers are gonna hate it.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Yep.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>And that, that’s…</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>I stand by that, actually.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>And I really wanna get your opinion on it, because one of the things that
+> hopefully we can do is take constructive negative feedback and turn it into
+> something that results in a number of bug issues that can be corrected.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Right. And I mean, obviously it’s hard to fit a nuanced criticism into 140
+> characters.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>… in 140 characters, that’s right.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>So, when I say something like that, it sounds definitive, it’s not saying
+> ‘they’re gonna hate it and we’re utterly unwilling to work with folks like
+> Chris and Larry’…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>It just comes out that way.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>So…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>… in 140 characters!</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Yeah. So… some people’s rebuttals have been, y’know, similarly curt, and
+> it’s just… it’s just a fact of the medium. And we all kind of enjoy throwing
+> slings and arrows back and forth.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Twitter is the new godwin’s law!… all right, go ahead.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>So… this isn’t entirely my personal opinion. The approach I try to take to
+> developing the <abbr class='smallcaps'>API</abbr> is that we deliver
+> <abbr class='smallcaps'>API</abbr> methods that mirror the features that we
+> expose on the site, and we deliver <abbr class='smallcaps'>API</abbr> methods
+> that are in direct response to what our developers want. We don’t… I don’t
+> think we’ve ever said ‘here’s a method or an
+> <abbr class='smallcaps'>API</abbr> feature…’</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>… that no one wants.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>‘… we’re going to deliver because *we* think it would be a great idea’. We
+> always try to do things that the community’s asking for, and that’s part of
+> what’s kept OAuth on our priority list. But the feedback that I’ve heard from
+> developers who’ve implemented OAuth for other services has been pretty
+> negative. People aren’t crazy about the quality of the libraries that are out
+> there, they’re frustrated by the user experience issues — a lot of
+> developers, particularly on mobile platforms, just kind of don’t know how
+> they’re gonna handle OAuth in an elegant way. And, I guess, from the user’s
+> perspective — I’m basing that a lot on the user studies we’ve seen about
+> OpenID, which… users *hating* it is maybe an overstatement — but users being
+> confused by it seems pretty fair — that seems to be like what the Yahoo! team
+> found out.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>… with seven people.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Yeah, with seven people.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Y’know, I could survey my family and get the same response.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Well, but that’s just it — chances are pretty good that, y’know, if you
+> asked your mom to do the OpenID workflow as opposed to just putting in her
+> username and password, it’s more confusing. That doesn’t mean, y’know…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>If you surveyed seven Twitter users, maybe they’ve used Facebook and
+> they’ve authorized an application, for example.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Maybe, yeah. I mean, we’ll find out. To me, it still seems like OpenID,
+> OAuth are inevitabilities; it’s just gonna be a bumpy road.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>I mean, absolutely. Part of it is — and we talked about this briefly — 
+> it’s like, y’know, Facebook Connect is great, ’cause it gives you a nice,
+> y’know, bluish-purple button that, y’know, people can click and say ‘oh, I
+> recognize that, Facebook Connect. Lovely.’ The problem comes when you wanna
+> have choice, and when your friends are not necessarily on Facebook, but
+> they’re on MySpace or they’re on Twitter, and you wanna bring your friends
+> with you. And I think that’s one of the real hurdles that eventually, y’know,
+> no, not everyone’s gonna be on <abbr class='smallcaps'>AOL</abbr>, y’know;
+> they’re gonna wanna have their own email account some place else, and now
+> you’re gonna have to figure out that interop. And you can imagine that at
+> some point, somebody said ‘People will never understand email addresses. What
+> is this ‘factoryjoe at aol’ nonsense? It’s just, y’know, it should just be
+> like the single name.’. But then, of course, we figured out a way to move
+> forward [from] that, and there was enough value there where people could…
+> essentially internalize the notion that someone might actually be on a
+> different server, and there was some way of referencing them.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Right.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Now, I mean, I’m curious then — what, first, what are your recommendations
+> for people who are using Twitter? — y’know, what should Twitter users do in
+> terms of securing their account — but also, what are some implementations of
+> this type of… these alternative security approaches that you’ve liked?
+> Because sure, you can say that the OAuth user experience sucks today and the
+> OpenID user experience sucks today and that sort of sets the baseline; we can
+> only get better from here… what are good examples that, y’know, are inspiring
+> you?</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Right.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>… in terms of solving these problems.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>I don’t think that there are particularly inspiring patterns for security
+> on the web. I mean, y’know… <abbr class='smallcaps'>SSL</abbr> — we were
+> talking about this before we started recording — 
+> <abbr class='smallcaps'>SSL</abbr> gets the job done, but when you start
+> using <abbr class='smallcaps'>SSL</abbr> with certificates and all that kind
+> of thing, you really need a kind of a organizational administrator to handle
+> most of that stuff. So maybe a Fortune 500 can roll out
+> <abbr class='smallcaps'>SSL</abbr> with certificates to all of their desktops
+> connecting to their intranet or something like that, but we can’t
+> realistically expect most, y’know, home users or users of a mobile device to
+> make use of <abbr class='smallcaps'>SSL</abbr>. So I’m not sure today there’s
+> a pattern that’s *better* than what OAuth suggests. There are a handful of
+> Twitter apps out there that talk basic auth over
+> <abbr class='smallcaps'>HTTPS</abbr>.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Yeah.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>And that seems to be working pretty well for iPhone apps, for desktop
+> apps…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>That doesn’t solve the problem of giving your credentials to somebody
+> else; just that it’s less likely that they’ll be intercepted.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Yeah. I mean if you trust the application, and…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Right.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>… and you know that the credentials are only ever being stored on your
+> own computer…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Like, if you trust the application, like [Twiply][twiply] or
+> something.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>Or Twitterrific.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Twiply was web-based, right?</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Yeah, sort of joking… the one that was sold, and like ten hours after it
+> collected eight hundred user accounts.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Right. But in the case of desktop apps and iPhone apps, there’s some that
+> are open source. There’s spaz, which is an open source Air app that runs on
+> everything, Twitterfon is completely open source… so really paranoid users
+> can audit the code for that sort of thing. That’s not a great solution for,
+> y’know, mom and dad.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>There’s, y’know, there’s some other benefits, though, I think, of moving
+> to this alternative model that arrive over time. One is rate limiting.
+> Y’know, if you have these applications making use of the Twitter
+> <abbr class='smallcaps'>API</abbr> and you have really no way of identifying
+> them besides <abbr class='smallcaps'>IP</abbr> address… it would be nice if
+> you could just shut off a class of, y’know, malfunctioning applications.
+> Like, specific desktop applications, let’s say, that just do terrible things.
+> You also get the benefit of having kind of a paper trail, of saying ‘these
+> applications changed your account in some way’.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Sure.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>And, y’know, a similar idea that Ian McKellar came up with just the other
+> day was this notion of pushing changesets to your account, and then you could
+> approve or deny them. It might be a little heavyweight and a little awkward,
+> but, y’know, similar sort of idea, where instead of using consumer keys, it’s
+> just like ‘I have this changeset, I wanna deliver this parcel to your
+> account’, so at some point later on you come along and approve that, and it
+> goes through.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Right.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>So there are different methods there to solving this problem, but clearly,
+> I think, there’s a balance between the complexity on the user side and what
+> hurdles they have to jump through to have sort of a more secure experience
+> where they’re not handing out their credentials, as I’ve said before, like a
+> [something]. As well, you have to think about the developers, and make sure
+> they’re not tasked with something that’s so arduous that it’s impossible for
+> them to implement.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Right.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>And it’s interesting to, y’know, ’cause you are gonna be — and you can
+> speak to this in a second — you are gonna be rolling out OAuth as sort of a
+> beta release soon. There’s a service called brightkite which lets you set
+> your location or whatever, and they’ve done an interesting thing where, for
+> developers testing on their sort of staging site or whatever — y’know, just
+> testing applications — they allow them to use basic auth, just a way of
+> trying out their stuff. But if you wanna actually interact with user data,
+> then you have to move over to OAuth. And so there’s a nice sort of balance
+> there where you can’t do any real damage with usernames and passwords…</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Right.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>… when you’re just trying things out to make sure your app works. But then
+> when you wanna get into the real deal, then you actually have to go through
+> the proper sort of, y’know, dances to make that happen. So…</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Right.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>I’m curious, in terms of, also… maybe an extracted question is: where are
+> you with OAuth? When do you expect it to sort of land? What’s your process
+> look like? And what kind of things are you working on right now?</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Sure. so… where we’re at with OAuth is that we’re very close to a private
+> beta — by private, that pretty much means we’re gonna post a message to the
+> Twitter [development-talk group][twdtg], and anyone that says they’re
+> interested and looks capable of giving us decent feedback will get in. We’re
+> not gonna super picky about it — fifty, a hundred people, that’s fine. So,
+> we’ll go through the private beta for maybe two, three months, unless there
+> are some glaring faults; then move into a public beta for another couple of
+> months; then when OAuth [support?] is final, we’re gonna have six months
+> during which we encourage developers to migrate their apps to OAuth, and at
+> the end of that basic auth will be deprecated. And depending on how that
+> release goes, with rolling out the next version of our
+> <abbr class='smallcaps'>API</abbr> in general, we may put new
+> <abbr class='smallcaps'>API</abbr> methods only behind OAuth, or bump up the
+> rate limit for applications that OAuth, or just try to find ways to really
+> incentivize developers to move over.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>That’s what we did with ma.gnolia, is like, you get… in order to get any
+> of the stuff that’s new and version 2 of the
+> <abbr class='smallcaps'>API</abbr> you have to use OAuth.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Right.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>But you can still use all the old stuff with version 1 with the two older
+> auth methods.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>And that’s sort of an interesting balance there, where, y’know, if you
+> wanna do basic auth, you have the most basic functionality whatsoever.
+> Y’know, you can post a message a day, or something… or thirty messages a day,
+> or something reasonable, where if you’re lazy or an inexperienced developer,
+> you can still create an app for your friends, but if you wanna put something
+> out there that people are gonna download and use and install for a while, or
+> put it on their mobile device — which could get stolen or whatever — then you
+> actually have to go with something that will support that type of
+> functionality, namely, using OAuth.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Right. And I think one of the ways to… the nice thing about basic auth is
+> that people can read the Twitter documentation…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>It’s basic, as you’ve said.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Yeah. They can use `curl` and just poke at
+> <abbr class='smallcaps'>API</abbr> methods, see what they get back. In the
+> absence of that, we’re gonna need to provide a nice sort of interactive
+> sandbox for the <abbr class='smallcaps'>API</abbr>.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Yeah.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>And that’s something we wanna do in the next version, so you can test out
+> a <abbr class='smallcaps'>URL</abbr>, see sample data, that kinda thing. But…
+> I’m looking forward to what we’ll be able to do when we have OAuth — there’s
+> a couple of things we’ve been wanting to be able to do for a while. We’ll be
+> able to disable malicious applications from our end, so if we find a Twiply
+> or something like that, we can just say ‘all right, for all the users that
+> have this installed, it’s gone.’ Another nice thing is that we can build an
+> application directory — right now, that’s sort of informally maintained on
+> the [Twitter fan wiki][tfwiki], and on a couple of other sites. but since
+> every developer has to register every application, we can ask them for a
+> little bit more information about their app, and we’ll have enough to build a
+> pretty gallery where users can say, y’know, ‘show me all the mac apps', ‘show
+> me all the blackberry apps’, that kinda stuff.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>That’s pretty exciting. Now, it also suggests — and, y’know, this is sort
+> of my interest, since I was recently elected to the board, but uh… — that it
+> opens the door, at least, for Twitter to consider finally maybe doing OpenID
+> at some point as well. Is that at all in the frameworks, or should I just
+> wait another year, and once OAuth’s done then we can have this conversation
+> again?</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>You should probably not hold your breath. I mean, this is one of those
+> prioritization things. I mean, right now, you can see all the
+> [issues][twapiiss] that the <abbr class='smallcaps'>API</abbr> team at
+> Twitter tracks — we keep all that open — and you can see that the
+> [OAuth issue][twoauth] has the most stars on it, has the most votes on it.
+> But there isn’t an issue for ‘Twitter really needs OpenID’, because…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Let me ask you something…</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>… nobody’s asked, other than yourself.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Other than me!, yeah. Well, y’know, I tend to be the outlier. How about
+> delegation? We can start there.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>That, I think would be worth maybe…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>’cause then I could use my Twitter account as my OpenID…</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Yeah.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>… without you guys having to do any work.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Yeah. That I think would be worth doing; I think it would probably end up
+> being [Britt][britt] and [Rael][rael] and the
+> <abbr class='smallcaps'>UX</abbr> team that ends up implementing it; it’s not
+> really <abbr class='smallcaps'>API</abbr>-related…</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Fair enough.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>We’re doing enough specialization at this point that, y’know, I can
+> kinda say it’s their problem. I honestly think that’d be nice. At the very
+> least, it would be nice if people can log in with their OpenID and make use
+> of it. Twitter as an OpenID provider — I think we’d want to have a really
+> great handle on the kind of phishing problems out there before we did
+> anything like that — but you should be able to log in with your OpenID. That
+> seems perfectly reasonable.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Awesome. Well, that was great, then.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>Yeah. I think we’re gonna wrap this up?</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Yep.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>Thanks for joining us.</q>
+
+> <cite><abbr>AP:</abbr> </cite>
+> <q>Sure, thanks for the opportunity.</q>
+
+> <cite><abbr>CM:</abbr> </cite>
+> <q>Yeah, appreciate it.</q>
+
+> <cite><abbr>LH:</abbr> </cite>
+> <q>And we’ll talk at you next time.</q>
+
+ [1pw]: http://agilewebsolutions.com/products/1Password "1Password product page"
+ [access]: http://google.com/search?q=twitter+access-logins "Google search for twitter access-logins"
+ [blaine]: http://twitter.com/blaine "Blaine Cook’s Twitter page"
+ [botw]: http://Twitter.com/barackobama "Barack Obama’s Twitter page"
+ [britt]: http://twitter.com/bs "Britt Selvitelle’s Twitter page"
+ [caja]: http://code.google.com/p/google-caja/ "Caja Google Code project page"
+ [netik]: http://twitter.com/netik "John Adams’ Twitter page"
+ [pap]: http://adactio.com/journal/1357/ "Article by Jeremy Keith describing password anti-pattern"
+ [rael]: http://twitter.com/rael "Rael Dornfest’s Twitter page"
+ [tfwiki]: http://twitter.pbwiki.com/
+ [twapiiss]: http://code.google.com/p/twitter-api/issues/list "List of bugs and feature requests for the Twitter API"
+ [twdtg]: http://groups.google.com/group/twitter-development-talk "Twitter API discussion group"
+ [twhap]: http://blog.wired.com/27bstroke6/2009/01/professed-twitt.html "Article from Wired’s Threat Level about Twitter hacker"
+ [twiply]: http://search.twitter.com/search?q=twiply "Twitter search for twiply"
+ [twoauth]: http://code.google.com/p/twitter-api/issues/detail?id=2 "Feature request for OAuth"

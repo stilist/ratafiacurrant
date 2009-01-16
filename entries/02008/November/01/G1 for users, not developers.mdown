@@ -1,0 +1,23 @@
+BOOKMARK: http://delicious.com/url/e93d70d2ea17379f389b0dd9782da792
+LINK: http://www.oblomovka.com/wp/2008/11/01/confirmed-by-android-team-g1-only-accepts-firmware-signed-by-manufacturer/
+PERMALINK: /post/57443749/g1-for-users-not-developers
+PUBLISHED: Nov 1st, 02008 10:44am
+TAGS: android, g1, google, t-mobile, telephone
+
+The question here is: why use open source firmware, and then prevent customers
+from taking advantage? At some level, the answer likely involves ‘it isn’t
+Windows Mobile’ and (more generally) ‘it’s cheaper’.
+
+A restricted approach would be possible, at least to some extent, if all other
+carriers agreed to have the same limitations. Doing so would effectively leave
+Android as a less attractive version of the iPhone.
+
+The flaw, however, is that the Open Handset Alliance wants developer-friendlier
+phones. As pointed out, this will lead to the phones being used on whatever
+network, which eventually leads to carriers being commodities chosen for
+quality and service. This isn’t an entirely new thing, naturally, as they’re
+already forced to market based on goofy features like ‘favorite contacts’, but
+lock-in is still a definite concern.
+
+Android is good for users and good for developers, but potentially very bad for
+carriers.

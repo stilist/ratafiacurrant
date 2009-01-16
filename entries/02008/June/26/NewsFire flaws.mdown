@@ -1,0 +1,46 @@
+PERMALINK: /post/39960754/newsfire-flaws
+PUBLISHED: Jun 26th, 02008 3:30pm
+TAGS: newsfire, software
+
+I recently switched over to [NewsFire][newsfi] as my feed reader, after
+becoming increasingly annoyed with the performance problems and ‘open source
+feel’ of [Vienna][vienna]. While the experience has been largely positive,
+there are a number of bugs and annoying aspects that I wish to document.
+
+ [newsfi]: http://www.newsfirex.com/
+ [vienna]: http://www.vienna-rss.org/vienna2.php
+
+## Visual
+
+* **Mandatory colour bubbles on groups:** I dislike colour bubbles. I never use
+them in the Finder and rarely them in [Transmission][transmi]. Presumably the
+idea is to help reduce visual clutter for some people, but I am not in this
+population. Please make it optional.
+* **Fade-in on launch, fade-out on quit:** Completely unnecessary.
+* **Hover colour in headline view:** Somehow I never get lost in iTunes.
+* **‘New’ badge:** The contrast difference between read and unread is
+sufficient.
+* **[Greyed group title bar][greyed]:** I’m really not sure what the deal is
+here. It’s good to grey when the application’s not in use, but doing it when
+the pane’s not active?
+
+ [greyed]: http://www.flickr.com/photos/stilist/2613349987/
+ [transmi]: http://www.transmissionbt.com/
+
+## Bugs/design flaws
+
+* **Visual glitches:** Not [entirely][chrome] [uncommon][chrome2].
+* **<abbr class="smallcaps" title="Outline Processor Markup Language">OPML</abbr>:**
+There are two major problems here. First, there’s not clear how to ‘select’
+feeds when I’m presented with the [import box][import]. Something like a
+checkbox would make the process clearer. Second, and more infuriatingly,
+opening an <abbr class="smallcaps">OPML</abbr> file that contains existing
+feeds will [blank said feeds][feedblank], even if the import is canceled.
+Re-importing a large number of feeds can have [drastic results][results].
+
+ [chrome]: http://flickr.com/photos/stilist/2562970710/
+ [chrome2]: http://flickr.com/photos/stilist/2513482203/
+ [drastic]: http://twitter.com/stilist/statuses/844284381
+ [feedblank]: http://flickr.com/photos/stilist/2613349939/
+ [import]: http://flickr.com/photos/stilist/2613349999/
+ [results]: http://flickr.com/photos/stilist/2613349993/

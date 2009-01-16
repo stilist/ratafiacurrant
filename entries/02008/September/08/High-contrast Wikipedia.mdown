@@ -1,0 +1,9 @@
+PERMALINK: /post/49297529/high-contrast-wikipedia
+PUBLISHED: Sep 8th, 02008 3:02pm
+TAGS: skinning, wikipedia
+
+* [<abbr class='smallcaps'>CSS</abbr>][css]
+* [Result][result]
+
+ [css]: http://pastebin.com/f7164f4fb "CSS at pastebin.ca"
+ [result]: http://flickr.com/photos/stilist/2840767774/ "Screenshot demonstrating effect of CSS"
