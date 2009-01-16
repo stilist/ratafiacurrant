@@ -18,7 +18,7 @@
  </head>
  <body>
   <ul id='nameplate'>
-   <li><a href='http://ratafia.info' id='logo'>Ratafia Currant</a></li>
+   <li><a href='http://ratafia.info' id='logo' rel='home'>Ratafia Currant</a></li>
    <li><a href='/archive' id='archives'>Archives</a></li>
    <li><a href='http://delicious.com/stilist' id='links'>Links</a></li>
   </ul>
