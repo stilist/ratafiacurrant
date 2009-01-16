@@ -127,6 +127,10 @@ strong {
  text-align: right;
 }
 
+.album, .book, .film, .game, .magazine, .newspaper, .programme {
+ font-style: italic;
+}
+
 #nextprev {
  margin: 4em;
  text-align: center;
