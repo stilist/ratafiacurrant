@@ -1,0 +1,19 @@
+BOOKMARK: http://delicious.com/url/be234aa096573453db5725cb4f7a25c1
+LINK: http://www.pcworld.com/printable/article/id,157894/printable.html
+PERMALINK: http://ratafia.info/post/71351238/wikipedia-beefs-up-for-multimedia
+PUBLISHED: Jan 18th, 02009 12:24pm
+TAGS: multimedia, publicdomain, wikipedia
+
+> For example, users are uploading public domain classical music, and some
+> recordings can last a half-hour. Documentary films that are out of copyright
+> are also being uploaded, and some users are struggling to keep files under
+> the 100<abbr class='smallcaps'>MB</abbr> limit, according to Vibber.
+
+> Vibber’s long-term goal is to let users upload feature-length, high-quality
+> videos, but in addition to capacity limits he says there are challenges
+> related to getting files in the appropriate format and the physical movement
+> of large files.
+
+Why not partner with the [Internet Archive][ia]?
+
+ [ia]: http://www.archive.org/index.php "Internet Archive home page"
