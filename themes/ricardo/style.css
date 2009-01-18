@@ -18,10 +18,10 @@ body {
  background: #371d10;
  border-top: 10px solid #aa5a32;
  color: #ab8876;
- font: 9.5pt 'Trebuchet MS', Arial, sans-serif;
- line-height: 1.8em;
+ font: 10pt 'Trebuchet MS', Arial, sans-serif;
+ line-height: 1.5em;
  margin: 0 auto;
- padding: 2em 0;
+ padding: 24px 0 26px 0;
  width: 750px;
 }
 
@@ -53,10 +53,10 @@ code {
  line-height: 1.6em;
 }
 h1 {
- font-size: 1.75em;
+ font-size: 1.55em;
  font-weight: normal;
  line-height: 1.5em;
- margin: 3em 0 .5em 0; 
+ margin: 64px 0 0 0; 
 }
 h1 a {
  border: none;
@@ -83,8 +83,7 @@ strong {
 }
 
 #nameplate {
- height: 100px;
- margin-bottom: 4em;
+ height: 113px;
  list-style: none;
  position: relative;
 }
@@ -120,7 +119,10 @@ strong {
  width: 536px;
 }
 .entry p {
- margin: 1em 0;
+ margin: .75em 0;
+}
+.entry .copy > p:first-child {
+ margin-top: 9px;
 }
 .entry .signoff {
  font-size: .9em;

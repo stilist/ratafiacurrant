@@ -1,11 +1,11 @@
 BOOKMARK: http://delicious.com/url/a58f3acbfede355bac3df7ed5225197a
 LINK: http://atariarchives.org/deli/the_mac_on_skis.php
 PERMALINK: post/70913387/the-mac-on-skis-01984
-PUBLISHED: Jan 16th, 2009 9:45am
+PUBLISHED: Jan 16th, 02009 9:45am
 TAGS: estherdyson, macintosh
 
-Esther Dyson, writing for the <span class='book'>Digital Deli</span>
-anthology:
+<span class='person'>Esther Dyson</span>, writing for the
+<span class='book'>Digital Deli</span> anthology:
 
 > Here our metaphor begins to break down. Short skis really don’t work as well
 > at high speeds, for good skiers. But that’s not necessarily true of short-ski
