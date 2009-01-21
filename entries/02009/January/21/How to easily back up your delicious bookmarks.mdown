@@ -77,7 +77,7 @@ that the following code has largely been borrowed from the nice example
       http.request(req).body
     }
     
-    dumpfile = File.new('blah.xml', 'w')
+    dumpfile = File.new('delicious.xml', 'w')
     dumpfile.puts xml
     dumpfile.close
 
@@ -88,20 +88,19 @@ that the following code has largely been borrowed from the nice example
 Now that you’ve got a script to make an <abbr class='smallcaps'>XML</abbr>
 backup, why not have it automatically run so you don’t have to remember?
 
-Here’s my `[crontab][cron]`, which automatically runs the backup every day at
+Here’s my [`crontab`][cron], which automatically runs the backup every day at
 noon:
 
  [cron]: http://en.wikipedia.org/wiki/Cron "Wikipedia article for cron"
 
     00 12 * * * /Users/stilist/deliciousbackup.sh
 
-`deliciousbackup.sh` being the Bash script noted above.
+Where `deliciousbackup.sh` is the Bash script noted above.
 
 ## Ideas for further development
 
 1. These examples download the entire bookmark collection regardless of whether
-anything has changed. An additional call to `/posts/update` could save on
-bandwidth.
+anything has changed. Checking `/posts/update` could save on bandwidth.
 1. It’s sort of assumed that the service will always be around, and the
 <abbr class='smallcaps'>API</abbr> call will always succeed. Error handling
 would be useful.
