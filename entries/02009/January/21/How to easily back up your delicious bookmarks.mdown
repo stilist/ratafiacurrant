@@ -1,5 +1,5 @@
-PERMALINK: 
-PUBLISHED: 
+PERMALINK: /post/72095951/how-to-easily-back-up-your-delicious-bookmarks
+PUBLISHED: Jan 21st, 02009 11:40am
 TAGS: bash, delicious, dataportability, ruby
 
 <cite class='person'>[Jason Scott:][ftc]</cite>
