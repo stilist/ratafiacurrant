@@ -1,0 +1,121 @@
+PERMALINK: 
+PUBLISHED: 
+TAGS: bash, delicious, dataportability, ruby
+
+<cite class='person'>[Jason Scott:][ftc]</cite>
+
+> Don’t trust the Cloud to safekeep this stuff. Hell yeah, use the Cloud, blow
+> whatever you want into the Cloud. The Internet’s a big copy machine, as they
+> say. Blow copies into the Cloud. But please:
+
+> * Don’t blow anything into the Cloud that you don’t have a personal copy of.
+> * Insult, berate and make fun of any company that offers you something like a
+> “sharing” site that makes you push stuff in that you *can’t make copies out
+> of or which you can’t export stuff out of*. They will burble about technology
+> issues. *They are fucking lying.* They might go off further about business
+> models. *They are fucking stupid.* Make fun of these people, and their shitty
+> little Cloud Cities running on low-grade cooking fat and dreams. They will
+> die and they will take your stuff into the hole. Don’t let them.
+> * Recognize a Cloud when you see it. Are you paying for these services? No?
+> You are a sucker. You are giving people stuff for free. I pay for Vimeo and I
+> pay for Flickr and a couple other things. This makes me a customer. Neither
+> of these places get my only copy of anything.
+
+ [ftc]: http://ascii.textfiles.com/archives/1717 "Jason Scott's rant about trusting the cloud with data."
+
+In that spirit, I’m going to demonstrate two ways to export your delicious
+bookmarks into an <abbr class='smallcaps'>XML</abbr> file for safety. As
+[noted previously][delsearch], this is really a pretty simple thing to do — 
+you just need to call the <abbr class='smallcaps'>URL</abbr>
+`https://api.del.icio.us/v1/posts/all` and pass in [basic auth][basicauth].
+For more information on this and everything else in the delicious
+<abbr class='smallcaps'>API</abbr>, please refer to [the documentation][dapi].
+
+ [basicauth]: http://en.wikipedia.org/wiki/Basic_access_authentication "Wikipedia article for basic auth"
+ [dapi]: http://delicious.com/help/api "Delicious API documentation"
+ [delsearch]: /post/65077849/searching-your-delicious-bookmarks-for-a-lacking-tag "My ‘Searching your delicious bookmarks for a lacking tag’ entry"
+
+## `cURL`
+
+[`cURL`][curl] is definitely the easiest way to do this. Many web
+<abbr class='smallcaps'>API</abbr>s will readily interact with `cURL`, and
+delicious’ is especially simple due to the use of basic auth (meaning there’s
+no need to do a login dance) and the usage of
+<abbr class='smallcaps'>URL</abbr>s rather than arguments.
+
+ [curl]: http://en.wikipedia.org/wiki/CURL
+
+    curl --user 'username':'password' -o ~/Desktop/delicious.xml 'https://api.del.icio.us/v1/posts/all'
+
+We can turn this into a simple little Bash script:
+
+    #!/bin/bash
+    user='username'
+    password='password'
+    
+    curl --user $user:$password -o ~/Desktop/delicious.xml 'https://api.del.icio.us/v1/posts/all'
+
+## `Ruby`
+
+The Ruby form is a little more verbose, but still quite simple. Please note
+that the following code has largely been borrowed from the nice example
+[here][rubycode], which unfortunately does not specify a license.
+
+    #!/usr/bin/ruby
+    
+    require 'net/http'
+    require 'net/https'
+    
+    user = 'user'
+    password = 'password'
+    
+    http = Net::HTTP.new('api.del.icio.us', 443)
+    http.use_ssl = true
+    xml = http.start { |http|
+      req = Net::HTTP::Get.new('/v1/posts/all', {'User-Agent' => 'Delicious backup'})
+      req.basic_auth(user, password)
+      http.request(req).body
+    }
+    
+    dumpfile = File.new('blah.xml', 'w')
+    dumpfile.puts xml
+    dumpfile.close
+
+ [rubycode]: http://snippets.dzone.com/posts/show/290 "oreaq’s ‘del.icio.us backup’ snippet" 
+
+## Automated backups
+
+Now that you’ve got a script to make an <abbr class='smallcaps'>XML</abbr>
+backup, why not have it automatically run so you don’t have to remember?
+
+Here’s my `[crontab][cron]`, which automatically runs the backup every day at
+noon:
+
+ [cron]: http://en.wikipedia.org/wiki/Cron "Wikipedia article for cron"
+
+    00 12 * * * /Users/stilist/deliciousbackup.sh
+
+`deliciousbackup.sh` being the Bash script noted above.
+
+## Ideas for further development
+
+1. These examples download the entire bookmark collection regardless of whether
+anything has changed. An additional call to `/posts/update` could save on
+bandwidth.
+1. It’s sort of assumed that the service will always be around, and the
+<abbr class='smallcaps'>API</abbr> call will always succeed. Error handling
+would be useful.
+1. Only a single day’s archive is kept. This means that if something goes wrong
+with the online copy — accidentally deleting tags, account vandalism, or
+anything like that — you’ll have a maximum of twenty-four hours to fix it
+before the backup is overwritten.
+
+## Finally
+
+The code here is provided under the <abbr class='smallcaps'>MIT</abbr> license.
+For a copy, drop by [the git repository][git].
+
+ [git]: http://github.com/stilist/ratafiacurrant/tree/master
+
+And if you code up any of the improvements noted in the previous section, I’d
+love to know!
