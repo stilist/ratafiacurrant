@@ -1,0 +1,107 @@
+PERMALINK: /post/72339982/agents-of-alienation
+PUBLISHED: Jan 22nd, 02009 10:50am
+TAGS: artificialintelligence, generalmagic, jaronlanier, wired
+
+Back on the tenth, I read a somewhat unusual [essay][aoa] by
+<span class='person'>Jaron Lanier</span> seemingly railing against
+<abbr class='smallcaps' title='Artificial Intelligence'>AI</abbr>.
+The premise of the essay seemed to be that we can’t program artificial
+intelligences that are actually intelligent, so using them requires that we act
+as stupidly as the software. Lanier is quite negative about the whole thing,
+and seemingly feels the entire concept is hopeless and debasing.
+
+ [aoa]: http://jaronlanier.com/agentalien.html "‘Agents of Alienation’, 01995"
+
+This seemed pretty odd to me, since Lanier’s the guy who really
+[pushed virtual reality][jli] — and what’s a virtual world without computers
+that enforce the illusion?
+
+ [jli]: http://web.archive.org/web/20010520132549/http://www.advanced.org/jaron/vrint.html "‘A Portrait of the Young Visionary’, 01998"
+
+Yesterday I accidentally resumed the thread, and found a variety of writing
+that clarified what Lanier was really complaining
+about — <span class='company'>General Magic</span>’s “intelligent agents”,
+programmed with a language called Telescript.
+
+The first hint was in <span class='person'>David Bennahum</span>’s
+[MEME, issue two][meme102] (01995), which is actually about cloud storage:
+
+ [meme102]: http://memex.org/meme1-02.html
+
+> A company much maligned for its over-hyped “intelligent agents”,
+> General Magic, has created a programming
+> language called Telescript at an estimated <abbr class='smallcaps'>R&D</abbr>
+> cost of $300,000,000. Telescript is designed to allow mobile software
+> (<abbr lang='lat'>i.e.</abbr> intelligent agents) to share both disk space
+> and processing power over decentralized networks (Oh, yeah, you won’t find
+> much talk about that on their site right now. They are very wary of
+> over-hyping their technology). A little too far of its time, Telescript lies
+> temporarily dormant.
+
+Eventually I came to the [01994 <span class='magazine'>Wired</span> article][w]
+about General Magic and the Telescript software:
+
+ [w]: http://www.wired.com/wired/archive/2.04/general.magic_pr.html "‘Bill and Andy’s Excellent Adventure Ⅱ’"
+
+> <span class='person'>[Jim] White</span>, the wizard who had developed the
+> standard x.400 networking protocol, envisioned a network which was not merely
+> a pipeline for messages, but a platform of its own — a seething system where
+> every message was literally a computer program that executed itself as it
+> went out on the Net. Each message would be a software agent, a sort of
+> digital servant performing a task for the person who sent it out. Sounds
+> scary, and actually it is. But if you could control the agents you’d have
+> something terrifically powerful.
+
+> “At that time ([0]1990), we weren’t thinking in terms of agents, we weren’t
+> thinking in terms of making the network into a platform,” says
+> <span class='person'>Bill [Atkinson]</span>. “When Jim first brought up
+> agents, I had in my mind knowledge-navigator types — anthropomorphic,
+> obsequious little sci-fi agents. But then I realized that he wasn’t talking
+> about these human personalities so much as traveling programs that can take
+> my will with them.”
+
+> The system is called Telescript, and it’s the most interesting part of
+> General Magic technology. In previous network
+> architectures, a message was like a letter zipped down a chute — nothing
+> happened to it between the time it was sent and the time it was received. But
+> in Telescript, the network isn’t a system of chutes but a sort of beehive,
+> with the messages actively poking around and doing things. The closest thing
+> to it is Postscript, which changed the way printers worked by substituting
+> rigid output from a computer application to a vibrant page description
+> language that allows for the open-ended capabilities that come from computer
+> programming. <span class='person'>Marc Porat</span>, with typical flourish,
+> has described Telescript as “machinery that gives people the magical ability
+> to project their desires into cyberspace; that ties together networks of all
+> sorts into one seamless, invisible, central nervous system…”
+
+> …
+
+> “It’s the enabling piece,” explains Bill. “The real simple kind of example is
+> instead of calling up Dow Jones every morning and saying, ‘How’s Apple stock,
+> is it over a hundred yet?’ I’ll send an agent out. I don’t even have to know
+> what an agent is, I just fill out a little form and this agent goes out and
+> lives at Dow Jones, and six months later, a card drops in my pocket that
+> says, ‘Apple stock just broke a hundred.’”
+
+> “The beauty of Telescript,” says
+> <span class='person'>Andy [Hertzfeld]</span>, “is that now, instead of just
+> having a device to program, we now have the entire Cloud out there, where a
+> single program can go and travel to many different sources of information and
+> create sort of a virtual service. No one had conceived that before. The
+> example Jim White uses now is a date-arranging service where a software agent
+> goes to the flower store and orders flowers and then goes to the ticket shop
+> and gets the tickets for the show, and everything is communicated to both
+> parties.”
+
+This helped immensely. It explained the jab at the
+‘“<span class='magazine'>Wired</span>-style” community’, and explained more of
+what the ‘intelligent agent’ concept was actually about. I still don’t really
+understand why Lanier was so vehement — I agree that software is often
+simplistic and we have to struggle with it to accomplish things, but I fail to
+see how that invalidates the concept of machine assistants. Despite what he
+says, we *have* gotten better at it over time. Will we ever create a program
+that’s smarter than its creators?
+
+[Possibly][techsing], and its reality will be virtual.
+
+ [techsing]: http://en.wikipedia.org/wiki/Technological_singularity "Wikipedia article for technological singularity"
