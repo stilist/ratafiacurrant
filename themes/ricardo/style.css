@@ -40,9 +40,7 @@ abbr.smallcaps {
  text-transform: uppercase;
 }
 blockquote {
- border-left: 2px solid #aa5a32;
- margin-right: 2em;
- padding-left: 1em;
+ margin: 0 2em;
 }
 cite {
  font-style: normal;

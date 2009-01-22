@@ -55,7 +55,7 @@ We can turn this into a simple little Bash script:
     
     curl --user $user:$password -o ~/Desktop/delicious.xml 'https://api.del.icio.us/v1/posts/all'
 
-## `Ruby`
+## Ruby
 
 The Ruby form is a little more verbose, but still quite simple. Please note
 that the following code has largely been borrowed from the nice example

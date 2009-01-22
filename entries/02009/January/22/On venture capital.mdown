@@ -1,0 +1,27 @@
+PERMALINK: /post/72249064/on-venture-capital
+PUBLISHED: Jan 22nd, 02009 12:47am
+TAGS: economics, technology
+
+Just a quick one adapted from a few of my tweets ([1][1], [2][2], [3][3]).
+
+ [1]: https://twitter.com/stilist/status/1138378585
+ [2]: https://twitter.com/stilist/status/1138381099
+ [3]: https://twitter.com/stilist/status/1138384053
+
+[<cite class='person'>Dan Hanttula</cite>, 01999][pencom]:
+
+> Furthermore, a business teacher once told me, “you don’t get investment
+> funding unless you’re taking a company public, or planning to be acquired.”
+
+ [pencom]: http://pencomputing.com/magic_cap/magic_mirror30.html
+
+The first internet bubble burst hard, but everybody was happy to get right back
+on for the second bubble (roughly 02005–02008) and throw around just as much
+money on companies that clearly didn’t deserve more than a ten dollar bill.
+As a result of this craziness of giving out funding to everybody, it looks
+like [venture capital might fall in on itself][forbes].
+
+ [forbes]: http://www.forbes.com/forbes/2009/0112/066_print.html
+
+Now we just need to wait for the third round to hit so we can ride the carousel
+again…
