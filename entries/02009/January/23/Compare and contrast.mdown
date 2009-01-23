@@ -1,0 +1,9 @@
+PERMALINK: 
+PUBLISHED: 
+TAGS: theculture, theodorekaczynski, thought 
+
+<span class='person'>Theodore Kaczynski</span>’s [unnamed essay][ue], 01971;
+<span class='person'>Iain Banks</span>’ [Culture][tc].
+
+ [tc]: http://en.wikipedia.org/wiki/The_Culture "Wikipedia article for the Culture"
+ [ue]: http://en.wikisource.org/wiki/Unnamed_Essay_(1971) "Unnamed essay at Wikisource"

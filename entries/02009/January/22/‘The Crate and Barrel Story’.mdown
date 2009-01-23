@@ -14,9 +14,10 @@ who fills categories or will cut a good distribution deal.
 > specialty retailer has a point of view <abbr>vs.</abbr> a department store,
 > which tries to be all things to all people. <q>We’re editors, we’re selectors.
 > We make it easier for the consumer to find a particular variety of product.
-> If you like French traditional, you don’t come to Crate and Barrel. If you
-> want contemporary, you might come to us or any of our competitors, but you
-> know what we stand for.</q>
+> If you like French traditional, you don’t come to
+> <span class='company'>Crate and Barrel</span>. If you want contemporary, you
+> might come to us or any of our competitors, but you know what we stand
+> for.</q>
 
 Related: [<span class='magazine'>Monocle</span>’s video report on
 <span class='company' lang='de'>Bildschöne Bücher</span>][monocle].
