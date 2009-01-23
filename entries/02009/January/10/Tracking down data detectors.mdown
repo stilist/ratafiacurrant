@@ -2,10 +2,11 @@ PERMALINK: /post/69626208/tracking-down-data-detectors
 PUBLISHED: Jan 10th, 02009 3:26pm
 TAGS: apple, artificialintelligence, datadetector, technology
 
-Today I’ve been looking for information about the origins of Apple’s ‘data
-detector’ technology. Although it was available in some form starting in the
-late 90s, it seems to have disappeared at some point, [resurfacing][leodd] with
-the release of Leopard. ([See also][mwdd].)
+Today I’ve been looking for information about the origins of
+<span class='company'>Apple</span>’s ‘data detector’ technology. Although it
+was available in some form starting in the late 90s, it seems to have
+disappeared at some point, [resurfacing][leodd] with the release of Leopard.
+([See also][mwdd].)
 
  [leodd]: http://www.macosxhints.com/article.php?story=20071025160504230 "Mac OS X Hits entry about data detectors"
  [mwdd]: http://www.macworld.com/article/135740/2008/09/mail2ical.html "Macworld entry about data detectors and Mail.app"
@@ -28,12 +29,12 @@ assume this means anything.
 Anyhow, here are some historic mentions of the subject I’ve found, sorted
 roughly by publication date:
 
-## <cite>[<span class='book'>Collaborative, programmable intelligent agents</span>][cpia] (Bonnie Nardi, James Miller, David Wright; 1998)</cite>
+## <cite>[<span class='book'>Collaborative, programmable intelligent agents</span>][cpia] (<span class='person'>Bonnie Nardi</span>, <span class='person'>James Miller</span>, <span class='person'>David Wright</span>; 01998)</cite>
 
  [cpia]: http://miramontes.com/writing/add-cacm/index.php
 
-This is presumably the first public mention of the technology [<ins>**UPDATE:**
-it is not; [see here][nytdd]</ins>], and the paper
+This is presumably the first public mention of the technology <ins>**Update:**
+it is not; [see here][nytdd]</ins>, and the paper
 was published in <span class='magazine'>Communications of the
 <abbr class='smallcaps' title='Association for Computing Machinery'>ACM</abbr></span>
 in March of 1998.
@@ -49,7 +50,8 @@ power.
 
 > The goal of our research on intelligent agents was to create something useful
 > for our customers, but something with that sprinkling of pixie dust that
-> would make it seem “intelligent.” [Ben] Shneiderman observed that claims
+> would make it seem “intelligent.”
+> <span class='person'><ins>Ben</ins> Shneiderman</span> observed that claims
 > about intelligent software agents are vague, dreamy and unrealized. We
 > started from a simple but focused approach to agents, that they should have
 > the ability to infer appropriate high-level goals from user actions and
@@ -60,10 +62,10 @@ power.
 > clients is in working with imprecise requests. Beyond this, our general
 > design strategy was to keep the user’s question in front of us at all times:
 > Will this software do something useful for me, in an intelligent way that
-> makes me more productive? The system we describe here — Apple Data Detectors
-> — meets our criteria of being unobtrusive, having the ability to infer user
-> needs, and doing useful work. Apple Data Detectors will ship as a product in
-> 1997.
+> makes me more productive? The system we describe here — Apple Data
+> Detectors — meets our criteria of being unobtrusive, having the ability to
+> infer user needs, and doing useful work. Apple Data Detectors will ship as a
+> product in <ins>0</ins>1997.
 
 > …
 
@@ -104,7 +106,7 @@ power.
 > Detectors.
 
 I’ve put together a comparison shot of the data detectors being used on an
-email message. The top capture demonstrates the system in use in 1997, and is
+email message. The top capture demonstrates the system in use in 01997, and is
 included with the article; the lower one demonstrates the system as it appears
 in Leopard.
 
@@ -116,14 +118,15 @@ The plan included the ability to build on other detectors, which created
 something of a dependency jumble:
 
 > The solution for shared, compatible detectors requires developers to register
-> their detectors. Our registry is supported by Component Integration Labs, a
-> company responsible for maintaining the Apple Event Suites (among other
-> standards). Apple Data Detectors will make use of the registry which contains
-> definitions for classes of data objects and for events that operate on the
-> objects. Classes of detectors will be defined as data objects and developers
-> must write detectors that detect required fields of the detector class.
-> Detectors can detect more information than the class requires, but they must
-> detect at least the data that the class requires.
+> their detectors. Our registry is supported by
+> <span class='company'>Component Integration Labs</span>, a company
+> responsible for maintaining the Apple Event Suites (among other standards).
+> Apple Data Detectors will make use of the registry which contains definitions
+> for classes of data objects and for events that operate on the objects.
+> Classes of detectors will be defined as data objects and developers must
+> write detectors that detect required fields of the detector class. Detectors
+> can detect more information than the class requires, but they must detect at
+> least the data that the class requires.
 
 This may still be an issue as a result of the `import` command; I don’t know
 what happens if a detector attempts to pull an external detector that doesn’t
@@ -133,15 +136,15 @@ available other than the included patterns.
 This article was briefly mentioned in [a paper on teaching machines how to
 understand human language][sund]:
 
- [sund]: http://alumni.media.mit.edu/~mueller/papers/storyund.html "Erik Mueller—‘Prospects for in-depth story understanding by computer"
+ [sund]: http://alumni.media.mit.edu/~mueller/papers/storyund.html "Erik Mueller—‘Prospects for in-depth story understanding by computer’"
 
 > **Recognizing textual entities**
 
 > […] These entities may be detected using various techniques. Regular
 > expressions and pattern matching are often used. Apple Data Detectors (Nardi,
-> Miller, & Wright, 1998) use context-free grammars.
+> Miller, & Wright, <ins>0</ins>1998) use context-free grammars.
 
-## <cite>[<span class='book'>AppleScript in a Nutshell</span>][ain], <abbr>pp.</abbr> 35 & 36 (Bruce Perry; 2001)</cite>
+## <cite>[<span class='book'>AppleScript in a Nutshell</span>][ain], <abbr>pp.</abbr> 35 & 36 (<span class='person'>Bruce Perry</span>; 02001)</cite>
 
  [ain]: http://books.google.com/books?id=rW5k0w_wC3MC&pg=PA35
 
@@ -155,24 +158,26 @@ understand human language][sund]:
 > 20, *Apple Data Detectors Extension*, is devoted to
 > <abbr class='smallcaps'>ADD</abbr>.
 
-Unfortunately, only [two pages of chapter 20][c20gb] are available in Google’s
-online viewer, and Amazon’s preview functionality won’t work with me. With the
-examples given on the pages that *are* available, it seems as though one would
-define detectors externally and ask for them via AppleScript. The detector
-presumably gives a return value which is treated as any other AppleScript
-object data. The sample code uses the detector patterns as a way to create
-custom detector actions.
+Unfortunately, only [two pages of chapter 20][c20gb] are available in
+<span class='company'>Google</span>’s online viewer, and
+<span class='company'>Amazon</span>’s preview functionality won’t work with me.
+With the examples given on the pages that *are* available, it seems as though
+one would define detectors externally and ask for them via AppleScript. The
+detector presumably gives a return value which is treated as any other
+AppleScript object data. The sample code uses the detector patterns as a way to
+create custom detector actions.
 
  [c20gb]: http://books.google.com/books?id=rW5k0w_wC3MC&pg=PA328
 
-## <cite>[<span class='book'>Infrastructure for Electronic Business on the Internet</span>][ebi], <abbr>p.</abbr> 105 (Veljko Milutinović; 2001)</cite>
+## <cite>[<span class='book'>Infrastructure for Electronic Business on the Internet</span>][ebi], <abbr>p.</abbr> 105 (<span class='person'>Veljko Milutinović</span>; 02001)</cite>
 
  [ebi]: http://books.google.com/books?id=M485uPr9qlMC&pg=PA105&lpg=PA105
 
 > **5.2.3 The Apple Data Detector**
 
 > The Apple Data Detector Software Package was shipped as a product first in
-> 1997. Later on, newer and more sophisticated versions were introduced.
+> <ins>0</ins>1997. Later on, newer and more sophisticated versions were
+> introduced.
 
 > The essence of the product is in being able to extract semantics from
 > everyday documents, without asking the user to recreate the documents in a

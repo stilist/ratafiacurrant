@@ -73,6 +73,12 @@ ins {
  background-color: rgba(171, 136, 118, .15); /* #ab8876 */
  text-decoration: none;
 }
+ins:before {
+ content: '[';
+}
+ins:after {
+ content: ']';
+}
 strong {
  font-size: .9em;
  font-weight: normal;
@@ -132,8 +138,20 @@ strong {
 }
 
 #nextprev {
+ height: 1em;
  margin: 4em;
- text-align: center;
+ position: relative;
+}
+#nextprev span {
+ display: block;
+ position: absolute;
+ width: 49%;
+}
+#nextprev #nextpage {
+ right: 0;
+}
+#nextprev #prevpage {
+ text-align: right;
 }
 
 #footer {

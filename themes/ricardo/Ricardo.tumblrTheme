@@ -77,8 +77,8 @@
   {/block:PermalinkPage}
 
   {block:Pagination}<div id='nextprev'>
-   {block:PreviousPage}<a href='{PreviousPage}' id='prevpage'>← Newer</a>{/block:PreviousPage}
-   {block:NextPage}<a href='{NextPage}' id='nextpage'>Older →</a>{/block:NextPage}
+   {block:PreviousPage}<span id='prevpage'><a href='{PreviousPage}'>← Newer</a></span>{/block:PreviousPage}
+   {block:NextPage}<span id='nextpage'><a href='{NextPage}'>Older →</a></span>{/block:NextPage}
   </div>{/block:Pagination}
 
   <p id='footer'>Copyright <a href='mailto:stilist@ratafia.info'>stilist</a>, and provided under the <a href='http://creativecommons.org/licenses/by-nc/3.0/us/' rel='license'><abbr class='smallcaps' title='Creative Commons attribution, non-commercial'>CC:BY-NC</abbr></a> license. <a href='http://github.com/stilist/ratafiacurrant/tree/master'>Check out how this is made.</a></p>

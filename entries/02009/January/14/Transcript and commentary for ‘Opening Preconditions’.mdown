@@ -430,7 +430,7 @@ go!
 > <q>Yeah. It’s the password… nobody… yeah. The major blogging platforms except
 > for Blogger — which we don’t support because they don’t use the [MetaWeblog
 > <abbr class='smallcaps'>API</abbr>][mwapi] — use OAuth authentication. And I
-> mean, that’s great for Google [somthing].</q>
+> mean, that’s great for Google [something].</q>
 
 > <cite><abbr>CM:</abbr></cite>
 > <q>And Movable Type is going to be supporting OAuth in the next release, I

@@ -43,7 +43,7 @@ about General Magic and the Telescript software:
 
  [w]: http://www.wired.com/wired/archive/2.04/general.magic_pr.html "‘Bill and Andy’s Excellent Adventure Ⅱ’"
 
-> <span class='person'><ins>[Jim]</ins> White</span>, the wizard who had
+> <span class='person'><ins>Jim</ins> White</span>, the wizard who had
 > developed the standard x.400 networking protocol, envisioned a network which
 > was not merely a pipeline for messages, but a platform of its own — a
 > seething system where every message was literally a computer program that
@@ -52,9 +52,9 @@ about General Magic and the Telescript software:
 > out. Sounds scary, and actually it is. But if you could control the agents
 > you’d have something terrifically powerful.
 
-> “At that time (<ins>[0]</ins>1990), we weren’t thinking in terms of agents,
+> “At that time (<ins>0</ins>1990), we weren’t thinking in terms of agents,
 > we weren’t thinking in terms of making the network into a platform,” says
-> <span class='person'>Bill <ins>[Atkinson]</ins></span>. “When Jim first
+> <span class='person'>Bill <ins>Atkinson</ins></span>. “When Jim first
 > brought up agents, I had in my mind knowledge-navigator
 > types — anthropomorphic, obsequious little sci-fi agents. But then I realized
 > that he wasn’t talking about these human personalities so much as traveling
@@ -84,7 +84,7 @@ about General Magic and the Telescript software:
 > says, ‘Apple stock just broke a hundred.’”
 
 > “The beauty of Telescript,” says
-> <span class='person'>Andy <ins>[Hertzfeld]</ins></span>, “is that now,
+> <span class='person'>Andy <ins>Hertzfeld</ins></span>, “is that now,
 > instead of just having a device to program, we now have the entire Cloud out
 > there, where a single program can go and travel to many different sources of
 > information and create sort of a virtual service. No one had conceived that

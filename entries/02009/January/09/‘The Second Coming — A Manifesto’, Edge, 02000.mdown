@@ -10,11 +10,11 @@ The manifest seems to be effectively one for cloud computing. The whole
 thing is certainly worth reading, but I’ve pulled out some highlights for
 commentary.
 
-> Theme of the Second Age [of computing] now approaching: computing transcends
-> computers. Information travels through a sea of anonymous, interchangeable
-> computers like a breeze through tall grass. A desktop computer is a
-> scooped-out hole in the beach where information from the Cybersphere wells up
-> like seawater.
+> Theme of the Second Age <ins>of computing</ins> now approaching: computing
+> transcends computers. Information travels through a sea of anonymous,
+> interchangeable computers like a breeze through tall grass. A desktop
+> computer is a scooped-out hole in the beach where information from the
+> Cybersphere wells up like seawater.
 
 …
 
@@ -63,13 +63,13 @@ be the method that will be used for access and verification. Perhaps it was
 the spirit of the dot-com boom that influenced the choice, in the same way I
 assume the ‘cyberbody’ term is a result of sci-fi and early web culture.
 Regardless, it seems that the more immediate method is email or user logins of
-some manner (e.g. MobileMe, which presumably binds everything to one’s Apple
-email/password combo). Perhaps things *will* shift in the direction of
-keycards, or biometrics, or something similar, but I wouldn’t look for it as an
-early sign.
+some manner (e.g. MobileMe, which presumably binds everything to one’s
+<span class='company'>Apple</span> email/password combo). Perhaps things *will*
+shift in the direction of keycards, or biometrics, or something similar, but I
+wouldn’t look for it as an early sign.
 
 Of course, my perspective is just as rooted in the near-future as Gelernter’s
-was. :)
+was. <span class='emoticon smile'>:)</span>
 
 > Any well-designed next-generation electronic gadget will come with a
 > “Disable Omniscience” button.
@@ -92,8 +92,9 @@ prompted by the success of Gmail).
 
  [as3]: http://en.wikipedia.org/wiki/Amazon_S3
 
-> The windows-menus-mouse “desktop” interface, invented by Xerox and Apple
-> and now universal, was a brilliant invention and is now obsolete. It wastes
+> The windows-menus-mouse “desktop” interface, invented by
+> <span class='company'>Xerox</span> and <span class='company'>Apple</span> and
+> now universal, was a brilliant invention and is now obsolete. It wastes
 > screen-space on meaningless images, fails to provide adequate clues to what
 > is inside the files represented by those blurry little images…
 
@@ -123,7 +124,7 @@ Worth use as a maxim.
 
 Stuff like Spotlight and Google Desktop Search are helping us move in this
 direction. Of course, the idea (and even software) isn’t really new. From
-[an article by Chuq von Rospach][cvr]:
+[an article by <span class='person'>Chuq von Rospach</span>][cvr]:
 
 > I came to Apple to work on its Unix products — at the time, a version of Unix
 > called <abbr class='smallcaps'>A/UX</abbr>. I spent the first half of my time
@@ -133,10 +134,10 @@ direction. Of course, the idea (and even software) isn’t really new. From
 > products were at best marginal successes and generally soon cancelled.
 > AppleSearch was by far my favorite — a technology to help you find content on
 > your server. You may have heard of its grandson, called Spotlight, standard
-> since April [0]2005 on Mac OS X. Ten years? That’s a pretty long gestation
-> for a feature.
+> since April <ins>0</ins>2005 on Mac OS X. Ten years? That’s a pretty long
+> gestation for a feature.
 
- [cvr]: http://www.guardian.co.uk/technology/2009/jan/02/apple-macworld-lookback/print "‘Enjoying the show, avoiding  the flamethrower: life inside Apple’; The Guardian"
+ [cvr]: http://www.guardian.co.uk/technology/2009/jan/02/apple-macworld-lookback/print "‘Enjoying the show, avoiding the flamethrower: life inside Apple’; The Guardian"
 
 Back to the manifesto.
 

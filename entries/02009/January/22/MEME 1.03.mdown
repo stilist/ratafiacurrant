@@ -8,8 +8,8 @@ TAGS: apple, davidbennahum, history, technology
 
 > Thanks to the microprocessor things get so much more powerful so quickly that
 > there is a real fear of not being “backwards compatible”, meaning the files
-> from <ins>[0]</ins>1982 should still somehow run in the word-processor from
-> <ins>[0]</ins>1982, even if it is <ins>[0]</ins>1995. This kind of
+> from <ins>0</ins>1982 should still somehow run in the word-processor from
+> <ins>0</ins>1982, even if it is <ins>0</ins>1995. This kind of
 > uncertainty scares people with really big pockets, people who have thousands
 > of employees and can spend thousands on one order. From day one those people
 > were just \*not\* going to spend money on a company called
@@ -21,7 +21,7 @@ TAGS: apple, davidbennahum, history, technology
 
 > In 1981 <span class='company'><abbr class='smallcaps'>IBM</abbr></span>
 > launched its first personal computer, the aptly named Personal Computer. Back
-> then there was only one kind of personal computer —  the video game machine.
+> then there was only one kind of personal computer — the video game machine.
 > You had three choices: <span class='company'>Atari</span>, Apple and
 > <span class='company'>Commodore</span>. Weirdoes who liked monochrome bought
 > TRS-80s (<abbr class='smallcaps'>aka</abbr> the “trash eighty”) from
@@ -32,7 +32,7 @@ TAGS: apple, davidbennahum, history, technology
 > <abbr class='smallcaps'>IBM</abbr> is ever going to convince corporate
 > America to buy this thing called a <abbr class='smallcaps'>PC</abbr>. So
 > Apple, rightfully, walked away from a market they never were a contender in;
-> and from <ins>[0]</ins>1981 to <ins>[0]</ins>1994 the office market drove the
+> and from <ins>0</ins>1981 to <ins>0</ins>1994 the office market drove the
 > expansion of personal computer industry.
 
 > …
