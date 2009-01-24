@@ -1,0 +1,23 @@
+BOOKMARK: http://delicious.com/url/76cb8c373e99a854936d3a7f884dad57
+LINK: http://www.wired.com/wired/archive/5.01/negroponte_pr.html
+PERMALINK: /post/72809378/surfaces-and-displays
+PUBLISHED: Jan 24th, 02009 10:50am
+TAGS: digitalpaper, eink, kindle
+
+<span class='person'>Nicholas Negroponte</span> and
+<span class='person'>Joe Jacobson</span>, <span class='magazine'>Wired</span>,
+01997:
+
+> Now, put that thin coating on the front of the page, and instead of putting
+> ink in those capsules, imagine stuffing them with ping-pong balls one
+> one-thousandth of their normal size, black on one side and white on the
+> other. Then add some lubricant. Assuming you can control the rotation of the
+> contents of each capsule — independently, electronically, and with the
+> knowledge of where it’s facing — you have [electronic and reusable
+> paper][eink].
+
+ [eink]: http://en.wikipedia.org/wiki/E_Ink "Wikipedia article for E Ink"
+
+I guess it took quite a while to get the [Kindle][kindle]’s screen working.
+
+ [kindle]: http://en.wikipedia.org/wiki/Amazon_Kindle "Wikipedia article for Amazon Kindle"
