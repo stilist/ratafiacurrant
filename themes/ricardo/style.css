@@ -69,6 +69,12 @@ h2 {
  line-height: 1.6em;
  margin: 3em 0 1em 0;
 }
+hr {
+ border: none;
+ border-top: 1px solid #ab8876;
+ margin: 2em auto;
+ width: 150px;
+}
 ins {
  background-color: rgba(171, 136, 118, .15); /* #ab8876 */
  text-decoration: none;
