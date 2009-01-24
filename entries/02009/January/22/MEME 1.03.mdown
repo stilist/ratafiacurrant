@@ -19,10 +19,11 @@ TAGS: apple, davidbennahum, history, technology
 
 > A little bit of history.
 
-> In 1981 <span class='company'><abbr class='smallcaps'>IBM</abbr></span>
-> launched its first personal computer, the aptly named Personal Computer. Back
-> then there was only one kind of personal computer — the video game machine.
-> You had three choices: <span class='company'>Atari</span>, Apple and
+> In <ins>0</ins>1981
+> <span class='company'><abbr class='smallcaps'>IBM</abbr></span> launched its
+> first personal computer, the aptly named Personal Computer. Back then there
+> was only one kind of personal computer — the video game machine. You had
+> three choices: <span class='company'>Atari</span>, Apple and
 > <span class='company'>Commodore</span>. Weirdoes who liked monochrome bought
 > TRS-80s (<abbr class='smallcaps'>aka</abbr> the “trash eighty”) from
 > <span class='company'>Radio Shack</span> with an audio-cassette tape drive.
