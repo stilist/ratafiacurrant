@@ -1,0 +1,114 @@
+PERMALINK: 
+PUBLISHED: 
+TAGS: books, digitalgoods, library
+
+In the roughly two decades the Web has existed, we’ve all been participating in
+an experiment to see what happens with post-scarcity goods: things that can be
+reproduced infinitely, at effectively zero cost for reproduction, distribution,
+or consumption. The most obvious result is that [printed newspapers are
+dying][delnewec], because they try to be as temporarily-relevant and
+discardable as email. To be sure, it’s hard for an kid in a bedroom to make a
+product as high-quality as the <span class='newspaper'>New York Times</span>,
+and even harder to get good reporting from around the world. Journalism is
+difficult.
+
+ [delnewec]: http://delicious.com/stilist/newspaper%20economics
+
+But the existence of newspapers is founded in the fact that, for a span of
+several hundreds of years, they were the most efficient way to deliver
+information. Much like the record business, though, they’ve suddenly discovered
+that more efficient delivery mechanisms are possible. Not only possible, but
+far simpler and more desirable for everybody involved.
+
+This realization isn’t limited to news and music, though. What of the book?
+
+While not an especially efficient information carrier, books can provide an
+*experience* that is — for the moment, anyhow — impossible to match. They’re
+dense, they’re easily transported, they have a high visual resolution, they’re
+coherent.
+
+But just like newspapers and records, their existence is predicated on the
+idea of scarcity.
+
+[‘MEME 1.06’, David Bennahum, 01995][me106]
+
+> When a library becomes a digital library, a lot of things change. In a
+> nutshell, it starts to look just like a publisher. It actually becomes a
+> competitor to the likes of <span class='company'>HarperCollins</span> and
+> <span class='company'>Random House</span>. First of all, you no longer have
+> to physically go to the library to get the information. You can read it
+> on-screen. Second, there is no theoretical limit of the number of people who
+> can “borrow” the same book once the book is in bit form. In such a world, a
+> publisher has good reason to rescind the bond between publisher, library and
+> reader. In the old days that bond meant publishers tolerated libraries on one
+> condition — that the library not charge for reading books. This guaranteed
+> that the library’s commercial impact on publishers remained negligible. But
+> with a digital library, if the choice is `publisher.com` or
+> `library.net` — what are you going to choose? At `library.net` you can
+> read the same book for free. At `publisher.com` they’ll bill you. Both are a
+> mouse click away, both have the same content you want. But one is free and
+> the other isn’t. So, it is no surprise that publishers are simply refusing to
+> give libraries electronic rights; or, if the library is fortunate, it gets to
+> lease the electronic rights on a renewable basis — thereby gutting the
+> library of another precious asset: its ability to build a collection.
+
+ [me106]: http://memex.org/meme1-06.html
+
+* * *
+
+So what can you do when scarcity ceases to be a factor? One possibility I’ve
+noticed recently is shifting these analog goods into being desirable as
+objects, rather than just serving as an information medium — not unlike
+signed copies of a painting.
+
+I first picked up this thread in [an <abbr>op. ed.</abbr> piece by James
+Gleick][gleick]:
+
+ [gleick]: http://nytimes.com/2008/11/30/opinion/30gleick.html "‘How to Publish Without Perishing’, 02008, New York Times"
+
+> One could imagine the book, venerable as it is, just vanishing into the
+> ether. It melts into all the other information species searchable through
+> <span class='company'>Google</span>’s most democratic of engines: the Web
+> pages, the blogs, the organs of printed and broadcast news, the general
+> chatter. (Thanks for everything, <span class='person'><ins>Johannes</ins>
+> Gutenberg</span>, and now goodbye.)
+
+> But I don’t see it that way. I think, on the contrary, we’ve reached a
+> shining moment for this ancient technology. Publishers may or may not figure
+> out how to make money again (it was never a good way to get rich), but their
+> product has a chance for new life: as a physical object, and as an idea, and
+> as a set of literary forms.
+
+> …
+
+> In bookstores, the trend for a decade or more has been toward shorter shelf
+> life. Books have had to sell fast or move aside. Now even modest titles have
+> been granted a gift of unlimited longevity.
+
+> What should an old-fashioned book publisher do with this gift? Forget about
+> cost-cutting and the mass market. Don’t aim for instant blockbuster
+> successes. You won’t win on quick distribution, and you won’t win on price.
+> Cyberspace has that covered.
+
+> Go back to an old-fashioned idea: that a book, printed in ink on durable
+> paper, acid-free for longevity, is a thing of beauty. Make it as well as you
+> can. People want to cherish it.
+
+* * *
+
+But what about libraries?
+
+I think this is a place that the [curated approach][curation] would work well.
+It’s impossible to compete on quantity when your opponent has, say, 85% of
+everything ever printed. But you can compete on selection. Anybody who can
+consistently share good products — in this case, shelf choices — will
+develop an audience. 
+
+ [curation]: http://ratafia.info/post/72455036/the-crate-and-barrel-story
+
+Is there a business model in it? I don’t know, but it can’t be much worse than
+the current approach of endowments and government funding. Maybe they could
+run book clubs based around rediscovering classic or forgotten titles and
+charge a membership fee.
+
+Books aren’t dead unless publishers refuse to keep them alive.
