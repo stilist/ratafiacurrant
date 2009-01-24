@@ -1,0 +1,64 @@
+PERMALINK: 
+PUBLISHED: 
+TAGS: bash, bugs, git
+
+In posting my last entry, I discovered an unusual bug that lies somewhere
+between git, the Bash shell, and <abbr class='smallcaps'>OS</abbr> Ⅹ, as
+indicated by this entry’s title.
+
+I’d been aware for some time that <abbr class='smallcaps'>OS</abbr> Ⅹ treats
+colons in filenames in a special manner, because they’re the system’s internal
+signifier of subdirectories — much like Windows’ use of `\`. Although the
+character is forbidden in filenames because of this, the system tries to be
+helpful by [converting it into a dash][colon] rather than complaining.
+
+ [colon]: http://www.macosxhints.com/article.php?story=20030205062725727
+
+As it happens, <abbr class='smallcaps'>OS</abbr> Ⅹ complies with
+<abbr class='smallcaps'>POSIX</abbr> and is a [certified
+<abbr class='smallcaps'>UNIX</abbr>][unix]. <abbr class='smallcaps'>UNIX</abbr>
+doesn’t use colons for subdirectories; it uses forward slashes (`/`), a fact
+reflected by <abbr class='smallcaps'>URL</abbr>s.
+
+ [unix]: http://www.apple.com/macosx/technology/unix.html
+
+Under ordinary circumstances, all this magic is invisible and nobody needs to
+know it’s happening. But even the best magic tends to have a flaw of some kind.
+
+Apparently something involved in git doesn’t realize this magic is happening,
+and so causes problems. Specifically: I made a file named
+
+    ‘The ecstasy of influence: A plagiarism’.mdown
+
+This was automatically rendered as
+
+    ‘The ecstasy of influence- A plagiarism’.mdown
+
+Everything seemed fine; in the Terminal I was able to do a `git add` and `git
+commit` without issue. But when I tried to do `git push`, I received a pair of
+odd errors:
+
+    fatal: cannot handle shell internally
+    fatal: remote end hung up
+
+Because GitHub has been having technical issues recently, I assumed it was a
+problem on their end. But the site was up and seemed to be operating fine, and
+reattemping the `push` gave the same results. Google was of little use, giving
+no results for the query ["cannot handle shell internally"][handle].
+
+ [handle]: http://google.com/search?q=%22cannot%20handle%20shell%20internally%22
+
+Having no further ideas, I remembered the internal colon translation and
+decided to try renaming the file, switching the fake dash for some real ones:
+
+    git mv ‘The\ ecstasy\ of\ influence-\ A\ plagiarism’.mdown ‘The\ ecstasy\ of\ influence--\ A\ plagiarism’.mdown
+
+After a new commit to hold this change, `git push` worked.
+
+I don’t know where the blame lies for this; whether it’s a problem in Bash, or
+<abbr class='smallcaps'>OS</abbr> Ⅹ’s magic, or whatever git does to send
+changesets over the network, or something else entirely. It’s probably not a
+very common problem, either, given the lack of search results.
+
+But hopefully this will save somebody from frustration in the future, and my
+brief experience will have been worthwhile.
