@@ -1,5 +1,5 @@
-PERMALINK: 
-PUBLISHED: 
+PERMALINK: /post/72734532/git-vs-bash-vs-os-x-vs-colons
+PUBLISHED: Jan 24th, 02009 12:27am
 TAGS: bash, bugs, git
 
 In posting my last entry, I discovered an unusual bug that lies somewhere
