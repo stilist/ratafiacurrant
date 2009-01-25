@@ -10,7 +10,7 @@ html, body {
 }
 html {
  background-attachment: fixed;
- background-image: url('http://static.ratafia.info/ricardo/gradient.png');
+ background-image: url('http://img.photobucket.com/albums/v240/stilist/Tumblr%20interface/ricardogradient.png');
  background-position: top left;
  background-repeat: repeat-x;
 }
@@ -105,19 +105,19 @@ strong {
  text-indent: -1000em;
 }
 #nameplate #logo {
- background-image: url('http://static.ratafia.info/ricardo/logo.png');
+ background-image: url('http://img.photobucket.com/albums/v240/stilist/Tumblr%20interface/ricardologo.png');
  height: 67px;
  width: 750px;
 }
 #nameplate #archives {
- background-image: url('http://static.ratafia.info/ricardo/archives.png');
+ background-image: url('http://img.photobucket.com/albums/v240/stilist/Tumblr%20interface/ricardoarchives.png');
  bottom: 0;
  height: 27px;
  left: 252px;
  width: 114px;
 }
 #nameplate #links {
- background-image: url('http://static.ratafia.info/ricardo/links.png');
+ background-image: url('http://img.photobucket.com/albums/v240/stilist/Tumblr%20interface/ricardolinks.png');
  bottom: 0;
  height: 27px;
  right: 299px;
