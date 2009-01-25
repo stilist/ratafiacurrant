@@ -8,7 +8,7 @@
   <link rel='icon' type='text/css'
         href='http://static.ratafia.info/favicon.ico'>
   <link rel='stylesheet' type='text/css' media='screen'
-        href='http://static.ratafia.info/style.css'>
+        href='http://static.ratafia.info/ricardo/style.css'>
   <link rel='openid.server' href='http://www.myopenid.com/server'>
   <link rel='openid.delegate' href='http://stilist.myopenid.com/'>
   <link rel='openid2.local_id' href='http://stilist.myopenid.com'>
