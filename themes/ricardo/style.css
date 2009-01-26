@@ -39,9 +39,6 @@ abbr.smallcaps {
  font-size: .9em;
  text-transform: uppercase;
 }
-blockquote {
- margin: 0 2em;
-}
 cite {
  font-style: normal;
 }
@@ -51,15 +48,18 @@ code {
  line-height: 1.6em;
 }
 h1 {
- font-size: 1.55em;
+ font-size: 18pt;
  font-weight: normal;
- line-height: 1.5em;
- margin: 64px 0 0 0; 
+ line-height: 1.6em;
+ margin: 70px 0 11px 0; 
 }
 h1 a {
  border: none;
  display: block;
  margin-left: -1px;
+}
+h1 code, h2 code {
+ font-size: inherit;
 }
 h1 + .copy > h2:first-child {
  margin-top: 0.9em;
@@ -67,12 +67,12 @@ h1 + .copy > h2:first-child {
 h2 {
  font-size: 1.1em;
  line-height: 1.6em;
- margin: 3em 0 1em 0;
+ margin: 2.55em 0 1em 0;
 }
 hr {
  border: none;
  border-top: 1px solid #ab8876;
- margin: 2em auto;
+ margin: 29px auto 30px auto;
  width: 150px;
 }
 ins {
@@ -93,7 +93,7 @@ strong {
 }
 
 #nameplate {
- height: 113px;
+ height: 118px;
  list-style: none;
  position: relative;
 }
@@ -106,7 +106,7 @@ strong {
 }
 #nameplate #logo {
  background-image: url('http://static.ratafia.info/ricardo/logo.png');
- height: 67px;
+ height: 77px;
  width: 750px;
 }
 #nameplate #archives {
@@ -128,10 +128,14 @@ strong {
  margin: 0 auto;
  width: 536px;
 }
-.entry p {
- margin: 1em 0;
+.entry blockquote {
+ margin: 0 2em;
 }
-.entry .copy > p:first-child {
+.entry ol, .entry p, .entry ul {
+ margin: 1.55em 0;
+}
+.entry .copy > p:first-child,
+.entry .copy > blockquote:first-child > p:first-child {
  margin-top: 9px;
 }
 .entry .signoff {
@@ -145,7 +149,7 @@ strong {
 
 #nextprev {
  height: 1em;
- margin: 4em;
+ margin: 4.5em auto;
  position: relative;
 }
 #nextprev span {
@@ -161,7 +165,7 @@ strong {
 }
 
 #footer {
- margin-top: 4em;
+ margin-top: 5.05em;
 }
 
 /* disqus */
