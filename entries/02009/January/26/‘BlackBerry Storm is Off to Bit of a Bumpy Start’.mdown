@@ -1,0 +1,24 @@
+BOOKMARK: http://delicious.com/url/2aeb7eab938be249a991f51e1bbcd528
+LINK: http://online.wsj.com/article/SB123292905716613927.html
+PERMALINK: /post/73306064/blackberry-storm-is-off-to-bit-of-a-bumpy-start
+PUBLISHED: Jan 26th, 02009 3:41pm
+TAGS: blackberry, design, technology
+
+> <span class='company'>Verizon</span> and
+> <span class='company'><abbr class='smallcaps'>RIM</abbr></span>, determined
+> to release the Storm in time for the holidays, rushed the device to market
+> despite glitches in the stability of the phone’s operating system, according
+> to people close to the launch.
+
+> <abbr class='smallcaps'>RIM</abbr> co-Chief
+> Executive <span class='person'>Jim Balsillie</span> said the companies made
+> the crucial Black Friday deadline <q>by the skin of their teeth,</q> after
+> missing a planned October debut. Mr. Balsillie said such scrambles — and the
+> subsequent software glitches that need to be fixed — are part of the “new
+> reality” of making complex cellphones in large volumes.
+
+> Verizon and <abbr class='smallcaps'>RIM</abbr> provided a software update for
+> the Storm in December that resolved some user concerns.
+
+I guess the alternative of ‘not getting into a situation where we’re scrambling’
+didn’t go over so well with investors.
