@@ -1,0 +1,22 @@
+PERMALINK: 
+PUBLISHED: 
+TAGS: meta
+
+I’ve created a [new git repository][misc] to hold bits and bobs of my code. I’m
+still looking around to see what I can put in, so it’s a little thin right now.
+
+ [misc]: http://github.com/stilist/miscellaneous/
+
+Among other things, this allows me to finally make a [gallery of page designs
+that never were][gpd]. At present the archive begins in late 02001. I began
+writing <abbr class='smallcaps'>HTML</abbr> earlier than that — sometime in
+01999 — but those files may be gone forever. There are a number of designs
+that are missing because they were part of custom blogging engines. I’ll work
+on creating a plain-<abbr class='smallcaps'>HTML</abbr> version of those so
+they can be shared too.
+
+ [gpd]: http://twitter.com/stilist/statuses/1063870234
+
+I’m currently planning on at least one more repository, to store my custom
+<abbr class='smallcaps'>CSS</abbr> that I use to clean up stuff like YouTube.
+Hopefully that’ll be up within a few days.
