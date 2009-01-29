@@ -1,6 +1,6 @@
 BOOKMARK: http://delicious.com/url/be234aa096573453db5725cb4f7a25c1
 LINK: http://www.pcworld.com/printable/article/id,157894/printable.html
-PERMALINK: http://ratafia.info/post/71351238/wikipedia-beefs-up-for-multimedia
+PERMALINK: /post/71351238/wikipedia-beefs-up-for-multimedia
 PUBLISHED: Jan 18th, 02009 12:24pm
 TAGS: multimedia, publicdomain, wikipedia
 

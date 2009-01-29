@@ -32,7 +32,7 @@ The first hint was in <span class='person'>David Bennahum</span>’s
 > General Magic, has created a programming
 > language called Telescript at an estimated <abbr class='smallcaps'>R&D</abbr>
 > cost of $300,000,000. Telescript is designed to allow mobile software
-> (<abbr lang='lat'>i.e.</abbr> intelligent agents) to share both disk space
+> (<abbr lang='la'>i.e.</abbr> intelligent agents) to share both disk space
 > and processing power over decentralized networks (Oh, yeah, you won’t find
 > much talk about that on their site right now. They are very wary of
 > over-hyping their technology). A little too far of its time, Telescript lies

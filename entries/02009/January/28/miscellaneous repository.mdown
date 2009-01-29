@@ -1,6 +1,6 @@
-PERMALINK: 
-PUBLISHED: 
-TAGS: meta
+PERMALINK: /post/74066848/miscellaneous-repository
+PUBLISHED: Jan 28, 02009 10:30am
+TAGS: github, meta
 
 I’ve created a [new git repository][misc] to hold bits and bobs of my code. I’m
 still looking around to see what I can put in, so it’s a little thin right now.
