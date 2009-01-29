@@ -1,0 +1,33 @@
+PERMALINK: /post/74071556/back-on-the-air
+PUBLISHED: Jan 29th, 02009 11:37am
+TAGS: meta, tumblr
+
+For the past day, I was unable to post here, or use Tumblr at all, because I
+locked myself out. This was a result of several actions on my part:
+
+* I recently began moving some accounts to use an email address at this domain
+(ratafia.info) rather than Gmail’s.
+* I use 1Password pretty heavily, so most of my logins are no longer in my
+memory.
+* There are few sites that don’t use cookies to keep users logged in.
+* The other night I installed [GlimmerBlocker][gb] and wiped my browser to get
+rid of tracking cookies and empty my browser history. (More on this subject
+in another post, perhaps.)
+* I make mistakes.
+
+ [gb]: http://glimmerblocker.org/
+
+Put together, this means that when I changed my Tumblr login to use the new
+email address, I only went halfway — moving it from `@gmail.com` to
+`@ratafia.com` instead of `@ratafia.info`. When I deleted my cookies, I was,
+naturally, logged out of Tumblr. When I tried to use 1Password to log in, it
+had the wrong email address.
+
+After several hours of frustration, I emailed Tumblr support asking what email
+address I was actually supposed to be using. I didn’t have high hopes for a
+response, because that definitely looks like an attempt at social engineering.
+Nevertheless, this morning I got a response, discovered my error in the email
+changeover, and am now back in (and with all the login information corrected).
+
+It’s certainly an unusual feeling to be locked out of one’s own website; it’s
+one I will hopefully avoid in the future.
