@@ -13,53 +13,50 @@
   <link rel='openid.delegate' href='http://stilist.myopenid.com/'>
   <link rel='openid2.local_id' href='http://stilist.myopenid.com'>
   <link rel='openid2.provider' href='http://www.myopenid.com/server'>
+  <!-- not HTML5-compliant -->
   <meta http-equiv='X-XRDS-Location'
         content='http://www.myopenid.com/xrds?username=stilist.myopenid.com'>
-  <link rel='alternate' type='application/atom+xml' title='Ratafia Currant'
+  <link rel='feed alternate' title='Ratafia Currant'
         href='http://feeds.feedburner.com/ratafia'>
  </head>
  <body>
-  <ul id='nameplate'>
-   <li><a href='http://ratafia.info' id='logo' rel='home'>Ratafia Currant</a></li>
-   <li><a href='/archive' id='archives'>Archives</a></li>
-   <li><a href='http://delicious.com/stilist' id='links'>Links</a></li>
-  </ul>
+  <header id='nameplate'>
+   <a href='http://ratafia.info' id='logo' rel='home'>Ratafia Currant</a>
+   <ul>
+    <li><a href='/archive' id='archives'>Archives</a></li>
+    <li><a href='http://delicious.com/stilist' id='links'>Links</a></li>
+   </ul>
+  </header>
 
-  {block:Posts}
-  <div class='entry'>
-   {block:Regular}
-   <h1><a href='{Permalink}'>{block:Title}{Title}{/block:Title}</a></h1>
-   <div class='copy'>
+  {block:Posts}<article>
+   {block:Regular}<header>
+    <h1><a href='{Permalink}'>{block:Title}{Title}{/block:Title}</a></h1>
+   </header>
+   <section>
     {Body}
-   </div>
-   {/block:Regular}
-   {block:Link}
-   <h1><a href='{URL}'>{Name}</a></h1>
-   {block:Description}
-   <div class='copy'>
+   </section>{/block:Regular}
+   {block:Link}<header>
+    <h1><a href='{URL}'>{Name}</a></h1>
+   </header>
+   {block:Description}<section>
     {Description}
-   </div>
-   {/block:Description}
-   {/block:Link}
-   {block:Video}
-   <h1><a href='{Permalink}'>{block:Caption}{Caption}{/block:Caption}</a></h1>
-   <div class='copy'>
-    {Video-500}
-   </div>
-   {/block:Video}
-   <p class='signoff'>written <a href='/day/{Year}/{Month}/{DayOfMonth}/'>{DayOfMonth} {Month}, 0{Year}</a> <a href='{Permalink}' class='pilcrow' title='Permanent link to this entry'>⁋</a></p>
-  </div>
-  {block:Posts}
+   </section>{/block:Description}{/block:Link}
+   {block:Video}<header>
+    <h1><a href='{Permalink}'>{block:Caption}{Caption}{/block:Caption}</a></h1>
+   </header>
+   <section>{Video-500}</section>{/block:Video}
+   <footer>written <a href='/day/{Year}/{Month}/{DayOfMonth}/'>{DayOfMonth} {Month}, 0{Year}</a> <a href='{Permalink}' title='Permanent link to this entry'>⁋</a></footer>
+  </article>{/block:Posts}
 
-  {block:PermalinkPage}
+  {block:PermalinkPage}<section>
   <!-- disqus -->
-  <script type="text/javascript">
+  <script>
    var disqus_url = "{Permalink}";
    var disqus_title ="{block:PostTitle}{PostTitle}{/block:PostTitle}";
   </script>
   <div id="disqus_thread"></div>
-  <script type="text/javascript" src="http://disqus.com/forums/ratafia/embed.js"></script>
-  <script type="text/javascript">
+  <script src="http://disqus.com/forums/ratafia/embed.js"></script>
+  <script>
    //<![CDATA[
    (function() {
     var links = document.getElementsByTagName('a');
@@ -69,21 +66,21 @@
       query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
      }
     }
-    document.write('<script type="text/javascript" src="http://disqus.com/forums/ratafia/get_num_replies.js' + query + '"></' + 'script>');
+    document.write('<script src="http://disqus.com/forums/ratafia/get_num_replies.js' + query + '"></' + 'script>');
    })();
    //]]>
   </script>
   <!-- /disqus -->
-  {/block:PermalinkPage}
+  </section>{/block:PermalinkPage}
 
-  {block:Pagination}<div id='nextprev'>
+  {block:Pagination}<nav id='nextprev'>
    {block:PreviousPage}<span id='prevpage'><a href='{PreviousPage}'>← Newer</a></span>{/block:PreviousPage}
    {block:NextPage}<span id='nextpage'><a href='{NextPage}'>Older →</a></span>{/block:NextPage}
-  </div>{/block:Pagination}
+  </nav>{/block:Pagination}
 
-  <p id='footer'>Copyright <a href='mailto:stilist@ratafia.info'>stilist</a>, and provided under the <a href='http://creativecommons.org/licenses/by-nc/3.0/us/' rel='license'><abbr class='smallcaps' title='Creative Commons attribution, non-commercial'>CC:BY-NC</abbr></a> license. <a href='http://github.com/stilist/ratafiacurrant/tree/master'>Check out how this is made.</a></p>
+  <footer>Copyright <a href='mailto:stilist@ratafia.info'>stilist</a>, and provided under the <a href='http://creativecommons.org/licenses/by-nc/3.0/us/' rel='license'><abbr class='smallcaps' title='Creative Commons attribution, non-commercial'>CC:BY-NC</abbr></a> license. <a href='http://github.com/stilist/ratafiacurrant/tree/master'>Check out how this is made.</a></footer>
 
-  <script type="text/javascript">
+  <script>
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>

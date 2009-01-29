@@ -94,8 +94,10 @@ strong {
 
 #nameplate {
  height: 118px;
- list-style: none;
  position: relative;
+}
+#nameplate ul {
+ list-style: none;
 }
 #nameplate a {
  background: none bottom center no-repeat;
@@ -124,21 +126,21 @@ strong {
  width: 67px;
 }
 
-.entry, #footer {
+article, body > footer {
  margin: 0 auto;
  width: 536px;
 }
-.entry blockquote {
+article blockquote {
  margin: 0 2em;
 }
-.entry ol, .entry p, .entry ul {
+article ol, article p, article ul {
  margin: 1.55em 0;
 }
-.entry .copy > p:first-child,
-.entry .copy > blockquote:first-child > p:first-child {
+article p:first-child,
+article blockquote:first-child > p:first-child {
  margin-top: 9px;
 }
-.entry .signoff {
+article footer {
  font-size: .9em;
  text-align: right;
 }
@@ -164,7 +166,7 @@ strong {
  text-align: right;
 }
 
-#footer {
+body > footer {
  margin-top: 5.05em;
 }
 
