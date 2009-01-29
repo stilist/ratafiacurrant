@@ -51,7 +51,7 @@ What this line does:
 * opens the file that holds our downloaded bookmarks
 * hands it over to grep, which
 * looks for bookmarks that include the text `archive.org`
-(<abbr lang='lat'>i.e.</abbr> they’re from the site)
+(<abbr lang='la'>i.e.</abbr> they’re from the site)
 * but *not* (`-v`) `src:archive.org` (they’re missing the tag)
 * then spits the results into a new text file
 

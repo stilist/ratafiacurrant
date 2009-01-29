@@ -11,7 +11,7 @@ disappeared at some point, [resurfacing][leodd] with the release of Leopard.
  [leodd]: http://www.macosxhints.com/article.php?story=20071025160504230 "Mac OS X Hits entry about data detectors"
  [mwdd]: http://www.macworld.com/article/135740/2008/09/mail2ical.html "Macworld entry about data detectors and Mail.app"
 
-In Leopard, there’s a private (<abbr lang='lat'>i.e.</abbr> Apple-only)
+In Leopard, there’s a private (<abbr lang='la'>i.e.</abbr> Apple-only)
 framework, which can be found at
 `/System/Library/PrivateFrameworks/DataDetectorsCore.framework/`.
 The detectors are in plain-text format, and can be seen in the
