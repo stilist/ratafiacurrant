@@ -1,0 +1,138 @@
+PERMALINK: /post/74124201/spimes-and-other-things-that-think
+PUBLISHED: Jan 29th, 02009 3:43pm
+TAGS: brucesterling, nicholasnegroponte, russelldavies, spime
+
+Still working my way through the first volume of MEME. One reason I keep
+sharing things from the ’90s is that I’m continually impressed by how often
+it’s taken ten years for ideas to gain traction or see real implementation.
+
+Today, it’s spimes.
+
+Spimes live in the space between software and hardware — physical objects with
+a digital history. Sometimes this means [‘intelligent agents’][ia], or things
+like refrigerators that make grocery lists. Sometimes it means the object
+contains information about itself, like credit cards or
+<abbr class='smallcaps'>RFID</abbr> tags. Sometimes it means other things
+entirely.
+
+ [ia]: http://ratafia.info/post/72339982/agents-of-alienation
+
+[<span class='person'>David Bennahum</span>, 01995][meme]
+
+ [meme]: http://memex.org/meme1-07.html
+
+> The week I met with
+> <span class='person'><ins>Nicholas</ins> Negroponte</span>, the Media Lab
+> announced a new research consortium called Things That Think.
+> <abbr class='smallcaps'>TTT</abbr> hopes to embed “intelligence” into
+> everyday objects, like clothes, appliances, etc. to make them more useful and
+> helpful to people. It is part of Negroponte’s lifelong work on what he
+> called the “[man-machine symbiosis][mms]” in <ins>0</ins>1968. So, without
+> further delay, here is Negroponte.
+
+ [mms]: http://groups.csail.mit.edu/medg/people/psz/Licklider.html "J.C.R. Licklider: ‘Man-Computer Symbiosis’"
+
+> …
+
+> <abbr class='smallcaps'>NN</abbr>: I don’t happen to think door knobs will
+> become conscious or have their own volition in the sense that my pet bull-dog
+> does. But on the other hand, it’s certainly — the sum of intelligent behavior
+> is definitely going to produce much more intelligent environments. There’s no
+> question about that. <ins>…</ins> I hate to keep using the example of
+> doorknobs, but it is so understandable that a doorknob can be a better
+> doorknob if it could see and listen and recognize who’s at the door. If it
+> could, its ‘doorknobness would be better’. But also on occasions, doorknobs
+> would have to do other things because the doorknob happens to be in the
+> right place at the right time.
+
+Here, the idea seems to be that we can make life easier with objects that
+can use external information. One form of this concept is [X10][x10] and other
+home automation technology.
+
+Now let’s look at a different approach.
+
+ [x10]: http://en.wikipedia.org/wiki/X10_(industry_standard) "Wikipedia article for X10"
+
+<cite>[<span class='person'>Bruce Sterling</span>, 02004][blobjects]</cite>
+
+ [blobjects]: http://boingboing.net/images/blobjects.htm "When Blobjects Rule the Earth"
+
+> The most important thing to know about Spimes is that they are precisely
+> located in space and time. They have histories. They are recorded, tracked,
+> inventoried, and always associated with a story.
+
+> Spimes have identities, they are protagonists of a documented process.
+
+> They are searchable, like <span class='company'>Google</span>. You can think
+> of Spimes as being auto-Googling objects.
+
+> So what would it be like to encounter a spime in your future real life? How
+> if you know if you stumbled over one in the street?
+> <span class='person'>Scott Klinker</span>, a teacher at the Cranbrook design
+> school, envisions it as something like this:
+
+> Scenario: You buy a Spime with a credit card. Your account info is embedded
+> in the transaction, including a special email address set up for your Spimes.
+> After the purchase, a link is sent to you with customer support, relevant
+> product data, history of ownership, geographies, manufacturing origins,
+> ingredients, recipes for customization, and bluebook value. The spime is able
+> to update its data in your database (via radio-frequency
+> <abbr class='smallcaps'>ID</abbr>), to inform you of required service calls,
+> with appropriate links to service centers. This removes guesswork and
+> streamlines recycling.
+
+> Today, most consumers know little or nothing about their possessions. They
+> might know the brand, because brand awareness has been forced on them for
+> years, at great expense, by massive product advertising. A Spime, by
+> contrast, is an object that can link to and swiftly reveal most everything
+> about itself. It might as well do this, since Google is perfectly capable of
+> telling you everything anyway.
+
+These ideas seem like they would mesh well with the [cradle-to-cradle][c2c]
+movement, which is concerned with being sure that the things we make can be
+cleanly and easily *un*made. The ability to look at a complete list of the
+chemicals that have gone into the construction of various cellphones would
+allow for choosing one that has reduced environmental impact. It also would
+help with determining the sunk energy cost of, say, building a new home versus
+remodeling an old one.
+
+ [c2c]: http://www.c2ccertified.com/ "Cradle-to-Cradle Design Certification"
+
+Although these ideas are interesting, they’re not much good until somebody
+actually implements them. And so:
+
+[<span class='person'>Russell Davies</span>, 02009][sack]
+
+ [sack]: http://russelldavies.typepad.com/planning/2009/01/hand-me-down-backpack.html "From Product to Project"
+
+> So I’ve been thinking about how I can continue to projectise this product.
+> And how this bag can have a 10-year + story. So I’m trying to add spimeiness
+> to it and to use internet stuff as a memory aid for this thing. So, I’ve
+> created a unique [<abbr class='smallcaps'>URL</abbr>][rdurl] for it at
+> [thinglink][rdtl], in the spirit of the [skuwiki][rdsku] idea. And I’ve built
+> a [tumblblog][rdhmd] for it at [HMDbag.tumblr.com][rdhmd]. That tumblr
+> extracts things from flickr and delicious that I’ve tagged appropriately, so
+> it’s sort of self-generating. I imagine telling the story of the life of the
+> bag that way, keeping it as a project not a product.
+
+ [rdhmd]: http://hmdbag.tumblr.com/
+ [rdsku]: http://russelldavies.typepad.com/planning/2008/07/skuwiki.html
+ [rdtl]: http://www.thinglink.org/
+ [rdurl]: http://www.thinglink.org/thing:182uav
+
+> But what would be really nice would be if it could tell its own story more.
+> Generate its own data. I could attach an <abbr class='smallcaps'>RFID</abbr>
+> tag, but I’m not quite sure what would ever read it. I guess ideally it would
+> have it’s own <abbr class='smallcaps'>GPS</abbr> logging stick sewn in. Or
+> something. The good thing though, about a 10-year + project is that you don’t
+> have to have it all sorted at the begining. When
+> <abbr class='smallcaps'>GPS</abbr> tracking chips are cheap, robust and
+> powered by eating lint I can just chuck one on.
+
+Spimes are almost certainly more useful in the long term, because a use-once
+scenario doesn’t really allow for or need all the information the concept
+implies.
+
+High-quality, long-haul goods are the better choice anyhow, regardless of
+whether they take the spime approach or not. But if you’re going to treat
+purchases as investments, why not get that little extra out of it?
