@@ -47,19 +47,19 @@
     {Video-500}
    </div>
    {/block:Video}
-   <p class='signoff'>written <a href='/day/{Year}/{Month}/{DayOfMonth}/'>{DayOfMonth} {Month}, 0{Year}</a> <a href='{Permalink}' class='pilcrow' title='Permanent link to this entry'>⁋</a></p>
+   <p class='signoff'>written <a href='/day/{Year}/{Month}/{DayOfMonth}/'>{DayOfMonth} {Month}, 0{Year}</a> • <a href='{Permalink}#disqus_thread'>Comments</a> <a href='{Permalink}' class='pilcrow' title='Permanent link to this entry'>⁋</a></p>
   </div>
   {block:Posts}
 
   {block:PermalinkPage}
   <!-- disqus -->
-  <script type="text/javascript">
-   var disqus_url = "{Permalink}";
-   var disqus_title ="{block:PostTitle}{PostTitle}{/block:PostTitle}";
+  <script>
+   var disqus_url = '{Permalink}';
+   var disqus_title = '{block:PostTitle}{PostTitle}{/block:PostTitle}';
   </script>
-  <div id="disqus_thread"></div>
-  <script type="text/javascript" src="http://disqus.com/forums/ratafia/embed.js"></script>
-  <script type="text/javascript">
+  <div id='disqus_thread'></div>
+  <script src='http://disqus.com/forums/ratafia/embed.js'></script>
+  <script>
    //<![CDATA[
    (function() {
     var links = document.getElementsByTagName('a');
@@ -69,7 +69,7 @@
       query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
      }
     }
-    document.write('<script type="text/javascript" src="http://disqus.com/forums/ratafia/get_num_replies.js' + query + '"></' + 'script>');
+    document.write('<script src="http://disqus.com/forums/ratafia/get_num_replies.js' + query + '"></' + 'script>');
    })();
    //]]>
   </script>
@@ -83,11 +83,11 @@
 
   <p id='footer'>Copyright <a href='mailto:stilist@ratafia.info'>stilist</a>, and provided under the <a href='http://creativecommons.org/licenses/by-nc/3.0/us/' rel='license'><abbr class='smallcaps' title='Creative Commons attribution, non-commercial'>CC:BY-NC</abbr></a> license. <a href='http://github.com/stilist/ratafiacurrant/tree/master'>Check out how this is made.</a></p>
 
-  <script type="text/javascript">
+  <script>
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' %3E%3C/script%3E"));
+  </script>
+  <script>
 var pageTracker = _gat._getTracker("UA-450269-1");
 pageTracker._initData();
 pageTracker._trackPageview();
