@@ -1,0 +1,197 @@
+PERMALINK: /post/74443947/the-web-and-journalism
+PUBLISHED: Jan 30th, 02009 8:27pm
+TAGS: blogging, journalism, web
+
+[<span class='person'>Dan Lyons</span>][dl], writing about
+<span class='company'>Apple</span>’s public relations and press:
+
+ [dl]: http://www.newsweek.com/id/179825/output/print "‘Rotten Reporting’"
+
+> The fact is, in the eyes of the media, Apple is the corporate equivalent of
+> <span class='person'>Barack Obama</span> — a company that can do no wrong.
+> Even in Silicon Valley, where much of the press corps are pretty much
+> glorified cheerleaders (think of all those slobbering cover stories about the
+> <span class='company'>Google</span> guys) Apple’s kid-gloves treatment stands
+> out. Reporters don’t just overlook Apple’s faults; they'll actually apologize
+> for them, or rationalize them away. Ever seen reporters clapping and cheering
+> at a press conference? Happens all the time at Apple events.
+
+Newspaper folk are particularly inclined to complain about the negative effects
+the web has had on reporting.
+
+[James Warren][jw]:
+
+ [jw]: http://www.theatlantic.com/doc/print/200901u/fate-of-newspaper-journalism "‘When No News is Bad News’"
+
+> In journalism’s new Internet-dominated landscape, in which attitude and
+> attack are often valued more than precision and truth, handiwork like
+> <span class='person'><ins>John</ins> Crewdson</span>’s is seen as taking too
+> long and costing too much. His situation is hardly unique — the other
+> investigative reporter at the
+> <span class='newspaper'><ins>Chicago</ins> Tribune</span>’s
+> <abbr class='smallcaps'>D.C.</abbr> bureau was told to leave at the same
+> time, as was the top investigator at the Washington bureau of
+> The <span class='newspaper'>Los Angeles Times</span>, which is also owned by
+> the <span class='company'>Tribune Company</span>. But as an example of
+> journalism’s very best, Crewdson’s dismissal is a symbol of the extent to
+> which the news media are imploding. And that implosion is a development with
+> far-reaching implications.
+
+> …
+
+> Meanwhile, websites are not obligated to spend money on newsprint, printing
+> plants, or union drivers to drop their product at readers’ doorsteps. Yet
+> they benefit from linking to all that work they’ve not done or paid a nickel
+> for. And they supplement this borrowed reporting with user-generated content
+> and material produced by freelancers who are paid a pittance or nothing at
+> all. They’ve also opted for chat rooms and ongoing dialogues among their
+> adherents — a laudable, democratic impulse, but one that often devolves into
+> an unedited legitimization of stupidity and bigotry.
+
+> …
+
+> **Why should we care?**
+
+> This matters because of the unique role journalism plays in a democracy. So
+> much public information and official government knowledge depends on a
+> private business model that is now failing. Journalism acknowledges and
+> illuminates complexity, and at the same time prioritizes, helping us to
+> evaluate the relative significance of developments playing out all around us.
+> …
+
+> And, importantly, there’s a sense of social mission. Good journalism keeps
+> public and private officials honest and helps citizens make thoughtful
+> decisions. It does this by systematically gathering, processing, and checking
+> relevant information, and by doing it with a spirit of independence. It’s how
+> two previously unknown <span class='newspaper'>Washington Post</span>
+> reporters, <span class='person'>Bob Woodward</span> and
+> <span class='person'>Carl Bernstein</span>, put together the Watergate puzzle
+> that forced the <ins>0</ins>1974 resignation of President
+> <span class='person'>Richard Nixon</span>. And as they pursued their
+> investigation, they, like all good reporters, followed certain commonly
+> accepted ethical norms: You don’t take money from the people you’re covering.
+> You don’t bow to special interests or to the economic interests of your
+> employer. You confirm and reconfirm the accuracy of assertions and supposed
+> facts and quotes. As an old saying used to go at the City News Bureau of
+> Chicago, a now-defunct training ground for decades of reporters, “If your
+> mother tells you she loves you, check it out.”
+
+* * *
+
+It seems to me that there’s a real opening for bloggers to do serious
+journalistic work. Although newspapers and <abbr class='smallcaps'>TV</abbr>
+reporters give us the major stories, they also give us a lot of garbage we
+don’t want. Bloggers have the advantage of highly targeted, self-selected
+audiences.
+
+And if print is withering and the web is the platform of the future, then we
+*need* to have people who are intimately familiar with the web to begin filling
+the gap. With no writing-related income except from readers or advertisers, a
+web journalist is under less pressure to leave out information or avoid certain
+subjects.
+
+I can’t say whether this will happen, or what form it will take, but I have
+been thinking about this for several months now. Here’s my thoughts on what it
+should look like.
+
+* **Make changes visible.** Everybody makes mistakes. For newspapers,
+this means publishing retractions and corrections. Unlike print, which can’t be
+edited after publication, the web is infinitely rewritable and has no space
+constraints. Publish retractions and corrections as usual, and update the
+relevant article — but don’t just edit it; let readers see what’s changed.
+
+* **Share your source material.** I don’t agree with the idea that journalists
+are the only ones able to draw together information in an informative, useful
+way. Journalists are often *better* at it, but stories have their own
+trajectory and the journalist will necessarily miss one or a dozen alternative
+stories, some of which may be even more interesting or significant. So publish
+everything that inspired you, that helped you along. Articles, book excerpts,
+conversations, anything. Unless it would cause a source to be fired or killed,
+it should be shared — and even then, consider doing it in a paraphrased form.
+
+* **Let readers become writers.** Readers will find unexpected uses for your
+material. If they care enough to create something new, then you should care
+enough to let them publish it on your site, or give a good link if they have
+their own site. Encourage others to do what you’re doing — you can’t specialize
+in every subject or write all the stories the world wants to tell, but others
+can help. This may even be something as simple as translations.
+
+* **Develop a consistent, powerful form of organization.** You may take
+the approach of [<span class='person'>Steven Johnson</span>][sj] or
+[<span class='person'>James Fallows</span>][jf], shoving everything into a
+freeform database that’s brilliant at working with text. You may go my route
+and shove everything into a [bookmarking system][db], recording metadata and
+keywords. Whatever your technique is, make it available to everyone else.
+
+ [db]: http://delicious.com/stilist/ "My bookmarks"
+ [jf]: http://bobnewell.net/agenda/atlantic.txt.html "James Fallows writes about Lotus Agenda"
+ [sj]: http://boingboing.net/2009/01/27/diy-how-to-write-a-b.html "‘DIY: How to write a book’"
+
+But if you want readers to be involved, *personal* organization isn’t enough.
+
+* **Use clean, clear <abbr class='smallcaps'>URL</abbr>s.** There should only
+ever be one way to link to your article. Make it easy to find. Don’t do what
+newspapers and magazines tend to do with their web versions, offering regular
+views, print views, multi-page views and single-page views.
+
+* **Develop a good keyword system and use it everywhere.** If I want to find
+things relating to, say, Steve Warren, I search my bookmarks for
+`by:stevewarren` and `stevewarren`. If I want to find things relating to
+music, I search my bookmarks for `music`. Although it takes extra
+effort to record these keywords when reading, it pays off fabulously later on
+when you know you read something about music that had an idea you want to
+reuse but can’t remember where or when you read it or who wrote it or…
+
+* **Develop a good source storage system.** I don’t know what the best approach
+would be. [Wikileaks][wl] and [Wikisource][ws] seem to do well with the wiki
+format, but that may not be ideal.
+
+ [wl]: http://wikileaks.org/
+ [ws]: http://en.wikisource.org/wiki/Main_Page
+
+* **Remember to share your legacy.** [Dave Winer, in 01994][dw]: <q>This offer
+expires on 10/31/94 — who knows how long these messages will live? — I still
+get requests for a freeware program I wrote in <ins>0</ins>1988!</q> The effort
+that you put into writing now is worth more and more as time goes on. Spread
+your work around as much as possible. Not that you should put everything in the
+public domain (but good work if you do); I personally use Creative Commons to
+allow others to reuse my work under certain conditions.
+
+ [dw]:http://scripting.com/davenet/1994/10/22/scriptingtheinternet.html
+
+* * *
+
+I’m breaking my own rules. I have ideas, but I’m not much good at programming
+or writing. I’m also running on a publishing platform I don’t entirely control,
+which makes some things impossible.
+
+So where do I stand?
+
+Changes are visible. Because all my articles are [co-published in a version
+control system][gh], it’s possible to trace the history of what I’ve done. But
+although it’s [convenient][bs] for the author, it’s not overly convenient for
+the reader.
+
+ [bs]: http://inessential.com/2009/01/30/new_publishing_system_tour_of_my_head "‘New publishing system/tour of my head’"
+ [gh]: http://ratafia.info/post/69457109/posts-now-simulcast-at-github
+
+Source material and organization: As noted above, I use a bookmarking system
+that holds just about every external document I link to in my entries, along
+with a ton of stuff I don’t have an immediate use for. Like the changes, the
+system is pretty transparent, and it’s certainly convenient for me. But running
+it on this site directly would be better, because I could simply pull over the
+tagging system and have my keywords. A bigger issue is that bookmarks don’t
+save copies. I can generally rely on the link still working a year or two
+later, but it’s not guaranteed. If I were to save my own copy I wouldn’t have
+to care.
+
+* * *
+
+But none of stuff I’ve written up there means anything unless you’re writing.
+
+If you aren’t, why not? We all have something to say, even if we’re not very
+skilled at saying it. I doubt I’d be hired to write a column, but I enjoy doing
+it here for free.
+
+If you are, consider opening up the process. But more importantly: keep
+writing. You don’t know when your time will come.
