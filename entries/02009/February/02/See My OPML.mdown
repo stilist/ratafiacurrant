@@ -1,0 +1,21 @@
+PERMALINK: /post/75088558/see-my-opml
+PUBLISHED: Feb 2nd, 02009 1:14pm
+TAGS: meta
+
+When I [wrote about journalism][wej] the other day, I noted that I generally
+follow my rule that sources should be open by sharing all my bookmarks. That
+neglects a major set of sources, though — feed subscriptions. So today I’ve
+pushed [an <abbr class='smallcaps'>OPML</abbr> file][opml] with my
+subscriptions to [the site’s repository][git]. It’s almost exactly what I see,
+with two exceptions: the <abbr class='smallcaps'>OPML</abbr> export didn’t
+include the folders I use (so it’s pretty disorganized), and I took out a few
+personal blogs that I don’t use for source material anyways. In exchange I’ve
+left in some more lighthearted material that I don’t use for source material
+either.
+
+ [git]: http://github.com/stilist/ratafiacurrant/tree/master
+ [opml]: http://github.com/stilist/ratafiacurrant/blob/master/subscriptions.opml
+ [wej]: http://ratafia.info/post/74443947/the-web-and-journalism
+
+I’ll push out occasional updates as I change my subscriptions, but that doesn’t
+seem to happen terribly often.
