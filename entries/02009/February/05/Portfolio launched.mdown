@@ -1,0 +1,20 @@
+PERMALINK: /post/75872462/portfolio-launched
+PUBLISHED: Feb 5th, 02009 9:28am
+TAGS: portfolio
+
+[![(Screen capture of the portfolio.)][pimg]][prtfl]
+
+ [pimg]: http://img.photobucket.com/albums/v240/stilist/Miscellaneous/Portfolio.png
+ [prtfl]: http://flickr.com/photos/stilist/3254979559/ "See in larger size"
+
+I’m in the process of applying to a number of jobs, most of which require a
+portfolio (who’d’ve thought?). I’d known for a while that I’d need one, but
+kept finding more interesting things to do.
+
+Last night I decided to just get it over with, since it’s actually
+necessary now. It took four to five hours to collect the designs, crop them,
+code the <abbr class='smallcaps'>HTML</abbr>, and make up the layout as I went.
+It’s simple, but I’m pleased with it.
+
+If you’d like to see the page (rather than just a screenshot),
+<a href='mailto:stilist@ratafia.info'>send me an email</a>.
