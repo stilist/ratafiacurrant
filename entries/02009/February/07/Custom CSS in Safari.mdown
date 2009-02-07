@@ -1,0 +1,83 @@
+PERMALINK: /post/76466304/custom-css-in-safari
+PUBLISHED: Feb 7th, 02009 4:10pm
+TAGS: greasekit, modding, safari
+
+Although many of the web’s visual scars can be eliminated with the help of an
+ad blocker, there are still times when you’ll want to change a page’s actual
+appearance. Because there’s no official way to do this, there are a variety of
+solutions. I think Firefox’s is pretty good: wrap a stylesheet in an
+[`@-moz-document`][atdoc] rule and you can target your editing. But Safari
+doesn’t support this (and doesn’t even offer a corresponding
+`@-webkit-document` rule, to my knowledge), so we need to find an alternate
+solution.
+
+ [atdoc]: https://developer.mozilla.org/en/CSS/@-moz-document
+
+I personally use [GreaseKit][gk] for this; I create a script that simply adds a
+stylesheet `<link>` to selected pages — effectively a three-layer hack (custom
+<abbr class='smallcaps'>CSS</abbr>, GreaseMonkey,
+<abbr class='smallcaps'>[SIMBL][simbl]</abbr>), but it works well.
+
+ [gk]: http://8-p.info/greasekit/
+ [simbl]: http://www.culater.net/software/SIMBL/SIMBL.php
+
+*These directions assume that you’re using <abbr class='smallcaps'>OS
+Ⅹ</abbr>; that GreaseKit is installed; and that you have Apache (‘Web Sharing’)
+running.*
+
+## The loader
+
+Create the GreaseMonkey loader script. Copy and paste the following
+into a plain text editor such as TextEdit. Replace the bracketed portions with
+the website you want to change — <abbr lang='la'>e.g.</abbr> `youtube.com`.
+Save the file as `[website].user.js`, and move it into the GreaseKit folder
+(`~/Library/Application Support/GreaseKit`). Open Safari, open the GreaseKit
+menu, and click ‘Reload All User Scripts’. Open the menu again; your new script
+should be in the list. Click it to enable it.
+
+    // ==UserScript==
+    // @name          [name of target website]
+    // @include       http://*.[website]/*
+    // @include       http://[website]/*
+    // ==/UserScript==
+    
+    (function () {
+     var head = document.getElementsByTagName ('head')[0];
+    
+     /* add custom stylesheet */
+     var stylesheet = document.createElement('link');
+     stylesheet.setAttribute('rel', 'stylesheet');
+     stylesheet.setAttribute('type', 'text/css');
+     stylesheet.setAttribute('href', 'http://localhost/[website].css');
+     if (typeof stylesheet != 'undefined')
+      head.appendChild (stylesheet);
+    })();
+
+An explanation of the code: we create an [anonymous function][anon] that finds
+the `<head>` element (or the first, if the page accidentally includes several),
+then [create][cem] a `<link>` element and supply with the necessary information
+to load a <abbr class='smallcaps'>CSS</abbr> file.
+
+ [anon]: http://en.wikipedia.org/wiki/Anonymous_function
+ [cem]: https://developer.mozilla.org/en/DOM/document.createElement
+
+## The stylesheet
+
+Now that we’ve got the loader prepared, we need to set up the stylesheet it
+loads. For this, you’ll probably want to use the [web inspector][webi] to track
+down the various things you want to change.
+
+ [webi]: http://webkit.org/blog/197/web-inspector-redesign/
+
+Once you’re done, save the file as `[website].css` (replacing the brackets as
+above), and put it into the Apache directory (~/Sites). Reload the site you’ve
+made the script for, and your changes should be in effect.
+
+## And so
+
+Even though we had to route around various missing parts, it’s pretty simple to
+set up Safari with targeted custom <abbr class='smallcaps'>CSS</abbr>. The
+major downsides are that this is a hacky solution, and that you’ll need to
+create a new script for each site you want to change.
+
+But until such time as we have a better solution, this works.
