@@ -70,8 +70,8 @@ down the various things you want to change.
  [webi]: http://webkit.org/blog/197/web-inspector-redesign/
 
 Once you’re done, save the file as `[website].css` (replacing the brackets as
-above), and put it into the Apache directory (~/Sites). Reload the site you’ve
-made the script for, and your changes should be in effect.
+above), and put it into the Apache directory (`~/Sites`). Reload the site
+you’ve made the script for, and your changes should be in effect.
 
 ## And so
 

@@ -1,0 +1,25 @@
+PERMALINK: post/78022030/adding-rel-canonical-to-tumblr-themes
+PUBLISHED: Feb 13th, 02009 9:32am
+TAGS: google, seo, tumblr
+
+Google recently [introduced][rcan] a way to tell their crawler which address
+variant you want indexed:
+
+ [rcan]: http://googlewebmastercentral.blogspot.com/2009/02/specify-your-canonical.html "Specify your canonical"
+
+> Now, you can simply add this `<link>` tag to specify your preferred version:
+
+> `<link rel="canonical"
+> href="http://www.example.com/product.php?item=swedish-fish" />`
+
+This is very simple to set up with Tumblr. Go to the [customization page][tc],
+and just before the `</head>`, add the following code:
+
+ [tc]: http://www.tumblr.com/customize
+
+    {block:PermalinkPage}<link rel='canonical'
+          href='{Permalink}'>{/block:PermalinkPage}
+
+This will automatically add the `<link>` element on pages for individual
+entries. Index pages (<abbr lang='la'>i.e.</abbr> pages that can have
+pagination links) will just get a blank line.
