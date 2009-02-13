@@ -2,7 +2,7 @@
 # Don't push out old entries
 entries/02005/
 entries/02006/
-# Bookmarks aren't functional yet
+# Non-functional stuff
 bookmarks/
-# engine is an empty folder
 engine/
+images/
