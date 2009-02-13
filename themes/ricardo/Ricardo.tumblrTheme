@@ -17,6 +17,8 @@
         content='http://www.myopenid.com/xrds?username=stilist.myopenid.com'>
   <link rel='alternate' type='application/atom+xml' title='Ratafia Currant'
         href='http://feeds.feedburner.com/ratafia'>
+  {block:PermalinkPage}<link rel='canonical'
+        href='{Permalink}'>{/block:PermalinkPage}
  </head>
  <body>
   <ul id='nameplate'>
@@ -51,8 +53,7 @@
   </div>
   {block:Posts}
 
-  {block:PermalinkPage}
-  <!-- disqus -->
+  {block:PermalinkPage}<!-- disqus -->
   <script>
    var disqus_url = '{Permalink}';
    var disqus_title = '{block:PostTitle}{PostTitle}{/block:PostTitle}';
@@ -73,8 +74,7 @@
    })();
    //]]>
   </script>
-  <!-- /disqus -->
-  {/block:PermalinkPage}
+  <!-- /disqus -->{/block:PermalinkPage}
 
   {block:Pagination}<div id='nextprev'>
    {block:PreviousPage}<span id='prevpage'><a href='{PreviousPage}'>← Newer</a></span>{/block:PreviousPage}
