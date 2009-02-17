@@ -1,0 +1,79 @@
+PERMALINK: /post/79168300/the-decline-of-books
+PUBLISHED: Feb 17th, 02009 4:52pm
+TAGS: books, reading, ursulaleguin
+
+In an 02008 article for <span class='magazine'>Harper’s</span>,
+<span class='person'>Ursula Le Guin</span> [argues][ulgh] that book sales are
+declining because publishing corporations see volume as the only way to
+maintain business growth. She further argues that despite the hand-wringing of
+those who mourn the death of books, reading was only a significant part of life
+for a relatively brief span of history.
+
+ [ulgh]: http://www.harpers.org/archive/2008/02/0081907 "Ursula Le Guin: ‘Staying awake: Notes on the alleged decline of reading’"
+
+> I see a high point of reading in the United States from around
+> <ins>0</ins>1850 to about <ins>0</ins>1950 — call it the century of the
+> book — the high point from which the doomsayers see us declining. As the
+> public school came to be considered fundamental to democracy, and as
+> libraries went public and flourished, reading was assumed to be something we
+> shared in common. Teaching from first grade up centered on “English,” not
+> only because immigrants wanted their children fluent in it but because
+> literature — fiction, scientific works, history, poetry — was a major form of
+> social currency.
+
+> …
+
+> Books are social vectors, but publishers have been slow to see it. They
+> barely even noticed book clubs until <span class='person'>Oprah
+> <ins>Winfrey</ins></span> goosed them. But then the stupidity of the
+> contemporary, corporation-owned publishing company is fathomless: they think
+> they can sell books as commodities.
+
+> …
+
+> In those departments, beloved by the <abbr class='smallcaps'>CEO</abbr>s, a
+> “good book” means a high gross and a “good writer” is one whose next book can
+> be guaranteed to sell better than the last one. That there are no such
+> writers is of no matter to the corporationeers, who don’t comprehend fiction
+> even if they run their lives by it. Their interest in books is self-interest,
+> the profit that can be made out of them — or occasionally, for the top
+> executives, the Murdochs and other Merdles, the political power they can
+> wield through them; but that is merely self-interest again, personal profit.
+
+Like most commentators, however, she does attack alternative media as being
+‘brain-numbing’ or ‘gross’, and says blogs have not ‘develop<ins>ed an</ins>
+aesthetic form’. While these views are true in various degrees, they are, in my
+opinion, largely irrelevant to the future of the book. Books are failing
+because [they’re inefficient][rcbk].
+
+ [rcbk]: http://ratafia.info/post/72804685/digital-goods-and-analog-books
+
+But we must consider [what will come after][rcwj]. If we grant that books are
+dying and that reading on the web isn’t as good, what can we do?
+
+ [rcwj]: http://ratafia.info/post/74443947/the-web-and-journalism
+
+[<span class='person'>Mandy Brown</span>][mb] [posits][mbala] that poor design
+is a major factor in why reading on the web is an unsatisfying experience:
+
+ [mb]: http://aworkinglibrary.com/ "Mandy Brown’s homepage"
+ [mbala]: http://alistapart.com/articles/indefenseofreaders "‘In Defense of Readers’"
+
+> Despite the ubiquity of reading on the web, readers remain a neglected
+> audience. Much of our talk about web design revolves around a sense of
+> movement: users are thought to be finding, searching, skimming, looking. We
+> measure how frequently they click but not how long they stay on the page. We
+> concern ourselves with their travel and participation — how they move from
+> page to page, who they talk to when they get there — but forget the needs of
+> those whose purpose is to be still. Readers flourish when they have
+> space — some distance from the hubbub of the crowds — and as web designers,
+> there is yet much we can do to help them carve out that space.
+
+Is the solution really as simple as better design? Well, no; there is some
+[cultural shift][ncat] — but [people can be fooled into reading][jsat]. There’s
+still hope for the web to keep us reading large quantities of text.
+
+ [jsat]: http://arstechnica.com/gadgets/news/2009/02/the-once-and-future-e-book.ars "John Siracusa: ‘The once and future e-book: reading in the digital age"
+ [ncat]: http://www.theatlantic.com/doc/print/200807/google "Nicholas Carr: ‘Is Google Making Us Stupid?’"
+
+The web may never reach the same level as books, but maybe it doesn’t have to.
