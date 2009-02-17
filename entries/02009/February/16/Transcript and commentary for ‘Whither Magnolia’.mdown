@@ -2,7 +2,7 @@ PERMALINK: /post/78915439/transcript-and-commentary-for-whither-magnolia
 PUBLISHED: Feb 16th, 02009 7:31pm
 TAGS: citizengarden, data, Ma.gnolia, podcast, transcript
 
-Transcription of Citizen garden episode 11, [‘Whither Magnolia’][cgwm].
+Transcription of Citizen Garden episode 11, [‘Whither Magnolia’][cgwm].
 
  [cgwm]: http://citizengarden.com/2009/02/15/episode-11-whither-magnolia/ "Citizen Garden entry for ‘Whither Magnolia’"
 
@@ -211,7 +211,7 @@ On to the transcript.
 > <q>And you weren’t doing anything like
 > [<abbr class='smallcaps'>RAID</abbr>][raid] or anything with it, it was just Firewire backup.</q>
 
- [raid]: http://en.wikipedia.org/wiki/Redundant_array_of_independent_disks "Wikipedia article for RAID"
+ [raid]: http://en.wikipedia.org/wiki/RAID "Wikipedia article for RAID"
 
 > <cite><abbr>LH:</abbr></cite>
 > <q>The server was <abbr class='smallcaps'>RAID</abbr>. Its disk was
