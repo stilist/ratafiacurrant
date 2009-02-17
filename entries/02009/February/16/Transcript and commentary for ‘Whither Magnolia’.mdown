@@ -1,0 +1,612 @@
+PERMALINK: /post/78915439/transcript-and-commentary-for-whither-magnolia
+PUBLISHED: Feb 16th, 02009 7:31pm
+TAGS: citizengarden, data, Ma.gnolia, podcast, transcript
+
+Transcription of Citizen garden episode 11, [‘Whither Magnolia’][cgwm].
+
+ [cgwm]: http://citizengarden.com/2009/02/15/episode-11-whither-magnolia/ "Citizen Garden entry for ‘Whither Magnolia’"
+
+As you may or may not be aware, the Ma.gnolia bookmarking service recently
+[lost its entire database][gmdl].
+
+ [gmdl]: http://google.com/search?q=ma.gnolia%20data%20january%202009 "Google results for Ma.gnolia data loss"
+
+I was not personally affected by this loss, as I instead use delicious and
+[back up my bookmarks][rcdb] daily. I had briefly tried Ma.gnolia; after
+[a lengthy wait][twit1] while it processed my bookmark collection, I soon
+decided that the system simply [didn’t allow for the things I wanted to
+do][twit2].
+
+ [rcdb]: http://ratafia.info/post/72095951/how-to-easily-back-up-your-delicious-bookmarks
+ [twit1]: http://twitter.com/stilist/status/1122199894
+ [twit2]: http://twitter.com/stilist/status/1122373387
+
+But even if I didn’t lose anything, a lot of people did. And if delicious were
+to disappear, I might still have my data, but I wouldn’t have a way to use it
+(immediately, anyhow; there are open-source importers). So this is still a good
+thing to think about.
+
+Although <span class='person'>Chris Messina</span> [doesn’t seem overly
+concerned with the loss of his bookmarks][fcdata], I make heavy use of my
+bookmark archive — collecting things like [article series][dchome],
+[free-culture content][dccom], [free music][dfmus], and a variety of other
+purposes. For me, it doesn’t have <q>a half-life of twenty-four hours</q>; I
+bookmark so that I can quickly re-find things that have interested me. I’m
+willing to grant that I’m an outlier; the number of tags I use per bookmark
+likely ensures that anyways.
+
+ [dccom]: http://delicious.com/stilist/creativecommons
+ [dchome]: http://delicious.com/stilist/cominghome
+ [dfmus]: http://delicious.com/stilist/free%20music
+ [fcdata]: http://factoryjoe.com/blog/2009/02/06/where-does-data-go-when-it-dies/ "Where data goes when it dies and other musings"
+
+But even if bookmarking is done on a very short-term basis, it’s useful, as
+the podcast points out, for things like generating recommendations. A major
+trend in my feed subscription habits is that I love sites which point out
+things I’d never see otherwise. As <span class='person'>Dave Winer</span> says,
+[<q>People come back to places that send them away</q>][send]. Although I
+didn’t use Ma.gnolia in its pre-crash form, I’d be very interested in one that
+tried to give me a list of interesting links. I’ve lately begun skimming the
+front pages of Digg and Reddit several times a day — which, while useful, also
+means I have to see a lot of things that I really don’t care about. Links
+recommended by a computer aren’t quite on the level of links recommended by
+people I trust to be interesting, but it can be very close.
+
+ [send]: http://www.scripting.com/stories/2007/08/03/lockinAndTheWebDay2.html "Lock-in and the web, day 2"
+
+Regardless of whether Ma.gnolia ever appeals to me personally, I hope it comes
+back stronger than it was. Competition is good, and the service has a chance to
+move things in interesting new directions.
+
+On to the transcript.
+
+## Participants
+
+* [<span class='person'>Larry Halff</span>][lhalff]
+* [Chris Messina][cmessina]
+
+ [lhalff]: http://larryhalff.com "Larry Halff’s home page"
+ [cmessina]: http://factoryjoe.com "Chris Messina’s home page"
+
+## Transcript
+
+> <cite><abbr title='Larry Halff'>LH:</abbr></cite>
+> <q>Hello, and welcome to episode eleven of the [Citizen Garden podcast][cgp].
+> We’re actually coming to you today via video as well. I’m Larry Halff.</q>
+
+ [cgp]: http://citizengarden.com/ "Citizen Garden website"
+
+> <cite><abbr title='Chris Messina'>CM:</abbr></cite>
+> <q>I’m Chris Messina.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>And today we are going to talk about what happened with Ma.gnolia.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Yeah. Which I guess is, for many people, not *that* funny, but uh, it’s
+> fairly, I guess, sort of a momentous thing, and of course you being the news
+> creates an interesting opportunity for us, I guess, to both talk about what
+> happened, and for you to sort of explain maybe the situation as it occurred,
+> what’s happened since, what you’ve done sort of in response, and maybe some
+> lessons learned here. So maybe you wanna give us some background on what
+> actually happened.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>Uh, so, I still don’t have all the details on what happened; still
+> working with <ins>a?</ins> data recovery company and hope to know more when I
+> hear back from them, but: what seemed to me to have happened was we had some
+> file system corruption and our very large database file got corrupt and…</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>What size database file are we talking here?</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>It was approaching half a terabyte of everything together, and…</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Is this
+> My<abbr class='smallcaps' title='Structured Query Language'>SQL</abbr>,
+> or…</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>Yeah, My<abbr class='smallcaps'>SQL</abbr>;
+> My<abbr class='smallcaps'>SQL</abbr> 5.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Okay.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>And… I think this had been somewhat of an ongoing issue, but everything
+> was running even though this was going on. And eventually it stopped running,
+> and the site went down. It just no longer worked. And because of this, our
+> not-so-awesome backup system also failed, because it was not able to properly
+> back up the data from My<abbr class='smallcaps'>SQL</abbr>.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Is that because of the size, or I mean… so what, maybe you can talk a
+> little bit about what you know what happened with the backup.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>So what happened with the backup was it was just trying to back up bad
+> data, so whatever the backup produced was not usable either. It was just
+> giving a file sync over a Firewire network to a different machine. So, in
+> this case, because we didn’t have a good sort of integrity-oriented backup
+> system, it failed.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Now, had you ever done tests or anything like that to see..?</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>Nope. Had not purposely failed the database to see what would happen.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>I see, so…</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>Which would… which is one of those lessons learned, which is: test your
+> backups, test your backup system. I don’t know that a test would have caught
+> this sort of thing, but it’s something we should have done. And another
+> lesson learned would be: figure out your backup, figure out a good versioned
+> backup system early on. Or actually the *real* lesson learned is if you’re a
+> startup, don’t do your own <abbr class='smallcaps'>IT</abbr> at all, which
+> is… And I think three years ago, it was less of an eff — three, four years
+> ago it was less of an option. Ma.gnolia, I really started on Ma.gnolia four
+> years ago, and we were running the beta over three years ago. And there was
+> not… there was no sort of cloud computing at that time. So it was the, you
+> know, the option was really bad hosting, especially for Rails applications,
+> hosting that…</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>It almost didn’t exist back then.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>I knew wouldn’t scale. Or do-it-yourself. And sort of in the process of
+> developing Ma.gnolia, infrastructure always sort of took a back seat. And
+> along the way we suffered because of that; y’know, I’d say in about
+> <ins>0</ins>2006 we definitely attrition from the service because of speed
+> and reliability.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Performance.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>Yeah, the performance, the site would slow down. But because you… because
+> we were developing Ma.gnolia specifically for the environment it was deployed
+> in, there was… there is a huge tax to sort of moving to a completely new
+> environment. We have all sorts of dependencies, all sorts of stuff that we
+> required in our specific environment.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Now, I mean, maybe you could talk a little about the actual
+> infrastructure, y’know, the environment you had set up, from a hardware
+> perspective. Because I think one of the things that, y’know, most people
+> probably have no insight into, y’know — unlike your Mac you can’t go to the
+> little Apple, y’know, and choose ‘tell me about this Mac’, and get the 
+> specs.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>Right.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Y’know, for web apps. And maybe you can talk about, you know, the actual
+> system that you were running Ma.gnolia off of.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>So we were running Ma.gnolia on… the database and the backup were on a
+> couple of [Xserves][xserve], and then we had about four [minis][mini]…</q>
+
+ [mini]: http://en.wikipedia.org/wiki/Mac_Mini "Wikipedia article for Mac mini"
+ [xserve]: http://en.wikipedia.org/wiki/Xserve "Wikipedia article for Xserve"
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Mac minis.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>Mac minis. <ins>?</ins> Mac minis that were running as frontend web
+> servers. So it was a very small setup, and… I mean, interestingly, y’know,
+> with a pretty good Xserve as the main database server, it ran pretty
+> well.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>And you weren’t doing anything like
+> [<abbr class='smallcaps'>RAID</abbr>][raid] or anything with it, it was just Firewire backup.</q>
+
+ [raid]: http://en.wikipedia.org/wiki/Redundant_array_of_independent_disks "Wikipedia article for RAID"
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>The server was <abbr class='smallcaps'>RAID</abbr>. Its disk was
+> <abbr class='smallcaps'>RAID</abbr>, so that’s one of the things we’re
+> looking at. But it was a software <abbr class='smallcaps'>RAID</abbr>, so if
+> it’s a filesystem problem then… that’s not gonna do any good because the the
+> errors were <abbr class='smallcaps'>RAID</abbr>ed as well.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>So let’s talk a little bit about, I mean, the reaction, y’know, to this
+> so far. The reaction I’ve seen has been somewhat mixed. Y’know, there
+> obviously was <ins lang='la'>sic</ins> some articles that came out, that
+> sorta like, rightly pointed out that this was a bad thing that happened, and
+> yet — I guess maybe you can speak to, because obviously you’re directly
+> involved with it — the reaction from both individual users of Ma.gnolia,
+> y’know, as well as, y’know, sorta like the larger media that’s like
+> <span class='magazine'>Wired</span> and so on.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>So I think, um, the reaction has been actually mostly supportive and
+> understanding.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Yeah, I’ve seen a lot of that.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>I’d say ninety percent of what I’ve been getting and reading has been,
+> y’know, not tearing down, not flaming, not griefing. And the negative
+> reactions out there, I think a lot of them are valid. It’s… I made a huge
+> mistake in terms of how I set up our system, and the — when people criticize
+> that, they’re completely right. I have no problem with that. There have been
+> some personal attacks, but… I think people get frustrated, rightly
+> frustrated, and angry and sort of fall back into that mode, where they want
+> someone to go after, and make it personal since they feel like they were
+> personally let down.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>It’s also been interesting to see the characterizations of ‘Ma.gnolia
+> and <abbr>co.</abbr>’, or ‘Ma.gnolia and team’, as though you’re this large
+> operation, y’know, with international offices and things like that. I
+> mean…</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>I think that’s another lesson learned, which is, like, we always appeared
+> bigger than we were. And it was *me*, and it’s basically been me. As of late,
+> there was… for much of Ma.gnolia’s life, there was a small team; I think the
+> largest we ever got was four. So we somehow projected this image of this, you
+> know, big company with, you know, huge offices and cubicles and the whole
+> works, and it was, you know… it’s really just, it’s really just basically me.
+> And I don’t think… I mean, I think it was flattering that that’s the
+> perception, but I think it was a mistake to not work harder to let people
+> know exactly what we were and how big we were, in terms of how personal the
+> service actually is.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>That says, I think that says a lot to a lot of the lessons coming out of
+> social media lately; I think, y’know, around transparency and openness,
+> which, obviously, Obama says a lot about, but there is some degree of truth
+> there. Now…</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>I don’t think it’s something we ever *hid*.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Right.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>In fact, I was always surprised when… in terms of how large people
+> thought they were. In fact, I was surprised at how much news coverage this
+> whole event got, because Ma.gnolia is very small, even in terms of its user
+> base, it’s very, very small. It’s just com… insignificant compared to any of
+> the other real-web applications out there. But it somehow always projected
+> this image of being this much bigger thing than it actually was.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Yeah, I mean, even though it’s a small team, or just you, most of the
+> time, I don’t think that that necessarily *excuses* what happened, but helps,
+> maybe, to put in perspective, y’know, both from this hardware perspective,
+> y’know, mostly you keeping it up and running, mostly you doing a lot of the
+> work on these things that… I guess there are two things that can come out of
+> this. One is that an individual can actually build a fairly, y’know,
+> substantial community, relatively speaking, with the tools that exist today…
+> that a lot of these tools are more accessible than maybe they once were. For
+> example, you mentioned that the commodity-hosting thing sort of, y’know, that
+> was the way that you could do it, which isn’t great; or you could do it
+> yourself, and bear those possible risks and consequences. But it also says, I
+> mean — this is, maybe, y’know, this is an opportunity to go back to where
+> Ma.gnolia came from. I mean, I found Ma.gnolia a long time ago largely
+> because I read [the web standards book][dwws], by the ‘blue beanie guy’.</q>
+
+ [dwws]: http://www.zeldman.com/dwws/ "Website for ‘Designing with Web Standards’"
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>[<span class='person'>Jeffrey Zeldman</span>][zeld].</q>
+
+ [zeld]: http://www.zeldman.com/ "Jeffrey Zeldman’s homepage"
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Exactly. And he, of course,
+> [<span class='company'>Happy Cog</span>][hcog] did the design of Ma.gnolia
+> originally, and that’s how I originally found it. And
+> [<span class='person'>Jason Santa Maria</span>][jsm] did the logo, and I was
+> like, wow, this is a great-looking site, I really wanna use this, y’know, it
+> looks kind of interesting. And yet I had no real insight into where it had
+> come from. I mean, maybe you can talk about the germination of the site, the
+> work that came before, that led to Ma.gnolia, and y’know… what maybe your
+> goals were originally.</q>
+
+ [hcog]: http://www.happycog.com/ "Happy Cog’s website"
+ [jsm]: http://jasonsantamaria.com/ "Jason Santa Maria’s homepage"
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>Well, it’s been a sort of long and shifting road, but to go way way back,
+> my background is in cultural anthropology, and I did my graduate work
+> developing qualitative research tools. And sort of… I think I sort of revisit
+> that every so often, and Ma.gnolia’s one of the revisitations of that work,
+> and in a way it’s a tool that helps people gather disparate information, and
+> thread it together in ways that make sense to them and their community. So,
+> that’s sort of like the way-back origin of Ma.gnolia.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Well what were your goals back then?</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>So I think… I mean, it’s funny, I think my goals when I started Ma.gnolia
+> were were to — at that point, you could make a lot more money on site
+> advertising, so the idea was to build, was much more around a publishing
+> model, and… sort of, as we launched the site, and as we watched people
+> starting to use it, it was clear that that was not what this was going to be.
+> And also was not necessarily true to my background and my work and who I was.
+> And so, as… throughout the beta period, and the initial months, and the
+> launch, we pretty quickly refocused the site on collaborative, community,
+> developing-type tool, rather than just a publishing/advertising-type site.
+> And in fact, ads were designed in the original site, and I never turned them
+> on until… well, I think actually they were on briefly, but basically I left
+> ads off the site until I added the ads-off upgrade. So that’s sort of the
+> initial start. And going down that road definitely was the right thing of the
+> site. I think it really found its identity, and really had a vision and
+> message as a community site.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>So would you say that overall, you know, notwithstanding what happened
+> recently, the site was a success?</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>I think the site was a success in terms of what it brought to people’s
+> lives, the community it developed… it definitely was like attracting like, in
+> terms of like attracted people who cared about their… environment, I think,
+> capital-e Environment, in terms of, like, not just the way the site looked
+> and the way the site acted and the interaction, but also, like, the people
+> around them, and the other people on the site. It attracted people who were
+> thoughtful and caring, I think. So, yeah, I mean, in that sense it was a
+> great success, in terms of, I was able to build something I loved for people
+> I liked and respected. The site didn’t ever actually make money, was not a
+> business or financial success.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>So from that perspective, you essentially were bankrolling the project,
+> kind of maybe out of a hope at some point it might turn into some sort of
+> business or something, but for the most part it sounds like it was a labor of
+> love, which a large number of people eventually ended up sort of relying on
+> and using on a fairly regular basis.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>Yes. This was definitely a labor of love. I was doing this because I
+> loved to do it. And it was completely self-funded. I would have loved to, and
+> I was working towards building a business model around it, with the add-ons,
+> and I was working towards, y’know, bringing ads back into the site in a way
+> that was more relevant. But some of, a lot of those plans never got executed
+> on.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Well, so let’s talk about that. I mean, there are a couple things that
+> have changed in the last several years, largely, many more people are using
+> social networks now, and there’s a lot more people online. The competitive
+> marketplace for sharing bookmarks is probably heated up a bit, even though
+> [delicious][del] is probably still the heavyweight, y’know, in the area, just
+> because of <span class='company'>Yahoo!</span>’s involvement…</q>
+
+ [del]: http://delicious.com "Delicious homepage"
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>I actually think, I mean, I think Ma.gnolia was a unique thing in terms
+> of the community that organized around it. But I think that, in a way, I
+> don’t think we could ever compete in the real world of link-sharing. I think
+> the biggest link-sharing site right now is Facebook. The people are sharing
+> their stuff: photos, links, any of the stuff in context of the communities
+> they’re already hanging out in.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Sure.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>So <ins>the</ins> destination <ins>of</ins> social bookmarking, I’m not
+> sure where that’s going.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>So let’s talk about that, then. I mean, obviously, there’s sorta been a
+> quiet lull after the storm, if you will, where I think, you know, you need an
+> opportunity to maybe collect your thoughts about what happens next. But what
+> are you sort of leaning towards right now? I mean, not all the data has been
+> retrieved yet, or recovered yet; there are a number of [tools][mgrt] that
+> you’ve made available, which you probably could talk a little bit about, but
+> in any case, whether the data is able to be retrieved, and people are able to
+> get their bookmarks out of Ma.gnolia, is the question of, well, what happens
+> in the future? Y’know, three, six, nine months from now, has Ma.gnolia
+> recovered, has it come back? Because I think if you make that distinction
+> between the data and the community, there’s something there. There’s a social
+> fabric that was created that, though, ripped out of a context because the
+> social objects went away, there’s still people who probably would like to
+> continue connecting and sharing with one another. So…</q>
+
+ [mgrt]: http://recovery.ma.gnolia.com/ "Ma.gnolia recovery tools page"
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>Yeah, and the community has asked for the tool back.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Yeah, they want the tool.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>So that’ll be coming back, in a modified, in a different sort of way.
+> It’ll be coming back in a proper hosting environment, for one thing.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Where you’re not responsible for <abbr class='smallcaps'>IT</abbr> any
+> more?</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>Yeah. It is gonna go into a more reliable utility…</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Where <span class='person'>Werner Vogels</span> is responsible, the guy
+> over at <span class='company'>Amazon</span>?</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>Exactly. And with better backup safeguards in place. I think that’s my
+> first priority in bringing it back, is… I mean, you could never guarantee
+> anyone a hundred percent of anything, but I can get a lot closer than I was
+> in the prior setup. So that’s sort of the biggest change that’s gonna happen,
+> in terms of technically how the site is gonna change. In terms of how the
+> community is gonna change, it’s gonna, it’s going to… it’s sort of, I think
+> as like going back into private beta, that I’m not going to have it open
+> registration, that the site is going to relaunch by invitation only, and then
+> slowly build up from there. And definitely people who were part of Ma.gnolia
+> 1, who were good community members there, will be invited back to join from
+> the outset.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Now do you think, I mean, that people can trust you again? Or do you
+> think this is just gonna be something that you earn back over time?</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>I think it’s gonna be something I earn back over time. I’m gonna
+> completely disclose what our infrastructure is, when that’s settled on, and
+> let people make the call based on that.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Yeah, I think, y’know, it’s sort of raised a number of questions, I
+> guess, in my mind, about… y’know, again, without that kind of, y’know, Apple
+> menu, you see what’s behind these services. I use a lot of web services, and
+> I had about 6300 bookmarks on Ma.gnolia, but I have similar sort of
+> quantities of stuff — data capital, as I call it — strewn throughout the web
+> on other services, for which I have no concept or idea of how they perform
+> backups. So it’s been interesting for me to, y’know, witness some folks in
+> the [Get Satisfaction][gets] forums were coming and, y’know, making these
+> claims about oh, this is preventable, and you could’ve done this or done
+> that, and sort of, y’know, playing armchair
+> <abbr class='smallcaps'>IT</abbr> professional and saying, well you could’ve
+> done all these different things, but at the same time we don’t have a great
+> deal of disclosure from other web services too. So it’s not just that
+> Ma.gnolia was the only one doing this, it’s that there was an experience here
+> that sort of sheds some light on these different
+> <abbr class='smallcaps'>IT</abbr> practices, I guess, for better or worse. I
+> imagine that there are a lot of other, for example, applications out there,
+> y’know, that are built to serve the Twitter community, that are probably
+> equally, if not much worse off, than Ma.gnolia from an infrastructure
+> perspective. So it raises a broader question, I think, about, y’know, who we
+> are entrusting with our data, and where we’re putting it, where we’re hosting
+> it… And in some ways, making sure that there is a personal sort of connection
+> or relationship there, I think it becomes more important over time. I mean,
+> if you imagine these services as kind of like your bank, and you wanna
+> entrust your bank, y’know, over time I think that individuals, now that
+> you’ve had this experience, you’re never gonna repeat this problem, y’know,
+> this situation. Other services may have to similarly have that kind of
+> experience until we realize this is actually a big deal, and this is a
+> long-term sort of, y’know, consideration to make. I mean, a lot of the work
+> that, let’s say, I do with OpenID is around also helping OpenID providers
+> understand and realize the gravity of their purpose. Y’know, it’s just like
+> if your email went away, what would you do? For a lot of people, I think that
+> would be very very bad. So there’s that, is that question, like, sure, people
+> could keep countless backups of their own data on their own machines, and
+> things like that; and only recently, though with tools like
+> [Time Machine][tmac] has even personal backups become somewhat more
+> accessible. So this is, I think, a question for many more people than just
+> either Ma.gnolia or the Ma.gnolia community or you. <ins>Where?</ins> it’s a
+> question of, how do we go about making smarter decisions about where we host
+> our data? And just because we can keep everything, what is the real value?
+> And I think it’s yet to be seen; I mean, you talk about sort of the
+> qualitative… what was it, the research that you said?</q>
+
+ [gets]: http://getsatisfaction.com/magnolia/topics/ma_gnolia_data_recovery_status "Get Satisfaction thread regarding Ma.gnolia recovery"
+ [tmac]: http://en.wikipedia.org/wiki/Time_Machine_(Apple_software) "Wikipedia article for Time Machine"
+
+> <cite><abbr>LH:</abbr></cite>
+> <q><ins>?</ins> Collaborative qualitative research tools.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>Yeah, so you can imagine that this… I have this sort of abstract concept
+> of this, since I don’t really have to get too much into the bits and bytes.
+> I don’t really need to think about how hard it would be to do this the right
+> way, but, y’know, 6300 bookmarks gives you kind of a fingerprint of the stuff
+> that I’ve consumed over the last, y’know, three or four years. You could
+> imagine using that as a filter for things that might interest me in the
+> future. And so, on the one hand, just having your bookmarks some place, to
+> me, is not all that interesting. I have backups, y’know, from ages ago, and
+> I have stuff I did in college on hard drives somewhere. I’m never gonna look
+> at that stuff again, but I have this sort of abstract through that, oh, some
+> day I’ll break out the old, y’know, 180 gig hard drive, or actually at this
+> point probably 180 megabyte hard drive; I’ll be like, oh, take a look at
+> that! Y’know, like, I did that with Photoshop 3. But… there’s just so much
+> data now that you almost need to be living much more in the moment, doing
+> these things in real time, where a bookmark has a half-life of, y’know,
+> twenty-four hours, if not less.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>Yeah. I mean, I think you’re right. I mean, the interesting value in data
+> like bookmarks is probably more along the lines of what… I mean, there is
+> stuff you wanna go back and find, but a lot of the value is probably in terms
+> of using that to build other tools, like what Apple did with the
+> [iTunes Genius][itg] —</q>
+
+ [itg]: http://en.wikipedia.org/wiki/Genius_(iTunes) "Wikipedia page for iTunes Genius"
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>That’s right.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>— where it’s like, they can look at your entire music collection —</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>And your listening habits.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>— and your listening habits and stuff… you may not be listening to, right
+> now, an album you got five years ago, but it can bring that back, or use that
+> to find other songs, in terms of developing those Genius playlists.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>I mean, y’know, if you think about it from that perspective, Ma.gnolia
+> has — or had, and may still have — a great opportunity to start doing that,
+> where it could be, y’know, your daily list of links, recommended to you based
+> on your previous history. And that’s something I haven’t seen done a great
+> deal; it’s very hard to do, very hard to get right.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>It’s computationally intensive.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>That’s right. But nonetheless, you can imagine that moving forward, that
+> would be a very valuable way of making use of, y’know, this type of service.
+> So, well anyways, maybe you… any parting thoughts? Like, y’know, to, let’s
+> say, Ma.gnolia users, y’know, who are sort of waiting for *something*.
+> Y’know, the next thing, like…</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>Um… I mean, I just can’t thank people enough for their support. It’s
+> really… as difficult as this experience has been for me, I think my faith in
+> humanity has been reaffirmed…</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>That’s good.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>And really, I have everybody out there who was hurt by this experience to
+> thank for that. And just, also, keep an eye out for the updates on
+> [Twitter][twmag] and [Get Satisfaction][gets] and the Ma.gnolia homepage for
+> <ins>in terms?</ins> of bringing the community back, I’d say in the next
+> month, month and a half.</q>
+
+ [twmag]: http://twitter.com/magnolia "Ma.gnolia on Twitter"
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>That’s, that’s exciting. I mean, I’m looking forward to it regardless.
+> Y’know, whether or not my bookmarks are there or not is actually not what I’m
+> most interested in. I think that having it there, it’s one of those things
+> where, you don’t really miss it until it’s gone, right. So now that we’ve had
+> that sense, you wanna fill that void, and I think it’s good to know that,
+> y’know, Ma.gnolia will be, will grow again.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>It will.</q>
+
+> <cite><abbr>CM:</abbr></cite>
+> <q>All right, well, appreciate it.</q>
+
+> <cite><abbr>LH:</abbr></cite>
+> <q>Thank you.</q>
