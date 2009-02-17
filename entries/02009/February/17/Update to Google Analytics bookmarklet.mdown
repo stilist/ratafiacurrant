@@ -1,0 +1,20 @@
+PERMALINK: /post/79066657/update-to-google-analytics-bookmarklet
+PUBLISHED: Feb 17th, 02009 9:10am
+TAGS: bookmarklet, google, javascript
+
+Back on the fourteenth of January, I published [a bookmarklet][rcbmk] to jump
+to the current day’s stats in Analytics.
+
+ [rcbmk]: http://ratafia.info/post/70509179/bookmarklet-to-show-todays-stats-in-google-analytics
+
+This originally used `google.com` rather than `www.google.com`. Somewhere
+around the ninth of February this [stopped working][tw1]. I initially thought
+this was due to [a missing referrer header][tw2], but today I discovered the
+issue was the missing `www`. I don’t know what changed on Google’s end, but I’m
+glad to have the functionality back.
+
+ [tw1]: http://twitter.com/stilist/status/1192254987
+ [tw2]: http://twitter.com/stilist/status/1192259679
+
+The code in the original entry has been updated, so if you’re using this
+bookmarklet you’ll want to go [back there][rcbmk] and get the revised version.

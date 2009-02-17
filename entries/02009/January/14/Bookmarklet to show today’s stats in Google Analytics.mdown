@@ -11,7 +11,7 @@ automatically done for me?’.
 
 The code is a bit longer than usual this time, partly because the
 <abbr class='smallcaps'>URL</abbr> involved is lengthy, and partly because this
-has a higher number of method calls. Even so, 201 characters isn’t too far
+has a higher number of method calls. Even so, 205 characters isn’t too far
 above my general goal of being able to [fit my bookmarklets in a tweet][bmtw].
 It’s possible to save 17 characters by not initiating variables, but that tends
 to cause unpleasant surprises.
@@ -31,11 +31,11 @@ to cause unpleasant surprises.
 
     b = y + m + d;
 
-    location.href = 'https://google.com/analytics/reporting?pdr=' + b + '-' + b;
+    location.href = 'https://www.google.com/analytics/reporting?pdr=' + b + '-' + b;
 
 ## The bookmarklet
 
 Simply drag the following link to your bookmarks bar, or click to see it in
-action: <a href="javascript:var%20b,d,m,y='';x=new%20Date();d=x.getDate();if(d<10)d='0'+d;m=x.getMonth()+1;if(m<10)m='0'+m;y=x.getFullYear();b=y+m+d;location.href='https://google.com/analytics/reporting/?pdr='+b+'-'+b;">today’s analytics</a>.
+action: <a href="javascript:var%20b,d,m,y='';x=new%20Date();d=x.getDate();if(d<10)d='0'+d;m=x.getMonth()+1;if(m<10)m='0'+m;y=x.getFullYear();b=y+m+d;location.href='https://www.google.com/analytics/reporting/?pdr='+b+'-'+b;">today’s analytics</a>.
 
 As ever, this code is yours to do with as you will.
