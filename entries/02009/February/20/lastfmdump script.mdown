@@ -1,6 +1,6 @@
-PERMALINK: 
-PUBLISHED: 
-TAGS: 
+PERMALINK: /post/80107616/lastfmdump-script
+PUBLISHED: Feb 20th, 02009 8:10pm
+TAGS: data, last.fm, ruby, scripting
 
 Due to the news that [last.fm may have given the
 <abbr class='smallcaps'>RIAA</abbr> user data][tc], I’ve thrown together [a
