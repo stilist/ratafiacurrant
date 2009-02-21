@@ -5,7 +5,8 @@ TAGS: data, last.fm, ruby, scripting
 Due to the news that [last.fm may have given the
 <abbr class='smallcaps'>RIAA</abbr> user data][tc], I’ve thrown together [a
 Ruby script][lfd] that will dump out a user’s listening history. Having
-exported my own data, I’m now free to cancel my last.fm account without loss.
+exported my own data, I’m now free to cancel my last.fm account while keeping
+my play logs.
 
  [lfd]: http://github.com/stilist/lastfmdump/ "lastfmdump script at GitHub"
  [tc]: http://www.techcrunch.com/2009/02/20/did-lastfm-just-hand-over-user-listening-data-to-the-riaa/ "‘Did Last.fm Just Hand Over User Listening Data to the RIAA?’"
