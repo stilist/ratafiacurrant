@@ -1,0 +1,18 @@
+PERMALINK: 
+PUBLISHED: 
+TAGS: 
+
+Due to the news that [last.fm may have given the
+<abbr class='smallcaps'>RIAA</abbr> user data][tc], I’ve thrown together [a
+Ruby script][lfd] that will dump out a user’s listening history. Having
+exported my own data, I’m now free to cancel my last.fm account without loss.
+
+ [lfd]: http://github.com/stilist/lastfmdump/ "lastfmdump script at GitHub"
+ [tc]: http://www.techcrunch.com/2009/02/20/did-lastfm-just-hand-over-user-listening-data-to-the-riaa/ "‘Did Last.fm Just Hand Over User Listening Data to the RIAA?’"
+
+This is no major loss to me, as I’ve been scrobbling solely from my phone for
+the past eight months or so, which turns out to be a very haphazard
+process — there’s no guarantee that anything will scrobble, or that all the
+tracks will scrobble. Even beyond that, I’ve only ever used the service for a
+personal music history. I’ll regret the complete loss of this information, but
+it’s better than giving it to a company I can’t trust.
