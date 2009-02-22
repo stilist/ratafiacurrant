@@ -1,0 +1,40 @@
+BOOKMARK: http://delicious.com/url/2dbb83ab0fa452391d834a006b0a97d5
+LINK: http://www.internetevolution.com/document.asp?doc_id=171555&print=yes
+PERMALINK: http://ratafia.info/post/80350795/media-morphosis-how-the-internet-will-devour
+PUBLISHED: Feb 21st, 02009 8:28pm
+TAGS: books, corydoctorow, future, media, web
+
+<span class='person'>Cory Doctorow</span>:
+
+> The Internet chews up media and spits them out again. Sometimes they get more
+> robust. Sometimes they get more profitable. Sometimes they die.
+
+> It’s a scary thought, especially if you’re personally attached to an old
+> medium like movies, books, records, or newspapers.
+
+The article briefly covers the concerns of newspapers, films from major
+studios, music labels and artists, and books.
+
+From the section on films:
+
+> So, we may be at the end of the period in cinematic history where we can
+> convince investors to pony up $300 million to make a sequel to a sequel to a
+> remake of a movie adapted from a 50-year-old comic book. Which isn’t to say
+> that no one will make these things henceforth — give it a decade or two and
+> there may well be rich weirdos who fund these productions the same way there
+> are lovely old codgers who can be coaxed into putting up the dough to mount
+> 15-hour, all-singing, all-dancing Wagner operas. Not a mass medium, nowhere
+> near as culturally relevant as BBMs are today, but still a going concern as
+> a vanity/prestige form.
+
+That [sounds familiar][dgab], as does this comment about [distraction][rcdb],
+from the Books segment:
+
+ [dgab]: http://ratafia.info/post/72804685/digital-goods-and-analog-books
+ [rcdb]: http://ratafia.info/post/79168300/the-decline-of-books
+
+> On the other hand, for many kinds of books — long-form narratives, for
+> instance — reading off a screen is a poor substitute for a cheap and
+> easy-to-buy codex. Not because screen quality is insufficient (if it were, we
+> wouldn’t all spend every hour that God sends sitting in front of our
+> computers), but because computers are damned distracting.

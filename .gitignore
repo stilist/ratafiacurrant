@@ -1,5 +1,6 @@
 .DS_Store
 # Don't push out old entries
+entries/drafts/
 entries/02005/
 entries/02006/
 # Non-functional stuff
