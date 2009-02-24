@@ -1,0 +1,20 @@
+PERMALINK: /post/81101200/problems-and-complaints-for-the-safari-4-beta
+PUBLISHED: Feb 24th, 02009 10:52am
+TAGS: safari, safari4, software
+
+A list of things that have annoyed me so far about Safari 4. I don’t know how
+many of these things are intentional.
+
+* Tab titles no longer says ‘Loading…’. Title does not change until page is
+loaded.
+* Tab title text is [incorrect size and weight][fltt].
+* Page-load progress is impossible to determine. Now there’s a generic spinner
+on the right side of the address bar, rather than the previous bar chart in the
+bar’s background, or even the hidden pie chart option.
+* [Bookmarklets affecting a window][rcwr] no longer work if the window has more
+than one tab open.
+* Windows are unresponsive, often without going to the beachball of doom — so
+there’s no indicator that anything is waiting to happen.
+
+ [fltt]: http://flickr.com/photos/stilist/3306057557/
+ [rcwr]: http://ratafia.info/post/57974751/window-resize-bookmarklet
