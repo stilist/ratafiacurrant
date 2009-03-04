@@ -1,0 +1,29 @@
+PERMALINK: /post/83563012/ricardo-theme-ported-to-wordpress
+PUBLISHED: Mar 4th, 02009 4:04pm
+TAGS: coding, design, meta, tumblr, wordpress
+
+[See it on GitHub][gh].
+
+ [gh]: http://github.com/stilist/ratafiacurrant/tree/master/themes/ricardo-wp
+
+The process took about two hours, including updating WordPress and fixing
+a configuration issue. There is some slight mismatch between the two, largely
+due to platform differences, but I was able to simply copy and paste a good
+deal of the code.
+
+## Issues
+
+* Is there a template tag to check if next/previous pagination will be
+generated? I don’t want to have unnecessary markup rendered. Tumblr allows me
+to do this by wrapping all my pagination code in
+`{block:Pagination}…{/block:Pagination}` tags, and the next/previous links in
+`{block:NextPage}…{NextPage}…{/block:NextPage}`. WordPress only seems to
+provide a way to generate the links directly with `next_posts_link`.
+* I’m unclear on exactly how to set up archives. The
+[instructions in the Codex][wpcar] seem to be a version behind.
+* Bizarrely, the page renders differently when I use
+<abbr class='smallcaps'>CSS</abbr>, even though it’s exactly the same as the
+remote copy I use with Tumblr. For now the `style.css` file is present simply
+because it’s required to give metadata.
+
+ [wpcar]: http://codex.wordpress.org/Creating_an_Archive_Index "‘Creating an Archive Index’"
