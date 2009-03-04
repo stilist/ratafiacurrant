@@ -63,8 +63,8 @@ Now let’s look at a different approach.
 
 > Spimes have identities, they are protagonists of a documented process.
 
-> They are searchable, like <span class='company'>Google</span>. You can think
-> of Spimes as being auto-Googling objects.
+> They are searchable, like <span class='organization'>Google</span>. You can
+> think of Spimes as being auto-Googling objects.
 
 > So what would it be like to encounter a spime in your future real life? How
 > if you know if you stumbled over one in the street?

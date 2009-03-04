@@ -3,7 +3,7 @@ PUBLISHED: Jan 30th, 02009 8:27pm
 TAGS: blogging, journalism, web
 
 [<span class='person'>Dan Lyons</span>][dl], writing about
-<span class='company'>Apple</span>’s public relations and press:
+<span class='organization'>Apple</span>’s public relations and press:
 
  [dl]: http://www.newsweek.com/id/179825/output/print "‘Rotten Reporting’"
 
@@ -11,10 +11,10 @@ TAGS: blogging, journalism, web
 > <span class='person'>Barack Obama</span> — a company that can do no wrong.
 > Even in Silicon Valley, where much of the press corps are pretty much
 > glorified cheerleaders (think of all those slobbering cover stories about the
-> <span class='company'>Google</span> guys) Apple’s kid-gloves treatment stands
-> out. Reporters don’t just overlook Apple’s faults; they'll actually apologize
-> for them, or rationalize them away. Ever seen reporters clapping and cheering
-> at a press conference? Happens all the time at Apple events.
+> <span class='organization'>Google</span> guys) Apple’s kid-gloves treatment
+> stands out. Reporters don’t just overlook Apple’s faults; they'll actually
+> apologize for them, or rationalize them away. Ever seen reporters clapping
+> and cheering at a press conference? Happens all the time at Apple events.
 
 Newspaper folk are particularly inclined to complain about the negative effects
 the web has had on reporting.
@@ -32,7 +32,7 @@ the web has had on reporting.
 > <abbr class='smallcaps'>D.C.</abbr> bureau was told to leave at the same
 > time, as was the top investigator at the Washington bureau of
 > The <span class='newspaper'>Los Angeles Times</span>, which is also owned by
-> the <span class='company'>Tribune Company</span>. But as an example of
+> the <span class='organization'>Tribune Company</span>. But as an example of
 > journalism’s very best, Crewdson’s dismissal is a symbol of the extent to
 > which the news media are imploding. And that implosion is a development with
 > far-reaching implications.

@@ -311,8 +311,8 @@ On to the transcript.
 
 > <cite><abbr>CM:</abbr></cite>
 > <q>Exactly. And he, of course,
-> [<span class='company'>Happy Cog</span>][hcog] did the design of Ma.gnolia
-> originally, and that’s how I originally found it. And
+> [<span class='organization'>Happy Cog</span>][hcog] did the design of
+> Ma.gnolia originally, and that’s how I originally found it. And
 > [<span class='person'>Jason Santa Maria</span>][jsm] did the logo, and I was
 > like, wow, this is a great-looking site, I really wanna use this, y’know, it
 > looks kind of interesting. And yet I had no real insight into where it had
@@ -389,7 +389,7 @@ On to the transcript.
 > social networks now, and there’s a lot more people online. The competitive
 > marketplace for sharing bookmarks is probably heated up a bit, even though
 > [delicious][del] is probably still the heavyweight, y’know, in the area, just
-> because of <span class='company'>Yahoo!</span>’s involvement…</q>
+> because of <span class='organization'>Yahoo!</span>’s involvement…</q>
 
  [del]: http://delicious.com "Delicious homepage"
 
@@ -445,7 +445,7 @@ On to the transcript.
 
 > <cite><abbr>CM:</abbr></cite>
 > <q>Where <span class='person'>Werner Vogels</span> is responsible, the guy
-> over at <span class='company'>Amazon</span>?</q>
+> over at <span class='organization'>Amazon</span>?</q>
 
 > <cite><abbr>LH:</abbr></cite>
 > <q>Exactly. And with better backup safeguards in place. I think that’s my

@@ -3,8 +3,8 @@ PUBLISHED: Jan 10th, 02009 3:26pm
 TAGS: apple, artificialintelligence, datadetector, technology
 
 Today I’ve been looking for information about the origins of
-<span class='company'>Apple</span>’s ‘data detector’ technology. Although it
-was available in some form starting in the late 90s, it seems to have
+<span class='organization'>Apple</span>’s ‘data detector’ technology. Although
+it was available in some form starting in the late 90s, it seems to have
 disappeared at some point, [resurfacing][leodd] with the release of Leopard.
 ([See also][mwdd].)
 
@@ -119,7 +119,7 @@ something of a dependency jumble:
 
 > The solution for shared, compatible detectors requires developers to register
 > their detectors. Our registry is supported by
-> <span class='company'>Component Integration Labs</span>, a company
+> <span class='organization'>Component Integration Labs</span>, a company
 > responsible for maintaining the Apple Event Suites (among other standards).
 > Apple Data Detectors will make use of the registry which contains definitions
 > for classes of data objects and for events that operate on the objects.
@@ -159,11 +159,11 @@ understand human language][sund]:
 > <abbr class='smallcaps'>ADD</abbr>.
 
 Unfortunately, only [two pages of chapter 20][c20gb] are available in
-<span class='company'>Google</span>’s online viewer, and
-<span class='company'>Amazon</span>’s preview functionality won’t work with me.
-With the examples given on the pages that *are* available, it seems as though
-one would define detectors externally and ask for them via AppleScript. The
-detector presumably gives a return value which is treated as any other
+<span class='organization'>Google</span>’s online viewer, and
+<span class='organization'>Amazon</span>’s preview functionality won’t work
+with me. With the examples given on the pages that *are* available, it seems as
+though one would define detectors externally and ask for them via AppleScript.
+The detector presumably gives a return value which is treated as any other
 AppleScript object data. The sample code uses the detector patterns as a way to
 create custom detector actions.
 

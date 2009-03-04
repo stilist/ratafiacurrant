@@ -64,9 +64,9 @@ the spirit of the dot-com boom that influenced the choice, in the same way I
 assume the ‘cyberbody’ term is a result of sci-fi and early web culture.
 Regardless, it seems that the more immediate method is email or user logins of
 some manner (e.g. MobileMe, which presumably binds everything to one’s
-<span class='company'>Apple</span> email/password combo). Perhaps things *will*
-shift in the direction of keycards, or biometrics, or something similar, but I
-wouldn’t look for it as an early sign.
+<span class='organization'>Apple</span> email/password combo). Perhaps things
+*will* shift in the direction of keycards, or biometrics, or something similar,
+but I wouldn’t look for it as an early sign.
 
 Of course, my perspective is just as rooted in the near-future as Gelernter’s
 was. <span class='emoticon smile'>:)</span>
@@ -93,10 +93,11 @@ prompted by the success of Gmail).
  [as3]: http://en.wikipedia.org/wiki/Amazon_S3
 
 > The windows-menus-mouse “desktop” interface, invented by
-> <span class='company'>Xerox</span> and <span class='company'>Apple</span> and
-> now universal, was a brilliant invention and is now obsolete. It wastes
-> screen-space on meaningless images, fails to provide adequate clues to what
-> is inside the files represented by those blurry little images…
+> <span class='organization'>Xerox</span> and
+> <span class='organization'>Apple</span> and now universal, was a brilliant
+> invention and is now obsolete. It wastes screen-space on meaningless images,
+> fails to provide adequate clues to what is inside the files represented by
+> those blurry little images…
 
 Again [pushing icon previews][previews].
 

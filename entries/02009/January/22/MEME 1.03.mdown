@@ -12,25 +12,26 @@ TAGS: apple, davidbennahum, history, technology
 > <ins>0</ins>1982, even if it is <ins>0</ins>1995. This kind of
 > uncertainty scares people with really big pockets, people who have thousands
 > of employees and can spend thousands on one order. From day one those people
-> were just \*not\* going to spend money on a company called
-> <span class='company'>Apple</span> best known for a machine built in a garage
-> by two hackers, a machine that kids loved because of the video games. We seem
-> to forget those days.
+> were just *not* going to spend money on a company called
+> <span class='organization'>Apple</span> best known for a machine built in a
+> garage by two hackers, a machine that kids loved because of the video games.
+> We seem to forget those days.
 
 > A little bit of history.
 
 > In <ins>0</ins>1981
-> <span class='company'><abbr class='smallcaps'>IBM</abbr></span> launched its
-> first personal computer, the aptly named Personal Computer. Back then there
-> was only one kind of personal computer — the video game machine. You had
-> three choices: <span class='company'>Atari</span>, Apple and
-> <span class='company'>Commodore</span>. Weirdoes who liked monochrome bought
-> TRS-80s (<abbr class='smallcaps'>aka</abbr> the “trash eighty”) from
-> <span class='company'>Radio Shack</span> with an audio-cassette tape drive.
-> In this kind of universe, you’re Apple and you’re thinking “how are we going
-> to convince companies that a personal computer belongs in their offices?” The
-> answer is, you’re not. No way. Not Apple. Not Atari. Not anyone but
-> <abbr class='smallcaps'>IBM</abbr> is ever going to convince corporate
+> <span class='organization'><abbr class='smallcaps'>IBM</abbr></span> launched
+> its first personal computer, the aptly named Personal Computer. Back then
+> there was only one kind of personal computer — the video game machine. You
+> had three choices: <span class='organization'>Atari</span>, Apple and
+> <span class='organization'>Commodore</span>. Weirdoes who liked monochrome
+> bought <abbr class='smallcaps'>TRS</abbr>-80s
+> (<abbr class='smallcaps'>aka</abbr> the “trash eighty”) from
+> <span class='organization'>Radio Shack</span> with an audio-cassette tape
+> drive. In this kind of universe, you’re Apple and you’re thinking “how are we
+> going to convince companies that a personal computer belongs in their
+> offices?” The answer is, you’re not. No way. Not Apple. Not Atari. Not anyone
+> but <abbr class='smallcaps'>IBM</abbr> is ever going to convince corporate
 > America to buy this thing called a <abbr class='smallcaps'>PC</abbr>. So
 > Apple, rightfully, walked away from a market they never were a contender in;
 > and from <ins>0</ins>1981 to <ins>0</ins>1994 the office market drove the
@@ -38,17 +39,17 @@ TAGS: apple, davidbennahum, history, technology
 
 > …
 
-> The Pippin is part of a project with <span class='company'>Bandai</span>, a
-> Japanese game company known for its effluvium of Saturday morning cartoons,
-> video games, and other brain candy for kids. The logic goes like this. As
-> computers become household commodities, like consumer electronics, Apple
-> stands heads above the other <abbr class='smallcaps'>PC</abbr> makers as the
-> only one with any concept of design, marketing and the shopper’s
-> impulse — the kind of stuff Walkmen, Swatches and GameBoys are made of. With
-> the increasing popularity of the Internet, the demand for cheap household
-> computers will dovetail nicely with the demand for ever more immersive
-> video-game machines. Who else but Apple has the skill to enter this market?
-> Who? If Apple is lucky they will forge an alliance with
-> <span class='company'>Sony</span> and build these $300 hybrid
-> <abbr class='smallcaps'>PC</abbr>/video-game/Internet gateways together.
-> Could you imagine how many they would sell at Christmas? Tons.
+> The Pippin is part of a project with
+> <span class='organization'>Bandai</span>, a Japanese game company known for
+> its effluvium of Saturday morning cartoons, video games, and other brain
+> candy for kids. The logic goes like this. As computers become household
+> commodities, like consumer electronics, Apple stands heads above the other
+> <abbr class='smallcaps'>PC</abbr> makers as the only one with any concept of
+> design, marketing and the shopper’s impulse — the kind of stuff Walkmen,
+> Swatches and GameBoys are made of. With the increasing popularity of the
+> Internet, the demand for cheap household computers will dovetail nicely with
+> the demand for ever more immersive video-game machines. Who else but Apple
+> has the skill to enter this market? Who? If Apple is lucky they will forge an
+> alliance with <span class='organization'>Sony</span> and build these $300
+> hybrid <abbr class='smallcaps'>PC</abbr>/video-game/Internet gateways
+> together. Could you imagine how many they would sell at Christmas? Tons.

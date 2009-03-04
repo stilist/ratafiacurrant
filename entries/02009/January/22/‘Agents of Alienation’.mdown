@@ -20,7 +20,7 @@ that enforce the illusion?
 
 Yesterday I accidentally resumed the thread, and found a variety of writing
 that clarified what Lanier was really complaining
-about — <span class='company'>General Magic</span>’s ‘intelligent agents’,
+about — <span class='organization'>General Magic</span>’s ‘intelligent agents’,
 programmed with a language called Telescript.
 
 The first hint was in <span class='person'>David Bennahum</span>’s

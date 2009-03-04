@@ -34,16 +34,16 @@ idea of scarcity.
 
 > When a library becomes a digital library, a lot of things change. In a
 > nutshell, it starts to look just like a publisher. It actually becomes a
-> competitor to the likes of <span class='company'>HarperCollins</span> and
-> <span class='company'>Random House</span>. First of all, you no longer have
-> to physically go to the library to get the information. You can read it
-> on-screen. Second, there is no theoretical limit of the number of people who
-> can “borrow” the same book once the book is in bit form. In such a world, a
-> publisher has good reason to rescind the bond between publisher, library and
-> reader. In the old days that bond meant publishers tolerated libraries on one
-> condition — that the library not charge for reading books. This guaranteed
-> that the library’s commercial impact on publishers remained negligible. But
-> with a digital library, if the choice is `publisher.com` or
+> competitor to the likes of <span class='organization'>HarperCollins</span>
+> and <span class='organization'>Random House</span>. First of all, you no
+> longer have to physically go to the library to get the information. You can
+> read it on-screen. Second, there is no theoretical limit of the number of
+> people who can “borrow” the same book once the book is in bit form. In such a
+> world, a publisher has good reason to rescind the bond between publisher,
+> library and reader. In the old days that bond meant publishers tolerated
+> libraries on one condition — that the library not charge for reading books.
+> This guaranteed that the library’s commercial impact on publishers remained
+> negligible. But with a digital library, if the choice is `publisher.com` or
 > `library.net` — what are you going to choose? At `library.net` you can
 > read the same book for free. At `publisher.com` they’ll bill you. Both are a
 > mouse click away, both have the same content you want. But one is free and
@@ -68,8 +68,8 @@ Gleick][gleick]:
 
 > One could imagine the book, venerable as it is, just vanishing into the
 > ether. It melts into all the other information species searchable through
-> <span class='company'>Google</span>’s most democratic of engines: the Web
-> pages, the blogs, the organs of printed and broadcast news, the general
+> <span class='organization'>Google</span>’s most democratic of engines: the
+> Web pages, the blogs, the organs of printed and broadcast news, the general
 > chatter. (Thanks for everything, <span class='person'><ins>Johannes</ins>
 > Gutenberg</span>, and now goodbye.)
 
