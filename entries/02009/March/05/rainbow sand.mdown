@@ -1,0 +1,24 @@
+PERMALINK: /post/83877017/rainbow-sand
+PUBLISHED: Mar 5th, 02009 4:04pm
+TAGS: design, meta, rainbowsand, wordpress
+
+Today I had a fit of inspiration and created a new blog design: 
+
+![(Screen capture of rainbow sand design)][rsimg]
+
+ [rsimg]: http://img.photobucket.com/albums/v240/stilist/Miscellaneous/rainbowsand.jpg
+
+It’s currently named ‘rainbow sand’, which is a pretty terrible
+name — unfortunately my word-choosing ability was not similarly inspired. The
+result doesn’t quite mirror [my mockup][mockup], due to uncertainty about how
+to best implement the offset fills. I may experiment with it further; we’ll
+see.
+
+ [mockup]: http://flickr.com/photos/stilist/3330507725/ "See mockup on Flickr"
+
+At time of writing, it’s WordPress-only, but I’ll be converting it for Tumblr.
+The slowest part is always the stylesheet, and that only needs to be done once.
+
+[Have a look at the code!][rsgit]
+
+ [rsgit]: http://github.com/stilist/ratafiacurrant/tree/master/themes/rainbowsand-wp
