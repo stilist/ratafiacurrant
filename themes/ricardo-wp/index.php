@@ -10,8 +10,8 @@
    <p class='signoff'>written <a href='<?php the_time('0Y\/F\/j'); ?>'><?php the_time('j F, 0Y'); ?></a>
     • <a href='<?php the_permalink(); ?>#disqus_thread'>Comments</a>
     <a href='<?php the_permalink(); ?>' class='pilcrow' title='Permanent link to this entry'>⁋</a></p>
-  <? endwhile; ?>
   </div>
+  <? endwhile; ?>
 
   <div id='nextprev'>
    <span id='prevpage'><?php previous_posts_link('← Newer'); ?></span>
