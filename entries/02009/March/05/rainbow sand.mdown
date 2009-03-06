@@ -22,3 +22,7 @@ The slowest part is always the stylesheet, and that only needs to be done once.
 [Have a look at the code!][rsgit]
 
  [rsgit]: http://github.com/stilist/ratafiacurrant/tree/master/themes/rainbowsand-wp
+
+**Update:** The [Tumblr variant][rstgit] of the theme is now complete.
+
+ [rstgit]: http://github.com/stilist/ratafiacurrant/tree/master/themes/rainbowsand
