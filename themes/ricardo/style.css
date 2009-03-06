@@ -101,6 +101,7 @@ strong {
  background: none bottom center no-repeat;
  border-bottom: none;
  display: block;
+ height: 27px;
  position: absolute;
  text-indent: -1000em;
 }
@@ -112,15 +113,19 @@ strong {
 #nameplate #archives {
  background-image: url('http://static.ratafia.info/ricardo/archives.png');
  bottom: 0;
- height: 27px;
- left: 252px;
+ left: 237px;
  width: 114px;
+}
+#nameplate #code {
+ background-image: url('http://static.ratafia.info/ricardo/code.png');
+ bottom: 0;
+ left: 366px;
+ width: 63px;
 }
 #nameplate #links {
  background-image: url('http://static.ratafia.info/ricardo/links.png');
  bottom: 0;
- height: 27px;
- right: 299px;
+ right: 237px;
  width: 67px;
 }
 

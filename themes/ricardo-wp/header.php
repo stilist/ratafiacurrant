@@ -28,5 +28,6 @@
   <ul id='nameplate'>
    <li><a href='http://ratafia.info' id='logo' rel='home'>Ratafia Currant</a></li>
    <li><a href='/archive.php' id='archives'>Archives</a></li>
+   <li><a href='http://github.com/stilist' id='code'>Code</a></li>
    <li><a href='http://delicious.com/stilist' id='links'>Links</a></li>
   </ul>
