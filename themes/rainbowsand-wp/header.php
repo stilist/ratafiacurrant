@@ -25,6 +25,7 @@
    <ul id='nameplate'>
     <li id='logo'><a href='<?php echo get_option('home'); ?>/' rel='home'><?php bloginfo('name'); ?></a></li>
     <li><a href='/archive.php' id='archives'>Archives</a></li>
+    <li><a href='http://github.com/stilist' id='code'>Code</a></li>
     <li><a href='http://delicious.com/stilist' id='links'>Links</a></li>
    </ul>
 
