@@ -1,0 +1,40 @@
+PERMALINK: /post/84465927/design-a-day-1
+PUBLISHED: Mar 7th, 02009 7:04pm
+TAGS: design, design-a-day
+
+[![Design-a-day #1][fl]][dad1]
+
+ [dad1]: http://flickr.com/photos/stilist/3336716356/
+ [fl]: http://farm4.static.flickr.com/3550/3336716356_57cf0e6668.jpg
+
+[(Wireframe)][wf]
+
+ [wf]: http://flickr.com/photos/stilist/3336764168/
+
+In the interest of self-improvement, I’ve decided to start pushing out a new
+blog design every (week)day. [rainbow sand][rainbow] could perhaps be
+considered the first effort in this direction, but today marks the official
+beginning of the ‘design-a-day’ project. Each day I’ll do a write-up; the
+mockup and finished design will be posted to Flickr in the
+[Design-a-day set][dadset].
+
+ [dadset]: http://flickr.com/photos/stilist/sets/72157614936626918/
+ [rainbow]: http://ratafia.info/post/83877017/rainbow-sand
+
+If you’re taken by a design, I’ll be happy to supply its
+<abbr class='smallcaps'>PSD</abbr> file.
+
+## Themes
+
+1. Wide header. I’m really taken with the look of widescreen photos when
+they’re well-executed.
+1. Outdents. It’s an unusual look, but an interesting one. This also appeared
+in rainbow sand, and I’ve played with it a few other times.
+1. Readability. This was a primary concern, and will probably factor into a
+number of future designs, as I’ve become interested in the problem.
+
+## Issues
+
+1. The navigation (nameplate) is sloppy. I couldn’t think of a better solution.
+1. The overlaid post title looks cool, but doesn’t match anything else in the
+design. It’s a good idea at the wrong time.
