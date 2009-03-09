@@ -1,0 +1,40 @@
+PERMALINK: /post/84967655/design-a-day-2
+PUBLISHED: Mar 9th, 02009 3:47pm
+TAGS: design, design-a-day
+
+It’s day two of the [design-a-day project][dad]. As ever, the
+<abbr class='smallcaps'>PSD</abbr> is available by request.
+
+ [dad]: http://ratafia.info/tagged/design-a-day "See all design-a-day entries"
+
+[![Design-a-day #2][img]][fl]
+
+ [fl]: http://flickr.com/photos/stilist/3341438619/
+ [img]: http://farm4.static.flickr.com/3314/3341438619_bdf887ee5e.jpg
+
+([wireframe][wf], [screencast][sc])
+
+ [sc]: http://flickr.com/photos/stilist/3342320656/
+ [wf]: http://flickr.com/photos/stilist/3341438623/
+
+Today’s design is an exploration of unusual element placement — wrap-around
+backgrounds and mis-aligned gaps. I also tried a direct mixture of serif and
+sans-serif text.
+
+* The calendar navigation is something I’ve wanted to try since seeing one
+implemented on the [<span class='magazine'>Harper’s</span>][harpers] site. I
+always end up scrapping it for various reasons.
+* Still trying outdented headers. Still not sure if they’re good.
+* Prominent keyword placement. Although the current design does not reveal
+keywords, I have been using them. Because I made them one of my key points in
+my [‘web and journalism’ entry][waj], I’ve been thinking about various ways
+to expose them.
+* The design brings back the translucent overlay from [day 1][dad1], in a
+different (hopefully successful) approach.
+* The overlays are solid black at 70% opacity. This means that the
+page’s background color can be switched seasonally, or per entry, or whatever,
+and everything will still be perfectly readable.
+
+ [dad1]: http://ratafia.info/post/84465927/design-a-day-1
+ [harpers]: http://www.harpers.org/ "Harper’s Magazine"
+ [waj]: http://ratafia.info/post/74443947/the-web-and-journalism
