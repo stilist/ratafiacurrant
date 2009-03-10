@@ -1,6 +1,6 @@
 PERMALINK: /post/31961887/paraphernalia-update-released
 PUBLISHED: Apr 16th, 02008 1:55pm
-TAGS: adium, design
+TAGS: adium, design, import:tumblr
 
 I’ve just pushed out [version 1.1][paraphernalia] of my [Adium][adium] message
 style.

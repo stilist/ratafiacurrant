@@ -1,6 +1,6 @@
 PERMALINK: /post/37796887/what-mobileme-means-for-you
 PUBLISHED: Jun 9th, 02008 8:34pm
-TAGS: apple, cloudcomputing, mobileme
+TAGS: apple, cloudcomputing, import:tumblr, mobileme
 
 Today, among a number of other things, Apple announced [MobileMe][mm] — a
 service based around the idea of personal ‘cloud computing’. In essence, the
