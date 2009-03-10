@@ -1,6 +1,7 @@
 .DS_Store
-# Don't push out old entries
+# Stuff I’m not interested in sharing
 entries/drafts/
+entries/02004/
 entries/02005/
 entries/02006/
 entries/02007/
@@ -13,6 +14,7 @@ entries/02008/May/
 entries/02008/June/06/
 entries/02008/June/21/
 entries/02008/August/17/
+entries/02008/October/
 # Non-functional stuff
 bookmarks/
 engine/
