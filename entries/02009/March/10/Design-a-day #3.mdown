@@ -1,0 +1,33 @@
+PERMALINK: /post/85227036/design-a-day-3
+PUBLISHED: Mar 10th, 02009 11:30am
+TAGS: design, design-a-day
+
+Day three of design-a-day. <abbr class='smallcaps'>PSD</abbr> by request.
+
+[![Design-a-day #3][fl]][dad]
+
+ [dad]: http://flickr.com/photos/stilist/3343643203/
+ [fl]: http://farm4.static.flickr.com/3332/3343643203_972c3a33f7.jpg
+
+([wireframe][wf], [screencast][sc])
+
+ [sc]: http://flickr.com/photos/stilist/3344500714/
+ [wf]: http://flickr.com/photos/stilist/3343643199/
+
+Originally, the plan was to do a three-column design with two sidebars, as seen
+in the wireframe. As I began to lay things out, I decided I was unhappy with
+the columns, and instead moved toward a more general two-column design with a
+strong header. I’d intended to save the header idea for tomorrow and do a
+typographic design; I’ll still probably do it.
+
+I think this design is half-and-half. I like the header and the sidebar
+navigation, but the content doesn’t belong to the design. I trapped myself by
+using Didot and Futura for the navigation; neither is [web-safe][wsf]. I
+approximated by using Verdana and Times New Roman as the ‘small versions’, but
+Times New Roman is simply an unattractive font. The other major issue is that
+the approach to the content is inappropriate for the style implied by the other
+parts of the design.
+
+ [wsf]: http://en.wikipedia.org/wiki/Web-safe_fonts "Wikipedia article for web-safe fonts"
+
+I’ll try to make up for this sloppiness tomorrow.
