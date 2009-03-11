@@ -1,0 +1,20 @@
+BOOKMARK: http://delicious.com/url/6247b75ed97afc00ea78d0170ec4cfc7
+LINK: http://www.marco.org/85610270
+PERMALINK: /post/85669445/whats-apples-problem-with-buttons
+PUBLISHED: Mar 11th, 02009 7:30pm
+TAGS: apple, design, marcoarment
+
+> With both the new buttonless trackpads and the new iPod Shuffle, it seems
+> that Apple’s going on an all-out war to eliminate as many buttons as possible
+> from their products.
+
+[My opinion][tweet], from December of last year:
+
+> [<q>Keeping with Steve Jobs’ seeming fear of buttons, the new display reacts
+> automatically.</q>][ai]
+>
+> Or maybe machines should be smarter so buttons are irrelevant.
+
+ [ai]: http://appleinsider.com/print/08/12/07/apples_led_cinema_display_the_review.html "‘Apple’s LED Cinema Display: the review"
+
+ [tweet]: http://twitter.com/stilist/status/1054320530
