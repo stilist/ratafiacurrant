@@ -1,0 +1,40 @@
+PERMALINK: /post/85594555/design-a-day-4
+PUBLISHED: Mar 11th, 02009 2:23pm
+TAGS: design, design-a-day
+
+Day four of design-a-day. <abbr class='smallcaps'>PSD</abbr> by request.
+
+[![(Design-a-day #4 mockup)][img]][fl]
+
+ [fl]: http://flickr.com/photos/stilist/3347389018/
+ [img]: http://farm4.static.flickr.com/3455/3347389018_95c7b72b25.jpg
+
+([wireframe][wf], [screencast][sc])
+
+ [sc]: http://flickr.com/photos/stilist/3347418050/
+ [wf]: http://flickr.com/photos/stilist/3347389022/
+
+**Note:** ‘Eat your veggies’ image is [by erokCom][ecom].
+
+ [ecom]: http://flickr.com/photos/erokcom/3047348844/
+
+As [planned yesterday][dad3], today’s design is almost purely typographical.
+I feel this one came out very strong — when seen from a distance, it looks very
+much like a magazine cutout.
+
+ [dad3]: http://ratafia.info/post/85227036/design-a-day-3
+
+I’m quite pleased with the header and content. There’s lots of whitespace;
+the contrast allows for readability despite the use of a serif. The entire
+design uses a single face, atoning for the awkwardness of yesterday’s outing.
+
+This design does have a weak point: the search box is very bulky compared to
+all other design elements. In practice, it would be chopped vertically to
+better match the visual weight; I let it thick because I wasn’t especially
+interested in fumbling with it.
+
+The metadata section is something I’m continuing to struggle with, but placing
+its top at the top of the content does seem to work well.
+
+I believe this is the first layout I’ve ever made that used design principles
+but didn’t include graphical elements. A good start, I say.
