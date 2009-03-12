@@ -1,0 +1,38 @@
+PERMALINK: /post/85711477/x-treme-advertising-yeah
+PUBLISHED: Mar 11th, 02009 10:38pm
+TAGS: advertising, web
+
+[<span class='person'>Dan Frost</span>, for the
+<span class='newspaper'>Los Angeles Times</span>:][lat]
+
+ [lat]: http://articles.latimes.com/p/2009/mar/11/business/fi-webads11 "‘Web ads popping up in bold new ways’"
+
+> They’re bigger, they’re bolder, and soon they’ll be covering up large swaths
+> of some of your favorite Web pages.
+> 
+> The <span class='organization'>Online Publishers <abbr>Assn.</abbr></span> on
+> Tuesday released several new in-your-face advertising formats designed to be
+> both more obtrusive and interactive.
+>
+> …
+>
+> <q>Studies show we ignore banner ads,</q> said <span class='person'>Jose
+> Castillo</span>, a new media consultant in Johnson City, <abbr>Tenn.</abbr>
+> “Making them bigger and more intrusive won’t work. We will tune those out as
+> well.”
+
+[<span class='person'>Mandy Brown</span>, two days ago:][mb]
+
+ [mb]: http://aworkinglibrary.com/library/archives/on_advertising/ "‘On Advertising’"
+
+> Through this premise we find ourselves in a familiar conundrum: it is the
+> reading experience that brings people to the web, thereby making them
+> available to the siren song of the advertisers; but it is the advertisers,
+> who, in their effort to gain purchase over ever more significant corners of
+> our brains, must distract and diminish the reading experience lest they be
+> ignored. The story goes that every so often an advertiser surprises with a
+> particularly innovative method of annoyance, after which a certain amount of
+> time passes and we learn — automatically, involuntarily — to tune them out.
+
+To me, this venture is clearly a terrible idea. Annoying users is a poor choice
+of business model.
