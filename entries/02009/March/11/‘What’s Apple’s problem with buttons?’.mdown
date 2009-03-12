@@ -10,8 +10,7 @@ TAGS: apple, design, marcoarment
 
 [My opinion][tweet], from December of last year:
 
-> [<q>Keeping with Steve Jobs’ seeming fear of buttons, the new display reacts
-> automatically.</q>][ai]
+> [<q>Keeping with Steve Jobs’ seeming fear of buttons…</q>][ai]
 >
 > Or maybe machines should be smarter so buttons are irrelevant.
 
