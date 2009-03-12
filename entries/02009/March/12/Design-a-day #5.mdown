@@ -1,0 +1,32 @@
+PERMALINK: /post/85899440/design-a-day-5
+PUBLISHED: Mar 12th, 02009 3:53pm
+TAGS: design, design-a-day
+
+[![Preview of design #5][img]][fl]
+
+ [fl]: http://flickr.com/photos/stilist/3349977550/
+ [img]: http://farm4.static.flickr.com/3624/3349977550_e819a298c0.jpg
+
+([wireframe][wf], [screencast][sc]; <abbr class='smallcaps'>PSD</abbr> by
+request)
+
+ [sc]: http://flickr.com/photos/stilist/3349977562/
+ [wf]: http://flickr.com/photos/stilist/3349977558/
+
+My plan for today’s design was to try something with a heavy footer
+(<abbr lang='la'>i.e.</abbr> ‘below the fold’). As I proceeded with the design,
+things took a different course, and I ended up with more of a reading
+interface.
+
+I’m pretty happy with how the content section turned out. The text is
+relatively large; there’s good contrast; the inverted background (relative to
+the rest of the page) helps with focus. The gradients were a last-moment
+addition, but I think they work well.
+
+What I don’t like: just about everything else. The header and footer I didn’t
+know what to do with. I liked the large space at the top, but couldn’t figure
+out where to put the logo/nav. The footer looked wrong left-aligned and it
+looks bad centered. The metadata section is passable, but could definitely be
+better.
+
+Perhaps I’ll revisit this in the future.
