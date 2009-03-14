@@ -1,0 +1,12 @@
+PERMALINK: 
+PUBLISHED: 
+TAGS: advertising, johnbattelle, web2.0
+
+[<span class='person'>John Battelle</span>, claiming web 2.0 was not a bubble,
+in 02005][jb]
+
+ [jb]: http://www.nytimes.com/2005/11/18/opinion/18battelle.html?pagewanted=print "‘Building a Better Boom’"
+
+> Recall that the demise of Web 1.0 was predicated in large part on the
+> collapse of the Internet advertising business — people were spending millions
+> buying billboard-like ads that, it turns out, nobody was paying attention to.
