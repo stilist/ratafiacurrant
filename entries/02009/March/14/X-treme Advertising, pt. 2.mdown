@@ -1,0 +1,26 @@
+PERMALINK: /post/86400521/x-treme-advertising-pt-2
+PUBLISHED: Mar 14th, 02009 9:21am
+TAGS: advertising, onlinepublishersassociation
+
+First [new big ad][xtreme] I’ve seen in the wild:
+
+ [xtreme]: http://ratafia.info/post/85711477/x-treme-advertising-yeah
+
+[![Cisco ad on New York Times page][img]][fl]
+
+ [fl]: http://flickr.com/photos/stilist/3352956377/ "View in larger size"
+ [img]: http://farm2.static.flickr.com/1351/3352956377_103b66a1dd.jpg
+
+To their credit, I was expecting something like the Flash ‘page curl’ ads. *If*
+things are restrained like this, it won’t be as awful as I thought.
+
+The ad has several parts:
+
+* The in-column section is a single large image.
+* A Flash movie that overlays the image, for animation.
+* (Presumably)
+<abbr class='smallcaps'>CSS</abbr>/<abbr class='smallcaps'>HTML</abbr>, for the
+stuff that overlays the actual page.
+
+Doing it this way means that even mobile browsers will see at least some part
+of the ad.
