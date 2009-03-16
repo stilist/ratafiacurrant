@@ -1,0 +1,21 @@
+PERMALINK: /post/87054798/design-a-day-6
+PUBLISHED: Mar 16th, 02009 6:06pm
+TAGS: design, design-a-day
+
+[![Preview of design #6][img]][fl]
+
+ [fl]: http://flickr.com/photos/stilist/3361267642/
+ [img]: http://farm4.static.flickr.com/3644/3361267642_84feeac854.jpg
+
+([wireframe][wf], [screencast][sc]; <abbr class='smallcaps'>PSD</abbr> by
+request)
+
+ [sc]: http://flickr.com/photos/stilist/3361267658/
+ [wf]: http://flickr.com/photos/stilist/3361267652/
+
+Not much to say. Finished reading <span class='comic'>The Invisibles</span> 
+today; I was inspired to make something that looked like Barbelith. Had to make
+some alterations.
+
+The <abbr>nav</abbr> was a last-moment change after I stopped recording for the
+screencast; it’s an improvement, but still not great.
