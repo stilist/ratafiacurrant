@@ -1,0 +1,26 @@
+PERMALINK: /post/87742390/design-a-day-8
+PUBLISHED: Mar 18th, 02009 9:08pm
+TAGS: design, design-a-day
+
+[![Preview of design #8][img]][fl]
+
+ [fl]: http://flickr.com/photos/stilist/3366135773/
+ [img]: http://farm4.static.flickr.com/3653/3366135773_8e6f4c2541.jpg
+
+([wireframe][wf], [screencast][sc]; <abbr class='smallcaps'>PSD</abbr> by
+request)
+
+ [sc]: http://flickr.com/photos/stilist/3366135781/
+ [wf]: http://flickr.com/photos/stilist/3366135777/
+
+[Yesterday I said:][dad7]
+
+> I like multi-column layouts, even though they don’t really fit with
+> unpredictable screen height. I have an idea of how that could be fixed, but
+> I want to try doing it before I talk about it. (Not that it’s worth money or
+> patents or anything.)
+
+ [dad7]: http://ratafia.info/post/87354004/design-a-day-7
+
+Well, this isn’t an implementation, but it’s a preview of how I envision it
+*looking*.
