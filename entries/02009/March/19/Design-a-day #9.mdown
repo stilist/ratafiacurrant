@@ -1,0 +1,20 @@
+PERMALINK: /post/88062852/design-a-day-9
+PUBLISHED: Mar 19th, 2009 10:01pm
+TAGS: design, design-a-day
+
+[![Preview of design #9][img]][fl]
+
+ [fl]: http://flickr.com/photos/stilist/3369548956/
+ [img]: http://farm4.static.flickr.com/3566/3369548956_1bf94210a9.jpg
+
+([wireframe][wf], [screencast][sc]; <abbr class='smallcaps'>PSD</abbr> by
+request)
+
+ [sc]: http://flickr.com/photos/stilist/3369548988/
+ [wf]: http://flickr.com/photos/stilist/3369548958/
+
+Decided to go for a Twitter interface since I’ve been [working on a
+client][turp]. It’s not great, it’s not original, it’s not done. But it doesn’t
+hurt to try.
+
+ [turp]: http://github.com/stilist/turpentine
