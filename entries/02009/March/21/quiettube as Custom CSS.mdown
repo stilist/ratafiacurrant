@@ -1,0 +1,142 @@
+PERMALINK: /post/88582663/quiettube-as-custom-css
+PUBLISHED: Mar 21st, 02009 6:39pm
+TAGS: greasekit, greasemonkey, javascript, modding, quiettube, youtube
+
+There’s a bookmarklet going around called [quiettube][qt], which hides
+everything on YouTube’s video pages except the video. About a year ago I made a
+custom stylesheet that does the same thing, but never shared it.
+
+ [qt]: http://quietube.com/
+
+## <abbr class='smallcaps'>CSS</abbr>
+
+Because I’m using Safari, I need [this trick][ccss]. The
+<abbr class='smallcaps'>CSS</abbr> file I use is simply named `youtube.css`.
+The stylesheet itself is fairly simple; it’s just a massive collection of stuff
+I want to be hidden:
+
+ [ccss]: http://ratafia.info/post/76466304/custom-css-in-safari
+
+    #completeIFrame, #completeTable, #copyright, #footer, #masthead,
+    #search-advanced-form, #search-options-container, #search-pva,
+    #search-related-terms, #search-section-header, #searchFooterBox,
+    #translate-checkbox-span, #watch-buy-urls, #watch-this-vid-info,
+    #watch-other-vids, #watch-vid-title, #watch-video-main-area,
+    #watch-video-response,
+    .addtoQL90, .confirmBox, .marT10, .quicklist-inlist, .searchFooterBox,
+    .video-alt-query, .video-clear-list, .video-description, .video-facets,
+    .video-long-title, .video-short-title, .video-translation-links { display: none; }
+
+But this really messes up how search results look, so there’s some lines to
+handle that:
+
+    #results-main-content {
+     margin: 20px 0;
+     width: 780px !important;
+    }
+
+    .video-cell {
+     float: left;
+     width: 49.5% !important;
+    }
+
+    .video-entry {
+     margin: 10px 0;
+     position: relative;
+    }
+
+    .video-time {
+     left: 140px;
+     position: absolute;
+     top: 40px;
+    }
+
+    .video-title {
+     left: 140px;
+     position: absolute;
+     top: 0;
+    }
+
+… and a few rules to show hi-def videos in full glory:
+
+    body {
+     background: #000;
+     margin: 0;
+    }
+
+    #baseDiv {
+     padding: 0 !important;
+     width: auto !important;
+    }
+    #watch-this-vid.watch-wide-mode { width: 854px; }
+    #watch-this-vid.watch-wide-mode #watch-player-div { padding: 0 !important; }
+    #watch-this-vid.watch-wide-mode #watch-player-div #movie_player{
+     height: 720px;
+     width: 1280px;
+    }
+
+The big downside to this is that every time YouTube changes their markup (once
+or twice a year) I need to rewrite the entire `display: none;` rule. But it’s
+definitely worth it to get this:
+
+[![Screen capture of customized YouTube][img]][fl]
+
+ [fl]: http://flickr.com/photos/stilist/3373247109/
+ [img]: http://farm4.static.flickr.com/3647/3373247109_6f8e50b380.jpg
+
+## A little further tweaking
+
+In addition to the custom stylesheet, I use [clicktoflash][ctf] and another
+Greasemonkey script that forces everything to <abbr class='smallcaps'>HD</abbr>
+mode. The code is a variation of [this userscript][js] and another one I can’t
+find at the moment.
+
+ [ctf]: http://github.com/rentzsch/clicktoflash/
+ [js]: http://userscripts.org/scripts/review/30082
+
+    // ==UserScript==
+    // @name           720p YouTube
+    // @namespace      http://userscripts.org/users/23652
+    // @description    Forces YouTube to 720p mode
+    // @include        http://*.youtube.com/*
+    // @include        http://youtube.com/*
+    // @copyright      JoeSimmons/stilist
+    // ==/UserScript==
+
+    var quality = 22; // 6 = default; 18 = better; 22 = 720p
+
+    function setfmt(address) {
+     if (address.indexOf('&fmt=') == -1)
+      address += '&fmt=' + quality;
+     else
+      address = address.replace(/\&fmt=\d+/, '&fmt=' + quality);
+
+     return address;
+    }
+
+    /* force hd quality at YouTube itself */
+    var loc = location.href;
+    var watch = /^http:\/\/(\w+\.)?youtube\.com\/watch\?v=.+/;
+    var isfmt = /\&fmt=22/;
+    if (watch.test(loc)) {
+     if (isfmt.test(loc) === false) {
+      location.href = setfmt(loc);
+     }
+    }
+
+    /* fix links */
+    var l, ytlinks = document.evaluate("//a[contains(@href, 'watch?v=')]", document, null, 6, null);
+    for(var i=ytlinks.snapshotLength-1; i>=0; i--) {
+     l = ytlinks.snapshotItem(i);
+     l.href = setfmt(l.href);
+    }
+
+What this does is:
+
+1. Force all video pages to 720p mode.
+1. Tweak links on the search results page to go directly to 720p mode.
+
+* * *
+
+Together, these customizations mean I get a high definition, distraction-free
+YouTube experience.
