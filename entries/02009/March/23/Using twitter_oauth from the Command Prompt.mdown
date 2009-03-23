@@ -1,0 +1,145 @@
+PERMALINK: /post/89029640/using-twitter-oauth-from-the-command-prompt
+PUBLISHED: Mar 23rd, 02009 9:47am
+TAGS: coding, oauth, ruby, turpentine, twitter
+
+Several days ago I began work on [Turpentine][turp], a Twitter client written
+in Ruby that currently runs as a [<abbr class='smallcaps'>CLI</abbr>][cli].
+After I got things working to my satisfaction, I decided to add
+[OAuth][oauth] — partly because the whole project is meant to give me exposure
+to a variety of stuff I’m not familiar with, and partly because [Twitter will
+remove basic auth][phish] at some point in the future.
+
+ [cli]: http://en.wikipedia.org/wiki/Command-line_interface "Wikipedia article for Command-line interface"
+ [oauth]: http://oauth.net/ "OAuth project site"
+ [phish]: http://ratafia.info/post/69521533/transcription-of-phish-my-phail-whale
+ [turp]: http://github.com/stilist/turpentine/
+
+After going through [the Ruby on Rails example][ror], I got stuck at the
+post-authorization point — the example assumes the user will be in a browser,
+which obviously doesn’t work for me at the command prompt.
+
+ [ror]: http://apiwiki.twitter.com/OAuth+Example+-+Ruby "Twitter API team's OAuth Ruby on Rails walkthrough"
+
+I tried to figure out the solution using the sample code and the OAuth gem it
+uses, but it was beyond my level. (Though I did learn that all the OAuth
+information is passed around [using query strings][hue4].) At this point I
+decided I’d give up on trying to write the code myself, and switched over to the
+[`twitter_oauth` gem][twoauth]. The sample code was tremendously helpful, and
+needed only a little modification to handle my scenario.
+
+ [hue4]: http://www.hueniverse.com/hueniverse/2008/10/beginners-gui-1.html "‘Beginner’s Guide to OAuth — Part Ⅳ: Signing Requests’"
+ [twoauth]: http://github.com/moomerman/twitter_oauth/
+
+* * *
+
+Because I’m working purely in Ruby in the moment, I’ve kept things simple by
+using [<abbr class='smallcaps'>YAML</abbr>][yaml] to manage login information.
+
+ [yaml]: http://en.wikipedia.org/wiki/YAML "Wikipedia article for YAML"
+
+Step one is to load the config.
+
+    CONFIG_FILE = 'config.yaml'
+    CONFIG = YAML::load(File.read(CONFIG_FILE))
+
+The relevant part of the config looks like this:
+
+    oauth:
+        consumer_key:
+        consumer_secret:
+        request_token: 
+        request_secret:
+
+I’ve [registered my application for Oauth][oauthreg], so I’ve filled in the
+`consumer_key` and `consumer_secret` fields. (Not shown because the secret must
+be kept secret.)
+
+**Note:** if you’re going to use the command prompt like I am, specify that
+your application is a *client*, not a *browser*.
+
+ [oauthreg]: http://twitter.com/oauth_clients/new
+
+Back to code. I begin by loading the values:
+
+    consumer_key = CONFIG['oauth']['consumer_key']
+    consumer_secret = CONFIG['oauth']['consumer_secret']
+    request_token = CONFIG['oauth']['request_token']
+    request_secret = CONFIG['oauth']['request_secret']
+
+Check if the application has been authorized (<span lang='la'>i.e.</span> check
+if the `request_` fields have any information):
+
+    if request_token.nil? and request_secret.nil?
+      # not yet authorized
+    else
+      # authorized
+    end
+
+Authorization is the most code-heavy part of the process.
+
+    if request_token.nil? and request_secret.nil?
+      client = TwitterOAuth::Client.new(
+           :consumer_key => consumer_key,
+           :consumer_secret => consumer_secret
+           )
+      request_token = client.request_token
+
+      …
+
+Here, we give `twitter_oauth` the application’s key and secret and let it work
+out the address that we’ll use to authorize its Twitter access.
+
+      …
+
+      puts "Please open the following address in your browser to authorize this application:"
+      puts "#{request_token.authorize_url}\n"
+
+      puts "Hit enter when you have completed authorization."
+      STDIN.gets
+
+      …
+
+The user is then prompted to open the address, which will ask if they really do
+want to authorize the application:
+
+[![Screenshot of Twitter application approval prompt.][img]][fl]
+
+ [fl]: http://flickr.com/photos/stilist/3378434275/
+ [img]: http://farm4.static.flickr.com/3642/3378434275_f8ef632d43.jpg
+
+Finally, we put the user’s new request token and secret into the configuration
+file:
+
+      …
+
+      access_token = client.authorize(
+          request_token.token,  
+          request_token.secret
+      )
+  
+      File.open(CONFIG_FILE, 'w') do |out|
+        CONFIG['oauth']['request_token'] = access_token.token
+        CONFIG['oauth']['request_secret'] = access_token.secret
+        YAML::dump(CONFIG, out)
+      end
+    else
+    …
+
+Things are a lot simpler if we’re already registered:
+
+    …
+    else
+      client = TwitterOAuth::Client.new(
+        :consumer_key => consumer_key,
+        :consumer_secret => consumer_secret,
+        :token => request_token,
+        :secret => request_secret
+      )
+    end
+
+Now that we have a functional login, we can use the gem’s built-in
+functionality to do useful things like get the friends timeline:
+
+    puts client.friends_timeline
+
+And proceed as if everything used basic auth.
