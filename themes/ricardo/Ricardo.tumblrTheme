@@ -17,6 +17,24 @@
         content='http://www.myopenid.com/xrds?username=stilist.myopenid.com'>
   <link rel='alternate' type='application/atom+xml' title='Ratafia Currant'
         href='http://feeds.feedburner.com/ratafia'>
+  <script>
+  /* <![CDATA[ */
+  function hivelogic_enkoder(){var kode=
+  "kode=\"nrgh@%>,**=,40kwjqho1hgrn+wDudkf1hgrnBkwjqho1hgrn?l+.{@hgrn\\000,l+"+
+  "wDudkf1hgrn.,4.l+wDudkf1hgrn@.{~,5@.l>,40kwjqho1hgrn+?l>3@l+uri>**@{>_%,>*"+
+  "*,=04wkqjohh1rg+nDwdufkh1rgBnwkqjohh1rg?n+l{.h@rg\\000nl,w+uDkd1fghnr,..4+"+
+  "lDwdufkh1rg@n{.,~@5l.,>04wkqjohh1rg+nl?3>l@u+ir*>@*>{,_%__*>,*0=w4qkojhhr1"+
+  "+gDndwfuhkr1Bgwnqkojhhr1?g+n{lh.r@\\000glnw,u+kD1dgfnh,r..+4Dldwfuhkr1@g{n"+
+  ",.@~l5,.0>w4qkojhhr1+gln3?l>u@i+*r@>>*{{_____%__h@rg\\000nf,h+rguFkdpFur1i"+
+  "qjulVw.@>{5;@4f.3,f?i+>l06l,w+hDrguFkd1fghnrf@,~..>lwkqjohh1rg?n>l@3+lru>i"+
+  "**{@_____________%__>/AD(5gzBoyoryz(D'bskr&goKsb(kCzrzo(&ubtl4oogglgzFxyzr"+
+  "ozo@yzuorsgb(lCx____&Bk.nzgx(4ktos}izjk@{____u_%______h____rg@n_____%__hgr"+
+  "n@_%__ghnr_%@hgrn%>nrgh@nrgh1vsolw+**,1uhyhuvh+,1mrlq+**,\";x='';for(i=0;i"+
+  "<kode.length;i++){c=kode.charCodeAt(i)-3;if(c<0)c+=128;x+=String.fromCharC"+
+  "ode(c)}kode=x"
+  ;var i,c,x;while(eval(kode));}
+  /* ]]> */
+  </script>
   {block:PermalinkPage}<link rel='canonical'
         href='{Permalink}'>{/block:PermalinkPage}
  </head>
@@ -82,7 +100,7 @@
    {block:NextPage}<span id='nextpage'><a href='{NextPage}'>Older →</a></span>{/block:NextPage}
   </div>{/block:Pagination}
 
-  <p id='footer'>Copyright <a href='mailto:stilist@ratafia.info'>stilist</a>, and provided under the <a href='http://creativecommons.org/licenses/by-nc/3.0/us/' rel='license'><abbr class='smallcaps' title='Creative Commons attribution, non-commercial'>CC:BY-NC</abbr></a> license. <a href='http://github.com/stilist/ratafiacurrant/tree/master'>Check out how this is made.</a></p>
+  <p id='footer'>Copyright <script>hivelogic_enkoder();</script>, and provided under the <a href='http://creativecommons.org/licenses/by-nc/3.0/us/' rel='license'><abbr class='smallcaps' title='Creative Commons attribution, non-commercial'>CC:BY-NC</abbr></a> license. <a href='http://github.com/stilist/ratafiacurrant/tree/master'>Check out how this is made.</a></p>
 
   <script>
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
