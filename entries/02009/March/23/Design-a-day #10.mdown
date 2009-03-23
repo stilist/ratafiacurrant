@@ -1,0 +1,21 @@
+PERMALINK: /post/89151968/design-a-day-10
+PUBLISHED: Mar 23rd, 02009 6:11pm
+TAGS: design, design-a-day
+
+[![Preview of design #10][img]][fl]
+
+ [fl]: http://flickr.com/photos/stilist/3380598418/
+ [img]: http://farm4.static.flickr.com/3467/3380598418_c6ee6f4e18.jpg
+
+([wireframe][wf], [screencast][sc]; <abbr class='smallcaps'>PSD</abbr> by
+request)
+
+ [sc]: http://flickr.com/photos/stilist/3380598428/
+ [wf]: http://flickr.com/photos/stilist/3380598420/
+
+This one is primarily an update of [my original portfolio design][port] to add
+an ‘about’ section and to try a higher column count (sixteen compared to my
+usual eight or ten). I didn’t really finish the description sections, which
+will retain their formatting.
+
+ [port]: http://flickr.com/photos/stilist/3254979559/
