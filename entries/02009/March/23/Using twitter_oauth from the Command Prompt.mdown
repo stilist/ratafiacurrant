@@ -83,26 +83,26 @@ Authorization is the most code-heavy part of the process.
            :consumer_secret => consumer_secret
            )
       request_token = client.request_token
-
+    
       …
 
 Here, we give `twitter_oauth` the application’s key and secret and let it work
-out the address that we’ll use to authorize its Twitter access.
+out the address that we’ll use to authorize Twitter access.
 
       …
-
+    
       puts "Please open the following address in your browser to authorize this application:"
       puts "#{request_token.authorize_url}\n"
-
+    
       puts "Hit enter when you have completed authorization."
       STDIN.gets
-
+    
       …
 
 The user is then prompted to open the address, which will ask if they really do
 want to authorize the application:
 
-[![Screenshot of Twitter application approval prompt.][img]][fl]
+[![(Screenshot: Twitter asks if the application should be allowed access.)][img]][fl]
 
  [fl]: http://flickr.com/photos/stilist/3378434275/
  [img]: http://farm4.static.flickr.com/3642/3378434275_f8ef632d43.jpg
@@ -111,12 +111,12 @@ Finally, we put the user’s new request token and secret into the configuration
 file:
 
       …
-
+    
       access_token = client.authorize(
-          request_token.token,  
+          request_token.token,
           request_token.secret
       )
-  
+    
       File.open(CONFIG_FILE, 'w') do |out|
         CONFIG['oauth']['request_token'] = access_token.token
         CONFIG['oauth']['request_secret'] = access_token.secret
