@@ -113,20 +113,26 @@ strong {
 #nameplate #archives {
  background-image: url('http://static.ratafia.info/ricardo/archives.png');
  bottom: 0;
- left: 237px;
+ left: 172px;
  width: 114px;
 }
 #nameplate #code {
  background-image: url('http://static.ratafia.info/ricardo/code.png');
  bottom: 0;
- left: 366px;
+ left: 301px;
  width: 63px;
 }
 #nameplate #links {
  background-image: url('http://static.ratafia.info/ricardo/links.png');
  bottom: 0;
- right: 237px;
+ right: 304px;
  width: 67px;
+}
+#nameplate #hireme {
+ background-image: url('http://static.ratafia.info/ricardo/hireme.png');
+ bottom: 0;
+ right: 170px;
+ width: 123px;
 }
 
 .entry, #footer {

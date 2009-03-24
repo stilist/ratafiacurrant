@@ -44,6 +44,7 @@
    <li><a href='/archive' id='archives'>Archives</a></li>
    <li><a href='http://github.com/stilist' id='code'>Code</a></li>
    <li><a href='http://delicious.com/stilist' id='links'>Links</a></li>
+   <li><a href='http://portfolio.ratafia.info' id='hireme'>Hire Me</a></li>
   </ul>
 
   {block:Posts}
