@@ -1,0 +1,13 @@
+PERMALINK: /post/89256619/portfolio-updated
+PUBLISHED: Mar 24th, 02009 12:01am
+TAGS: portfolio
+
+As indicated in [the previous entry][dad10], I’ve updated my
+[portfolio][port]’s design somewhat. It now includes an ‘about me’ section and
+a skills rundown (parts of which are reflected in my résumé). I’ve also added a
+link to the portfolio in this site’s nameplate navigation.
+
+ [dad10]: http://ratafia.info/post/89151968/design-a-day-10
+
+Feedback on the newly-added text is appreciated, as I wasn’t entirely sure what
+to write.
