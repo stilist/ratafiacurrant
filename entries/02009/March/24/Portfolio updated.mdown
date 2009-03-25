@@ -8,6 +8,7 @@ a skills rundown (parts of which are reflected in my résumé). I’ve also adde
 link to the portfolio in this site’s nameplate navigation.
 
  [dad10]: http://ratafia.info/post/89151968/design-a-day-10
+ [port]: http://portfolio.ratafia.info/
 
 Feedback on the newly-added text is appreciated, as I wasn’t entirely sure what
 to write.

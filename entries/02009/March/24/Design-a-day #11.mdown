@@ -1,0 +1,24 @@
+PERMALINK: /post/89586940/design-a-day-11
+PUBLISHED: Mar 24th, 02009 11:57pm
+TAGS: design, design-a-day
+
+[![Preview of design #11][img]][fl]
+
+ [fl]: http://flickr.com/photos/stilist/3383501965/
+ [img]: http://farm4.static.flickr.com/3469/3383501965_de47ca986a.jpg
+
+([wireframe][wf], [screencast][sc]; <abbr class='smallcaps'>PSD</abbr> by
+request)
+
+ [sc]: http://flickr.com/photos/stilist/3383501977/
+ [wf]: http://flickr.com/photos/stilist/3383501969/
+
+The background is [by bittbox][bbox] and licensed as
+<abbr class='smallcaps' title='Creative Commons Attribution'>CC:BY</abbr>.
+
+ [bbox]: http://www.flickr.com/photos/bittbox/2716316371/
+
+The mechanics of the design are pretty standard, but the background is like
+nothing I’ve ever done before. My goal for the next few (or more) designs is to
+make something far less restrained than I’m used to. I feel I need to go in
+unusual directions if I really want to advance myself.

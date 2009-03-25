@@ -1,0 +1,7 @@
+BOOKMARK: http://delicious.com/url/46805cacb3377b499b0e8007977c5eb8
+LINK: http://northlite.net/ps/blend.htm
+PERMALINK: /post/89483132/layer-blending-modes-in-photoshop-and-elements
+PUBLISHED: 24 Mar, 02009 6:06pm
+TAGS: photoshop, reference, sarahfroehlich
+
+If you’ve ever wondered what all Photoshop’s layer modes actually *do*.
