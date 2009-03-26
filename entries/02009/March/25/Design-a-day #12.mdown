@@ -1,0 +1,20 @@
+PERMALINK: /post/89871049/design-a-day-12
+PUBLISHED: Mar 25th, 02009 9:03pm
+TAGS: design, design-a-day
+
+[![Preview of design #12][img]][fl]
+
+ [fl]: http://flickr.com/photos/stilist/3385708825/
+ [img]: http://farm4.static.flickr.com/3659/3385708825_66ec6b45e9.jpg
+
+([screencast][sc]; <abbr class='smallcaps'>PSD</abbr> by
+request)
+
+ [sc]: http://flickr.com/photos/stilist/3385708829/
+
+No wireframe this time; I just picked a column count and went at it.
+
+There’s a bonus feature today: [a screencast][sc2] from a failed attempt in the
+morning.
+
+ [sc2]: http://flickr.com/photos/stilist/3385708849/
