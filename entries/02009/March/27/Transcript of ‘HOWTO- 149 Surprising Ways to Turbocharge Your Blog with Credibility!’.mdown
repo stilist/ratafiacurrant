@@ -29,10 +29,10 @@ comics!).
 ## Transcript
 
 > <cite>Merlin Mann:</cite>
-> This is [43folders], and I’m Merlin, and this is my pal John Gruber, from
+> This is [43folders][43f] and I’m Merlin, and this is my pal John Gruber, from
 > [Daring Fireball][df] dot net; how’s it going, John?
 
- [43folders]: http://www.43folders.com/ "43folders website"
+ [43f]: http://www.43folders.com/ "43folders website"
 
 > <cite>John Gruber:</cite>
 > Good, how are you, Merlin? Good to be here.
@@ -1645,7 +1645,8 @@ comics!).
 > <cite><abbr>MM:</abbr></cite>
 > You were one of the many I had to take a little break from.
 
-?. Merlin, you’re on a different boat. <ins>?</ins> thoughts about it.
+> <cite>?:</cite> Merlin, you’re on a different boat. <ins>?</ins> thoughts
+> about it.
 
 > <cite><abbr>MM:</abbr></cite>
 > Yeah, I mean, that’s what’s interesting about Twitter.
