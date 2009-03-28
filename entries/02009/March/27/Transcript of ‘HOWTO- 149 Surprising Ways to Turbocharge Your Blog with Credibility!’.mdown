@@ -28,13 +28,13 @@ comics!).
 
 ## Transcript
 
-> <cite><abbr>MM:</abbr></cite>
+> <cite>Merlin Mann:</cite>
 > <q>This is [43folders], and I’m Merlin, and this is my pal John Gruber, from
 > [Daring Fireball][df] dot net; how’s it going, John?</q>
 
  [43folders]: http://www.43folders.com/ "43folders website"
 
-> <cite><abbr>JG:</abbr></cite>
+> <cite>John Gruber:</cite>
 > <q>Good, how are you, Merlin? Good to be here.</q>
 
 > <cite><abbr>MM:</abbr></cite>
@@ -70,7 +70,7 @@ comics!).
 > has been kinda exciting, and so… we wanna share that with you today. So, we
 > stole the audio straight off of the site at South by Southwest, so we’re
 > counting on our friend <span class='person'>Hugh <ins>Forrest</ins></span> to
-> run interference with Legal; it runs just about an hour, and we'll have a
+> run interference with Legal; it runs just about an hour, and we’ll have a
 > couple comments after you listen to it. For our audience’s sake, John, do you
 > remember what the title of our talk was?</q>
 
@@ -81,54 +81,176 @@ comics!).
 * * *
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>First of all, I cannot believe that somebody let us have this title. John and I do a lot of ambitious things that we're pretty sure won’t turn out, as you know, and we figured somebody would change that. Don’t you think, kinda?</q>
+> <q>First of all, I cannot believe that somebody let us have this title. John
+> and I do a lot of ambitious things that we’re pretty sure won’t turn out, as
+> you know, and we figured somebody would change that. Don’t you think,
+> kinda?</q>
 
 > <cite><abbr>JG:</abbr></cite>
 > <q>100%. It was, might as well have been titled ‘Title to Come’.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Yeah. Yeah, T.K. Gump, yeah. It’s funny, because we pitched this months ago, and as the title implied, we were prepared to come in and provide a <span lang='fr'>Tour de Force</span> middle-aged–white–guy rant about how all of you are doing it wrong. Because… is that a core competency? Is that fair?</q>
+> <q>Yeah. Yeah, T.K. Gump, yeah. It’s funny, because we pitched this months
+> ago, and as the title implied, we were prepared to come in and provide a
+> <span lang='fr'>Tour de Force</span> middle-aged–white–guy rant about how all
+> of you are doing it wrong. Because… is that a core competency? Is that
+> fair?</q>
 
 > <cite><abbr>JG:</abbr></cite>
 > <q>It’s pretty much all I do.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Okay. And just to be clear, it’s not, John’s not gonna tell you how it could be a little better — he might get to that toward the end — but he’s mostly just gonna tell you you're doing it wrong. Know what’s funny is, so we're like ‘Hey, we’re gonna do this thing, and we’re gonna be like “Ah, don’t make a shitty site, where you’re just trying to get on Digg. Like, it’s great to be on Digg, but, like, quality, maaaan, we’re great!”’ And then, what, a couple months went by, right?</q>
+> <q>Okay. And just to be clear, it’s not, John’s not gonna tell you how it
+> could be a little better — he might get to that toward the end — but he’s
+> mostly just gonna tell you you’re doing it wrong.</q>
+
+> Know what’s funny is, so we’re like ‘Hey, we’re gonna do this thing, and
+> we’re gonna be like “Ah, don’t make a shitty site, where you’re just trying
+> to get on Digg. Like, it’s great to be on Digg, but, like, quality, maaaan,
+> we’re great!”’ And then, what, a couple months went by, right?</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>Right. Well, when we got started it… When we got started the general economic situation was pretty much like a constant series of news articles about ‘Are we in a recession? Is this technically a recession? Y’need 0.9% decrease in growth over ten months, or blah blah blah’, and now, y’know, it’s ‘Are we in a depression?’.</q>
+> <q>Right. Well, when we got started it… When we got started the general
+> economic situation was pretty much like a constant series of news articles
+> about ‘Are we in a recession? Is this technically a recession? Y’need 0.9%
+> decrease in growth over ten months, or blah blah blah’, and now, y’know, it’s
+> ‘Are we in a depression?’.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Yeah, it got to be… of course, we hadn’t done anything on this at all, for… let’s just say we, let’s say it was done, what, a month ago, we were all done?</q>
+> <q>Yeah, it got to be… of course, we hadn’t done anything on this at all,
+> for… let’s just say we, let’s say it was done, what, a month ago, we were all
+> done?</q>
 
 > <cite><abbr>JG:</abbr></cite>
 > <q>Exactly.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>But for a long time we didn’t do anything, and finally, it’s like ‘Can we afford the flight?’. ’Cause, yeah, I’m glad that I can educate you on how you're doing it wrong, but I don’t know if I have enough money in the bank. It’s been a weird trip; there’s a time that John and I have lived through, that I think — at least in my own mind — I’ll remember as the golden age of the one-person boutique personal publishing empire. And if you were lucky enough to accidentally land on that gravy train, for lack of a better word, it was pretty, it was kind of an interesting ride. But… I think the original idea of what we wanna talk about in the end has very little to do with any economic indicators. Fair enough?</q>
+> <q>But for a long time we didn’t do anything, and finally, it’s like ‘Can we
+> afford the flight?’. ’Cause, yeah, I’m glad that I can educate you on how
+> you’re doing it wrong, but I don’t know if I have enough money in the
+> bank.</q>
+
+> It’s been a weird trip; there’s a time that John and I have lived through,
+> that I think — at least in my own mind — I’ll remember as the golden age of
+> the one-person boutique personal publishing empire. And if you were lucky
+> enough to accidentally land on that gravy train, for lack of a better word,
+> it was pretty, it was kind of an interesting ride.</q>
+
+> But… I think the original idea of what we wanna talk about in the end has
+> very little to do with any economic indicators. Fair enough?</q>
 
 > <cite><abbr>JG:</abbr></cite>
 > <q>Totally correct.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Yeah. It is a different talk. I think there are four assumptions that we wanna toss out, just to frame this, very quickly. We're not here to tell you what you should make, and we're not here to tell you how you should make it, or what your ultimate goals should be — but we're gonna assume four things about everybody in here. Step zero is we're gonna assume that all of you make things. Right? Like maybe have a job, and you type in Excel, and you're not a painter, and you don’t have a beret. But we're going to assume that you make things. We're gonna assume that you care very much about certain issues or topics, to a point where you're really verging on obsession. We're gonna assume that it’s important to you — whether you're a writer, a photographer, or an interpretive dance choreographer — that you wanna get better at it, and that it’s valuable to you to use a platform like personal publishing to become a better writer, thinker, photographer, whatever. We're gonna assume that it matters to you to have the credibility and respect of people you admire. And, for the sake of argument — just for fun, to make it worth the flight — we're gonna assume that you would not mind making a little bit of money, or finding some kind of an opportunity that goes beyond the strictly self-improvement aspects.</q>
+> <q>Yeah. It is a different talk. I think there are four assumptions that we
+> wanna toss out, just to frame this, very quickly. We're not here to tell you
+> what you should make, and we’re not here to tell you how you should make it,
+> or what your ultimate goals should be — but we’re gonna assume four things
+> about everybody in here. Step zero is we’re gonna assume that all of you make
+> things. Right? Like maybe have a job, and you type in Excel, and you’re not a
+> painter, and you don’t have a beret. But we’re going to assume that you make
+> things. We're gonna assume that you care very much about certain issues or
+> topics, to a point where you’re really verging on obsession. We're gonna
+> assume that it’s important to you — whether you’re a writer, a photographer,
+> or an interpretive dance choreographer — that you wanna get better at it, and
+> that it’s valuable to you to use a platform like personal publishing to
+> become a better writer, thinker, photographer, whatever. We're gonna assume
+> that it matters to you to have the credibility and respect of people you
+> admire. And, for the sake of argument — just for fun, to make it worth the
+> flight — we’re gonna assume that you would not mind making a little bit of
+> money, or finding some kind of an opportunity that goes beyond the strictly
+> self-improvement aspects.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>And so there’s this quote that I’ve sort of hung this whole thing on, right from the outset, from <span class='person'>Walt Disney</span>, and it’s, to me, it’s the thing that made me wanna do this talk. And he said: ‘We don’t make movies to make money. We make money to make more movies.’ And I think that’s so profound, and to me, it’s not about a subtle difference in strategy; it’s a fundamental, you're either going this way, or you're going that way. And so if your interest is making money, and then you decide, ‘All right, I wanna make a boatload of money from a website, how do I do that?’, well then the next fifty-seven minutes or whatever are gonna be useless to you, because that is not what we're here to say. You can, y’know, you can get up, we won’t mind, go see [<span class='person'><ins>Jeffrey</ins> Zeldman</span>][zeld] —</q>
+> <q>And so there’s this quote that I’ve sort of hung this whole thing on,
+> right from the outset, from <span class='person'>Walt Disney</span>, and
+> it’s, to me, it’s the thing that made me wanna do this talk. And he said: ‘We
+> don’t make movies to make money. We make money to make more movies.’ And I
+> think that’s so profound, and to me, it’s not about a subtle difference in
+> strategy; it’s a fundamental, you’re either going this way, or you’re going
+> that way. And so if your interest is making money, and then you decide, ‘All
+> right, I wanna make a boatload of money from a website, how do I do that?’,
+> well then the next fifty-seven minutes or whatever are gonna be useless to
+> you, because that is not what we’re here to say. You can, y’know, you can get
+> up, we won’t mind, go see [<span class='person'><ins>Jeffrey</ins>
+> Zeldman</span>][zeld] —</q>
 
  [zeld]: http://www.zeldman.com/ "Jeffrey Zeldman’s home page"
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Yeah, definitely go see Zeldman. That guy’s smart. Yeah, cause I mean, I think the one thing I really regret, I think, about that kind of funny title — it’s kinda funny, right? sorta? yeah, it’s a little funny, yeah — the part about that I wanna make sure we don’t misconstrue in the desire to be a smartass is that, like I say, I’m not trying to tell you what you should do, and I’m not trying to judge anything that I just isn’t, that I would say just is not for me. And I think the dirty little secret of what we're trying to say ultimately is that it shouldn’t matter to me. You shouldn’t care. If I’m not in your target audience, if I’m not the person you wanna reach, we should both be totally cool with you not caring what I think. And that ultimately, the people that I admire — and I think that John admires — it’s not about arrogance, but it *is* about having the confidence to know what you wanna say, and who you wanna say it to. And whether you wanna talk about having a good run on Twitter, or whether you wanna talk about 135 exciting new ways to launch Firefox, that’s your decision. But we wanna help you do the shit out of that, in a way that’s super-high quality. And I think that’s kind of where we're heading. Fair enough so far?</q>
+> <q>Yeah, definitely go see Zeldman. That guy’s smart.</q>
+
+> Yeah, cause I mean, I think the one thing I really regret, I think, about
+> that kind of funny title — it’s kinda funny, right? sorta? yeah, it’s a
+> little funny, yeah — the part about that I wanna make sure we don’t
+> misconstrue in the desire to be a smartass is that, like I say, I’m not
+> trying to tell you what you should do, and I’m not trying to judge anything
+> that I just isn’t, that I would say just is not for me. And I think the dirty
+> little secret of what we’re trying to say ultimately is that it shouldn’t
+> matter to me. You shouldn’t care. If I’m not in your target audience, if I’m
+> not the person you wanna reach, we should both be totally cool with you not
+> caring what I think. And that ultimately, the people that I admire — and I
+> think that John admires — it’s not about arrogance, but it *is* about having
+> the confidence to know what you wanna say, and who you wanna say it to. And
+> whether you wanna talk about having a good run on Twitter, or whether you
+> wanna talk about 135 exciting new ways to launch Firefox, that’s your
+> decision. But we wanna help you do the shit out of that, in a way that’s
+> super-high quality. And I think that’s kind of where we’re heading. Fair
+> enough so far?</q>
 
 > <cite><abbr>JG:</abbr></cite>
 > <q>Yeah, I think so.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Um… this is a little rant of mine that I’m gonna quickly go through. I have this theory… I dunno if you wanna call this blogging, personal publishing, insert-your-favorite-gerund for putting things on the web that you made. There’s a controlling metaphor for this that means a lot to me, and it’s… I tried to write this down in a way that’s clear, so I’ll read this. Topic times voice. Or, if you're a little bit more of a maverick, *obsession* times voice. So what does that mean? I think almost all of the best non-fiction that has ever been made comes from the result of somebody who can’t stop thinking about a certain topic — a very specific aspect, in some cases, of a certain topic. And second, they got really good at figuring out what they had to say about it. And if you have obsession without voice — or topic without voice — what do you have? You have basically a keyword search. You have pointless reblogging. You have — ah, I should say reblogging without curation, right? You guys know what I’m talking about? We all love these sites; we all, we enjoy going places where we're seeing things that we've seen before, about… steampunk. And not a problem with steampunk! Steampunk’s… but, y’know, do it well. And then, on the other hand, if you have voice without an obsession, you get a lot of, y’know, people commenting on the Thai food that they just had, on Twitter. And I guess what we're saying is to figure out where you are, as somebody who wants to get better. We're assuming you wanna become like a lion of this stuff. And I guess what we're saying is we wanna help you figure out whatever it is that you wanna do — and whatever outcome you wanna see as a result, how do you use a platform like personal publishing <ins>to</ins> become really great, to really become kind of like the go-to person for whatever <ins>the</ins> topic you're obsessed with is. Oh, here’s the line I wrote this morning, even though this was done a month ago. I said, whatever your topic is, try to figure how to be better at it than 80% of everybody else in the world. I… I think that’s very ambitious, but I’m gonna say that’s — and you know what, you probably won’t be. Right?</q>
+> <q>Um… this is a little rant of mine that I’m gonna quickly go through. I
+> have this theory… I dunno if you wanna call this blogging, personal
+> publishing, insert-your-favorite-gerund for putting things on the web that
+> you made. There’s a controlling metaphor for this that means a lot to me,
+> and it’s… I tried to write this down in a way that’s clear, so I’ll read
+> this.</q>
+
+> Topic times voice. Or, if you’re a little bit more of a maverick, *obsession*
+> times voice.</q>
+
+> So what does that mean? I think almost all of the best non-fiction that has
+> ever been made comes from the result of somebody who can’t stop thinking
+> about a certain topic — a very specific aspect, in some cases, of a certain
+> topic. And second, they got really good at figuring out what they had to say
+> about it.</q>
+
+> And if you have obsession without voice — or topic without voice — what do
+> you have? You have basically a keyword search. You have pointless reblogging.
+> You have — ah, I should say reblogging without curation, right? You guys know
+> what I’m talking about? We all love these sites; we all, we enjoy going
+> places where we’re seeing things that we’ve seen before, about… steampunk.
+> And not a problem with steampunk! Steampunk’s… but, y’know, do it well.</q>
+
+> And then, on the other hand, if you have voice without an obsession, you get
+> a lot of, y’know, people commenting on the Thai food that they just had, on
+> Twitter.</q>
+
+> And I guess what we’re saying is to figure out where you are, as somebody who
+> wants to get better. We're assuming you wanna become like a lion of this
+> stuff. And I guess what we’re saying is we wanna help you figure out whatever
+> it is that you wanna do — and whatever outcome you wanna see as a result, how
+> do you use a platform like personal publishing <ins>to</ins> become really
+> great, to really become kind of like the go-to person for whatever
+> <ins>the</ins> topic you’re obsessed with is.</q>
+
+> Oh, here’s the line I wrote this morning, even though this was done a month
+> ago. I said, whatever your topic is, try to figure how to be better at it
+> than 80% of everybody else in the world. I… I think that’s very ambitious,
+> but I’m gonna say that’s — and you know what, you probably won’t be.
+> Right?</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>Right. And I mean, I think that there’s… It’s almost like we need to warn you that there’s a certain inherent douchiness to what we're doing, as we're sitting up here and sort of, in some ways, holding ourselves up as the examples that *are* doing it right. And that’s, y’know, it’s sort of un-humble and not really what you're supposed to do, and y’know, to be a humble, nice person. But...</q>
+> <q>Right. And I mean, I think that there’s… It’s almost like we need to warn
+> you that there’s a certain inherent douchiness to what we’re doing, as we’re
+> sitting up here and sort of, in some ways, holding ourselves up as the
+> examples that *are* doing it right. And that’s, y’know, it’s sort of
+> un-humble and not really what you’re supposed to do, and y’know, to be a
+> humble, nice person. But...</q>
 
 > <cite><abbr>MM:</abbr></cite>
 > <q>We're trying, right now.</q>
@@ -140,7 +262,24 @@ comics!).
 > <q>That’s the 80%, is the trying, really.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>— I’ve got this thing, where what I write; I had this idea at the beginning, and I’ve always liked the <span class='magazine'>New Yorker</span> magazine, and it’s, just because it’s so well-written, and they will just take any topic that whoever’s writing about and go into such great length about it, even if it’s just one tiny angle of it, and they'll just go… y’know, if they need six thousand words for it, it’s six thousand words, and it’s just so well-written. And that just is like in a nutshell, when I wanna remind myself why I’m doing it at Daring Fireball, is I want to write about these topics *I’m* obessed with — and I just assume you guys know what those topics are, I don’t have to rehash them — but… if they were gonna be covered in the <span class='magazine'>New Yorker</span>, and if they were gonna pay me to do it, how would that be? How hard would I have to work to do that? And you might be saying ‘John, I like your stuff, that’s why I’m here to see you; I love your site, you really write about some of this <abbr class='smallcaps'>UI</abbr> stuff; and oh, tabs, that thing about the tabs — ’</q>
+> <q>— I’ve got this thing, where what I write; I had this idea at the
+> beginning, and I’ve always liked the <span class='magazine'>New Yorker</span>
+> magazine, and it’s, just because it’s so well-written, and they will just
+> take any topic that whoever’s writing about and go into such great length
+> about it, even if it’s just one tiny angle of it, and they’ll just go…
+> y’know, if they need six thousand words for it, it’s six thousand words, and
+> it’s just so well-written.</q>
+
+> And that just is like in a nutshell, when I wanna remind myself why I’m doing
+> it at Daring Fireball, is I want to write about these topics *I’m* obessed
+> with — and I just assume you guys know what those topics are, I don’t have to
+> rehash them — but… if they were gonna be covered in the
+> <span class='magazine'>New Yorker</span>, and if they were gonna pay me to do
+> it, how would that be? How hard would I have to work to do that? And you
+> might be saying ‘John, I like your stuff, that’s why I’m here to see you; I
+> love your site, you really write about some of this
+> <abbr class='smallcaps'>UI</abbr> stuff; and oh, tabs, that thing about the
+> tabs — ’</q>
 
 > <cite><abbr>MM:</abbr></cite>
 > <q>Tabs, yeah…</q>
@@ -152,23 +291,83 @@ comics!).
 > <q>This is a man who cares about tabs.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>‘— Oh, what was fantastic, but let me tell you something, buddy, that shit is not from the <span class='magazine'>New Yorker</span>.’. But that’s exactly it! I would be the first one to tell you that I’ve never hit that mark, and that’s… I think it’s so important to have a goal that’s out there that you know is beyond your reach, so that you're always improving. I do feel, I feel that I am such a better writer now than when I started the site six years ago. I mean, here’s just no doubt in my mind that I’m better at it. And I still feel like I’m nowhere near as good as I wanna be. I can write something and it'll be the article that, y’know, when I meet people at a place like here, and they'll remind me, they'll say ‘I love that thing you wrote a couple weeks ago’, and it’s something that I just think, ‘Oh my God, that is so far short of the idea I set out to write, but thank you so much for saying it’, but that to me is the whole point, is that you've gotta have a goal that is so far out of your reach, and… it seems to me that almost everybody else is setting their goal to write…</q>
+> <q>‘— Oh, what was fantastic, but let me tell you something, buddy, that shit
+> is not from the <span class='magazine'>New Yorker</span>.’. But that’s
+> exactly it! I would be the first one to tell you that I’ve never hit that
+> mark, and that’s…</q>
+
+> I think it’s so important to have a goal that’s out there that you know is
+> beyond your reach, so that you’re always improving. I do feel, I feel that I
+> am such a better writer now than when I started the site six years ago. I
+> mean, there’s just no doubt in my mind that I’m better at it. And I still
+> feel like I’m nowhere near as good as I wanna be. I can write something and
+> it’ll be the article that, y’know, when I meet people at a place like here,
+> and they’ll remind me, they’ll say ‘I love that thing you wrote a couple
+> weeks ago’, and it’s something that I just think, ‘Oh my God, that is so far
+> short of the idea I set out to write, but thank you so much for saying it’,
+> but that to me is the whole point, is that you’ve gotta have a goal that is
+> so far out of your reach, and… it seems to me that almost everybody else is
+> setting their goal to write…</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>… write on a very broad topic that a lot of other people cover to a very large audience that they they don’t really care about.</q>
+> <q>… write on a very broad topic that a lot of other people cover to a very
+> large audience that they they don’t really care about.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>Right, and they're —</q>
+> <q>Right, and they’re —</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Some, some people; not everybody. But there’s… if everything is what you wanna do, then you're not really doing a thing. If you wanna make everybody listen to something you have to say about everything all the time, how do they know it’s for them? How do you know that you've reached the right person, if you're trying to please everybody? And, y’know, for me, I’ve got another metric that I use — I like John’s; I mean, I’m not the writer John is, and I aspire to be — I’ll take it in a slightly different direction. Y'know, John’s *very* anal retentive; I don’t know if you follow what John does, but I mean, I don’t know if you know on Twitter, John’s wife, [Amy Jane][ajt] — who you should follow, is the funniest person on Twitter — and she'll just talk about how he, for like half an hour, he'll talk about kerning, like on something in a commercial, ’cause he really really really cares about that. And you know what? Almost none of you care about that, and that’s okay with him. But for those of you who also really really really care about kerning, it’s nice to find somebody who’s on the same page. And if John decided instead that, like, he wanted to suddenly branch off into something that he didn’t really care about because he thought it would get him a lot of pageviews, he’s gonna cut into muscle, by not caring about what you both already care about. And so, for me, I have to be honest, I aspire to different kinds of things; I’m definitely all over the map, and I’m kind of desperately always trying different things to figure out if this is the thing I wanna do, but one thing I do, I think about it differently. I think about it in terms of, the way I put it is — you guys okay? I think about it in terms, the phrase is, ‘Who do I wanna delight?’. I try to think a lot, less about, like, ‘Is this something that will, y’know, get me this kind of link?’, and more like ‘Is this something that John would think is not a piece of crap?’. ‘Is this something that, like, if Zeldman saw it, or if [<span class='person'>Dave Gray</span>][dgray] saw this, like, would Dave be into it?’ Like, if it’s something funny, like, Adam — lonelysandwich — doesn’t think much of anything I do is funny, but I aspire to make <span class='person'>Adam Lisagor</span> laugh. Do you follow me? Can you think about, like, one face behind your monitor that you see when you're making something? Like, can you tell, like, whether you've made something that would make somebody’s day? Or are you just thinking about a big pot of people who will click on your stuff? Because the truth is, once you figure out who those faces are, it gets a lot easier to make something that you're really really proud of, regardless of what it is that you wanna make.</q>
+> <q>Some, some people; not everybody. But there’s… if everything is what you
+> wanna do, then you’re not really doing a thing. If you wanna make everybody
+> listen to something you have to say about everything all the time, how do
+> they know it’s for them? How do you know that you’ve reached the right
+> person, if you’re trying to please everybody? And, y’know, for me, I’ve got
+> another metric that I use — I like John’s; I mean, I’m not the writer John
+> is, and I aspire to be — I’ll take it in a slightly different direction.
+> Y’knoww, John’s *very* anal retentive; I don’t know if you follow what John
+> does, but I mean, I don’t know if you know on Twitter, John’s wife,
+> [Amy Jane][ajt] — who you should follow, is the funniest person on
+> Twitter — and she’ll just talk about how he, for like half an hour, he’ll
+> talk about kerning, like on something in a commercial, ’cause he really
+> really really cares about that. And you know what? Almost none of you care
+> about that, and that’s okay with him. But for those of you who also really
+> really really care about kerning, it’s nice to find somebody who’s on the
+> same page.</q>
+
+> And if John decided instead that, like, he wanted to suddenly branch off into
+> something that he didn’t really care about because he thought it would get
+> him a lot of pageviews, he’s gonna cut into muscle, by not caring about what
+> you both already care about. And so, for me, I have to be honest, I aspire to
+> different kinds of things; I’m definitely all over the map, and I’m kind of
+> desperately always trying different things to figure out if this is the thing
+> I wanna do, but one thing I do, I think about it differently.</q>
+
+> I think about it in terms of, the way I put it is — you guys okay? I think
+> about it in terms, the phrase is, ‘Who do I wanna delight?’. I try to think a
+> lot, less about, like, ‘Is this something that will, y’know, get me this kind
+> of link?’, and more like ‘Is this something that John would think is not a
+> piece of crap?’. ‘Is this something that, like, if Zeldman saw it, or if
+> [<span class='person'>Dave Gray</span>][dgray] saw this, like, would Dave be
+> into it?’ Like, if it’s something funny, like,
+> Adam — lonelysandwich — doesn’t think much of anything I do is funny, but I
+> aspire to make <span class='person'>Adam Lisagor</span> laugh.
+
+> Do you follow me? Can you think about, like, one face behind your monitor
+> that you see when you’re making something? Like, can you tell, like, whether
+> you’ve made something that would make somebody’s day? Or are you just
+> thinking about a big pot of people who will click on your stuff? Because the
+> truth is, once you figure out who those faces are, it gets a lot easier to
+> make something that you’re really really proud of, regardless of what it is
+> that you wanna make.</q>
 
  [ajt]: http://twitter.com/amyjane "Amy Jane’s Twitter page"
  [dgray]: http://www.davegrayinfo.com/ "Dave Gray’s home page"
  [lonelys]: http://lonelysandwich.com/ "Adam Lisagor’s home page"
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>Even with something as absolutely stupid as jokes you publish on Twitter. It is true. And you do get a certain kind of feed back, like with the [Favrd][favrd], or ‘fah-vard’ — how do you…</q>
+> <q>Even with something as absolutely stupid as jokes you publish on Twitter.
+> It is true. And you do get a certain kind of feed back, like with the
+> [Favrd][favrd], or ‘fah-vard’ — how do you…</q>
 
  [favrd]: http://favrd.textism.com/
 
@@ -176,7 +375,8 @@ comics!).
 > <q>I say ‘f’vard’.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>‘F’vard’? Like… that’s like [the elephant][babar], isn’t that the elephant..?</q>
+> <q>‘F’vard’? Like… that’s like [the elephant][babar], isn’t that the
+> elephant..?</q>
 
  [babar]: http://en.wikipedia.org/wiki/Babar_the_Elephant "Wikipedia article for Babar the Elephant"
 
@@ -184,54 +384,180 @@ comics!).
 > <q>Oh yeah, F’vard, he’s the one with the crown.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>Right. But the weird thing about that is it is true. And we cheat — I mean, we are the worst cheaters in the world at Twitter, because we —</q>
+> <q>Right. But the weird thing about that is it is true. And we cheat — I
+> mean, we are the worst cheaters in the world at Twitter, because we —</q>
 
 > <cite><abbr>MM:</abbr></cite>
 > <q>We use Wikipedia and a dictionary.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>Well, and we wrote, like, scripts to, like, add subscribers and autofollow…</q>
+> <q>Well, and we wrote, like, scripts to, like, add subscribers and
+> autofollow…</q>
 
 > <cite><abbr>MM:</abbr></cite>
 > <q><ins>unclear</ins> <abbr class='smallcaps'>SEO</abbr> thing…</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>… ungodly subscriber counts and so of course we get on Favrd for really bad jokes. But to me, I get a thrill when someone who… to me, it doesn’t matter how many people say the joke is funny; but if there’s somebody who I really like who did, oh man, that is the greatest. Even if it’s like…</q>
+> <q>… ungodly subscriber counts and so of course we get on Favrd for really
+> bad jokes. But to me, I get a thrill when someone who… to me, it doesn’t
+> matter how many people say the joke is funny; but if there’s somebody who I
+> really like who did, oh man, that is the greatest. Even if it’s like…</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Oh, totally. Like, if you're watching Favrd to see who favorited your stuff, like… I mean, it’s nice, I like it when a lot of people like something, but like, when — God, why am I kissing Zeldman’s ass so bad? He’s not even here — but I see his little funny orange icon come up, and I’m like, oh my gosh, Zeldman thought something I did was okay. And yeah, that’s needy; I’ll own that. But I dunno, I think that’s meaningful. There’s this… I think it’s <span class='person'>Stephen King</span>; I know it’s Stephen King, but I think the phrase he uses is ‘ideal reader’. There’s this book of his that most people are sick of me talking about, called <span class='book'>On Writing</span>, that I like a lot. There’s two kinds of people: there’s people who groan because you talk about <span class='book'>On Writing</span>, and there’s people who've read it and go ‘It changed my game.’. Whether you liked <span class='book'>Carrie</span> or not. But he uses this phrase ‘ideal reader’, which is, for him that’s often his wife, or the [first reader][pubread], if you've ever heard that phrase. And again, I’m talking about photography, I’m talking about music; whatever you make. Like, who are you making it for? Who’s your ideal reader? Who’s your ideal reader, John?</q>
+> <q>Oh, totally. Like, if you’re watching Favrd to see who favorited your
+> stuff, like… I mean, it’s nice, I like it when a lot of people like
+> something, but like, when — God, why am I kissing Zeldman’s ass so bad? He’s
+> not even here — but I see his little funny orange icon come up, and I’m like,
+> oh my gosh, Zeldman thought something I did was okay. And yeah, that’s needy;
+> I’ll own that. But I dunno, I think that’s meaningful.</q>
+
+> There’s this… I think it’s <span class='person'>Stephen King</span>; I know
+> it’s Stephen King, but I think the phrase he uses is ‘ideal reader’. There’s
+> this book of his that most people are sick of me talking about, called
+> <span class='book'>On Writing</span>, that I like a lot. There’s two kinds of
+> people: there’s people who groan because you talk about <span class='book'>On
+> Writing</span>, and there’s people who've read it and go ‘It changed my
+> game.’. Whether you liked <span class='book'>Carrie</span> or not. But he
+> uses this phrase ‘ideal reader’, which is, for him that’s often his wife, or
+> the [first reader][pubread], if you’ve ever heard that phrase. And again, I’m
+> talking about photography, I’m talking about music; whatever you make. Like,
+> who are you making it for? Who’s your ideal reader? Who’s your ideal reader,
+> John?</q>
 
  [pubread]: http://en.wikipedia.org/wiki/Publisher’s_reader "Wikipedia article for publisher’s reader"
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>My ideal reader is like a second version of me. Like, I just imagine — no, I do! I imagine —</q>
+> <q>My ideal reader is like a second version of me. Like, I just imagine — no,
+> I do! I imagine —</q>
 
 > <cite><abbr>MM:</abbr></cite>
 > <q>You're gonna go blind.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>I, y’know, I’m just up here to lay it all out. I’m gonna be very honest. And it is… it’s totally…</q>
+> <q>I, y’know, I’m just up here to lay it all out. I’m gonna be very honest.
+> And it is… it’s totally…</q>
 
 > <cite><abbr>MM:</abbr></cite>
 > <q>We're pushing the douche button, but I think that’s gonna be okay.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>I mean, but that is why, it’s like someone in my racket who’s doing the whole thing from home, most days I don’t wear pants. ’Cause there’s a lot of touching yourself involved.</q>
+> <q>I mean, but that is why, it’s like someone in my racket who’s doing the
+> whole thing from home, most days I don’t wear pants. ’Cause there’s a lot of
+> touching yourself involved.</q>
 
 > <cite><abbr>MM:</abbr></cite>
 > <q>Ya gotta find your comfort zone.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>But it is. It’s me, in my mind it is that I had the idea to do this thing, the thing that has become Daring Fireball. I started it in 02002, but I had the idea long before that. And it just never seemed quite right, never seemed quite right. And I’m not sure what happened, but at some time in 02002 it seemed like, okay, I’ve gotta actually do it and try it and start it. But in my mind, there’s, like, another version of me that is still thinking now in 02009 ‘I oughta do that site where I tell everybody how they’re wrong about everything.’. Do my little grey background with the white text because I think it looks better, and not have any crap on the page, and all these ideas. But there’s a version of me that still hasn’t done it, and he’s out there, and he thinks about the same things I think about, and he wishes that people would write about these things in great detail, and that’s who I write for. I just imagine him out there, and he just loves it. And maybe that’s, like, the worst thing possible, ’cause that’s the thing that’s keeping him from actually doing his own site, because my site is so spot — ‘Oh, I wish I’d said that! Oh, I wish I’d said that!’. And I just keep trying to get that. And I always think too, about, like, is he out there thinking ‘Why hasn’t Gruber written about *blank* yet?’? Because I know he’s thinking ‘Oh my God. He’s gotta have a story in the works about *whatever*.’.</q>
+> <q>But it is. It’s me, in my mind it is that I had the idea to do this thing,
+> the thing that has become Daring Fireball. I started it in 02002, but I had
+> the idea long before that. And it just never seemed quite right, never seemed
+> quite right. And I’m not sure what happened, but at some time in 02002 it
+> seemed like, okay, I’ve gotta actually do it and try it and start it.
+
+> But in my mind, there’s, like, another version of me that is still thinking
+> now in 02009 ‘I oughta do that site where I tell everybody how they’re wrong
+> about everything.’. Do my little grey background with the white text because
+> I think it looks better, and not have any crap on the page, and all these
+> ideas. But there’s a version of me that still hasn’t done it, and he’s out
+> there, and he thinks about the same things I think about, and he wishes that
+> people would write about these things in great detail, and that’s who I write
+> for. I just imagine him out there, and he just loves it.</q>
+
+> And maybe that’s, like, the worst thing possible, ’cause that’s the thing
+> that’s keeping him from actually doing his own site, because my site is so
+> spot — ‘Oh, I wish I’d said that! Oh, I wish I’d said that!’. And I just keep
+> trying to get that. And I always think too, about, like, is he out there
+> thinking ‘Why hasn’t Gruber written about *blank* yet?’? Because I know he’s
+> thinking ‘Oh my God. He’s gotta have a story in the works about
+> *whatever*.’.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>You said something that I’ve seen quoted in other places — I dunno where you originally said this. One time we were talking on the phone and you said this, and I was like, y’know… At a time when it was considered <span lang='fr'>de rigueur</span> to have comments, and I still had comments on my site because I thought I had to have comments on my site, I was like ‘You don’t do comments. What’s the deal with that?’ And you, like, you said — you probably remember what you said — and you said it in this kind of passionate tone, and it was kind of scary — and you were like ‘I wanna own every single pixel on my site, from the top left to the lower right. And if I have somebody come in — even if it’s somebody incredibly smart; even if it’s whoever; even if it’s [SeoulBrother][sbro] comes in and has something to say, like somebody really smart and really funny, like, it’s not my site any more.’. Well okay, so should you turn off comments? No. That’s not what we're saying. But we are, I am saying, figure out, if you do decide to own every pixel of what you make — and I’m not saying I do; I’m pretty slack about this stuff — but I think it’s a good pattern, if you're thinking about this stuff, to figure out how you own every pixel of what you're making, to the point where you *know* you're reaching who you wanna reach. If it’s a broad audience, that’s not a problem. Reach the shit out of a broad audience. But if you're sitting there going, like, ‘I really hope <span class='person'>Malcolm Gladwell</span> sees this someday’, or ‘I really hope <span class='person'>Anne Lamott</span> sees this one day’, or, God love me, ‘I really hope Stephen King sees this and thinks this is smart, ’cause that would mean a lot to me’, then that that gets you thinking in a really different way from ‘I just need to post twelve times a day.’. It’s a very different approach.</q>
+> <q>You said something that I’ve seen quoted in other places — I dunno where
+> you originally said this. One time we were talking on the phone and you said
+> this, and I was like, y’know…</q>
+
+> At a time when it was considered <span lang='fr'>de rigueur</span> to have
+> comments, and I still had comments on my site because I thought I had to have
+> comments on my site, I was like ‘You don’t do comments. What’s the deal with
+> that?’ And you, like, you said — you probably remember what you said — and
+> you said it in this kind of passionate tone, and it was kind of scary — and
+> you were like ‘I wanna own every single pixel on my site, from the top left
+> to the lower right. And if I have somebody come in — even if it’s somebody
+> incredibly smart; even if it’s whoever; even if it’s [SeoulBrother][sbro]
+> comes in and has something to say, like somebody really smart and really
+> funny, like, it’s not my site any more.’.</q>
+
+> Well okay, so should you turn off comments? No. That’s not what we’re saying.
+> But we are, I am saying, figure out, if you do decide to own every pixel of
+> what you make — and I’m not saying I do; I’m pretty slack about this
+> stuff — but I think it’s a good pattern, if you’re thinking about this stuff,
+> to figure out how you own every pixel of what you’re making, to the point
+> where you *know* you’re reaching who you wanna reach. If it’s a broad
+> audience, that’s not a problem. Reach the shit out of a broad audience.</q>
+
+> But if you’re sitting there going, like, ‘I really hope
+> <span class='person'>Malcolm Gladwell</span> sees this someday’, or ‘I really
+> hope <span class='person'>Anne Lamott</span> sees this one day’, or, God love
+> me, ‘I really hope Stephen King sees this and thinks this is smart, ’cause
+> that would mean a lot to me’, then that that gets you thinking in a really
+> different way from ‘I just need to post twelve times a day.’. It’s a very
+> different approach.</q>
 
  [derig]: http://en.wiktionary.org/wiki/de_rigueur "Wiktionary article for de rigueur"
  [sbro]: http://seoulbrother.com/
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>I have a good story about that sort of thing, where you finally find out that the people who you hope are reading and enjoying your site are actually reading it. And this was two years ago at <abbr class='smallcaps'>WWDC</abbr>, the big Mac nerd development conference, and it was the first one after they had announced the iPhone; the iPhone wasn’t even actually out yet, and so you couldn’t actually have an iPhone, but everybody already wanted to program for it at <abbr class='smallcaps'>WWDC</abbr>, ’cause they'd already said that it’s gonna be Cocoa, and Cocoa programmers, as soon as they hear that, they just get a big stiffy, and… all they wanted to do was write iPhone software. And at the big announcement with <span class='person'>Steve Jobs</span> and <span class='person'>Scott Forstall</span> — the guy who’s in charge of this <abbr class='smallcaps'>SDK</abbr> stuff — they come out, and they, quote, they say ‘We have a really really sweet solution for all you guys who wanna write software for the iPhone.’. And it was: you can write web apps and they’ll run in MobileSafari. And it was so exactly the — the four thousand people who go to <abbr class='smallcaps'>WWDC</abbr> are the four thousand people out of the six billion on the planet who least wanted to hear that. And, so, the consensus, it was, like… Those announcements go out they're, like… they're really for the press, ’cause those things go out and <span class='newspaper'><abbr class='smallcaps'>USA</abbr> Today</span> writes about them and <span class='person'>David Pogue</span> writes about them in the <span class='newspaper'>New York Times</span> and millions and millions then read what Pogue wrote in the <span class='newspaper'>New York Times</span>. But for the four thousand people in the room? I described it in [my coverage][sand] of that as a ‘shit sandwich’. They wanted to hear the opposite, and it was set up — the worst part about it that was it was set up as ‘We have a really sweet solution’, and that really, it was, like, electric, I mean, all of a sudden nobody was really thinking that’s what they were gonna say. So the next day — fast forward twenty-four hours. I’m on the escalators in the Moscone Center; I’m coming down, and right behind me is <span class='person'>Phil Schiller</span>, y’know, senior vice president, right underneath Steve Jobs, the guy did the MacWorld keynote, y’know, a couple weeks ago — and I go, I’m gonna introduce myself. I turn around, and I said ‘Hey, Phil, I’m John Gruber.’. He goes ‘Hey, John! It’s so great to finally meet you!’ And he was so happy, he totally recognized me, and then the next thing out of his mouth is: ‘I’ve gotta disagree with you about that “shit sandwich” thing.’. And I… I mean, I was just like absolutely blown away that Phil Schiller, in the twenty-four hours after, like, a huge <abbr class='smallcaps'>WWDC</abbr> keynote, had gone to Daring Fireball and read my site. And then we had, we had a wonderful, it was absolutely phenomenal, like ten minute thing where we talked and, y’know, he told me how I was wrong, and y’know.</q>
+> <q>I have a good story about that sort of thing, where you finally find out
+> that the people who you hope are reading and enjoying your site are actually
+> reading it.
+
+> And this was two years ago at <abbr class='smallcaps'>WWDC</abbr>, the big
+> Mac nerd development conference, and it was the first one after they had
+> announced the iPhone; the iPhone wasn’t even actually out yet, and so you
+> couldn’t actually have an iPhone, but everybody already wanted to program for
+> it at <abbr class='smallcaps'>WWDC</abbr>, ’cause they’d already said that
+> it’s gonna be Cocoa, and Cocoa programmers, as soon as they hear that, they
+> just get a big stiffy, and… all they wanted to do was write iPhone software.
+> And at the big announcement with <span class='person'>Steve Jobs</span> and
+> <span class='person'>Scott Forstall</span> — the guy who’s in charge of this
+> <abbr class='smallcaps'>SDK</abbr> stuff — they come out, and they, quote,
+> they say ‘We have a really really sweet solution for all you guys who wanna
+> write software for the iPhone.’. And it was: you can write web apps and
+> they’ll run in MobileSafari.</q>
+
+> And it was so exactly the — the four thousand people who go to
+> <abbr class='smallcaps'>WWDC</abbr> are the four thousand people out of the
+> six billion on the planet who least wanted to hear that. And, so, the
+> consensus, it was, like… Those announcements go out they’re, like… they’re
+> really for the press, ’cause those things go out and
+> <span class='newspaper'><abbr class='smallcaps'>USA</abbr> Today</span>
+> writes about them and <span class='person'>David Pogue</span> writes about
+> them in the <span class='newspaper'>New York Times</span> and millions and
+> millions then read what Pogue wrote in the <span class='newspaper'>New York
+> Times</span>.</q>
+
+> But for the four thousand people in the room? I described it in
+> [my coverage][sand] of that as a ‘shit sandwich’. They wanted to hear the
+> opposite, and it was set up — the worst part about it that was it was set up
+> as ‘We have a really sweet solution’, and that really, it was, like,
+> electric, I mean, all of a sudden nobody was really thinking that’s what they
+> were gonna say.</q>
+
+> So the next day — fast forward twenty-four hours. I’m on the escalators in
+> the Moscone Center; I’m coming down, and right behind me is
+> <span class='person'>Phil Schiller</span>, y’know, senior vice president,
+> right underneath Steve Jobs, the guy did the MacWorld keynote, y’know, a
+> couple weeks ago — and I go, I’m gonna introduce myself. I turn around, and
+> I said ‘Hey, Phil, I’m John Gruber.’. He goes ‘Hey, John! It’s so great to
+> finally meet you!’ And he was so happy, he totally recognized me, and then
+> the next thing out of his mouth is: ‘I’ve gotta disagree with you about that
+> “shit sandwich” thing.’. And I… I mean, I was just like absolutely blown away
+> that Phil Schiller, in the twenty-four hours after, like, a huge
+> <abbr class='smallcaps'>WWDC</abbr> keynote, had gone to Daring Fireball and
+> read my site. And then we had, we had a wonderful, it was absolutely
+> phenomenal, like ten minute thing where we talked and, y’know, he told me how
+> I was wrong, and y’know.</q>
 
  [sand]: http://daringfireball.net/2007/06/wwdc_2007_keynote
 
@@ -239,85 +565,279 @@ comics!).
 > <q>Yeah, well, that’s…</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>But it blew me away, it blew me away. Senior vice president at <span class='organization'>Apple</span> read my thing about…</q>
+> <q>But it blew me away, it blew me away. Senior vice president at
+> <span class='organization'>Apple</span> read my thing about…</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>That’s giant. For like, anybody, especially if you write stuff, there’s no greater thrill than having somebody that you know and admire go ‘I’m even aware you exist.’. But, like, for them to go ‘I enjoyed that thing you did’, like somebody said hi outside a minute ago and ‘I like that one thing’, and, like, that made my day. That’s a connection. ’Cause, like, I did a thing, and I do this weird stuff that I can’t explain to my family, and I don’t understand how my daughter eats, but, like, somebody comes up, and goes ‘Hey, [truck spank][tspank]’, or goes, like, ‘Hey, [Hipster <abbr class='smallcaps'>PDA</abbr>][hpda]’, and I’m like, oh, man, that’s… Like, I’m not making this shit up, that’s awesome. And if I’d gone out there and tried to figure out, like, how to be somebody else that was already that person, right? Like, I really like [<span class='person'>Cory Doctorow</span>][cdoc], but we already… There’s this great line, <span class='person'>Ira Glass</span> does this wonderful series of videos — Ira Glass from <span class='radio'>This American Life</span> — and he has this great quote where he says, he says <ins>changes voice</ins> ‘The problem is a lot of people, they go out, and they wanna be’ — that’s my Ira Glass, or maybe it’s my <span class='person'>Alex Bloomberg</span>, but um — that’s funny to five people, but I’m glad you got it. That’s… see? duh. He goes ‘The thing is, people go out there, and they’re always trying to emulate the success of other people, right? And so you get on <abbr class='smallcaps'>TV</abbr>, and you try to pretend you’re <span class='person'>Ted Koppel</span>. But you know what? They’ve already got a Ted Koppel. They don’t need you.’ So y’know, like, your competition is somebody who had a unique opportunity a long time ago, and now you're gonna try to, like, trace the shadow of that on a sidewalk and hope it’s a career? Right? It’s… we've got our Koppel, now who are you?</q>
+> <q>That’s giant. For like, anybody, especially if you write stuff, there’s no
+> greater thrill than having somebody that you know and admire go ‘I’m even
+> aware you exist.’. But, like, for them to go ‘I enjoyed that thing you did’,
+> like, somebody said hi outside a minute ago and ‘I like that one thing’, and,
+> like, that made my day. That’s a connection. ’Cause, like, I did a thing, and
+> I do this weird stuff that I can’t explain to my family, and I don’t
+> understand how my daughter eats, but, like, somebody comes up, and goes ‘Hey,
+> [truck spank][tspank]’, or goes, like, ‘Hey,
+> [Hipster <abbr class='smallcaps'>PDA</abbr>][hpda]’, and I’m like, oh, man,
+> that’s… Like, I’m not making this shit up, that’s awesome.</q>
+
+> And if I’d gone out there and tried to figure out, like, how to be somebody
+> else that was already that person, right? Like, I really like
+> [<span class='person'>Cory Doctorow</span>][cdoc], but we already… There’s
+> this great line, <span class='person'>Ira Glass</span> does this wonderful
+> series of videos — Ira Glass from <span class='radio'>This American
+> Life</span> — and he has this great quote where he says, he says <ins>changes
+> voice</ins> ‘The problem is a lot of people, they go out, and they wanna
+> be’ — that’s my Ira Glass, or maybe it’s my <span class='person'>Alex
+> Bloomberg</span>, but um — that’s funny to five people, but I’m glad you got
+> it. That’s… see? duh. He goes ‘The thing is, people go out there, and they’re
+> always trying to emulate the success of other people, right? And so you get
+> on <abbr class='smallcaps'>TV</abbr>, and you try to pretend you’re <span
+> class='person'>Ted Koppel</span>. But you know what? They’ve already got a
+> Ted Koppel. They don’t need you.’ So y’know, like, your competition is
+> somebody who had a unique opportunity a long time ago, and now you’re gonna
+> try to, like, trace the shadow of that on a sidewalk and hope it’s a career?
+> Right? It’s… we’ve got our Koppel, now who are you?</q>
 
  [cdoc]: http://craphound.com/ "Cory Doctorow’s home page"
  [hpda]: http://www.43folders.com/2004/09/03/introducing-the-hipster-pda
  [tspank]: http://youlooknicetoday.com/episode/truck-spank
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>And our instincts, I think, serve us wrong; and I, we call it’s like a lizard brain thing. But, like, our instincts tell us that if you want to write something — I mean, and that is part of these assumptions that we're making, is that if you want to write, and we say write because that’s what we do, but again, it could be photography; it could be, y’know, a series, just making, like, a short film a week; any kind of thing. But obviously the whole reason you're publishing it is that you do want to find a readership, or watchership — what do you call the people who watch videos? I dunno — listenership for a podcast; but you wanna find an audience. And I mean it’s, y’know, who knows? Who knows what the drive is for that. But the irony is… the mismatch is that our instincts tell us that if you want to find an audience, you should try to find something that is like the things people are already enjoying.</q>
+> <q>And our instincts, I think, serve us wrong; and I, we call it’s like a
+> lizard brain thing. But, like, our instincts tell us that if you want to
+> write something — I mean, and that is part of these assumptions that we’re
+> making, is that if you want to write, and we say write because that’s what we
+> do, but again, it could be photography; it could be, y’know, a series, just
+> making, like, a short film a week; any kind of thing. But obviously the whole
+> reason you’re publishing it is that you do want to find a readership, or
+> watchership — what do you call the people who watch videos? I
+> dunno — listenership for a podcast; but you wanna find an audience. And I
+> mean it’s, y’know, who knows? Who knows what the drive is for that.</q>
+
+> But the irony is… the mismatch is that our instincts tell us that if you want
+> to find an audience, you should try to find something that is like the things
+> people are already enjoying.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Right. Like how many of you guys — oh, you're probably not old enough to remember this. But, like, after <span class='film'>Star Wars</span> came out, between like 01978 and 01980, there was, like, an unbelievable crap of movies and <abbr class='smallcaps'>TV</abbr> shows that were just unbelievably bad, because they wanted to cash in on the <span class='film'>Star Wars</span> thing. And yeah, they probably made a little bit of dough, but apart from <span class='programme'>Battlestar Galactica</span> — and that’s the old one; don’t get mad, don’t write letters — but the, but, like, could you name a bunch, I’m sure some of you can; why am I even saying this. <ins>nerd voice</ins> ‘So, actually, <span class='programme'>Space Wars ’79</span> featured <span class='person'>Dan Blocker</span>, who had been on <span class='programme'>Bonanza</span>. He was the… so…’. But… Ted Koppel was Ted Koppel because a bunch of Americans got kidnapped, and Americans cared a lot about what happened to them. And so they started this little show, for a half hour, every night. Right?</q>
+> <q>Right. Like how many of you guys — oh, you’re probably not old enough to
+> remember this. But, like, after <span class='film'>Star Wars</span> came out,
+> between like 01978 and 01980, there was, like, an unbelievable crap of movies
+> and <abbr class='smallcaps'>TV</abbr> shows that were just unbelievably bad,
+> because they wanted to cash in on the <span class='film'>Star Wars</span>
+> thing. And yeah, they probably made a little bit of dough, but apart from
+> <span class='programme'>Battlestar Galactica</span> — and that’s the old one;
+> don’t get mad, don’t write letters — but the, but, like, could you name a
+> bunch, I’m sure some of you can; why am I even saying this.</q>
+
+> <ins>nerd voice</ins> ‘So, actually, <span class='programme'>Space Wars
+> ’79</span> featured <span class='person'>Dan Blocker</span>, who had been on
+> <span class='programme'>Bonanza</span>. He was the… so…’. But…</q>
+
+> Ted Koppel was Ted Koppel because a bunch of Americans got kidnapped, and
+> Americans cared a lot about what happened to them. And so they started this
+> little show, for a half hour, every night. Right?</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>Right. It started, <span class='programme'>Nightline</span> started with the [Iranian hostage situation][irhost]. Forty-four Americans in Iran, and they weren’t gonna let ’em go.</q>
+> <q>Right. It started, <span class='programme'>Nightline</span> started with
+> the [Iranian hostage situation][irhost]. Forty-four Americans in Iran, and
+> they weren’t gonna let ’em go.</q>
 
  [irhost]: http://en.wikipedia.org/wiki/Iran_hostage_crisis "Wikipedia article for Iran hostage crisis"
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>The country, like — you don’t remember this, ’cause you're all, like, twenty, and with the <abbr class='smallcaps'>SMS</abbr> — but, like, America was gripped. This was a country that had not had its ass kicked in a pretty long time, and we were totally gobsmacked by what to do about ‘a bunch of people in the Middle East’ — that’s air quotes, if you're listening in audio — what are we gonna do with these crazy people who took… America was gripped, right?</q>
+> <q>The country, like — you don’t remember this, ’cause you’re all, like,
+> twenty, and with the <abbr class='smallcaps'>SMS</abbr> — but, like, America
+> was gripped. This was a country that had not had its ass kicked in a pretty
+> long time, and we were totally gobsmacked by what to do about ‘a bunch of
+> people in the Middle East’ — that’s air quotes, if you’re listening in
+> audio — what are we gonna do with these crazy people who took… America was
+> gripped, right?</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>Yeah, ’cause I guess it was like a sense of impotence because they've got them, and we're like ‘Give ’em back.’, and they’re like ‘No.’. And that’s it.</q>
+> <q>Yeah, ’cause I guess it was like a sense of impotence because they’ve got
+> them, and we’re like ‘Give ’em back.’, and they’re like ‘No.’. And that’s
+> it.</q>
 
 > <cite><abbr>MM:</abbr></cite>
 > <q>That’s it. Sorry.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>But, so, what did <span class='programme'><abbr class='smallcaps'>ABC</abbr> News</span> have? <span class='programme'><abbr class='smallcaps'>ABc</abbr> News</span> had the <span class='person'>Peter Jennings</span> show that’s on at 7 <ins><abbr class='smallcaps'>PM</abbr></ins> or 6:30 <ins><abbr class='smallcaps'>PM</abbr></ins> or whatever, and it’s a half hour, and they have to cover everything in the world; everything that goes on in Washington, and everything that goes on worldwide, and there’s a bit on sports, and… So, y’know, there’s, like, ninety seconds every night for an update on the Iranian hostage situation. But it was this *thing* that people were obsessed about; Ted Koppel was completely obsessed about. And so he was like, ‘All right, why don’t we do a thirty minute show; what time is open? When can I get on?’ And they’re like, ‘Uh, 11:30 <ins><abbr class='smallcaps'>PM</abbr></ins>? 12 <ins><abbr class='smallcaps'>AM</abbr></ins> maybe twelve?’</q>
+> <q>But, so, what did
+> <span class='organization'><abbr class='smallcaps'>ABC</abbr> News</span>
+> have?
+> <span class='organization'><abbr class='smallcaps'>ABC</abbr> News</span> had
+> the <span class='person'>Peter Jennings</span> show that’s on at 7
+> <ins><abbr class='smallcaps'>PM</abbr></ins> or 6:30
+> <ins><abbr class='smallcaps'>PM</abbr></ins> or whatever, and it’s a half
+> hour, and they have to cover everything in the world; everything that goes on
+> in Washington, and everything that goes on worldwide, and there’s a bit on
+> sports, and… So, y’know, there’s, like, ninety seconds every night for an
+> update on the Iranian hostage situation.</q>
+
+> But it was this *thing* that people were obsessed about; Ted Koppel was
+> completely obsessed about. And so he was like, ‘All right, why don’t we do a
+> thirty minute show; what time is open? When can I get on?’ And they’re like,
+> ‘Uh, 11:30 <ins><abbr class='smallcaps'>PM</abbr></ins>? 12
+> <ins><abbr class='smallcaps'>AM</abbr></ins> maybe twelve?’</q>
 
 > <cite><abbr>MM:</abbr></cite>
 > <q>Against <span class='person'>Johnny Carson</span>?</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>Right. ‘You get on… we got nothing.’ They were showing, like, the million dollar movie at the time. And so they just invented a totally new show: thirty minutes, every night, on the exact same topic every night, which is: everything new about this Iranian hostage situation.</q>
+> <q>Right. ‘You get on… we got nothing.’ They were showing, like, the million
+> dollar movie at the time. And so they just invented a totally new show:
+> thirty minutes, every night, on the exact same topic every night, which is:
+> everything new about this Iranian hostage situation.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Right. And so, like, today, you go ‘Oh, you know what? I really admire Ted Koppel. I wanna be Ted Koppel.’ Well, you're gonna need a couple things. The first one is you're gonna need, like, a red wig, and then second you're gonna need a time machine. Because the reason Ted Koppel is Ted Koppel is not so different from the reason <span class='person'>Michael Arrington</span> is Michael Arrington or John Gruber is John Gruber. Which is, you cannot recreate the context, the timing, the everything of a moment where something happened, right? I was saying this last night — who was I saying this to last night; <span class='person'>Jim Coudal</span> — I think, y’know, a lot of Americans don’t realize that in 01943, we didn’t know we were gonna win the <ins>Second World</ins> War. Right? If you're twenty, you just assume that we always used to win wars. In 01943 — ask your grandparents — it was pretty freaky, man. People didn’t know what was gonna happen. We lose that, when we just try to, let’s say for example; I dunno, take any example of a site that you admire. And instead of just focusing on the voice, or just focusing on the topic. There’s no way to recreate somebody else’s success, and why would you try? Which is not a way to say I’m… and again, I think you have stuff to say about this, but I would say it’s not, I’m not saying <ins>don’t</ins> go out and, like, learn from somebody else’s playbook; I am in fact saying go do that. But there’s that [<span class='organization'>37signals</span> thing] not long ago that you linked to. It was, like, ‘What is it you’re copying?’, y’know? Are you copying the right thing, when you try to repurpose somebody’s theoretical success for what you wanna do?</q>
+> <q>Right. And so, like, today, you go ‘Oh, you know what? I really admire Ted
+> Koppel. I wanna be Ted Koppel.’ Well, you’re gonna need a couple things. The
+> first one is you’re gonna need, like, a red wig, and then second you’re gonna
+> need a time machine.</q>
+
+> Because the reason Ted Koppel is Ted Koppel is not so different from the
+> reason <span class='person'>Michael Arrington</span> is Michael Arrington or
+> John Gruber is John Gruber. Which is, you cannot recreate the context, the
+> timing, the everything of a moment where something happened, right?</q>
+
+> I was saying this last night — who was I saying this to last night;
+> <span class='person'>Jim Coudal</span> — I think, y’know, a lot of Americans
+> don’t realize that in 01943, we didn’t know we were gonna win the
+> <ins>Second World</ins> War. Right? If you’re twenty, you just assume that we
+> always used to win wars. In 01943 — ask your grandparents — it was pretty
+> freaky, man. People didn’t know what was gonna happen.</q>
+
+> We lose that, when we just try to, let’s say for example; I dunno, take any
+> example of a site that you admire. And instead of just focusing on the voice,
+> or just focusing on the topic. There’s no way to recreate somebody else’s
+> success, and why would you try? Which is not a way to say I’m… and again, I
+> think you have stuff to say about this, but I would say it’s not, I’m not
+> saying <ins>don’t</ins> go out and, like, learn from somebody else’s
+> playbook; I am in fact saying go do that. But there’s that
+> [<span class='organization'>37signals</span> thing] not long ago that you
+> linked to. It was, like, ‘What is it you’re copying?’, y’know? Are you
+> copying the right thing, when you try to repurpose somebody’s theoretical
+> success for what you wanna do?</q>
 
  [37scopy]: http://www.37signals.com/svn/posts/1561-why-you-shouldnt-copy-us-or-anyone-else
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>Right. And so, and… how many people here have heard of the 37signals? Yeah. So it’s, they've got the Basecamp, which is their project management app. And they invented Ruby on Rails to power it, and you get all this stuff for free. And then after they got successful, there’s all these other web apps that have come out — and maybe it has nothing to do with project management, it’s not that people have tried to rip it off the app — but they'll make another app that does something else, but it *looks* like a 37signals app. It’s just got all these little, like, visual cues that are very very distinct, and it’s theirs, and it’s…</q>
+> <q>Right. And so, and… how many people here have heard of the 37signals?
+> Yeah. So it’s, they’ve got the Basecamp, which is their project management
+> app. And they invented Ruby on Rails to power it, and you get all this stuff
+> for free. And then after they got successful, there’s all these other web
+> apps that have come out — and maybe it has nothing to do with project
+> management, it’s not that people have tried to rip it off the app — but
+> they’ll make another app that does something else, but it *looks* like a
+> 37signals app. It’s just got all these little, like, visual cues that are
+> very very distinct, and it’s theirs, and it’s…</q>
 
 > <cite><abbr>MM:</abbr></cite>
 > <q>You can move the rows around, and it’s a clean design; y’know, it’s…</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>And it’s like they're copying the wrong thing. It’s like, it’s almost like, you see a <span class='organization'>Honda</span> Accord, and you decide, ‘Oh, that’s a nice car, I’ll make one like that’, and then you just sit there and look at it, and you just end up with, like, a <span lang='fr'>papier-mâché</span> car, and you're just using wet tissue paper. There’s nothing to it; it’s just hollow. Whereas, the thing that’s worth copying is the attitude that they had at the outset; what made them do it. And project management meant things like Gantt charts, and…</q>
+> <q>And it’s like they’re copying the wrong thing. It’s like, it’s almost
+> like, you see a <span class='organization'>Honda</span> Accord, and you
+> decide, ‘Oh, that’s a nice car, I’ll make one like that’, and then you just
+> sit there and look at it, and you just end up with, like, a
+> <span lang='fr'>papier-mâché</span> car, and you’re just using wet tissue
+> paper. There’s nothing to it; it’s just hollow. Whereas, the thing that’s
+> worth copying is the attitude that they had at the outset; what made them do
+> it. And project management meant things like Gantt charts, and…</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Every project — and I was a project manager — and everything that was out there — no offense against any of the apps, but — it was like, assumed that making software was necessarily like making a bridge, instead of being a little more agile, and just having the stuff you need, y’know. And their approach, it’s the same thing as <span class='organization'>Google</span>. It would be like saying, ‘Oh, well, I’m gonna go create a white page with two buttons, and become the most successful company in the world. Or, like, and my rant — and I’m sorry, I’m not gonna shut up about this — I’m so tired of every social media douche going ‘<span class='organization'>Zappo’s</span> is on Twitter!’. And you’re like, ‘Yeah, they’re on Twitter; after putting millions of dollars into customer support.’ It’s like, getting an account on Twitter does not make you Zappo’s. Having the resources behind serving the shit out of your audience makes you Zappo’s. And it doesn’t happen overnight, with a login and an email that you click on a link. So anyway; not to go on a rant.</q>
+> <q>Every project — and I was a project manager — and everything that was out
+> there — no offense against any of the apps, but — it was like, assumed that
+> making software was necessarily like making a bridge, instead of being a
+> little more agile, and just having the stuff you need, y’know. And their
+> approach, it’s the same thing as <span class='organization'>Google</span>. It
+> would be like saying, ‘Oh, well, I’m gonna go create a white page with two
+> buttons, and become the most successful company in the world.</q>
+
+> Or, like, and my rant — and I’m sorry, I’m not gonna shut up about this — I’m
+> so tired of every social media douche going
+> ‘<span class='organization'>Zappo’s</span> is on Twitter!’. And you’re like,
+> ‘Yeah, they’re on Twitter; after putting millions of dollars into customer
+> support.’ It’s like, getting an account on Twitter does not make you Zappo’s.
+> Having the resources behind serving the shit out of your audience makes you
+> Zappo’s. And it doesn’t happen overnight, with a login and an email that you
+> click on a link. So anyway; not to go on a rant.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>Have you ever read… ’cause you know, <span class='organization'>Comcast</span> [is on Twitter][cmst].</q>
+> <q>Have you ever read… ’cause you know,
+> <span class='organization'>Comcast</span> [is on Twitter][cmst].</q>
 
  [cmst]: http://twitter.com/comcastcares "comcastcares Twitter profile"
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Comcast, they're in Philadelphia, too, right? Comcast @responses *very* entertaining.</q>
+> <q>Comcast, they’re in Philadelphia, too, right? Comcast @responses *very*
+> entertaining.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>They've built, like, a Death Star; they've, there’s a new; it is now the tallest skyscraper in Philadelphia. It is, like, it is, like, the tower of Hell that cable bills built. But if you wanna —</q>
+> <q>They've built, like, a Death Star; they’ve, there’s a new; it is now the
+> tallest skyscraper in Philadelphia. It is, like, it is, like, the tower of
+> Hell that cable bills built. But if you wanna —</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>The only difference is they're destroying the planet more slowly than the Death Star.</q>
+> <q>The only difference is they’re destroying the planet more slowly than the
+> Death Star.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>If you ever wanna entertain yourself on `search.twitter.com`, just type in [`@comcast`][cmstsrch], and read the things that people say to Comcast. Once it became known that Comcast was paying somebody to monitor Twitter for mentions of Comcast, it did not turn Comcast into Zappo’s.</q>
+> <q>If you ever wanna entertain yourself on `search.twitter.com`, just type in
+> [`@comcast`][cmstsrch], and read the things that people say to Comcast. Once
+> it became known that Comcast was paying somebody to monitor Twitter for
+> mentions of Comcast, it did not turn Comcast into Zappo’s.</q>
 
  [cmstsrch]: http://search.twitter.com/search?q=@comcast
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>They should just hire <span class='person'>Ryan King</span> to just have a bot that writes back and goes ‘Sorry!’. Y'know? That’s really all they need. ‘@<var>whoever just flamed me</var> Sorry!’. ‘Your bandwidth? Your bandwidth has been, uh… Yeah, sorry!’. ‘Why can’t I get torrents?’ It is, it is… y’know, I have this thing, again, everybody thinks I’m such a dick, because, like, I think social media’s more… I think it’s important enough to take seriously. I think that very much as to do with this. So people think ‘Oh, you’re so down on social media. Why are you such a jerk?’. And I’m like, ‘’Cause social media, when it’s really social media, is not about what you have to say; it’s having a tolerance for what people have to say about you.’ — which is so different from posting about your great run. Social media is when they say ‘You’re a jackass. Stop talking about your run.’ *That’s* social media. And that’s the conversation. And I think kind of what we're saying is, y’know, you do have to be open; there does have to be a certain amount of tolerance that you have for every aspect of this. The biggest tolerance that you've gotta have — and I’m as thin-skinned as anybody; I don’t like people saying mean things about me — but, I think what we're saying, in some ways, is, you need a tolerance — this is gonna sound so unhelpful — you need a tolerance for having no idea where your thing is going. Y'know? ’Cause if you have too much of an idea of what it is, like, you may be accidentally making the wrong thing. If you're not responding to what’s really happening; if you're just going, like, ‘My goal is this. I’m going to have this thing, and I will have this many followers, and there will be this many comments, and I will have a rich community.’ And instead of going and listening to what people say, and making the thing, and… It’s a real tightrope walk, because yeah, you do have to be arrogant enough to think that it matters to try at this stuff, and yeah, you do have to be arrogant enough to look at stats and see what kind of material people enjoy, but there’s all kinds of ways… we were talking about this earlier; I was like, ‘All this social media stuff is like a giant set of extremely sharp knives, where, like, they’re just knives, but you can use them for good or ill.’ Like, <abbr class='smallcaps'>SEO</abbr>? <abbr class='smallcaps'>SEO</abbr>’s fantastic, because it gives people <abbr class='smallcaps'>URL</abbr>s that make sense. But it does, y’know… it is bad if you're trying to fool people into clicking things. But… I dunno, we should probably move on. How we doing on time? Oh, we're doing great on time! We should slow it down, that’s terrific.</q>
+> <q>They should just hire <span class='person'>Ryan King</span> to just have a
+> bot that writes back and goes ‘Sorry!’. Y’know? That’s really all they need.
+> ‘@<var>whoever just flamed me</var> Sorry!’. ‘Your bandwidth? Your bandwidth
+> has been, uh… Yeah, sorry!’. ‘Why can’t I get torrents?’</q>
+
+> It is, it is… Y’know, I have this thing, again, everybody thinks I’m such a
+> dick, because, like, I think social media’s more… I think it’s important
+> enough to take seriously. I think that very much as to do with this. So
+> people think ‘Oh, you’re so down on social media. Why are you such a jerk?’.
+> And I’m like, ‘’Cause social media, when it’s really social media, is not
+> about what you have to say; it’s having a tolerance for what people have to
+> say about you.’ — which is so different from posting about your great run.
+> Social media is when they say ‘You’re a jackass. Stop talking about your
+> run.’ *That’s* social media. And that’s the conversation.</q>
+
+> And I think kind of what we’re saying is, y’know, you do have to be open;
+> there does have to be a certain amount of tolerance that you have for every
+> aspect of this. The biggest tolerance that you’ve gotta have — and I’m as
+> thin-skinned as anybody; I don’t like people saying mean things about
+> me — but, I think what we’re saying, in some ways, is, you need a
+> tolerance — this is gonna sound so unhelpful — you need a tolerance for
+> having no idea where your thing is going. Y’knoww? ’Cause if you have too
+> much of an idea of what it is, like, you may be accidentally making the wrong
+> thing. If you’re not responding to what’s really happening; if you’re just
+> going, like, ‘My goal is this. I’m going to have this thing, and I will have
+> this many followers, and there will be this many comments, and I will have a
+> rich community.’ And instead of going and listening to what people say, and
+> making the thing, and…</q>
+
+> It’s a real tightrope walk, because yeah, you do have to be arrogant enough
+> to think that it matters to try at this stuff, and yeah, you do have to be
+> arrogant enough to look at stats and see what kind of material people enjoy,
+> but there’s all kinds of ways… we were talking about this earlier; I was
+> like, ‘All this social media stuff is like a giant set of extremely sharp
+> knives, where, like, they’re just knives, but you can use them for good or
+> ill.’ Like, <abbr class='smallcaps'>SEO</abbr>?
+> <abbr class='smallcaps'>SEO</abbr>’s fantastic, because it gives people
+> <abbr class='smallcaps'>URL</abbr>s that make sense. But it does, y’know… it
+> is bad if you’re trying to fool people into clicking things.</q>
+
+> But… I dunno, we should probably move on. How we doing on time? Oh, we’re
+> doing great on time! We should slow it down, that’s terrific.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>I think that the big irony is that there’s this old maxim, I dunno, it’s probably… I wish there were some kind of, like, thing where you could just…</q>
+> <q>I think that the big irony is that there’s this old maxim, I dunno, it’s
+> probably… I wish there were some kind of, like, thing where you could
+> just…</q>
 
 > <cite><abbr>MM:</abbr></cite>
 > <q>Search the web?</q>
@@ -326,25 +846,71 @@ comics!).
 > <q>Right. That would… I tried to look for —</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q><ins>nerd voice</ins> ‘So, what was that reference that you made in your earlier tweet? What was that?’</q>
+> <q><ins>nerd voice</ins> ‘So, what was that reference that you made in your
+> earlier tweet? What was that?’</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>So it’s probably, I should probably know who to attribute it to, but maybe it’s not; maybe it’s something that’s been around forever. But there’s a saying that it’s great that we have freedom of the press in this country, but the only people who really have freedom of the press are those who can afford a printing press. And it’s totally true. I mean, it was, y’know. You could not reach — you could say what you wanted, but you could not reach a big crowd unless you had the money to reach them — and a television station costs gazillions of dollars, and printing newspapers, even in the old days, newspapers…</q>
+> <q>So it’s probably, I should probably know who to attribute it to, but maybe
+> it’s not; maybe it’s something that’s been around forever. But there’s a
+> saying that it’s great that we have freedom of the press in this country, but
+> the only people who really have freedom of the press are those who can afford
+> a printing press. And it’s totally true. I mean, it was, y’know. You could
+> not reach — you could say what you wanted, but you could not reach a big
+> crowd unless you had the money to reach them — and a television station costs
+> gazillions of dollars, and printing newspapers, even in the old days,
+> newspapers…</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Even in the eighties, just making a zine, just going to <span class='organization'>Kinko’s</span> and making a zine, and having to, like, pay postage on that? It was extraordinary. And you'd still reach, like, a tiny fraction of people. Like, <span class='magazine'>Maximum R&R</span>, like, what was <span class='magazine'>Maximum R&R</span>’s greatest circulation? Like, y’know, going on newsprint… It’s like, today, everybody owns a little press.</q>
+> <q>Even in the eighties, just making a zine, just going to
+> <span class='organization'>Kinko’s</span> and making a zine, and having to,
+> like, pay postage on that? It was extraordinary. And you’d still reach, like,
+> a tiny fraction of people. Like, <span class='magazine'>Maximum R&R</span>,
+> like, what was <span class='magazine'>Maximum R&R</span>’s greatest
+> circulation? Like, y’know, going on newsprint… It’s like, today, everybody
+> owns a little press.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>Or look at Boing Boing. It was a zine, and I never even heard of it. But I mean, it was apparently very popular. But —</q>
+> <q>Or look at Boing Boing. It was a zine, and I never even heard of it. But I
+> mean, it was apparently very popular. But —</q>
 
 > <cite><abbr>MM:</abbr></cite>
 > <q>It was about ukuleles, I think.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>Right, something like that. But, I mean, but then the Internet, it literally is the solution to that problem, where everybody can afford their own printing press, and can reach tremendous scale. I mean, a seven-dollar–a–month web hosting account will almost certainly saturate… you will be able to satisfy anybody who could even be vaguely interested in what you will say. It’s unbelievable. I mean, you could go to Tumblr, and Tumblr, what… it’s free, right?</q>
+> <q>Right, something like that. But, I mean, but then the Internet, it
+> literally is the solution to that problem, where everybody can afford their
+> own printing press, and can reach tremendous scale. I mean, a
+> seven-dollar–a–month web hosting account will almost certainly saturate… you
+> will be able to satisfy anybody who could even be vaguely interested in what
+> you will say. It’s unbelievable. I mean, you could go to Tumblr, and Tumblr,
+> what… it’s free, right?</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>It’s free. [<span class='person'>Marco <ins>Arment</ins></span>][marco]’s here. Shoutout for Marco. Anybody like Tumblr? Anybody like Tumblr? Marco’s here, give him a big hand. No, it’s totally true. And what’s funny is I started doing this stuff related to this web stuff in the mid-’90s, and I had to hand… I sat there with BBEdit, and Fetch, and had to, like, go… I mean, someday I’m gonna tell you guys about when I ran a giant conference site by outputting flat files out of Filemaker Pro with a script. That’s how you used to publish, if you were me and you didn’t understand Perl and Apache. Like, you had GoLive CyberStudio, y’know? But, like, so, I think it’s interesting; I still remember, like, the [<span class='person'>Peter Merholz</p>][peter]s of the world, like, having conversations about, well — or [<span class='person'>Rebecca Blood</span>][rebecca] talking about ‘Is this a blog? Or is that a blog? Like, what’s a blog?’ And I think now, I’m not even sure ‘blog’ is that great of a term anymore, to describe anything, ’cause it can mean, it could mean Gawker, or it could mean something on Blogspot, or it could mean, y’know, some incredibly awful corporate site that’s basically press releases with a permalink. And that’s really different from me going and hand-coding every page. So… it’s important to acknowledge that, like you say, it’s not that we want for tools; if anything — God, people hate me — I mean, one thing that bugs me is, like, if I don’t post on Twitter, I get 7% more followers per day. Because I’m *annoying*.</q>
+> <q>It’s free. [<span class='person'>Marco <ins>Arment</ins></span>][marco]’s
+> here. Shoutout for Marco. Anybody like Tumblr? Anybody like Tumblr? Marco’s
+> here, give him a big hand.</q>
+
+> No, it’s totally true. And what’s funny is I started doing this stuff related
+> to this web stuff in the mid-’90s, and I had to hand… I sat there with
+> BBEdit, and Fetch, and had to, like, go… I mean, someday I’m gonna tell you
+> guys about when I ran a giant conference site by outputting flat files out of
+> Filemaker Pro with a script. That’s how you used to publish, if you were me
+> and you didn’t understand Perl and Apache. Like, you had GoLive CyberStudio,
+> y’know?</q>
+
+> But, like, so, I think it’s interesting; I still remember, like, the
+> [<span class='person'>Peter Merholz</p>][peter]s of the world, like, having
+> conversations about, well — or
+> [<span class='person'>Rebecca Blood</span>][rebecca] talking about ‘Is this a
+> blog? Or is that a blog? Like, what’s a blog?’ And I think now, I’m not even
+> sure ‘blog’ is that great of a term anymore, to describe anything, ’cause it
+> can mean, it could mean Gawker, or it could mean something on Blogspot, or it
+> could mean, y’know, some incredibly awful corporate site that’s basically
+> press releases with a permalink. And that’s really different from me going
+> and hand-coding every page. So… it’s important to acknowledge that, like you
+> say, it’s not that we want for tools; if anything — God, people hate me — I
+> mean, one thing that bugs me is, like, if I don’t post on Twitter, I get 7%
+> more followers per day. Because I’m *annoying*.</q>
 
  [marco]: http://www.marco.org/ "Marco Arment’s home page"
  [peter]: http://www.peterme.com/ "Peter Merholz’s home page"
@@ -354,19 +920,21 @@ comics!).
 > <q>I think…</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Because words are harder than buttons. Y'know? That’s the problem. It’s super-easy to post nowadays…</q>
+> <q>Because words are harder than buttons. Y’knoww? That’s the problem. It’s
+> super-easy to post nowadays…</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>I think what’s funnier is that you know… you've actually looked and studied the statistics.</q>
+> <q>I think what’s funnier is that you know… you’ve actually looked and
+> studied the statistics.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>No, I ran it in Numbers, I ran it in Numbers, ’cause I stopped tooting for several weeks, and it kept going up, like inexplicably. It’s like, what are you following? I’m not here! It’s like, and it wasn’t that funny to begin with. It’s just like… But I guess what I’m trying to say is… and I’m not trying to play the douche card, and say, like, you've gotta be any way. What I’m saying is that the tolerance that I’m encouraging you to have is, first of all, a tolerance that, if there’s something that you're kind of into doing, that you're pretty excited about, and think about a lot, y’know… Oh, so what was it we were talking about earlier? Like, how do you know that you should probably start a blog? Like, people keep telling you to *shut up*. Right? You're like, ‘Oh, whatever, Cowboys! I love the Cowboys! <ins>nonsense sound</ins> The Cowboys!’ Like, y’know what? If you love the Cowboys, like, why don’t you either gay-marry them, or start a blog. Right?</q>
+> <q>No, I ran it in Numbers, I ran it in Numbers, ’cause I stopped tooting for several weeks, and it kept going up, like inexplicably. It’s like, what are you following? I’m not here! It’s like, and it wasn’t that funny to begin with. It’s just like… But I guess what I’m trying to say is… and I’m not trying to play the douche card, and say, like, you’ve gotta be any way. What I’m saying is that the tolerance that I’m encouraging you to have is, first of all, a tolerance that, if there’s something that you’re kind of into doing, that you’re pretty excited about, and think about a lot, y’know… Oh, so what was it we were talking about earlier? Like, how do you know that you should probably start a blog? Like, people keep telling you to *shut up*. Right? You're like, ‘Oh, whatever, Cowboys! I love the Cowboys! <ins>nonsense sound</ins> The Cowboys!’ Like, y’know what? If you love the Cowboys, like, why don’t you either gay-marry them, or start a blog. Right?</q>
 
 > <cite><abbr>JG:</abbr></cite>
 > <q>But that’s…</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>And how do you know? Do you go, ‘Oh, what’s a popular topic? Web 2.0.’. Or do you go, like, ‘I *really*…’, like, look at, like Perez Hilton. Like, I don’t *love* Perez Hilton’s site, but you so know Perez Hilton. I’m not a *giant* [TechCrunch][tc] reader, but you totally know TechCrunch when you see it, y’know? It’s, like, they're obsessed with certain things.</q>
+> <q>And how do you know? Do you go, ‘Oh, what’s a popular topic? Web 2.0.’. Or do you go, like, ‘I *really*…’, like, look at, like Perez Hilton. Like, I don’t *love* Perez Hilton’s site, but you so know Perez Hilton. I’m not a *giant* [TechCrunch][tc] reader, but you totally know TechCrunch when you see it, y’know? It’s, like, they’re obsessed with certain things.</q>
 
  [tc]: http://www.techcrunch.com/
 
@@ -404,7 +972,7 @@ comics!).
 > <q>No, he’s a dick. He’s a total dick.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Can I point out one thing in passing? A bunch of you — I’m sure people are gonna go toot about this now, or whatever, and John’s gonna have to go get in a fight — but can I just point out why I love John Gruber? One of the reasons is John Gruber so doesn’t care if you agree with him. Right? And like, yeah, whatever, the two of us are dicks, but like, y’know? I so admire people who don’t need me to love them. I have so much affection for somebody who really believes something and their belief and interest in something is way more important than me pretending to like them. I just have so much admiration for that. And to the extent that you can, and in the way that you need to for what you do, I think you have to do that too. You don’t have to be a jerk about it, but I think figuring out, it’s, like, okay to have a strong voice about something. Right? Look at, like, <span class='person'>Rush Limbaugh</span> and <span class='person'>Ann Coulter</span>. I am not persuaded that that many people agree 100% with Rush Limbaugh and Ann Coulter. But y’know what you're getting. It’s like, it’s like watching pro wrestling, right? It’s like, they're characters, and they have a voice. And personally I don’t find them very, like… I don’t find what they have to say very useful, but I *get* why people listen to them — or <span class='person'>Howard Stern</span>. I’m getting a little off-topic. But I guess what I’m saying is — we should move on to this next bit — the reason, where I’m going with that tolerance is just this idea of — we should get into the money part. Yeah?</q>
+> <q>Can I point out one thing in passing? A bunch of you — I’m sure people are gonna go toot about this now, or whatever, and John’s gonna have to go get in a fight — but can I just point out why I love John Gruber? One of the reasons is John Gruber so doesn’t care if you agree with him. Right? And like, yeah, whatever, the two of us are dicks, but like, y’know? I so admire people who don’t need me to love them. I have so much affection for somebody who really believes something and their belief and interest in something is way more important than me pretending to like them. I just have so much admiration for that. And to the extent that you can, and in the way that you need to for what you do, I think you have to do that too. You don’t have to be a jerk about it, but I think figuring out, it’s, like, okay to have a strong voice about something. Right? Look at, like, <span class='person'>Rush Limbaugh</span> and <span class='person'>Ann Coulter</span>. I am not persuaded that that many people agree 100% with Rush Limbaugh and Ann Coulter. But y’know what you’re getting. It’s like, it’s like watching pro wrestling, right? It’s like, they’re characters, and they have a voice. And personally I don’t find them very, like… I don’t find what they have to say very useful, but I *get* why people listen to them — or <span class='person'>Howard Stern</span>. I’m getting a little off-topic. But I guess what I’m saying is — we should move on to this next bit — the reason, where I’m going with that tolerance is just this idea of — we should get into the money part. Yeah?</q>
 
 > <cite><abbr>JG:</abbr></cite>
 > <q>We should. Just one more thing before we go to the money part, is with the Arrington thing, is that Arrington…</q>
@@ -440,7 +1008,7 @@ comics!).
 > <q>I know that that’s why, I know that he’s a lawyer, and I know that that’s why he does that bullshit thing…</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>He’s mad, like, he'll… he'll punch a bitch, I’m pretty sure.</q>
+> <q>He’s mad, like, he’ll… he’ll punch a bitch, I’m pretty sure.</q>
 
 > <cite><abbr>JG:</abbr></cite>
 > <q>I’m pretty sure I’m faster than Mike Arrington.</q>
@@ -452,25 +1020,25 @@ comics!).
 > <q>I saw, I met him once, and I kinda, like, sized him up. He’s kinda doughy.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>I thought he… I thought, I thought he pretty nice. Like, and we've met a couple times… no, I’m being straight up. I don’t enjoy his site that much but I like, he seems like a nice enough guy. Anyway, what I was gonna say was — ’cause I want, I don’t want, really, I love John’s wife and his son a lot and I think we should move on — is that… that the final, for the end of act two, the final ambiguity that I would like you to think about is ambiguity about how this turns into a way for you to become rich on the Internet. Because it’s… contrary to what a lot of social media and blogging douches will tell you, it’s not easy. And a lot of people who act like they're making an assload of money are just full of crap. It’s really… I mean, I’m not saying it’s a *hard job*, but I am saying do not assume that everybody who has ads on their site is making a killing, regardless of what they say the <abbr class='smallcaps'>CPM</abbr> is. Because the real opportunities of this stuff — this sounds like bullshit, but I am dead serious — the giant opportunities in this are not short-term gains… I’m giving you an opinion here, which I don’t usually do. But the real long-term gains for you are not pageviews and <abbr class='smallcaps'>CPM</abbr>s; it’s the opportunities that come out of being awesome at what you do. And if you think that’s <abbr class='smallcaps'>BS</abbr> then, like, I can’t help you. But I swear to God, if you look at the people around who seem like they were born on third base, yeah, it’s good timing; yeah, it’s hard work; but I think a lot of it is they had a tolerance for the ambiguity about where it was gonna go, they had a tolerance for the fact they were not gonna take short-term money that got in the way of what they really wanted to do. And the ancillary revenue streams and *opportunities* that come up as a result of making extremely-high-quality content… I mean, has there ever been a better time to make something awesome on the Internet? People don’t have money to buy things anymore. I don’t know if you know this; there’s no money. There’s… if you're lucky they're on dialup connections; maybe they're at <span class='organization'>Barnes & Noble</span>; somebody wants to look at a computer at the Apple store and they wanna check their Facebook… People don’t have money. And they're looking; they're starved for content that speaks to them, that’s not a reality show. I’m gonna stop ranting, but I think that’s important.</q>
+> <q>I thought he… I thought, I thought he pretty nice. Like, and we’ve met a couple times… no, I’m being straight up. I don’t enjoy his site that much but I like, he seems like a nice enough guy. Anyway, what I was gonna say was — ’cause I want, I don’t want, really, I love John’s wife and his son a lot and I think we should move on — is that… that the final, for the end of act two, the final ambiguity that I would like you to think about is ambiguity about how this turns into a way for you to become rich on the Internet. Because it’s… contrary to what a lot of social media and blogging douches will tell you, it’s not easy. And a lot of people who act like they’re making an assload of money are just full of crap. It’s really… I mean, I’m not saying it’s a *hard job*, but I am saying do not assume that everybody who has ads on their site is making a killing, regardless of what they say the <abbr class='smallcaps'>CPM</abbr> is. Because the real opportunities of this stuff — this sounds like bullshit, but I am dead serious — the giant opportunities in this are not short-term gains… I’m giving you an opinion here, which I don’t usually do. But the real long-term gains for you are not pageviews and <abbr class='smallcaps'>CPM</abbr>s; it’s the opportunities that come out of being awesome at what you do. And if you think that’s <abbr class='smallcaps'>BS</abbr> then, like, I can’t help you. But I swear to God, if you look at the people around who seem like they were born on third base, yeah, it’s good timing; yeah, it’s hard work; but I think a lot of it is they had a tolerance for the ambiguity about where it was gonna go, they had a tolerance for the fact they were not gonna take short-term money that got in the way of what they really wanted to do. And the ancillary revenue streams and *opportunities* that come up as a result of making extremely-high-quality content… I mean, has there ever been a better time to make something awesome on the Internet? People don’t have money to buy things anymore. I don’t know if you know this; there’s no money. There’s… if you’re lucky they’re on dialup connections; maybe they’re at <span class='organization'>Barnes & Noble</span>; somebody wants to look at a computer at the Apple store and they wanna check their Facebook… People don’t have money. And they’re looking; they’re starved for content that speaks to them, that’s not a reality show. I’m gonna stop ranting, but I think that’s important.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>But there’s… it’s like those <span class='organization'>Mastercard</span> commercials, where there’s more than money can buy. And it’s, oh, terribly trite, and so obvious, and not interesting, and we're all bright, clever people, and so we don’t really think about little canards that aren’t very interesting. But a lot of times they're very true, they're totally true; and there are things that money cannot buy that have tremendous value. And one of them — I mean, you're <ins>Merlin</ins> practically making a career on it — is that attention, human attention, is valuable and it is limited. There is nothing you can possibly do give one person more attention in a day. You wake up; you have eighteen hours; and then you go to sleep. And in that time, you only have so much attention. It’s a limited resource. You can’t directly buy it. You can’t… there’s no dollar value on it.</q>
+> <q>But there’s… it’s like those <span class='organization'>Mastercard</span> commercials, where there’s more than money can buy. And it’s, oh, terribly trite, and so obvious, and not interesting, and we’re all bright, clever people, and so we don’t really think about little canards that aren’t very interesting. But a lot of times they’re very true, they’re totally true; and there are things that money cannot buy that have tremendous value. And one of them — I mean, you’re <ins>Merlin</ins> practically making a career on it — is that attention, human attention, is valuable and it is limited. There is nothing you can possibly do give one person more attention in a day. You wake up; you have eighteen hours; and then you go to sleep. And in that time, you only have so much attention. It’s a limited resource. You can’t directly buy it. You can’t… there’s no dollar value on it.</q>
 
 > <cite><abbr>MM:</abbr></cite>
 > <q>Right. And it accretes over time.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>But it is incredibly valuable. And so that is the one thing that when you give stuff away in the Internet, it’s like, well then how am I gonna get paid for it? Well, you're gonna get paid in attention. And I know you cannot pay your rent, I mean, I know…</q>
+> <q>But it is incredibly valuable. And so that is the one thing that when you give stuff away in the Internet, it’s like, well then how am I gonna get paid for it? Well, you’re gonna get paid in attention. And I know you cannot pay your rent, I mean, I know…</q>
 
 > <cite><abbr>MM:</abbr></cite>
 > <q>All too well.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>Honestly, you cannot pay your rent with attention. I mean, I’ve tried. You can’t buy fast cars; there’s all sorts of stuff you can’t buy with it. But it has value, and you'd be surprised at what happens when it builds up.</q>
+> <q>Honestly, you cannot pay your rent with attention. I mean, I’ve tried. You can’t buy fast cars; there’s all sorts of stuff you can’t buy with it. But it has value, and you’d be surprised at what happens when it builds up.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>And there’s one other thing I just wanna underscore, and ’cause I’m done kissing Zeldman’s ass, I’m gonna kiss his <ins>John’s</ins> ass for a minute. There’s this one point that I really don’t wanna miss in all this ranting, which is the result of a confluence of voice — or, y’know, obsession — and what you have… Does that make sense? Do you follow what I’m saying? Like, you've got something that you care a lot about, and you're obsessed about--i t’s almost like an intellectual fetish. And then you've got something that’s your angle on that. And to me, the more you zero in on both of those things — get crazy specific about the thing… Don’t just, don’t have a blog about <span class='film'>Star Wars</span>; have a blog about Jawas. Or, like, this one Jawa that’s just in the scene for a minute. Like, it’s gonna be so much easier for you to dominate, first of all; you're gonna become the go-to guy for that one Jawa, right? And what does that mean? Well, when something happens in the world of Apple, as is so often the case, do I go to Google News? Do I go to — actually, David Pogue’s pretty great — but, no, I go to Daring Fireball. Because John not only tells me that something happened, he tells me — he tells me what’s happened, in a very terse kind of well-edited way, with his little <span class='newspaper'>New York Times</span> style guide that he’s so in love with — he tells me what happened; he tells me what it means; and then he tells me what he thinks about it. And how many people do you know who are capable of all three of those? Well, I’ll tell you what. On the Internet, there’s a ton of people that will tell you that something happened. Mostly they're gonna, like, link from somebody else, who told *them* that it happened.</q>
+> <q>And there’s one other thing I just wanna underscore, and ’cause I’m done kissing Zeldman’s ass, I’m gonna kiss his <ins>John’s</ins> ass for a minute. There’s this one point that I really don’t wanna miss in all this ranting, which is the result of a confluence of voice — or, y’know, obsession — and what you have… Does that make sense? Do you follow what I’m saying? Like, you’ve got something that you care a lot about, and you’re obsessed about--i t’s almost like an intellectual fetish. And then you’ve got something that’s your angle on that. And to me, the more you zero in on both of those things — get crazy specific about the thing… Don’t just, don’t have a blog about <span class='film'>Star Wars</span>; have a blog about Jawas. Or, like, this one Jawa that’s just in the scene for a minute. Like, it’s gonna be so much easier for you to dominate, first of all; you’re gonna become the go-to guy for that one Jawa, right? And what does that mean? Well, when something happens in the world of Apple, as is so often the case, do I go to Google News? Do I go to — actually, David Pogue’s pretty great — but, no, I go to Daring Fireball. Because John not only tells me that something happened, he tells me — he tells me what’s happened, in a very terse kind of well-edited way, with his little <span class='newspaper'>New York Times</span> style guide that he’s so in love with — he tells me what happened; he tells me what it means; and then he tells me what he thinks about it. And how many people do you know who are capable of all three of those? Well, I’ll tell you what. On the Internet, there’s a ton of people that will tell you that something happened. Mostly they’re gonna, like, link from somebody else, who told *them* that it happened.</q>
 
 > <cite><abbr>JG:</abbr></cite>
 > <q>When I wanna know, when I have, like, a collection of index cards, and I wanna know the best way to paperclip them together…</q>
@@ -518,10 +1086,10 @@ comics!).
 And that… in three items, that is so exactly what I think is the right way to do this, in a way that you will be surprised at the opportunities they present yourself.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Thanks. I hope it helped. And the thing is, again, it’s just so important to underscore that, like, I’m not just sandbagging. Like, I don’t think I do all this stuff great all the time, but here’s the thing: there’s very little to lose at first, when you start doing this stuff. ’Cause yeah, you're doing it in public, but you also have time to figure out what it is that you're doing. And in fact, there’s a certain obligation you have to constantly re-figure out what you're doing. Right? Because it’s easy enough to figure out how to do one thing once, but to have a long live career in this stuff you've gotta figure out how to do it over and over and over. And I just think these are patterns that make sense. The ‘giving away stuff’, this is where, let’s be honest, this is where we're so much smarter than corporate America. Let’s be honest.</q>
+> <q>Thanks. I hope it helped. And the thing is, again, it’s just so important to underscore that, like, I’m not just sandbagging. Like, I don’t think I do all this stuff great all the time, but here’s the thing: there’s very little to lose at first, when you start doing this stuff. ’Cause yeah, you’re doing it in public, but you also have time to figure out what it is that you’re doing. And in fact, there’s a certain obligation you have to constantly re-figure out what you’re doing. Right? Because it’s easy enough to figure out how to do one thing once, but to have a long live career in this stuff you’ve gotta figure out how to do it over and over and over. And I just think these are patterns that make sense. The ‘giving away stuff’, this is where, let’s be honest, this is where we’re so much smarter than corporate America. Let’s be honest.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>It’s the opportunity. I mean, we're the mammal —</q>
+> <q>It’s the opportunity. I mean, we’re the mammal —</q>
 
 > <cite><abbr>MM:</abbr></cite>
 > <q>Giant.</q>
@@ -530,7 +1098,7 @@ And that… in three items, that is so exactly what I think is the right way to 
 > <q>It’s mammals versus dinosaurs.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>It is. It is. It’s like, how many ways can I, like, figure out how to make this hard for you to do, and then not make money out of it? And it’s mind-blowing to me, when I’m like, y’know, how about a world where you decide that you're selling ideas, rather than plastic or paper? Yeah, y’know what? If you have enough great ideas — that people steal, whatever that means — well, if you've got enough great ideas, then people will wanna buy your paper and plastic. But if you start out by going ‘I’m a merchant of paper’, or ‘a merchant of plastic’, nobody hears that you sell paper and goes ‘Oh, that’s for me.’. Right? And so to me, you go, like, ‘Damn right it’s free!’. I said this recently at this panel in Atlanta, but… in 02007 I did a talk at Google. I went and I showed up with a computer and I talked. And I talked about email, to some people who really needed to hear about it. You were there, [<span class='person'>Greg Veen</span>][veen] was there — hi, Greg. And I said, here’s the stuff you should do with email and it’s this thing I do called [Inbox Zero][izero]. And the last time I —</q>
+> <q>It is. It is. It’s like, how many ways can I, like, figure out how to make this hard for you to do, and then not make money out of it? And it’s mind-blowing to me, when I’m like, y’know, how about a world where you decide that you’re selling ideas, rather than plastic or paper? Yeah, y’know what? If you have enough great ideas — that people steal, whatever that means — well, if you’ve got enough great ideas, then people will wanna buy your paper and plastic. But if you start out by going ‘I’m a merchant of paper’, or ‘a merchant of plastic’, nobody hears that you sell paper and goes ‘Oh, that’s for me.’. Right? And so to me, you go, like, ‘Damn right it’s free!’. I said this recently at this panel in Atlanta, but… in 02007 I did a talk at Google. I went and I showed up with a computer and I talked. And I talked about email, to some people who really needed to hear about it. You were there, [<span class='person'>Greg Veen</span>][veen] was there — hi, Greg. And I said, here’s the stuff you should do with email and it’s this thing I do called [Inbox Zero][izero]. And the last time I —</q>
 
  [izero]: http://www.43folders.com/izero
  [veen]: http://www.veen.com/greg/ "Greg Veen’s home page"
@@ -539,7 +1107,7 @@ And that… in three items, that is so exactly what I think is the right way to 
 > <q>Service mark, Merlin Mann.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Service mark. I did actually get a service mark, yeah. Hired Arrington. The… sorry, just kidding Mike, don’t kill me. I love my daughter. I did that… anyway, I’m not trying go ‘yay me’, but, like, I went in there that day just saying ‘Okay, this is cool. I’m gonna hang out with Veen, and, like, this’ll be fun.’. And the last time I checked on Google Video… people didn’t watch the whole thing, but, like, it had started to load at least 400,000 times. And now people say ‘Hey, come tell this to my company.’. Right? Like… And if I had, just like I say, like if I had gone ‘No, you’ve gotta pay a nickel to watch me talk about email on the Internet.’, would you have done it? Like… some of you know Inbox Zero, right? Some of you have heard it or seen it, like, or are sick of hearing about it? But, like, you know it? And why do you know it? You know it because it was made embeddable, and anybody could go… What does embedding a video on your website mean? I mean, sometimes you're making fun of stuff, but most of the time when you embed something, you're saying ‘This is something I relate to.’. And if you keep that sealed in a little jar, and then make people pay just to see the jar, let alone what’s inside of it, that’s mind-boggling to me. You, at one time — I was giving you shit about this — at one time, you had a membership model where if you wanted the full <abbr class='smallcaps'>RSS</abbr> feed, you had to be a member.</q>
+> <q>Service mark. I did actually get a service mark, yeah. Hired Arrington. The… sorry, just kidding Mike, don’t kill me. I love my daughter. I did that… anyway, I’m not trying go ‘yay me’, but, like, I went in there that day just saying ‘Okay, this is cool. I’m gonna hang out with Veen, and, like, this’ll be fun.’. And the last time I checked on Google Video… people didn’t watch the whole thing, but, like, it had started to load at least 400,000 times. And now people say ‘Hey, come tell this to my company.’. Right? Like… And if I had, just like I say, like if I had gone ‘No, you’ve gotta pay a nickel to watch me talk about email on the Internet.’, would you have done it? Like… some of you know Inbox Zero, right? Some of you have heard it or seen it, like, or are sick of hearing about it? But, like, you know it? And why do you know it? You know it because it was made embeddable, and anybody could go… What does embedding a video on your website mean? I mean, sometimes you’re making fun of stuff, but most of the time when you embed something, you’re saying ‘This is something I relate to.’. And if you keep that sealed in a little jar, and then make people pay just to see the jar, let alone what’s inside of it, that’s mind-boggling to me. You, at one time — I was giving you shit about this — at one time, you had a membership model where if you wanted the full <abbr class='smallcaps'>RSS</abbr> feed, you had to be a member.</q>
 
 > <cite><abbr>JG:</abbr></cite>
 > <q>Right, I was…</q>
@@ -557,7 +1125,7 @@ And that… in three items, that is so exactly what I think is the right way to 
 > <q>Right. Google Reader is huge, and everybody Google Reader. Here’s the thing that was so fucked up about about my ‘You have to pay to get the <abbr class='smallcaps'>RSS</abbr> feeds.’: it was not, like, a supply-and-demand problem. I did have plenty of readers who were like, ‘I am happy to pay.’. And my idea, my thinking was, ‘I might wanna put ads on a website, <ins>but</ins> ads in <abbr class='smallcaps'>RSS</abbr>, I dunno if that’s gonna work out, so I can’t just put everything in there for free. I’ll charge twenty bucks a year.’. Here’s the thing: the feeds didn’t even work with Google Reader, ’cause Google Reader doesn’t do, like… I had authentication to, you get, like, a username and password. So the single most popular reader didn’t even work with them. In hindsight, it’s like, ‘Oh my God’, I mean, I needed a snack.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>But at the time, ’cause right, you guys have done this — some of you are entrepreneurs and business people and people who try to make money on things — your first thought is, like, this panicy lizard-like, again, lizard-brained idea of, like, ‘Ah! How do I make a little money of of this?’ And you end up, it’s almost like going to <span class='organization'>Safeway</span>, and if Safeway is gonna give you a free sample, but they're gonna put way too much salt on it, ’cause you're a deadbeat, y’know? It’s like if you don’t give stuff away and let people figure out why you're awesome, why would they ever be interested in anything that you do? And if you don’t have the confidence to go, like, ‘My ideas, and the things that I have to say are so valuable that, like, I’m not worried that I’ll run out of them. I’m not worried that there’s any scarcity to what I have to say about this.’ So yeah, people scrape my <abbr class='smallcaps'>RSS</abbr> feed hundreds of times a day. But that’s not me; I’m not my <abbr class='smallcaps'>RSS</abbr> feed. I’m the ideas that went into the <abbr class='smallcaps'>RSS</abbr> feed.</q>
+> <q>But at the time, ’cause right, you guys have done this — some of you are entrepreneurs and business people and people who try to make money on things — your first thought is, like, this panicy lizard-like, again, lizard-brained idea of, like, ‘Ah! How do I make a little money of of this?’ And you end up, it’s almost like going to <span class='organization'>Safeway</span>, and if Safeway is gonna give you a free sample, but they’re gonna put way too much salt on it, ’cause you’re a deadbeat, y’know? It’s like if you don’t give stuff away and let people figure out why you’re awesome, why would they ever be interested in anything that you do? And if you don’t have the confidence to go, like, ‘My ideas, and the things that I have to say are so valuable that, like, I’m not worried that I’ll run out of them. I’m not worried that there’s any scarcity to what I have to say about this.’ So yeah, people scrape my <abbr class='smallcaps'>RSS</abbr> feed hundreds of times a day. But that’s not me; I’m not my <abbr class='smallcaps'>RSS</abbr> feed. I’m the ideas that went into the <abbr class='smallcaps'>RSS</abbr> feed.</q>
 
 > <cite><abbr>JG:</abbr></cite>
 > <q>So I think one of the things that is so frustrating, for me, to watch people who just don’t seem to be taking advantage. I mean, it’s, again, so trite, but the Internet is awesome. It is totally fuckin’ awesome. You can do anything. And the thing that is so amazing is that it’s not just —</q>
@@ -572,7 +1140,7 @@ And that… in three items, that is so exactly what I think is the right way to 
 > <q><ins>nerd voice</ins> ‘<abbr class='smallcaps'>RT</abbr> @gruber’…</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>— is that it’s not just that we all have a printing press now, and now we can do the same thing that big media companies with big printing presses and Teamsters and trucks that they can deliver their stuff can do; it’s that we can actually do it *better*, we can do it in ways that actually make people happier. It'll make people happier to read stuff on my website or your website, where it’s just not even, it’s not all crapped up, and it’s, it’s just honest and it’s plain written, and you can just have it, or… <span class='person'>Jonathan Coulton</span>, you can just go to [his website][joco] and the music is just <abbr class='smallcaps'>MPEG</abbr>-3s, and you just, y’know, give him some money, and just download some stuff.</q>
+> <q>— is that it’s not just that we all have a printing press now, and now we can do the same thing that big media companies with big printing presses and Teamsters and trucks that they can deliver their stuff can do; it’s that we can actually do it *better*, we can do it in ways that actually make people happier. It’ll make people happier to read stuff on my website or your website, where it’s just not even, it’s not all crapped up, and it’s, it’s just honest and it’s plain written, and you can just have it, or… <span class='person'>Jonathan Coulton</span>, you can just go to [his website][joco] and the music is just <abbr class='smallcaps'>MPEG</abbr>-3s, and you just, y’know, give him some money, and just download some stuff.</q>
 
  [joco]: http://www.jonathancoulton.com/ "Jonathan Coulton’s home page"
 
@@ -583,13 +1151,13 @@ And that… in three items, that is so exactly what I think is the right way to 
 > <q>Right.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Right. Or, y’know, like, <abbr class='smallcaps'>RSS</abbr>? It’s so amazing to me that, like — we should get along on this next point; we've got ten minutes — but this whole thing of, like, ‘I need you to do it this way, or I’ll be sad.’. Y’know, it’s like, y’know what? I don’t care, if you… Print it out. Like, oh my God, I’m so glad you're even a little bit interested in this. Put it on Kindle — thank you, Marco. Do whatever you wanna do with it. Like, y’know? But do something with it. And, like, it’s hilarious to me, especially, when people are like, y’know, they've got this very small amount — it’s not funny to me that they aren’t successful, but it’s funny to me that people get so torqued up about all this <abbr class='smallcaps'>IP</abbr> stuff when nobody cares what they're doing. And you look at the people who the confidence to go ‘I’m a giant, successful…’ — like Jonathan. Jonathan’s incredibly, Jonathan Coulton is incredibly successful precisely because he’s given it all away. So, this is a really douchey one, so let’s do this fast.</q>
+> <q>Right. Or, y’know, like, <abbr class='smallcaps'>RSS</abbr>? It’s so amazing to me that, like — we should get along on this next point; we’ve got ten minutes — but this whole thing of, like, ‘I need you to do it this way, or I’ll be sad.’. Y’know, it’s like, y’know what? I don’t care, if you… Print it out. Like, oh my God, I’m so glad you’re even a little bit interested in this. Put it on Kindle — thank you, Marco. Do whatever you wanna do with it. Like, y’know? But do something with it. And, like, it’s hilarious to me, especially, when people are like, y’know, they’ve got this very small amount — it’s not funny to me that they aren’t successful, but it’s funny to me that people get so torqued up about all this <abbr class='smallcaps'>IP</abbr> stuff when nobody cares what they’re doing. And you look at the people who the confidence to go ‘I’m a giant, successful…’ — like Jonathan. Jonathan’s incredibly, Jonathan Coulton is incredibly successful precisely because he’s given it all away. So, this is a really douchey one, so let’s do this fast.</q>
 
 > <cite><abbr>JG:</abbr></cite>
 > <q>Yeah.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>I said this at this public media conference, and I really believe this: don’t become too obsessed with the thing you're determined to make money on. And for most folks, that’s ‘I wrote something and now I need to make this much money on it.’. And if you've got a pro blog, and you're paying people to do multiple posts a day, or whatever, you need that kind of <abbr class='smallcaps'>ROI</abbr>. Your Excel has to line up. But if you're a personal publishing person, I think it’s really valuable to say ‘I’m gonna keep my ears open. Maybe…’. And you know, you need to figure out what you can live with. Like, is an <span class='organization'>Amazon</span> store okay? Is selling links okay? What am I gonna do, right?</q>
+> <q>I said this at this public media conference, and I really believe this: don’t become too obsessed with the thing you’re determined to make money on. And for most folks, that’s ‘I wrote something and now I need to make this much money on it.’. And if you’ve got a pro blog, and you’re paying people to do multiple posts a day, or whatever, you need that kind of <abbr class='smallcaps'>ROI</abbr>. Your Excel has to line up. But if you’re a personal publishing person, I think it’s really valuable to say ‘I’m gonna keep my ears open. Maybe…’. And you know, you need to figure out what you can live with. Like, is an <span class='organization'>Amazon</span> store okay? Is selling links okay? What am I gonna do, right?</q>
 
 > <cite><abbr>JG:</abbr></cite>
 > <q>Well, and —</q>
@@ -603,7 +1171,7 @@ And that… in three items, that is so exactly what I think is the right way to 
 > <q>And stuff that didn’t work starts to work. Amazon stuff never made me more than, like, I dunno; $10 a month — and then all the sudden it started making me real money. I mean, I dunno what I did differently, but then, y’know…</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>And again, you've got… so you can make a boatload of money on Amazon, but you also have to weigh the extent to which people go ‘You’re being kind of a dick with the Amazon links.’.</q>
+> <q>And again, you’ve got… so you can make a boatload of money on Amazon, but you also have to weigh the extent to which people go ‘You’re being kind of a dick with the Amazon links.’.</q>
 
 > <cite><abbr>JG:</abbr></cite>
 > <q>Right.</q>
@@ -627,7 +1195,7 @@ And that… in three items, that is so exactly what I think is the right way to 
 > <q>But that’s like crummy text links, and…</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Yeah. I sold text links on my site for a while, and I didn’t feel good about it. It made, like, pretty good dough, and I… sometimes now, just quick sidenote, like, I still kinda can’t believe people do that, just because, even if you don’t care about breaking Google, it’s just kinda surprising, but, like, I did a thing where — I do a lotta my reading where I’ll throw stuff into [Evernote][enote] to read later, and I’ll do that, like, I’ll strip out all the <abbr class='smallcaps'>CSS</abbr> and just throw it in Evernote — and there was a site, somebody who'd written for [<span class='person'>Kevin Kelly</span>][kk], I went and visited [Cool Tools][ctools], I went and visited his page, in plain text, or in, y’know, unstyled? It was totally, like, all poker and Viagra links at the top of the page. And so, like, this guy, who like — and I’m not trying to call the guy out; I’m not trying to, like, shame him, ’cause that’s his decision — but what did his decision mean? His decision meant that for me I went ‘Wow, I’m not sure I’m gonna read the rest of this.’. ’Cause, like, that’s not… eh, I dunno, for where I am in my life right now, that’s kinda not cool. And so, like, I dunno. And again, I’m not trying to shame him, but I am saying — I know you do shit like this all the time. I know that there’s all kinds of people that you just won’t even link to because they're, they've got the [Kubrick theme][ktheme] running, and they haven’t even tried. But y’know, do you know what I’m saying, that you go somewhere, and you're just like, wow, there’s just too many ads on this page, or there’s something. And you have to figure out for the folks you're trying to reach, how do you find the balance of making a little bit of dough, but still not crushing the bunny, but not having the person who might give you a hundred thousand dollars visit the site and go ‘Wow, this guy sure is interested in poker and Viagra.’.</q>
+> <q>Yeah. I sold text links on my site for a while, and I didn’t feel good about it. It made, like, pretty good dough, and I… sometimes now, just quick sidenote, like, I still kinda can’t believe people do that, just because, even if you don’t care about breaking Google, it’s just kinda surprising, but, like, I did a thing where — I do a lotta my reading where I’ll throw stuff into [Evernote][enote] to read later, and I’ll do that, like, I’ll strip out all the <abbr class='smallcaps'>CSS</abbr> and just throw it in Evernote — and there was a site, somebody who'd written for [<span class='person'>Kevin Kelly</span>][kk], I went and visited [Cool Tools][ctools], I went and visited his page, in plain text, or in, y’know, unstyled? It was totally, like, all poker and Viagra links at the top of the page. And so, like, this guy, who like — and I’m not trying to call the guy out; I’m not trying to, like, shame him, ’cause that’s his decision — but what did his decision mean? His decision meant that for me I went ‘Wow, I’m not sure I’m gonna read the rest of this.’. ’Cause, like, that’s not… eh, I dunno, for where I am in my life right now, that’s kinda not cool. And so, like, I dunno. And again, I’m not trying to shame him, but I am saying — I know you do shit like this all the time. I know that there’s all kinds of people that you just won’t even link to because they’re, they’ve got the [Kubrick theme][ktheme] running, and they haven’t even tried. But y’know, do you know what I’m saying, that you go somewhere, and you’re just like, wow, there’s just too many ads on this page, or there’s something. And you have to figure out for the folks you’re trying to reach, how do you find the balance of making a little bit of dough, but still not crushing the bunny, but not having the person who might give you a hundred thousand dollars visit the site and go ‘Wow, this guy sure is interested in poker and Viagra.’.</q>
 
  [ctools]: http://www.kk.org/cooltools
  [enote]: http://evernote.com/
@@ -641,7 +1209,7 @@ And that… in three items, that is so exactly what I think is the right way to 
 > <q>And then the link’s after the jump.</q>
 
 > <cite><abbr>JG:</abbr></cite>
-> <q>Right, and then the link is after the jump. And the whole point, of course, is to just sort of steal the idea and not even send you there. And of course it *seems* profitable —  because it is, you're getting the pageviews for it, and then you're trying to get other people to link to you instead of the original site — but in the long run, I think it’s terrible, because I think readers know, I think readers eventually find out, they'll notice, ‘Hey, that wasn’t even theirs.’, and then your credibility is gone.</q>
+> <q>Right, and then the link is after the jump. And the whole point, of course, is to just sort of steal the idea and not even send you there. And of course it *seems* profitable —  because it is, you’re getting the pageviews for it, and then you’re trying to get other people to link to you instead of the original site — but in the long run, I think it’s terrible, because I think readers know, I think readers eventually find out, they’ll notice, ‘Hey, that wasn’t even theirs.’, and then your credibility is gone.</q>
 
 > <cite><abbr>MM:</abbr></cite>
 > <q>We should start kinda wrapping up. We only have time for a couple questions.</q>
@@ -670,7 +1238,7 @@ And that… in three items, that is so exactly what I think is the right way to 
 > <q>‘I think I’m developing a form of dyslexia. Every time I see “next page”, I think it says “stop reading and close this tab”.’ And the worst part is, if you talk to work at real, real sites — like real newspapers, real magazines; not shitbag sites; like, good sites — they know, they have the stats, they know that almost everybody stops reading an article when they get to the first ‘click here to go to the next page’. They *know* that they do it. And they do it *anyway*, because they get, like, a half of a penny for everybody who does click.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Right. So, that last <ins>koan thing?</ins>, the corrupting influence of choosing a business model that doesn’t support the way you like to roll. So if the <abbr class='smallcaps'>CPM</abbr> model ends up corrupting the way that you wanna treat your audience, then you have to be circumspect about that. We should probably wrap up, but just a quick, I think one thing, John, we didn’t talk about this, when we were talking earlier, but, like, something we talked about initially was talking about the kind of continuum idea. You remember that? And just this idea of, like, this is not, yeah, we've got a strong opinion, you should have a strong opinion too. But ultimately a lot of this stuff is just about iterative decision-making. Like, coming out of the box, always trying to work really hard to do something good is just a good idea, but then as you evolve, and as what you make evolves, I think also, I dunno, just being open to kind of, like, I dunno… am I making any sense? Does that make any sense at all? No? Really?</q>
+> <q>Right. So, that last <ins>koan thing?</ins>, the corrupting influence of choosing a business model that doesn’t support the way you like to roll. So if the <abbr class='smallcaps'>CPM</abbr> model ends up corrupting the way that you wanna treat your audience, then you have to be circumspect about that. We should probably wrap up, but just a quick, I think one thing, John, we didn’t talk about this, when we were talking earlier, but, like, something we talked about initially was talking about the kind of continuum idea. You remember that? And just this idea of, like, this is not, yeah, we’ve got a strong opinion, you should have a strong opinion too. But ultimately a lot of this stuff is just about iterative decision-making. Like, coming out of the box, always trying to work really hard to do something good is just a good idea, but then as you evolve, and as what you make evolves, I think also, I dunno, just being open to kind of, like, I dunno… am I making any sense? Does that make any sense at all? No? Really?</q>
 
 > <cite><abbr>JG:</abbr></cite>
 > <q>Yeah, it’s all right.</q>
@@ -715,11 +1283,11 @@ And that… in three items, that is so exactly what I think is the right way to 
 > <cite><abbr>MM:</abbr></cite>
 > <q>You were one of the many I had to take a little break from.</q>
 
-?. Merlin, you're on a different boat. <ins>?</ins> thoughts about it.</q>
+?. Merlin, you’re on a different boat. <ins>?</ins> thoughts about it.</q>
 
 > <cite><abbr>MM:</abbr></cite>
 > <q>Yeah, I mean, that’s what’s interesting about Twitter.
-> <span class='person'>Michael Lopp</span>, you're the one who said this, I
+> <span class='person'>Michael Lopp</span>, you’re the one who said this, I
 > think: what’s great about Twitter is you only really have to see things you
 > don’t like if you wanna see things you don’t like. If you just follow the
 > people you really like, that’s the way to roll. Twitter for me is 140
@@ -759,7 +1327,7 @@ And that… in three items, that is so exactly what I think is the right way to 
 
 > <cite><abbr>JG:</abbr></cite>
 > <q>Yeah, or maybe you go in to have, like, some cosmetic surgery, and you
-> think you're gonna get, like, a <span class='person'>Brad Pitt</span>, and
+> think you’re gonna get, like, a <span class='person'>Brad Pitt</span>, and
 > you take off the bandage, and it’s <span class='person'>Andy Dick</span>.</q>
 
 > <cite><abbr>MM:</abbr></cite>
@@ -810,7 +1378,7 @@ And that… in three items, that is so exactly what I think is the right way to 
 > <q>Yeah, I get my dirtbags confused.</q>
 
 > <cite><abbr>MM:</abbr></cite>
-> <q>Ooh, you know, they've both got pretty big heads; that Denton guy, he’s
+> <q>Ooh, you know, they’ve both got pretty big heads; that Denton guy, he’s
 > got a gourd on him.</q>
 
 > <cite><abbr>JG:</abbr></cite>
@@ -834,7 +1402,7 @@ And that… in three items, that is so exactly what I think is the right way to 
 > heads after you. So watch your ass. Yeah.</q>
 
 > <q>All right, well listen, thanks for a lot everybody, and many thanks to
-> John; please go to [his site, Daring Fireball dot net][df], if you're not
+> John; please go to [his site, Daring Fireball dot net][df], if you’re not
 > going there already; it’s a tremendous lot of fun.</q>
 
 > <q>This was super-fun, I think, for both of us to do. So thank you very much;
