@@ -1,0 +1,24 @@
+PERMALINK: /post/90545547/honesty-in-design
+PUBLISHED: Mar 27th, 02009 11:30pm
+TAGS: charts, design, wired
+
+![Graph of The Settlers of Catan sales][chart]
+
+ [chart]: http://img.photobucket.com/albums/v240/stilist/Miscellaneous/mf_settlers3_f.gif
+
+This graphic is taken from [<span class='magazine'>Wired</span>’s
+article][tsoc] <span class='game'>The Settlers of Catan</span>. Kind of a
+trivial complaint, but: I think it’s a bad chart.
+
+ [tsoc]: http://www.wired.com/gaming/gamingreviews/magazine/17-04/mf_settlers
+
+It’s so obvious that it shows massive sales growth, with over 600,000 units in
+02008… except that’s not what it’s showing at all. The label for the Y axis
+reads ‘*Cumulative* Unit Sales’, which means the data is actually a lot less
+dramatic than it seems. It’s solid growth year-over-year, but 150,000 units is
+rather less than 600,000. And the caption does nothing to clarify: ‘Released in
+1995, The Settlers of Catan only recently caught fire in the U.S’.
+
+So while the chart isn’t an outright *lie* — it wasn’t created by a marketing
+department, I’m assuming — the data could definitely have been presented in a
+more honest manner.
