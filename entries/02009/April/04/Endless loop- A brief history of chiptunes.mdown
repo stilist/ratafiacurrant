@@ -1,0 +1,11 @@
+BOOKMARK: http://delicious.com/url/9a93dca6b40ebb4932ca95dc7360863b
+LINK: http://journal.transformativeworks.org/index.php/twc/article/view/96/94
+PERMALINK: /post/92895364/endless-loop-a-brief-history-of-chiptunes
+PUBLISHED: Apr 4th, 02009 11:28am
+TAGS: chiptunes, history, joshuadiaz, kevindriscoll, music
+
+I’ve loved chiptunes and tracker tunes since I stumbled across
+[scene.org][scorg] in 02003 and went on a download spree. This paper summarizes
+the culture’s history.
+
+ [scorg]: http://scene.org/
