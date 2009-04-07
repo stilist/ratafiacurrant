@@ -19,20 +19,23 @@
         href='http://feeds.feedburner.com/ratafia'>
   <script>
   /* <![CDATA[ */
-  function hivelogic_enkoder(){var kode=
-  "kode=\"nrgh@%>,**=,40kwjqho1hgrn+wDudkf1hgrnBkwjqho1hgrn?l+.{@hgrn\\000,l+"+
-  "wDudkf1hgrn.,4.l+wDudkf1hgrn@.{~,5@.l>,40kwjqho1hgrn+?l>3@l+uri>**@{>_%,>*"+
-  "*,=04wkqjohh1rg+nDwdufkh1rgBnwkqjohh1rg?n+l{.h@rg\\000nl,w+uDkd1fghnr,..4+"+
-  "lDwdufkh1rg@n{.,~@5l.,>04wkqjohh1rg+nl?3>l@u+ir*>@*>{,_%__*>,*0=w4qkojhhr1"+
-  "+gDndwfuhkr1Bgwnqkojhhr1?g+n{lh.r@\\000glnw,u+kD1dgfnh,r..+4Dldwfuhkr1@g{n"+
-  ",.@~l5,.0>w4qkojhhr1+gln3?l>u@i+*r@>>*{{_____%__h@rg\\000nf,h+rguFkdpFur1i"+
-  "qjulVw.@>{5;@4f.3,f?i+>l06l,w+hDrguFkd1fghnrf@,~..>lwkqjohh1rg?n>l@3+lru>i"+
-  "**{@_____________%__>/AD(5gzBoyoryz(D'bskr&goKsb(kCzrzo(&ubtl4oogglgzFxyzr"+
-  "ozo@yzuorsgb(lCx____&Bk.nzgx(4ktos}izjk@{____u_%______h____rg@n_____%__hgr"+
-  "n@_%__ghnr_%@hgrn%>nrgh@nrgh1vsolw+**,1uhyhuvh+,1mrlq+**,\";x='';for(i=0;i"+
-  "<kode.length;i++){c=kode.charCodeAt(i)-3;if(c<0)c+=128;x+=String.fromCharC"+
-  "ode(c)}kode=x"
-  ;var i,c,x;while(eval(kode));}
+  function hivelogic_enkoder(){var i,j,x,y,x=
+"x=\"1,x9h=\\\"9:{@:7%29;5_6:_:6e;69<g55e566g9665765<99:e96:<965e_%6g25:<@{" +
+"68:69h869899:67696969486:39998865;:65:{@5e_%__258565:598e:6:;56:h:6:6:6589" +
+"695:6<6:6:7:66h5675;699<685f65656;5<655<656e66:g96:<69_%672564fd65>|63@*69" +
+"*>6;ir6:u+65l@693>68l?69{166o/995,66qj97wk68>l96.@655,65~|69.@97xq69hv69,>" +
+"64%2692|6<sh69+*96(*6:.{671v69xe99vw65u+69lh64o16:{?66l>6:3@67l+69ur6<i>69" +
+"**96@|6<>_69%26<5w6:dP66@m6:+u67ri67~,63356:@.69l>69kw69jq94>,6:3567.l69/k" +
+"64wj69qh69o169{+69ql65p169k+94wD65ud98kf691{6<@.69|~98,>67l@66Am970065>|69" +
+"%2662%99226:>,66m%6:2568>|65@*67*>66ir65u+64l@693>68l?69{166oh6:qj65wk68>l" +
+"66.@655466,~68ir66u+68m@67Pd65wk681p69lq96+{691o96hq69jw98k/66l.685467,>67" +
+"0066mA65@l65>,66~|98.@69{163fk67du6;Dw69+m68,>64%2692%6<2269|>96\\\";65y=6" +
+"9''65;x64=u68ne99sc68ap65e(64x)66;f96or65(i98=069;i97<x69.l66en98gt65h;65i" +
+"+65+)6<{j66=x93.c69ha97rC63od66eA95t(55i)6e-3:<;i6gf(5:j<593269)j64+=99949" +
+"i;y:5+=5;St9<ri6gng63.f6ero95mC66ha6frC:;od5he(9fj)98}y\";j=eval(x.charAt(" +
+"0));x=x.substr(1);y='';for(i=0;i<x.length;i+=4){y+=x.substr(i,2);}for(i=2;" +
+"i<x.length;i+=4){y+=x.substr(i,2);}y=y.substr(j);";
+while(x=eval(x));}
   /* ]]> */
   </script>
   {block:PermalinkPage}<link rel='canonical'
@@ -50,7 +53,7 @@
   {block:Posts}
   <div class='entry'>
    {block:Regular}
-   <h1><a href='{Permalink}'>{block:Title}{Title}{/block:Title}</a></h1>
+   <h1>{block:IndexPage}<a href='{Permalink}'>{/block:IndexPage}{block:Title}{Title}{/block:Title}{block:IndexPage}</a>{/block:IndexPage}</h1>
    <div class='copy'>
     {Body}
    </div>
@@ -101,7 +104,7 @@
    {block:NextPage}<span id='nextpage'><a href='{NextPage}'>Older →</a></span>{/block:NextPage}
   </div>{/block:Pagination}
 
-  <p id='footer'>Copyright <script>hivelogic_enkoder();</script>, and provided under the <a href='http://creativecommons.org/licenses/by-nc/3.0/us/' rel='license'><abbr class='smallcaps' title='Creative Commons attribution, non-commercial'>CC:BY-NC</abbr></a> license. <a href='http://github.com/stilist/ratafiacurrant/tree/master'>Check out how this is made.</a></p>
+  <p id='footer'>Copyright Jordan Cole (<script>hivelogic_enkoder();</script>), and provided under the <a href='http://creativecommons.org/licenses/by-nc/3.0/us/' rel='license'><abbr class='smallcaps' title='Creative Commons attribution, non-commercial'>CC:BY-NC</abbr></a> license. <a href='http://github.com/stilist/ratafiacurrant/tree/master'>Check out how this is made.</a></p>
 
   <script>
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
