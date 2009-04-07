@@ -1,0 +1,63 @@
+PERMALINK: /post/93660146/on-tumblelogs
+PUBLISHED: Apr 6th, 02009 9:38pm
+TAGS: culture, curation, identity, thought, tumblelog, web
+
+[<span class='person'>Samuel Fine</span>][sftl]:
+
+ [sftl]: http://nrbd.tumblr.com/post/67825378/happy-new-year-im-leaving-tumblr "‘Happy New Year! I’m Leaving Tumblr.’"
+
+> The tumblelogging phenomenon is an interesting solution to the major problem
+> with capital-b Blogging: that humans are intensely diverse and complicated
+> beings, and consistent long-form articles are both impractical and inadequate
+> for the type of creative expression toward which most people strive. In
+> short, I don’t want to write 3 paragraphs about every day of my life, and you
+> probably don’t want to read it. There are better ways to get the job done,
+> and tumblelogging is one of them.
+
+Tumblelogs are an attempt to capture the diverse forms of expression that the
+web affords; a way to present a reconstructed portrait of our fractured online
+personalities. This is definitely a problem that needs to be solved, and the
+problem continues to worsen as we are presented with a rapidly-climing number
+of ways to put ourselves online. Now that tumblelogging has had an official
+name for [just under four years][why], I think it’s been long enough that we
+can make some judgements regarding the format’s success.
+
+ [why]: http://redhanded.hobix.com/inspect/tumbleloggingAssortedLarvae.html "‘Stop, For Blogging’s Sake’"
+
+Tumblelogging’s most obvious win is that it provides a simple way to share
+whatever happens to be on your mind at a given moment, with no concern for
+editing or choosing the appropriate service or anything like that — as
+[<span class='person'>Jason Kottke</span> said][kottke], <q>A tumblelog is a
+quick and dirty stream of consciousness, a bit like a remaindered links style
+linklog but with more than just links.</q> For services like Tumblr and Soup,
+the user need only choose the type of entry (image, quote, link...) and drop in
+one or two pieces of information.
+
+ [kottke]: http://kottke.org/05/10/tumblelogs "‘Tumblelogs’"
+
+But there’s always a downside. I’m not the sort that cries about the loss of
+some likely-imagined higher level of Quality that was part of restricting
+self-expression to those with more money and technical knowledge; instead, I’m
+primarily concerned with the increased volume of output that tumblelogs
+encourage. I don’t necessarily see this as a *fault*, but I do feel that it
+means current tumblelog implementations have served to worsen the problem of
+the reconstructed portrait I mentioned above.
+
+I’ll grant that this may not be a fatal flaw — at least for the moment — but I
+see potential for the idea to be more than the current ‘post it all here!’
+approach. I see tumblelogs being something more like
+[<span class='person'>Phil Gyford</span>’s technique][gyf] of publishing
+content on a variety of dedicated services, then pulling it all back together
+to show what was done on a certain day.
+
+ [gyf]: http://www.gyford.com/phil/writing/2008/10/27/aggregation.php "‘A format only robots could love’"
+
+But more importantly, I prefer the [curated approach][curate]. While this
+reduces the immediacy and freedom, it’s also a mindset that encourages the user
+to spread meaning. Casual sharing is better done with bookmarks and favorites,
+where the effort needed is equal to one’s interest.
+
+ [curate]: http://ratafia.info/tagged/curation
+
+There’s value in being able to click a few times and share anything at all;
+there’s *more* value in sharing stuff that matters.
