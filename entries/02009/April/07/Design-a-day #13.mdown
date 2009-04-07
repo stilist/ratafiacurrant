@@ -1,0 +1,24 @@
+PERMALINK: /post/93938597/design-a-day-13
+PUBLISHED: Apr 7th, 02009 5:57pm
+TAGS: design, design-a-day
+
+[![Preview of design #13][img]][fl]
+
+ [fl]: http://flickr.com/photos/stilist/3422486552/
+ [img]: http://farm4.static.flickr.com/3169/3422486552_9fd5a561aa.jpg
+
+([wireframe][wf], [screencast][sc]; <abbr class='smallcaps'>PSD</abbr> by
+request)
+
+ [sc]: http://flickr.com/photos/stilist/3422486418/
+ [wf]: http://flickr.com/photos/stilist/3422486550/
+
+It’s been a little while since I last did one of these. I was preoccupied with
+other things (<abbr lang='la'>e.g.</abbr> rewriting [Turpentine][turp]).
+
+ [turp]: http://github.com/stilist/turpentine/
+
+The idea for this one came from browsing through my ‘inspiration folder’ and
+noticing all the screen grabs of online galleries. I wasn’t able to think of a
+good way to set up arrow navigation, so that useful interface element is
+missing.
