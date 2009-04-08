@@ -1,0 +1,13 @@
+LINK: http://illogicalmotion.com/post/93981963/why-i-use-tumblr
+PERMALINK: /post/94289001/why-i-use-tumblr
+PUBLISHED: Apr 8th, 02009 5:41pm
+TAGS: patrickhanlon, tumblelog, tumblr
+
+<span class='person'>Patrick Hanlon</span>’s response to my
+[entry on tumblelogs][tle]. I agree with everything he says.
+
+ [tle]: http://ratafia.info/post/93660146/on-tumblelogs "‘On Tumblelogs’"
+
+When I wrote the piece, I only briefly mentioned specific services, because I
+was more interested in the mindset than the actual implementation — I’m
+currently running this site on Tumblr, which is definitely a great service.
