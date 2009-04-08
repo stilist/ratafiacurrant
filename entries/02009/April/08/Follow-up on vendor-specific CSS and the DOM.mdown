@@ -1,0 +1,47 @@
+PERMALINK: /post/94280368/follow-up-on-vendor-specific-css-and-the-dom
+PUBLISHED: Apr 8th, 02009 5:08pm
+TAGS: coding, css, javascript, pagering
+
+[Yesterday][pre2] I wrote about my difficulty in getting certain
+<abbr class='smallcaps'>CSS</abbr> properties that I needed for my code. Today
+I discovered the solution.
+
+ [pre2]: http://ratafia.info/post/94002123/how-can-i-get-vendor-specific-css-properties-from-the
+
+After unsuccessfully poking around at a simplified version of my code, I
+decided to try looking at the complete list of the relevant element’s
+<abbr class='smallcaps'>DOM</abbr> properties, to see if I was simply asking
+for the wrong thing. I quickly discovered that `element.style` doesn’t give
+back an array; instead, it gives a [`CSSStyleDeclaration`][csssd].
+
+ [csssd]: http://www.w3.org/TR/DOM-Level-2-Style/css.html#CSS-CSSStyleDeclaration "DOM CSS standard"
+
+This wasn’t much use, so instead I went to the ever-helpful
+[<abbr class='smallcaps'>DOM</abbr> reference][mdom] provided by
+<span class='organization'>Mozilla</span>. I hopped to the
+reference for [`element.style`][estyle], and from there to
+[`window.getComputedStyle`][gcstyle]. Here I found what I wanted:
+
+ [estyle]: https://developer.mozilla.org/en/DOM/element.style
+ [gcstyle]: https://developer.mozilla.org/en/DOM/window.getComputedStyle
+ [mdom]: https://developer.mozilla.org/en/Gecko_DOM_Reference
+
+    var element = document.getElementById("elemId");
+    var style = document.defaultView.getComputedStyle(element, pseudoElt).getPropertyValue(property);
+
+This was too unwieldy to be used three different times (`column-gap` and
+variants), so I made slight rewrite and put it in my `dom` [namespace][jsns]:
+
+ [jsns]: http://yuiblog.com/blog/2007/06/12/module-pattern/
+
+    var dom = {
+      …
+    
+      getCSSValue: function(element, property) {
+        var cs = document.defaultView.getComputedStyle(element, null);
+        return cs.getPropertyValue(property);
+      }
+    }
+
+Now I can simply call `dom.getCSSValue(paged, '-webkit-column-gap');` and move
+on.
