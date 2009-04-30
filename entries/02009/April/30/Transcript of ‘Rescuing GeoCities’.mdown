@@ -1,0 +1,41 @@
+PERMALINK: /post/101890695/transcript-of-rescuing-geocities
+PUBLISHED: Apr 30th, 02009 11:30am
+TAGS: futuretense, geocities, interview, jasonscott, jongordon, podcast, transcript
+
+Transcript of the [<span class='radio'>Future Tense</span>][ft] episode
+[‘Rescuing GeoCities’][rgc].
+
+ [ft]: http://www.publicradio.org/columns/futuretense/ "Home page for Future Tense podcast"
+ [rgc]: http://www.publicradio.org/columns/futuretense/2009/04/rescuing-geocit.html
+
+## Participants
+
+* [<span class='person'>Jon Gordon</span>][ft]
+* [<span class='person'>Jason Scott</span>][jscott]
+
+ [jscott]: http://ascii.textfiles.com/ "Jason Scott’s home page"
+
+## Transcript
+
+> Jon Gordon: Rescuing GeoCities. This is Future Tense from <span class='organization'>American Public Media</span>; I’m Jon Gordon. <span class='organization'>Yahoo!</span> said last week that it would shut down its GeoCities personal website service later this year. Hard to believe now, but Yahoo! paid about three billion dollars for the company back in <ins>0</ins>1999. You may recall that GeoCities allowed users to design personal websites, but the pioneering service has long since been eclipsed by blogs and social networks.
+
+> So what’s going to become of the million-plus GeoCities homepages out there? Yahoo! is saying only that it will provide details later this summer on how customers can save their own data. Jason Scott believes GeoCities deserves saving. Scott runs [TEXTFILES.COM][tf], a site that’s devoted to computer history. He’s lead organizer for a new group called the [<span class='organization'>Archive Team</span>][ateam], which is working to save a growing body of endangered Internet content, including GeoCities.
+
+ [ateam]: http://www.archiveteam.org/index.php?title=Main_Page "Archive Team home page"
+ [tf]: http://www.textfiles.com/
+
+> Jason Scott: A lot of sites that attracted attention over the past fifteen to twenty years of the web have been shut down — sometimes abruptly. And we’re at a point right now where so many people are willingly putting data that they create and they own online in other locations, and then these companies, right now, feel no mandate to hold this for very long, once they decide for whatever reason to take it down. These data locations have no sense of responsibility — it’s not shameful for a company to just turn off fifteen years of community memory.
+
+> <abbr class='smallcaps'>JG</abbr>: What is it about GeoCities that makes you want to do this? What is the potential value in saving GeoCities?
+
+> <abbr class='smallcaps'>JS</abbr>: GeoCities had a reputation — though the late ’90s and certainly the early twenty-first century — of being kind of the dumping ground for people who didn’t know what they were doing: a lot of websites that were ugly, that weren’t well-written, that were boring and so on. But in point of fact, it’s a beautiful snapshot of an entire population coming online for the first time. And now that online life has becoming the norm, certainly in developed countries, it represents this turning point.
+
+> <abbr class='smallcaps'>JG</abbr>: So how are you actually saving all these GeoCities sites?
+
+> <abbr class='smallcaps'>JS</abbr>: So, we’re doing things like checking websites to see if people link to GeoCities, we’re doing Google searches to find the names of different GeoCities sites, and we’re just trying to capture as much as can. We know there’s a lot, but we’re just kinda stepping through. And my attitude is similar to if you’re trying to rescue things from a burning house, which is: you run around and grab the five or ten things or more that you can carry, and run out. And that’s not everything you own, but at least you got something.
+
+> <abbr class='smallcaps'>JG</abbr>: So what do you intend to do with all this material?
+
+> <abbr class='smallcaps'>JS</abbr>: It’s not entirely clear to me what to do with the material after rescuing it. I don’t really think of it that way. I like to be the guy who, at that historical point, at the historical point we’re in, I said ‘Let’s grab a copy’. And in maybe a year or ten years, someone will say ‘Man, I’m really glad somebody was there to do that, because it turns out this was an important piece of information — we could not have known it back then, in <ins>0</ins>2009, but here in <ins>0</ins>2019, it’s so vital that we have it.’
+
+> <abbr class='smallcaps'>JG</abbr>: Jason Scott with the Archive Team; more information at [`archiveteam.org`][ateam]. This is <span class='radio'>Future Tense</span>; I’m Jon Gordon.
