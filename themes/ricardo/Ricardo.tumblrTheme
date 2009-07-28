@@ -3,7 +3,7 @@
  <head>
   <meta charset='UTF-8'>
   <meta name='verify-v1' content='fBP5k+EA4BFJx2aaK3hiOymbZSUbEAkp8OcEdeK/Fk8='>
-  <meta name='keywords' content='stilist, ratafia, ratafia currant'>
+  <meta name='keywords' content='jordan cole, stilist, ratafia, ratafia currant'>
   <title>{block:PostTitle}{PostTitle} — {/block:PostTitle}Ratafia Currant</title>
   <link rel='icon' type='text/css'
         href='http://static.ratafia.info/favicon.ico'>
@@ -46,7 +46,7 @@ while(x=eval(x));}
    <li><a href='http://ratafia.info' id='logo' rel='home'>Ratafia Currant</a></li>
    <li><a href='/archive' id='archives'>Archives</a></li>
    <li><a href='http://github.com/stilist' id='code'>Code</a></li>
-   <li><a href='http://delicious.com/stilist' id='links'>Links</a></li>
+   <li><a href='http://pinboard.in/u:stilist' id='links'>Links</a></li>
    <li><a href='http://portfolio.ratafia.info' id='hireme'>Hire Me</a></li>
   </ul>
 
