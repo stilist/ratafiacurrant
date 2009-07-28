@@ -1,0 +1,43 @@
+PERMALINK: /post/143165292/what-i-want-in-a-bookmarking-service
+PUBLISHED: Jul 16th, 02009 9:52pm
+TAGS: bookmarks, tagging
+
+When <span class='person'>[Maciej Cegłowski][mc]</span> first [put out the call][pba] for people to alpha-test [Pinboard][pb], I quickly applied. After accepting me, Maciej asked what kinds of features I was looking for. I didn’t have much to offer except complaints about the limits of [delicious][del], but I’ve since spent some time trying to come up with a more definitive list. My ideas are primarily drawn from experience with delicious, Pinboard, Flickr, blogging, and iTunes, and represent my present approach. 
+
+ [del]: http://delicious.com
+ [mc]: http://idlewords.com "Maciej Cegłowski’s homepage"
+ [pba]: http://idlewords.com/2009/06/seeking_testers_for_a_bookmarking_site.htm "‘Seeking Testers For A Bookmarking Site’"
+ [pb]: http://pinboard.in
+
+## Basic
+
+The service is useless without these features.
+
+* **bookmark descriptions/comments**
+* **search:** <abbr lang='la'>i.e.</abbr> ‘show me all bookmarks tagged x’
+* **tag deletion**
+* **tag rename/replace**
+* **unlimited tags**
+
+## More advanced
+
+The service is enhanced with these features.
+
+* **autocomplete**
+* **batch editing**
+* **Boolean searching:** `x y -z`
+* **cache bookmarked pages:** a simple way to avoid linkrot
+* **namespaces:** <abbr lang='la'>e.g.</abbr> I note authorship with `by:x`
+* **optionally store a referrer <abbr>URL</abbr>:** a more literal version of `via:`; se below
+* **tag descriptions**
+* **toread functionality**
+* **`via:x`** for social sites; this refers to another user on the site
+* wildcard searches
+
+## ‘Wouldn’t it be nice?’
+
+Various ways to simplify and speed my tagging process.
+
+* ability to search cache
+* **site ‘profiles’:** <abbr lang='la'>e.g.</abbr> ‘everything from `wikipedia.org` gets the tags `src:wikipedia` and `lic:cc:by-sa`
+* **‘smart tagging’:** if the page has microformats indicating authorship and publication date, automatically fill in the `rel:x` and `by:y` tags

@@ -1,0 +1,21 @@
+LINK: http://al3x.net/2009/07/18/fever-and-the-future-of-feed-readers.html
+PERMALINK: 
+PUBLISHED: 
+TAGS: feeds, information
+
+<span class='person'>Alex Payne</span>:
+
+> Today, at least in the web-tech echo chamber, feed reading is quickly falling
+> out of fashion. Too many sites producing too many feeds of dubious quality
+> means information overload, and a creeping sense of obligation to keep up
+> with a torrent of questionably relevant content. Some have gone back to
+> checking a handful of bookmarked sites, as we did in the early days of the
+> web. Others rely on social aggregation sites like Reddit, Digg, and Hacker
+> News to show them what’s worth reading. Both strategies are highly manual
+> and, to me, distressingly unoptimized.
+
+My present approach is to mix regular blogs, some high-quality linkblogs, and a
+handful of sites that reliably link to stuff I’d never think to find on my
+own — and to toss inbound streams that aren’t worth the trouble.
+
+I’d embrace the machine if it could maintain the serendipity I depend on.
