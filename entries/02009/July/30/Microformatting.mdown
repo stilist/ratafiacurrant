@@ -1,0 +1,46 @@
+PERMALINK: /post/152533665/microformatting
+PUBLISHED: Jul 30th, 2009 6:56pm
+TAGS: microformats, ratafiacurrant
+
+For [some time now][rc1] I’ve been using [rel-license][rellic]; today I added
+[hAtom][hat] and [hCard][hca]. hCard was easy; I decided to just drop the
+`url` and `fn` attributes into a link around my name. hAtom, however, was a bit
+more difficult.
+
+ [hat]: http://microformats.org/wiki/hatom "Microformats wiki article for hAtom"
+ [hca]: http://microformats.org/wiki/hcard "Microformats wiki article for hCard"
+ [rc1]: http://github.com/stilist/ratafiacurrant/blob/55d3c3d68761226864705a6077b2cba506a28b7a/themes/ricardo/Ricardo.tumblrTheme
+ [rellic]: http://microformats.org/wiki/rel-license "Microformats wiki article for rel-license"
+
+Things started out well thanks to
+[<span class='person'>Emily Lewis</span>’][el] [helpful guide][ela], but
+[Optimus microformat validator][omv] kept insisting that I was missing the
+`author` attribute. The guide addresses this, noting the <abbr>spec</abbr>
+allows for indicating the author separately with an hCard — something I had
+already set up. This is where problems began.
+
+ [el]: http://www.ablognotlimited.com/ "Emily Lewis’ home page"
+ [ela]:  http://www.ablognotlimited.com/articles/getting-semantic-with-microformats-part-5-hatom/ "‘Getting Semantic With Microformats, Part 5: hAtom’"
+ [omv]: http://microformatique.com/optimus/
+
+My first attempt was to change from (reduced code):
+
+    <p class='vcard'><a class='url fn'></a></p>
+
+to (again reduced):
+
+    <p class='vcard'><address class='author'><a class='url fn'></a></address></p>
+
+This [did not turn out well][rc2], but [turning it inside-out][rc3] fixed the
+problem. I don’t know why.
+
+ [rc2]: http://twitter.com/stilist/status/2932702902
+ [rc3]: http://twitter.com/stilist/status/2933139995
+
+Regardless, I now have what seems like theoretically correct markup — excepting
+that I haven’t really done the entry dates according to spec, due to
+uncertainty over the accessibility issues — but the validator maintains that
+I’m missing the `author` attribute.
+
+At this point I’m not sure if my code is actually invalid or if it’s just an
+error in the validator. Regardless, it should be complete enough to work.
