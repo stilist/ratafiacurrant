@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang='en'>
- <head>
+ <head profile='http://purl.org/uF/2008/03/'>
   <meta charset='UTF-8'>
   <meta name='verify-v1' content='fBP5k+EA4BFJx2aaK3hiOymbZSUbEAkp8OcEdeK/Fk8='>
-  <meta name='keywords' content='jordan cole, stilist, ratafia, ratafia currant'>
+  <meta name='keywords' content='jordan 
+cole, stilist, ratafia, ratafia currant'>
   <title>{block:PostTitle}{PostTitle} — {/block:PostTitle}Ratafia Currant</title>
   <link rel='icon' type='text/css'
         href='http://static.ratafia.info/favicon.ico'>
@@ -51,28 +52,28 @@ while(x=eval(x));}
   </ul>
 
   {block:Posts}
-  <div class='entry'>
+  <div class='hentry'>
    {block:Regular}
-   <h1>{block:IndexPage}<a href='{Permalink}'>{/block:IndexPage}{block:Title}{Title}{/block:Title}{block:IndexPage}</a>{/block:IndexPage}</h1>
-   <div class='copy'>
+   <h1 class='entry-title'>{block:IndexPage}<a href='{Permalink}'>{/block:IndexPage}{block:Title}{Title}{/block:Title}{block:IndexPage}</a>{/block:IndexPage}</h1>
+   <div class='entry-content'>
     {Body}
    </div>
    {/block:Regular}
    {block:Link}
-   <h1><a href='{URL}'>{Name}</a></h1>
+   <h1 class='entry-title'><a href='{URL}'>{Name}</a></h1>
    {block:Description}
-   <div class='copy'>
+   <div class='entry-content'>
     {Description}
    </div>
    {/block:Description}
    {/block:Link}
    {block:Video}
-   <h1><a href='{Permalink}'>{block:Caption}{Caption}{/block:Caption}</a></h1>
-   <div class='copy'>
+   <h1 class='entry-title'><a href='{Permalink}'>{block:Caption}{Caption}{/block:Caption}</a></h1>
+   <div class='entry-content'>
     {Video-500}
    </div>
    {/block:Video}
-   <p class='signoff'>written <a href='/day/{Year}/{Month}/{DayOfMonth}/'>{DayOfMonth} {Month}, 0{Year}</a> • <a href='{Permalink}#disqus_thread'>Comments</a> <a href='{Permalink}' class='pilcrow' title='Permanent link to this entry'>⁋</a></p>
+   <p class='signoff'>written <a href='/day/{Year}/{Month}/{DayOfMonth}/' class='published updated'>{DayOfMonth} {Month}, 0{Year}</a> • <a href='{Permalink}#disqus_thread'>Comments</a> <a href='{Permalink}' class='pilcrow' title='Permanent link to this entry' rel='bookmark'>⁋</a></p>
   </div>
   {block:Posts}
 
@@ -104,7 +105,10 @@ while(x=eval(x));}
    {block:NextPage}<span id='nextpage'><a href='{NextPage}'>Older →</a></span>{/block:NextPage}
   </div>{/block:Pagination}
 
-  <p id='footer'>Copyright Jordan Cole (<script>hivelogic_enkoder();</script>), and provided under the <a href='http://creativecommons.org/licenses/by-nc/3.0/us/' rel='license'><abbr class='smallcaps' title='Creative Commons attribution, non-commercial'>CC:BY-NC</abbr></a> license. <a href='http://github.com/stilist/ratafiacurrant/tree/master'>Check out how this is made.</a></p>
+  <div id='footer'>
+   <address class='vcard author'>Copyright <a class='url fn' href='http://ratafia.info'>Jordan Cole</a> (<script>hivelogic_enkoder();</script>), and provided under the <a href='http://creativecommons.org/licenses/by-nc/3.0/us/' rel='license'><abbr class='smallcaps' title='Creative Commons attribution, non-commercial'>CC:BY-NC</abbr></a> license.</address>
+   <p><a href='http://github.com/stilist/ratafiacurrant/tree/master'>Check out how this is made.</a></p>
+  </div>
 
   <script>
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

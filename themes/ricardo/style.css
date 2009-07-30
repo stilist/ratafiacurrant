@@ -39,9 +39,7 @@ abbr.smallcaps {
  font-size: .9em;
  text-transform: uppercase;
 }
-cite {
- font-style: normal;
-}
+address, cite { font-style: normal; }
 code {
  font-family: Monaco, monospace;
  font-size: 8pt;
@@ -135,21 +133,21 @@ strong {
  width: 123px;
 }
 
-.entry, #footer {
+.hentry, #footer {
  margin: 0 auto;
  width: 536px;
 }
-.entry blockquote {
+.hentry blockquote {
  margin: 0 2em;
 }
-.entry ol, .entry p, .entry ul {
+.hentry ol, .hentry p, .hentry ul {
  margin: 1.55em 0;
 }
-.entry .copy > p:first-child,
-.entry .copy > blockquote:first-child > p:first-child {
+.hentry .entry-content > p:first-child,
+.hentry .entry-content > blockquote:first-child > p:first-child {
  margin-top: 9px;
 }
-.entry .signoff {
+.hentry .signoff {
  font-size: .9em;
  text-align: right;
 }
