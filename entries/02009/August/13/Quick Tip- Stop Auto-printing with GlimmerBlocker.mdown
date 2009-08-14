@@ -1,0 +1,28 @@
+PERMALINK: /post/162398360/quick-tip-stop-auto-printing-with-glimmerblocker
+PUBLISHED: Aug 13th, 02009 8:06pm
+TAGS: glimmerblocker, javascript, web
+
+As part of my high-volume web reading habits, I click through to the print
+versions of articles whenever possible. Annoyingly, sites will often use
+JavaScript to automatically make the page print. Here’s a simple way to stop
+it.
+
+1. Download and install [GlimmerBlocker][gb].
+1. Create a new Filter group (top left of preference pane).
+1. Add a new Rule.
+1. Set the Action to “Whitelist <abbr class='smallcaps'>URL</abbr>, optionally
+modifying content”.
+1. Set Host: to “all hosts”.
+1. Go to the transform tab.
+1. Paste in the following text: `replace(/(window|self)\.print(\(\))?;/, "");`
+1. Save the rule.
+
+ [gb]: http://glimmerblocker.org/
+
+The [regex][reg] here will look for `window.print` or `self.print` (with or
+without parentheses) and strip it, thereby stopping the automatic print
+command.
+
+ [reg]: http://en.wikipedia.org/wiki/Regular_expression "Wikipedia article for regular expression"
+
+I forget exactly how I came up with this, but it works great.
