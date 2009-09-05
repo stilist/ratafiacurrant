@@ -4,7 +4,7 @@ MEDIUM: magazine
 PUBLISHED: September 02009
 SOURCE: GQ
 SOURCERANGE: p 246–251, 311–313
-TAGS: chechnya, politics, russia, vladimirputin
+TAGS: alexanderlitvinenko, borisyeltsin, chechnya, nikolaipetrushev, politics, russia, secondchechenwar, vladimirputin
 TITLE: None Dare Call It Conspiracy
 
 Ten years ago this month, Russia was rocked by a series of mysterious apartment bombings that left hundreds dead. It was by riding the ensuing wave of fear and terror that a then largely unknown <span class='person'>Vladimir Putin</span> rose to become the most powerful man in the country. But there were questions about the nature of those bombings — and disturbing evidence that the perpetrators might actually have been working for the Russian government. In the years since then, the people who had been questioning the official version of events began one by one to go silent or even turn up dead. Except one man. <span class='person'>Scott Anderson</span> finds him.
@@ -121,4 +121,48 @@ Three days later, the target was an apartment building in Volgodonsk, a city sou
 
 In the Moscow coffee shop, Trepashkin grew uncharacteristically somber, staring into the distance for a long moment.
 
-<q>It just seemed incredible,</q> he said finally. <q>That was my first thought. The country is in an uproar, vigilantes are stopping strangers on the streets, there are police roadblocks everywhere. So how is it possible that these bombers are moving about so freely, that they have all this time</q>
+<q>It just seemed incredible,</q> he said finally. <q>That was my first thought. The country is in an uproar, vigilantes are stopping strangers on the streets, there are police roadblocks everywhere. So how is it possible that these bombers are moving about so freely, that they have all this time to set up and carry out these sophisticated bombings? It seemed impossible.</q>
+
+Another aspect that Trepashkin had a problem with was the question of motive.
+
+<q>Usually, this is quite easy to find,</q> he explained, <q>it is money or hatred or jealousy, but for these bombings, what was the Chechens’ motive? Very few people thought about this.</q>
+
+On one level, this was perhaps understandable. Antipathy for Chechens is deeply ingrained into Russian society, and it had grown much worse during their secessionist war in the ’90s. Unspeakable atrocities were committed by both sides in that conflict, and the Chechen rebels had shown no compunction against taking their fight into Russia proper or targeting civilians. Except that war had ended in <ins>0</ins>1997, with Boris Yeltsin signing a peace agreement recognizing Chechnya’s autonomy.
+
+<q>So why?</q> Trepashkin continued. <q>Why would the Chechens want to provoke the Russian government when they already had everything they had fought for?</q>
+
+And there was something else that gave the former criminal investigator pause: the composition of the new Russian government.
+
+In early August <ins>0</ins>1999, just weeks before the first bombing on Buynaksk, President Yeltsin had appointed his third prime minister in less than three months. He was a slight, humorless main, virtually unknown to the Russian public, named Vladimir Putin.
+
+The chief reason he was so little known was that, until a few years earlier, Putin had been just one more midlevel <abbr class='smallcaps'>KGB</abbr>/<abbr class='smallcaps'>FSB</abbr> officer toiling away in obscurity. In <ins>0</ins>1996, Putin was given a position in the presidential-property-management department, a crucial office in the Yeltsin patronage machine that gave Putin leverage to grant or withhold favors to Kremlin insiders. He apparently put his time there to good use; over the next three years, Putin was promoted to deputy chief of the presidential staff, then to director of the <abbr class='smallcaps'>FSB</abbr>, and now to prime minister.
+
+But though Putin was still obscure to the general public in September <ins>0</ins>1999, Mikhail Trepashkin already had a pretty good sense of the man. Putin had been the <abbr class='smallcaps'>FSB</abbr> director at the time the <abbr class='smallcaps'>URPO</abbr> scandal went public and had personally dismissed Alexander Litvinenko for provoking it. <q>I fired Litvinenko,</q> he had told a reporter, <q>because <abbr class='smallcaps'>FSB</abbr> officers shouldn’t hold press conferences… and they shouldn’t make internal scandals public.</q>
+
+But equally alarming to Trepashkin was who had been chosen to be Putin’s successor as <abbr class='smallcaps'>FSB</abbr> director, Nikolai Patrushev. As head of the <abbr class='smallcaps'>FSB</abbr> internal-security department, it was Patrushev who had removed Trepashkin from the Bank Soldi case and who was now among those government officials most vehemently claiming a Chechen connection to the apartment-building bombings.
+
+<q>So what you saw was this dynamic building,</q> Trepashkin said, <q>and it was the government promoting it. ‘The Chechens are behind this, so now we must take care of the Chechens’.</q>
+
+But then something very strange happened. It happened in the sleepy provincial city of Ryazan, some 120 miles southeast of Moscow.
+
+Amid the state of hypervigilance that had seized the nation, several residents of 14/16 Novosyolov Street in Ryazan took notice when a white Zhiguli sedan pulled up to park beside their apartment building on the evening of September 22. They became downright panicked when they observed two men removing several large sacks from the car’s trunk and carrying them into the basement before speeding away. Residents called the police.
+
+Discovered in the basement were three 110-pound white sacks wired to a detonator and explosive timer. As police quickly evacuated the building, the local <abbr class='smallcaps'>FSB</abbr> explosives expert was called in to defuse the detonator; he determined that the sacks contained <abbr class='smallcaps'>RDX</abbr>, a explosive powerful enough to have brought the entire apartment building down. IN the meantime, roadblocks were established on all roads out of Ryazan, and a massive manhunt for the Zhiguli and its occupants got underway.
+
+By the following afternoon, word of the incident in Ryazan had spread across Russia. Prime Minister Putin congratulated the residents on their vigilance, while the interior minister lauded recent improvements by the security forces, <q>such as the foiling of the attempt to blowup the apartment building in Ryazan.</q>
+
+There the matter may well have ended, except that same night two of the suspects in Ryazan were apprehended. To the local authorities’ astonishment, both produced <abbr class='smallcaps'>FSB</abbr> identification cards. A short time later, a call came down from <abbr class='smallcaps'>FSB</abbr> headquarters in Moscow that the two were to be released.
+
+The following morning, <abbr class='smallcaps'>FSB</abbr> director Patrushev appeared on television to report a wholly new version of events in Ryazan. Rather than an aborted terrorist attack, he explained, the incident at 14/16 Novosyolov Street had actually been an <abbr class='smallcaps'>FSB</abbr> “training exercise” to test the public’s alertness. Further, he said, the sacks in the basement had contained not explosives, but rather common household sugar.
+
+Contradictions in the <abbr class='smallcaps'>FSB</abbr>’s account were manifold. How to reconcile <abbr class='smallcaps'>FSB</abbr> headquarters’ sacks-of-sugar claim with the local <abbr class='smallcaps'>FSB</abbr>’s chemical analysis that had found <abbr class='smallcaps'>RDX</abbr>? If this truly had been a training exercise, how was it that the local <abbr class='smallcaps'>FSB</abbr> branch wasn’t informed ahead of time, or that Patrushev himself didn’t see fit to make mention of it for a day and a half after the terrorist alert was raised? For that matter, why did the apartment-building-bombing spree suddenly stop after Ryazan? If the attacks were truly the handiwork of Chechen terrorists, surely the public-relations black eye the <abbr class='smallcaps'>FSB</abbr> had received over the Ryazan affair would spur them to carry out more.
+
+But the time for such questions had already passed. Even as Prime Minister Putin gave his speech on the night of September 23 praising the residents of Ryazan for their vigilance, Russian warplanes began launching massive air strikes on Grozny, the capital of Chechnya. Within a few more days, Russian armored battalions that had been massed on the border for months crossed into Chechnya, marking the start of the Second Chechen War.
+
+Events moved very quickly after that. On New Year’s Eve <ins>0</ins>1999, Boris Yeltsin stunned the nation by announcing that he was stepping down from the presidency effective immediately, which made Vladimir Putin acting president until new elections could be held. And instead of holding them sometime in the summer, as originally scheduled, those elections would now occur in just ten weeks’ time, leaving Putin’s many competitors for the position little time to prepare.
+
+In a presidential poll taken in August <ins>0</ins>1999, Putin had garnered less than 2 percent support. By March <ins>0</ins>2000, however, riding a wave of poularity for his total-war policy in Chechnya, he swept into office with 53 percent of the vote. The reign of Vladimir Putin had begun, and Russia would never be the same.
+
+* * *
+
+For our next meeting, Trepashkin invited me into his apartment. I was a bit surprised by this — I’d been told that, for security reasons, 
