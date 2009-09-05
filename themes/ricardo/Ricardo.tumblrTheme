@@ -18,6 +18,13 @@ cole, stilist, ratafia, ratafia currant'>
         content='http://www.myopenid.com/xrds?username=stilist.myopenid.com'>
   <link rel='alternate' type='application/atom+xml' title='Ratafia Currant'
         href='http://feeds.feedburner.com/ratafia'>
+  <link rel='me' href='http://twitter.com/stilist'>
+  <link rel='me' href='http://pinboard.in/u:stilist'>
+  <link rel='me' href='http://flickr.com/photos/stilist/'>
+  <link rel='me' href='http://vimeo.com/stilist'>
+  <link rel='me' href='http://friendfeed.com/stilist'>
+  <link rel='me' href='http://www.youtube.com/user/stilist'>
+  <link rel='me' href='http://www.metafilter.com/user/96063'>
   <script>
   /* <![CDATA[ */
   function hivelogic_enkoder(){var i,j,x,y,x=
