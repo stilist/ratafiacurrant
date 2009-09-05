@@ -4,7 +4,7 @@ MEDIUM: magazine
 PUBLISHED: September 02009
 SOURCE: GQ
 SOURCERANGE: p 246–251, 311–313
-TAGS: alexanderlitvinenko, borisyeltsin, chechnya, nikolaipetrushev, politics, russia, secondchechenwar, vladimirputin
+TAGS: alexanderlitvinenko, borisberezovsky, borisyeltsin, chechnya, nikolaipetrushev, politics, russia, secondchechenwar, vladimirputin
 TITLE: None Dare Call It Conspiracy
 
 Ten years ago this month, Russia was rocked by a series of mysterious apartment bombings that left hundreds dead. It was by riding the ensuing wave of fear and terror that a then largely unknown <span class='person'>Vladimir Putin</span> rose to become the most powerful man in the country. But there were questions about the nature of those bombings — and disturbing evidence that the perpetrators might actually have been working for the Russian government. In the years since then, the people who had been questioning the official version of events began one by one to go silent or even turn up dead. Except one man. <span class='person'>Scott Anderson</span> finds him.
@@ -165,4 +165,52 @@ In a presidential poll taken in August <ins>0</ins>1999, Putin had garnered less
 
 * * *
 
-For our next meeting, Trepashkin invited me into his apartment. I was a bit surprised by this — I’d been told that, for security reasons, 
+For our next meeting, Trepashkin invited me into his apartment. I was a bit surprised by this — I’d been told that, for security reasons, Trepashkin rarely brought visitors to his home — but I guess he figured all his enemies knew where he lived, anyway.
+
+It was a pleasant enough place, if a bit on the spartan side, on the ground floor of a high-rise tower surrounded by other high-rise towers in southern Moscow. Trepashkin gave me a quick tour, and I noticed that the only space with even a hint of clutter was the tiny, paper-filled room — a converted walk-in closet, really — he used as his office. One of his daughters was home, and she brought us tea as we settled in the sitting room.
+
+With a vaguely embarrassed smile, Trepashkin offered that there was actually another reason he rarely had work-related meetings at his home: his wife. <q>She wants me to stop all this political stuff, but since she is away this morning…</q> His smile eased away. <q>Well, it’s because of the raids. You know, they came charging in here</q> — he waved toward the front door — <q>with their guns, shouting orders; the children were terrified. It really affected my wife, and she is always worried it will happen again.</q>
+
+The first of those raids had occurred in January <ins>0</ins>2002. Late one night, a squad of <abbr class='smallcaps'>FSB</abbr> agents burst in and proceeded to take the apartment apart. Trepashkin maintains they found nothing but instead planted enough evidence — some classified documents from the <abbr class='smallcaps'>FSB</abbr> archives, a handful of bullets — to enable prosecutors to hang three “pending” charges over his head.
+
+<q>It was their way of putting me on notice,</q> he explained, <q>of letting me know they would come after me if I didn’t straighten up.</q>
+
+Trepashkin had a good idea of what had sparked the <abbr class='smallcaps'>FSB</abbr>’s attention: Just days before the raid, he had started getting telephone calls from the man regarded by the Putin regime as one of Russia’s greatest traitors, Alexander Litvinenko.
+
+Lieutenant Colonel Litvinenko’s fall from grace had been swift. After his <ins>0</ins>1998 press conference alleging the <abbr class='smallcaps'>URPO</abbr> assassination plots, he’d spent nine months in prison on an “abuse of authority” charge and had then fled Russia as prosecutors prepared to move against him again. With the help of the now exiled tycoon Boris Berezovsky, Litvinenko and his family settled in England, where he joined forces with Berezovsky to expose to the world what they claimed were the crimes of the Putin regime. A primary focus of that campaign was getting to the truth of the apartment-building bombings.
+
+<q>So this is why he was calling,</q> Trepashkin explained. <q>Litvinenko couldn’t come back to Russia, obviously, so they needed someone here to help with the investigation.</q>
+
+Easier said than done, for by January <ins>0</ins>2002, Russia had become a very different place. In the two years since Putin had been elected president, the once-thriving independent media had all but disappeared, while the political opposition was being steadily marginalized to the point of insignificance.
+
+One indication of this chilling effect was the revisions performed on the shakiest aspect of the government’s bombing story, the <abbr class='smallcaps'>FSB</abbr> “training exercise” in Ryazan. By <ins>0</ins>2002 the Ryazan <abbr class='smallcaps'>FSB</abbr> commander who had overseen the manhunt for “the terrorists” now supported the training-exercise explanation. The local <abbr class='smallcaps'>FSB</abbr> explosives expert who had insisted before television cameras that the Ryazan sacks contained explosives suddenly went silent on the whole matter and disappeared from sight. Even some of the residents of 14/16 Novosyolov Street who had appeared in a television documentary six months after the incident to angrily deride the <abbr class='smallcaps'>FSB</abbr>’s account and insist the bomb was real now refused to talk with anyone beyond allowing that perhaps they’d been mistaken after all.
+
+<q>I told Litvinenko that the only way I could become involved was in some kind of official capacity,</q> Trepashkin explained in his sitting room. <q>If I just went out on my own, the authorities would move against me immediately.</q>
+
+That official capacity was fashioned at a meeting held in Boris Berezovsky’s London office in early March <ins>0</ins>2002. one of those in attendance, a Russian member of Parliament named <span class='person'>Sergei Yushenkov</span>, would organize a blue-ribbon committee of inquiry into the bombings and make Trepashkin one of his investigators. Another attendee was <span class='person'>Tatiana Morozova</span>, a 31-year-old Russian émigré living in Milwaukee, Wisconsin. Morozova’s mother had been killed in the Guryanova Street blast, and under Russian law that gave her the right to review the government’s records on the case; since Trepashkin had recently obtained his license to practice law, Morozova would appoint him as her attorney and petition the courts for access to the <abbr class='smallcaps'>FSB</abbr>’s Guryanova Street files.
+
+<q>So I agreed to both of these ideas,</q> Trepashkin said, <q>but the question was where to look first. So many of the reports were unreliable, and so many people had changed their stories, that my first goal was to get access to the actual forensic evidence.</q>
+
+Also easier said than done, for a hallmark of the government’s response to the bombings had been a peculiar haste in clearing away the ruins. Whereas, for example, the Americans had spent six months sifting through the remnants of the World Trade Center after September 11, regarding it as an active crime scene, Russian authorities had razed 19 Guryanova street just days after the blast and hauled everything away to a municipal dump. Whatever forensic evidence had been preserved — and it wasn’t clear that any had — was presumably locked away in <abbr class='smallcaps'>FSB</abbr> storehouses.
+
+While what he discovered didn’t pertain to the specifics of the bombings, Trepashkin did soon manage to come up with something quite interesting.
+
+One of the odder footnotes to the whole affair was a statement that <span class='person'>Gennady Seleznyov</span>, the Speaker of the Duma, had made on the floor of Parliament on the morning of September 13, <ins>0</ins>1999. <q>I have just received a report,</q> he had announced to legislators. <q>An apartment building in the city of Volgodonsk was blown up last night.</q>
+
+While Seleznyov got the basics right — an apartment building had indeed just been blown up — he had the wrong city; the blast that morning had been at 6/3 Kashirskoye Highway in Moscow. Which put the Speaker in kind of an awkward spot when an apartment building in Volgodonsk *was* blown up three days later. At least one Duma member found that puzzling.
+
+<q><abbr class='smallcaps'>Mr.</abbr> Speaker, please explain,</q> he had asked Seleznyov on the Parliament floor, <q>how come you told us on Monday about the blast that occurred on Thursday?</q>
+
+In lieu of an answer, the questioner had his microphone quickly cut off.
+
+To many observers, it suggested that someone in the <abbr class='smallcaps'>FSB</abbr> chain of command had screwed up the order in which the bombings were to take place and had given the “news” to Seleznyov in reverse.
+
+Searching around nearly three years after the fact, Trepashkin says he determined that Seleznyov had been given the erroneous report by an <abbr class='smallcaps'>FSB</abbr> officer, though he won’t say how he knows.
+
+But with progress also came the potential for danger to Trepashkin. One of those who had attended the London meeting, human-rights activist and Berezovsky lieutenant <span class='person'>Alex Goldfarb</span>, became concerned enough about Trepashkin’s welfare that he arranged a meeting with him in Ukraine in early <ins>0</ins>2003. The two had never met before, and Goldfarb found it an odd encounter.
+
+<q>He was one of the stranger people I’ve ever met,</q> Goldfarb recounted. <q>He had no interest in the philosophical or political implications of what he was doing. To him, this was all just a criminal case. In the back of my mind, I was thinking, ‘Is this guy crazy? Doesn’t he appreciate what he’s up against?’ but I finally concluded he was this kind of supercop — you know, a Serpico figure. He was determined to do the right thing because it was the right thing to do; it was just that simple.</q> Still, Goldfarb felt it his duty to at least alert Trepashkin to the deepening peril, the very little that could be done if the authorities decided to go after him. The more he pressed on this, though, the more Trepashkin seemed to bristle.
+
+<q>He didn’t care about any of that,</q> Goldfarb remembered. <q>I think he still believed he was fighting to reform the system, rather than that he was up against the system itself.</q>
+
+But as it turned out, the hammer first fell elsewhere. In April <ins>0</ins>2003, Sergei Yushenkov, the Duma member who had hired Trepashkin for his committee of inquiry, was murdered in front of his Moscow home, shot down in broad daylight. Three months later, another committee member died under mysterious circumstances. The two deaths effectively ended the independent inquiry — which also meant that Trepashkin was now 
