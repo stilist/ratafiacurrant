@@ -4,7 +4,7 @@ MEDIUM: magazine
 PUBLISHED: September 02009
 SOURCE: GQ
 SOURCERANGE: p 246–251, 311–313
-TAGS: politics, russia, vladimirputin
+TAGS: chechnya, politics, russia, vladimirputin
 TITLE: None Dare Call It Conspiracy
 
 Ten years ago this month, Russia was rocked by a series of mysterious apartment bombings that left hundreds dead. It was by riding the ensuing wave of fear and terror that a then largely unknown <span class='person'>Vladimir Putin</span> rose to become the most powerful man in the country. But there were questions about the nature of those bombings — and disturbing evidence that the perpetrators might actually have been working for the Russian government. In the years since then, the people who had been questioning the official version of events began one by one to go silent or even turn up dead. Except one man. <span class='person'>Scott Anderson</span> finds him.
@@ -75,3 +75,50 @@ Of all this, Trepashkin had an intimate view. Kept on with the <abbr class='smal
 
 <q>In case after case,</q> he said, <q>there was this blending. You would find mafiyas working with terrorist groups, but then the trail would lead to a business group or maybe to a state ministry. So then, was this still a criminal case, or some kind of officially sanctioned black operation? And just what did ‘officially sanctioned’ actually mean anymore, because who was really in charge?</q>
 
+Finally, in the summer of <ins>0</ins>1995, Mikhail Trepashkin began work on a case that would change him forever, one that placed him on a collision course with the seniormost commanders of the <abbr class='smallcaps'>FSB</abbr> and, Trepashkin says, would lead at least one of them to plot his assassination. As with so many other incidents that exposed the malevolent rot in post-Soviet Russia, this one centered on events in the breakaway southern republic of Chechnya.
+
+By December <ins>0</ins>1995, rebels fighting for the independence of Chechnya had fought the Russian army to a bloody and humiliating stalemate after a full year of war. The Chechens’ success was not as simple as mere force of arms, however. Even during the Soviet era, Chechen mafiyas had controlled much of the Russian criminal underworld, so when Russian society itself became criminalized it played beautifully to the Chechen rebels’ advantage. For their steady supply of sophisticated weapons with which to fight the Russian army, the rebels often had only to turn to corrupt Russian army officers who had access to such weaponry, with the funds for such “purchases” supplied by the Chechen crime syndicates operating throughout the nation.
+
+Just how high up did this cozy arrangement go? Mikhail Trepashkin got his answer on the night of December 1, when a team of <abbr class='smallcaps'>FSB</abbr> officers stormed a Moscow branch of Bank Soldi with guns drawn.
+
+The raid that night was the culmination of an elaborate sting operation, one that Trepashkin had helped supervise, designed to finally bring down a notorious bank-extortion team linked to a Chechen rebel leader named <span class='person'>Salman Raduyev</span>> It was a huge success: Caught up in the Soldi dragnet were some two dozen conspirators, including two <abbr class='smallcaps'>FSB</abbr> officers and a Russian-military general.
+
+But inside the bank, the <abbr class='smallcaps'>FSB</abbr> men found something else. To ensure they weren’t walking into a trap, the conspirators had planted electronic bugs throughout the building, and those were linked to an eavesdropping van parked outside. While their precautions obviously needed some fine-tuning, it begged the question of how the gang got their hands on bugging equipment.
+
+<q>All these sorts of devices have serial numbers,</q> Trepashkin explained in the Moscow coffee shop, <q>and so we traced the numbers back. We discovered that it had all come from either the <abbr class='smallcaps'>FSB</abbr> or the Ministry of Defense.</q>
+
+The implication of this was staggering, for access to such equipment was severely restricted. It suggested that high-ranking security and military officers had colluded not only with a criminal gang but with one whose express purpose was to raise funds for a war against Russia. By the standards of any country, that wasn’t just corruption, it was treason.
+
+Yet no sooner had Trepashkin started down that investigative trail than he was removed from the Bank Soldi case by <span class='person'>Nikolai Patrushev</span>, the head of the <abbr class='smallcaps'>FSB</abbr>’s internal-security department. What’s more, he says, no charges were brought against any of the Russian officers implicated, and nearly all of those caught in the initial dragnet were soon quietly released. Instead, Patrushev ordered an investigation of Trepashkin. That investigation lasted nearly two years, at the end of which Trepashkin had reached his personal breaking point. In May <ins>0</ins>1997, he wrote an open letter to President Yeltsin detailing his involvement in the case and charging much of the senior <abbr class='smallcaps'>FSB</abbr> leadership with a host of crimes, including forming alliances with mafiyas and even recruiting their members into <abbr class='smallcaps'>FSB</abbr> ranks.
+
+<q>I thought that if the president knew what was happening,</q> Trepashkin said, <q>then he would do something about it. This was a mistake on my part.</q>
+
+Indeed. Boris Yeltsin, it turned out, was fabulously corrupt himself, and the letter alerted the <abbr class='smallcaps'>FSB</abbr> that they now had a serious malcontent on their hands. The very next month, Trepashkin resigned from the <abbr class='smallcaps'>FSB</abbr>, burn out, he says, but the harassment he’d been subjected to. But that didn’t mean Trepashkin was going to go quietly into the night. That summer he brought a lawsuit against the <abbr class='smallcaps'>FSB</abbr> leadership and began filing complaints that extended all the way to the <abbr class='smallcaps'>FSB</abbr> director himself. It was as if, even at this late date, the investigator imagined that the honor of the Kontora (Bureau) could still be redeemed, that some as yet invisible reformer might step forward. Instead, his persistence apparently convinced some senior <abbr class='smallcaps'>FSB</abbr> officials that it was time for a permanent solution to their Trepashkin problem. One of the first people they turned to was Alexander Litvinenko.
+
+On paper, Litvinenko looked just the man for the job. Having just returned to Moscow from a stint on the brutal Chechen battlefield as a counterterrorism operative, he had been transferred into a new and highly secretive of the <abbr class='smallcaps'>FSB</abbr> called the Office for the Analysis of Criminal Organizations, or <abbr class='smallcaps'>URPO</abbr>. While Litvinenko didn’t know it at the time, it seemed the <abbr class='smallcaps'>URPO</abbr> had been formed to serve as a death squad. As reported in the book <span class='book'>Death of a Dissident</span>, by <span class='person'>Alex Goldfarb</span> and Litvinenko’s widow, Marina, Litvinenko learned of this when he was summoned by the <abbr class='smallcaps'>URPO</abbr> commander in October <ins>0</ins>1997. <q>There is this guy, Mikhail Trepashkin,</q> the commander allegedly told Litvinenko. <q>He is your new object. Go get his file and make yourself familiar with it.</q>
+
+When he did, Litvinenko learned of the criminal investigator’s involvement with the Bank Solid case, as well as his lawsuit against the <abbr class='smallcaps'>FSB</abbr> leadership; it left him puzzled as to just what he was supposed to do with Trepashkin.
+
+<q>Well, it’s a delicate situation,</q> Litvinenko quoted his commander as saying. <q>You know, he is taking the director to court and giving interviews. We should shut him up, director’s personal request.</q>
+
+Shortly after, Litvinenko claimed his target list expanded to include <span class='person'>Boris Berezovsky</span>, an oligarch and Kremlin insider whom apparently someone powerful now wanted dead. Litvinenko stalled for a time, making continual excuses for his inability to carry out the assassination orders.
+
+According to Trepashkin, at least two attempts were made on his life during this period: a failed ambush on a deserted stretch of Moscow highway, and a rooftop sniper who couldn’t get off a clean shot. On other occasions, he says, he was tipped off by friends still in the Kontora.
+
+In November, the alleged <abbr class='smallcaps'>FSB</abbr> plot against Trepashkin and Berezovsky was exposed in dramatic fashion when Litvinenko and four of his <abbr class='smallcaps'>URPO</abbr> colleagues appeared at a Moscow news conference to detail the kill orders they’d been given. Also in attendance was Mikhail Trepashkin.
+
+And there, somewhat anticlimactically, the matter seemed to end. Litvinenko, the ringleader of the dissident officers, was summarily dismissed but otherwise suffered no immediate retribution. As for Trepashkin, after improbably winning his lawsuit against the <abbr class='smallcaps'>FSB</abbr>, he married for a second time and settled into his new job with the Russian tax police, determined, he says, to quietly serve out his term until he was eligible for retirement.
+
+But then, in September <ins>0</ins>1999, the apartment-building bombings would shake Russia’s political foundations to their core. Those attacks would also propel Trepashkin and Litvinenko back into the shadow world, this time with a common purpose.
+
+* * *
+
+Amid the near hysteria that gripped Moscow after the Guryanova Street bombing, early on the morning of September 13, <ins>0</ins>1999, authorities were called to check on reports of suspicious activity at an apartment building on the city‘s southern outskirts. Finding nothing untoward, security personnel completed their search of 6/3 Kashirskoye at about 2 <abbr class='smallcaps'>A.M.</abbr> and left. At 5:03 <abbr class='smallcaps'>A.M></abbr>, the nine-story building was collapsed by a massive bomb, leaving 121 civilians dead.
+
+Three days later, the target was an apartment building in Volgodonsk, a city south of Moscow. This time it was a truck bomb, and it left another seventeen dead.
+
+* * *
+
+In the Moscow coffee shop, Trepashkin grew uncharacteristically somber, staring into the distance for a long moment.
+
+<q>It just seemed incredible,</q> he said finally. <q>That was my first thought. The country is in an uproar, vigilantes are stopping strangers on the streets, there are police roadblocks everywhere. So how is it possible that these bombers are moving about so freely, that they have all this time</q>
