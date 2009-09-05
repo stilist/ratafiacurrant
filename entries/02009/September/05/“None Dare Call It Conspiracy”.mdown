@@ -1,0 +1,288 @@
+PERMALINK: /post/180606234/none-dare-call-it-conspiracy
+PUBLISHED: Sep 5th, 02009 4:17pm
+TAGS: condenast, gq, politics, russia, russianapartmentbombings, scottanderson, transcript
+
+What follows is a transcript of <span class='person'>Scott Anderson’s</span> article for this month’s edition of <span class='magazine'>GQ</span> regarding the [Russian apartment bombings][rab] in 01999. This article has been [carefully surpressed][npr]:</ins>
+
+> <ins><span class='person'>Jerry Birenz</span></ins> ordered that the article could not be posted to the magazine's Web site. No copies of the American edition of the magazine could be sent to Russia or shown in any country to Russian government officials, journalists or advertisers. Additionally, the piece could not be published in other <span class='organization'>Condé Nast</span> magazines abroad, nor publicized in any way.
+
+I was inspired after seeing that Gawker [solicited a Russian translation][gaw]; I’ve worked from the scans they provided.
+
+This transcript is also available [at my GitHub account][git].
+
+ [gaw]: http://gawker.com/5352827/ "«Эй, вы можете прочитать запрещенную статью GQ про Путина здесь»"
+ [git]: http://github.com/stilist/ratafiacurrant/blob/master/documents/None%20Dare%20Call%20It%20Conspiracy.mdown
+ [npr]: http://www.npr.org/templates/story/story.php?storyId=112530364 "“Why ‘GQ’ Doesn’t Want Russians To Read Its Story”"
+ [rab]: http://en.wikipedia.org/wiki/Russian_apartment_bombings "Wikipedia article for Russian apartment bombings"
+
+* * *
+
+Ten years ago this month, Russia was rocked by a series of mysterious apartment bombings that left hundreds dead. It was by riding the ensuing wave of fear and terror that a then largely unknown <span class='person'>Vladimir Putin</span> rose to become the most powerful man in the country. But there were questions about the nature of those bombings — and disturbing evidence that the perpetrators might actually have been working for the Russian government. In the years since then, the people who had been questioning the official version of events began one by one to go silent or even turn up dead. Except one man. <span class='person'>Scott Anderson</span> finds him.
+
+* * *
+
+The first building to be hit was the barracks in Buynaksk housing Russian soldiers and their families. It was a nondescript five-story building perched on the outskirts of town, and when the enormous truck bomb went off late on the night of September 4, <ins>0</ins>1999, the floors pancaked onto each other until the building was reduced to a pile of burning rubble. In that rubble were the bodies of sixty-four people — men, women, and children.
+
+* * *
+
+In the predawn hours of last September 13, I left my hotel in central Moscow and made for a working-class neighborhood on the city’s southern outskirts.
+
+It had been twelve years since I’d been in the Russian capital. Everywhere, new glass-and-steel buildings had gone up, the skyline was studded with construction cranes, and even at 4 <abbr class='smallcaps'>A.M.</abbr>, the garish casinos aroudn Pushkin Square were going full tilt and Tverskaya Street was clogged with late-model <abbr class='smallcaps'>SUV</abbr>s and <abbr class='smallcaps' class='company'>BMW</abbr> sedans. The drive was a jarring glimpse at the colossal transformation that Russia, its economy turbocharged by petrodollars, had undergone in the nine years since Vladimir Putin came to power.
+
+But my journey that morning was to a place in “old” Moscow, to a small park where a drab nine-story apartment building known as 6/3 Kashirskoye Highway had once stood. At 5:03 on the morning of September 13, <ins>0</ins>1999 — exactly nine years prior to my visit — 6/3 Kashirskoye had been blasted apart by a bomb secreted in its basement; 121 of its residents had died while they slept. That explosion, coming nine days after the one in Buynaksk, was the third of what would be four apartment-building bombings in Russia over a twelve-day span that September, leaving some 300 citizens dead and the nation in panic; it was among the deadliest series of terrorist attacks in the world until September 11. Blaming the bombings on terrorists from Chechnya, Russia’s newly appointed prime minister, Vladimir Putin, ordered a scorched-earth offensive into the breakaway republic. On the success of that offensive, the previously unknown Putin became a national hero and swiftly assumed complete control of the Russian state. It is a control he continues to exert today.
+
+Where 6/3 Kashirskoye had stood there was now an orderly grid of well-tended flower beds. These surrounded a stone monument engraved with the names of the dead and topped by a Russian Orthodox cross. For the bombing’s ninth anniversary, three or four local journalists had shown up, discreetly watched over by a couple of policemen in a nearby squad car, but there really wasn’t much for anyone to do. Shortly after 5 <abbr class='smallcaps'>A.M.</abbr>, a cluster of perhaps two dozen people — most of them young, relatives of the dead, presumably — trooped up to place candles and red carnations at the foot of the monument, but they retreated as quickly as they had appeared. The only other visitors that morning were two elderly men who had witnessed the bombing and who dutifully related for the television cameras how terrible it had been, such a shock.
+
+I saw that one of the old men became quite emotional as he stood before the monument, repeatedly brushing at his cheeks to wipe away tears. Several times he turned and walked purposefully away, as if willing himself to leave, but he never got very far. He would linger by the trees at the edge of the park and then inevitably make a slow return to the shrine. Finally, I approached him.
+
+<q>I lived very close to here,</q> he said, <q>and I was awoken by the sound, I came rushing over and…</q> He was a big man, a former sailor, and he waved his hands helplessly over the flower beds. <q>Nothing. Nothing. They pulled a young boy and his dog out. That was all. Everyone else was already dead.</q>
+
+But as it turned out, the old man had a more personal connection to the tragedy. His daughter, son-in-law, and grandson had lived at 6/3 Kashirskoye, and they had all perished that morning, too. Leading me up to the monument, he pointed out their names in the stone, and desperately brushed at his eyes again. Then he angrily whispered: <q>They say it was the Chechens who did this, but that is a lie. It was Putin’s people. Everyone knows that. No one wants to talk about it, but everyone knows that.</q>
+
+It is a riddle that lies at the very heart of the modern Russian state, one that remains unsolved to this day. In the awful events of September <ins>0</ins>1999, did Russia find its avenging angel in Vladimir Putin, the proverbial man of action who crushed his nation’s attackers and led his people out of a time of crisis? Or was that crisis actually manufactured to benefit Putin, a scheme by Russia’s secret police to bring one of their own to power? What makes this question important is that absent the bombings of September <ins>0</ins>1999 and all that transpired as a result, it is hard to conceive of any scenario whereby Putin would hold the position he enjoys today: a player on the global stage, a ruler of one of the most powerful nations on earth.
+
+It is peculiar, then, how few people outside russia seem to have wanted that question answered. Several intelligence agencies are believed to have conducted investigations into the apartment bombings, but none have released their findings. Very few American lawmakers have shown an interest in the bombings. In <ins>0</ins>2003, <span class='person'>John McCain</span> declared in Congress that <q>there remain credible allegations that Russia’s <abbr class='smallcaps'>FSB</abbr> [Federal Security Service] had a hand in carrying out these attacks.</q> But otherwise, neither the United States government nor the American media have ever shown much inclination to explore the matter.
+
+This apparent disinterest now extends into Russia as well. Immediately after the bombings, a broad spectrum of Russian society publicly cast doubt on the government’s version of events. Those voices have now gone silent one by one. In recent years, a number of journalists who investigated the incidents have been murdered — or have died under suspicious circumstances — as have two members of Parliament who sat on a commission of inquiry. In the meantime, it seems that most everyone whose account of the attacks ran counter to the government’s version now either refuses to speak, has recanted his earlier statements, or is dead.
+
+During my time in Russia this past September, I approached a number of individuals — journalists, lawyers, human-rights investigators — who had been involved in the search for answers. Many declined to speak with me altogether. Others begrudgingly did so but largely confined their statements to a recitation of the known inconsistencies in the case; if pressed for an opinion, they allowed only that the matter remained “controversial.” even the old man in Kashirskoye park ultimately underscored the air of unease that hovers over the topic. After readily agreeing to a second meeting, at which he promised to introduce me to other victims’ families who doubted the government’s account, he had a change of heart.
+
+<q>I can’t do it,</q> he said when he called me back a few days later. <q>I spoke to my wife and my boss, and they both said that if I meet with you, I will be finished.</q>
+
+I was curious what he meant by “finished,” but the old sailor hung up before I could ask.
+
+No doubt part of this reticence stemmed from recalling the fate of the man who made proving the conspiracy behind the bombings a personal crusade: <span class='person'>Alexander Litvinenko</span>. From his London exile, the rogue former <abbr class='smallcaps'>KGB</abbr> officer had waged a relentless media campaign against the Putin regime, accusing it of all manner of crimes and corruption — and most especially of having orchestrated the apartment-building attacks.
+
+In November <ins>0</ins>2006, in a case that riveted the world’s attention, Litvinenko was slipped a lethal dose of radioactive polonium, apparently during a meeting with two former Russian intelligence agents in a London hotel bar. Before the poison killed LItvinenko — it took an agonizing twenty-three days — he signed a statement placing the blame for his murder squarely at Putin’s feet.
+
+But Litvinenko had not worked alone on the apartment-bombing case. Several years before his murder, he had enlisted another ex-<abbr class='smallcaps'>KGB</abbr> agent in his search for answers, a former criminal investigator named <span class='person'>Mikhail Trepashkin</span>. The two men had a rather complicated personal history — in fact, back in the ’90s, one allegedly had been dispatched to assassinate the other — but it had actually been Trepashkin, working on the ground in Russia, who had uncovered many of the disturbing facts in the case.
+
+Trepashkin had also run afoul of the authorities. In <ins>0</ins>2003 he had been shipped off to a squalid prison camp in the Ural Mountains for four years. By the time of my visit to Moscow last year, however, he was out on the streets again.
+
+Through an intermediary, I learned Trepashkin had two young daughters, as well as a wife who desperately wanted him to stay out of politics; combining these factors with his recent prison stint and the murder of his former colleague, it seemed likely that my approach to him would go as badly as had my conversations with other former dissenters.
+
+<q>Oh, he’ll talk,</q> the intermediary assured me. <q>The only way they’ll stop Trepashkin is by killing him.</q>
+
+* * *
+
+On September 9, five days after the blast in Buynaksk, the bombers struck Moscow. This time it was an eight-story apartment building on Guryanova Street, in a working-class neighborhood in the city’s southeast. Rather than a truck bomb, the device had been stashed on the building’s ground floor, but the result was virtually identical; the explosion brought down all eight floors and killed ninety-four residents as they slept.
+
+It was with Guryanova Street that the general alarm first went out. Within hours a number of Russian-government officials strongly suggested that terrorists from Chechnya were responsible, and the nation was sent into a state of high alert. As thousands of police fanned out to question — and in several hundred cases, to arrest — anyone resembling a Chechen, residents of apartment buildings throughout Russia organized themselves into neighborhood-watch patrols. Calls for retaliation rose from all political quarters.
+
+At Trepashkin’s request, our first meeting took place at a crowded coffee shop in central Moscow. One of his aides showed up first, and then twenty minutes later Trepashkin arrived in the company of his bodyguard of sorts, a muscular young man with a crewcut and an opaque stare.
+
+Trepashkin, while short, was powerfully built — a testament to his lifelong practice of a variety of martial arts — and still very handsome at 51. His most arresting feature, though, was a perpetual amused grin. It gave him an aura of instant likability, friendliness, although I could imagine that anyone who sat across an interrogation table from him back in his <abbr class='smallcaps'>KGB</abbr> days might have found it unnerving.
+
+For a few minutes, we chatted about everyday things — the unusually cold weather in Moscow just then, the changes I’d noticed since my last visit — and I sensed Trepashkin was trying to figure me out, deciding how much to say.
+
+Then he began to tell me about his career at the <abbr class='smallcaps'>KGB</abbr>. He’d spent most of his years as a criminal investigator who specialized in antiques smuggling. He was, in those days, an absolute loyalist to the Soviet state — and most especially the <abbr class='smallcaps'>KGB</abbr>. Trepashkin was such a dedicated Soviet that he even supported a group that attempted to thwart the ascent of <span class='person'>Boris Yeltsin</span> in favor of preserving the Soviet system.
+
+<q>I could see that this was going to be the end of the Soviet Union,</q> Trepashkin explained in the coffee shop. <q>But even more than that, what would happen to the <abbr class='smallcaps'>KGB</abbr>, to all of us who had made it our lives? I saw only disaster coming.</q>
+
+And that disaster came. With the disintegration of the Soviet Union, Russia plunged into economic and social chaos. One particularly destructive aspect of that chaos stemmed from the vast legions of Russian <abbr class='smallcaps'>KGB</abbr> officers who suddenly entered the private sector. Some went into business for themselves or joined on with the mafiyas they had once been detailed to combat. Still others signed on as “advisers” or muscle for the new oligarchs or the old Communist Party bosses who were frantically grabbing up anything of value in Russia, even as they paid obeisance to the “democratic reforms” of President Boris Yeltsin.
+
+Of all this, Trepashkin had an intimate view. Kept on with the <abbr class='smallcaps'>FSB</abbr>, the Russian successor the the <abbr class='smallcaps'>KGB</abbr>, the investigator found it increasingly difficult to differentiate criminality from governmental policy.
+
+<q>In case after case,</q> he said, <q>there was this blending. You would find mafiyas working with terrorist groups, but then the trail would lead to a business group or maybe to a state ministry. So then, was this still a criminal case, or some kind of officially sanctioned black operation? And just what did ‘officially sanctioned’ actually mean anymore, because who was really in charge?</q>
+
+Finally, in the summer of <ins>0</ins>1995, Mikhail Trepashkin began work on a case that would change him forever, one that placed him on a collision course with the seniormost commanders of the <abbr class='smallcaps'>FSB</abbr> and, Trepashkin says, would lead at least one of them to plot his assassination. As with so many other incidents that exposed the malevolent rot in post-Soviet Russia, this one centered on events in the breakaway southern republic of Chechnya.
+
+By December <ins>0</ins>1995, rebels fighting for the independence of Chechnya had fought the Russian army to a bloody and humiliating stalemate after a full year of war. The Chechens’ success was not as simple as mere force of arms, however. Even during the Soviet era, Chechen mafiyas had controlled much of the Russian criminal underworld, so when Russian society itself became criminalized it played beautifully to the Chechen rebels’ advantage. For their steady supply of sophisticated weapons with which to fight the Russian army, the rebels often had only to turn to corrupt Russian army officers who had access to such weaponry, with the funds for such “purchases” supplied by the Chechen crime syndicates operating throughout the nation.
+
+Just how high up did this cozy arrangement go? Mikhail Trepashkin got his answer on the night of December 1, when a team of <abbr class='smallcaps'>FSB</abbr> officers stormed a Moscow branch of Bank Soldi with guns drawn.
+
+The raid that night was the culmination of an elaborate sting operation, one that Trepashkin had helped supervise, designed to finally bring down a notorious bank-extortion team linked to a Chechen rebel leader named <span class='person'>Salman Raduyev</span>> It was a huge success: Caught up in the Soldi dragnet were some two dozen conspirators, including two <abbr class='smallcaps'>FSB</abbr> officers and a Russian-military general.
+
+But inside the bank, the <abbr class='smallcaps'>FSB</abbr> men found something else. To ensure they weren’t walking into a trap, the conspirators had planted electronic bugs throughout the building, and those were linked to an eavesdropping van parked outside. While their precautions obviously needed some fine-tuning, it begged the question of how the gang got their hands on bugging equipment.
+
+<q>All these sorts of devices have serial numbers,</q> Trepashkin explained in the Moscow coffee shop, <q>and so we traced the numbers back. We discovered that it had all come from either the <abbr class='smallcaps'>FSB</abbr> or the Ministry of Defense.</q>
+
+The implication of this was staggering, for access to such equipment was severely restricted. It suggested that high-ranking security and military officers had colluded not only with a criminal gang but with one whose express purpose was to raise funds for a war against Russia. By the standards of any country, that wasn’t just corruption, it was treason.
+
+Yet no sooner had Trepashkin started down that investigative trail than he was removed from the Bank Soldi case by <span class='person'>Nikolai Patrushev</span>, the head of the <abbr class='smallcaps'>FSB</abbr>’s internal-security department. What’s more, he says, no charges were brought against any of the Russian officers implicated, and nearly all of those caught in the initial dragnet were soon quietly released. Instead, Patrushev ordered an investigation of Trepashkin. That investigation lasted nearly two years, at the end of which Trepashkin had reached his personal breaking point. In May <ins>0</ins>1997, he wrote an open letter to President Yeltsin detailing his involvement in the case and charging much of the senior <abbr class='smallcaps'>FSB</abbr> leadership with a host of crimes, including forming alliances with mafiyas and even recruiting their members into <abbr class='smallcaps'>FSB</abbr> ranks.
+
+<q>I thought that if the president knew what was happening,</q> Trepashkin said, <q>then he would do something about it. This was a mistake on my part.</q>
+
+Indeed. Boris Yeltsin, it turned out, was fabulously corrupt himself, and the letter alerted the <abbr class='smallcaps'>FSB</abbr> that they now had a serious malcontent on their hands. The very next month, Trepashkin resigned from the <abbr class='smallcaps'>FSB</abbr>, burn out, he says, but the harassment he’d been subjected to. But that didn’t mean Trepashkin was going to go quietly into the night. That summer he brought a lawsuit against the <abbr class='smallcaps'>FSB</abbr> leadership and began filing complaints that extended all the way to the <abbr class='smallcaps'>FSB</abbr> director himself. It was as if, even at this late date, the investigator imagined that the honor of the Kontora (Bureau) could still be redeemed, that some as yet invisible reformer might step forward. Instead, his persistence apparently convinced some senior <abbr class='smallcaps'>FSB</abbr> officials that it was time for a permanent solution to their Trepashkin problem. One of the first people they turned to was Alexander Litvinenko.
+
+On paper, Litvinenko looked just the man for the job. Having just returned to Moscow from a stint on the brutal Chechen battlefield as a counterterrorism operative, he had been transferred into a new and highly secretive of the <abbr class='smallcaps'>FSB</abbr> called the Office for the Analysis of Criminal Organizations, or <abbr class='smallcaps'>URPO</abbr>. While Litvinenko didn’t know it at the time, it seemed the <abbr class='smallcaps'>URPO</abbr> had been formed to serve as a death squad. As reported in the book <span class='book'>Death of a Dissident</span>, by <span class='person'>Alex Goldfarb</span> and Litvinenko’s widow, Marina, Litvinenko learned of this when he was summoned by the <abbr class='smallcaps'>URPO</abbr> commander in October <ins>0</ins>1997. <q>There is this guy, Mikhail Trepashkin,</q> the commander allegedly told Litvinenko. <q>He is your new object. Go get his file and make yourself familiar with it.</q>
+
+When he did, Litvinenko learned of the criminal investigator’s involvement with the Bank Solid case, as well as his lawsuit against the <abbr class='smallcaps'>FSB</abbr> leadership; it left him puzzled as to just what he was supposed to do with Trepashkin.
+
+<q>Well, it’s a delicate situation,</q> Litvinenko quoted his commander as saying. <q>You know, he is taking the director to court and giving interviews. We should shut him up, director’s personal request.</q>
+
+Shortly after, Litvinenko claimed his target list expanded to include <span class='person'>Boris Berezovsky</span>, an oligarch and Kremlin insider whom apparently someone powerful now wanted dead. Litvinenko stalled for a time, making continual excuses for his inability to carry out the assassination orders.
+
+According to Trepashkin, at least two attempts were made on his life during this period: a failed ambush on a deserted stretch of Moscow highway, and a rooftop sniper who couldn’t get off a clean shot. On other occasions, he says, he was tipped off by friends still in the Kontora.
+
+In November, the alleged <abbr class='smallcaps'>FSB</abbr> plot against Trepashkin and Berezovsky was exposed in dramatic fashion when Litvinenko and four of his <abbr class='smallcaps'>URPO</abbr> colleagues appeared at a Moscow news conference to detail the kill orders they’d been given. Also in attendance was Mikhail Trepashkin.
+
+And there, somewhat anticlimactically, the matter seemed to end. Litvinenko, the ringleader of the dissident officers, was summarily dismissed but otherwise suffered no immediate retribution. As for Trepashkin, after improbably winning his lawsuit against the <abbr class='smallcaps'>FSB</abbr>, he married for a second time and settled into his new job with the Russian tax police, determined, he says, to quietly serve out his term until he was eligible for retirement.
+
+But then, in September <ins>0</ins>1999, the apartment-building bombings would shake Russia’s political foundations to their core. Those attacks would also propel Trepashkin and Litvinenko back into the shadow world, this time with a common purpose.
+
+* * *
+
+Amid the near hysteria that gripped Moscow after the Guryanova Street bombing, early on the morning of September 13, <ins>0</ins>1999, authorities were called to check on reports of suspicious activity at an apartment building on the city‘s southern outskirts. Finding nothing untoward, security personnel completed their search of 6/3 Kashirskoye at about 2 <abbr class='smallcaps'>A.M.</abbr> and left. At 5:03 <abbr class='smallcaps'>A.M></abbr>, the nine-story building was collapsed by a massive bomb, leaving 121 civilians dead.
+
+Three days later, the target was an apartment building in Volgodonsk, a city south of Moscow. This time it was a truck bomb, and it left another seventeen dead.
+
+* * *
+
+In the Moscow coffee shop, Trepashkin grew uncharacteristically somber, staring into the distance for a long moment.
+
+<q>It just seemed incredible,</q> he said finally. <q>That was my first thought. The country is in an uproar, vigilantes are stopping strangers on the streets, there are police roadblocks everywhere. So how is it possible that these bombers are moving about so freely, that they have all this time to set up and carry out these sophisticated bombings? It seemed impossible.</q>
+
+Another aspect that Trepashkin had a problem with was the question of motive.
+
+<q>Usually, this is quite easy to find,</q> he explained, <q>it is money or hatred or jealousy, but for these bombings, what was the Chechens’ motive? Very few people thought about this.</q>
+
+On one level, this was perhaps understandable. Antipathy for Chechens is deeply ingrained into Russian society, and it had grown much worse during their secessionist war in the ’90s. Unspeakable atrocities were committed by both sides in that conflict, and the Chechen rebels had shown no compunction against taking their fight into Russia proper or targeting civilians. Except that war had ended in <ins>0</ins>1997, with Boris Yeltsin signing a peace agreement recognizing Chechnya’s autonomy.
+
+<q>So why?</q> Trepashkin continued. <q>Why would the Chechens want to provoke the Russian government when they already had everything they had fought for?</q>
+
+And there was something else that gave the former criminal investigator pause: the composition of the new Russian government.
+
+In early August <ins>0</ins>1999, just weeks before the first bombing on Buynaksk, President Yeltsin had appointed his third prime minister in less than three months. He was a slight, humorless main, virtually unknown to the Russian public, named Vladimir Putin.
+
+The chief reason he was so little known was that, until a few years earlier, Putin had been just one more midlevel <abbr class='smallcaps'>KGB</abbr>/<abbr class='smallcaps'>FSB</abbr> officer toiling away in obscurity. In <ins>0</ins>1996, Putin was given a position in the presidential-property-management department, a crucial office in the Yeltsin patronage machine that gave Putin leverage to grant or withhold favors to Kremlin insiders. He apparently put his time there to good use; over the next three years, Putin was promoted to deputy chief of the presidential staff, then to director of the <abbr class='smallcaps'>FSB</abbr>, and now to prime minister.
+
+But though Putin was still obscure to the general public in September <ins>0</ins>1999, Mikhail Trepashkin already had a pretty good sense of the man. Putin had been the <abbr class='smallcaps'>FSB</abbr> director at the time the <abbr class='smallcaps'>URPO</abbr> scandal went public and had personally dismissed Alexander Litvinenko for provoking it. <q>I fired Litvinenko,</q> he had told a reporter, <q>because <abbr class='smallcaps'>FSB</abbr> officers shouldn’t hold press conferences… and they shouldn’t make internal scandals public.</q>
+
+But equally alarming to Trepashkin was who had been chosen to be Putin’s successor as <abbr class='smallcaps'>FSB</abbr> director, Nikolai Patrushev. As head of the <abbr class='smallcaps'>FSB</abbr> internal-security department, it was Patrushev who had removed Trepashkin from the Bank Soldi case and who was now among those government officials most vehemently claiming a Chechen connection to the apartment-building bombings.
+
+<q>So what you saw was this dynamic building,</q> Trepashkin said, <q>and it was the government promoting it. ‘The Chechens are behind this, so now we must take care of the Chechens’.</q>
+
+But then something very strange happened. It happened in the sleepy provincial city of Ryazan, some 120 miles southeast of Moscow.
+
+Amid the state of hypervigilance that had seized the nation, several residents of 14/16 Novosyolov Street in Ryazan took notice when a white Zhiguli sedan pulled up to park beside their apartment building on the evening of September 22. They became downright panicked when they observed two men removing several large sacks from the car’s trunk and carrying them into the basement before speeding away. Residents called the police.
+
+Discovered in the basement were three 110-pound white sacks wired to a detonator and explosive timer. As police quickly evacuated the building, the local <abbr class='smallcaps'>FSB</abbr> explosives expert was called in to defuse the detonator; he determined that the sacks contained <abbr class='smallcaps'>RDX</abbr>, a explosive powerful enough to have brought the entire apartment building down. IN the meantime, roadblocks were established on all roads out of Ryazan, and a massive manhunt for the Zhiguli and its occupants got underway.
+
+By the following afternoon, word of the incident in Ryazan had spread across Russia. Prime Minister Putin congratulated the residents on their vigilance, while the interior minister lauded recent improvements by the security forces, <q>such as the foiling of the attempt to blowup the apartment building in Ryazan.</q>
+
+There the matter may well have ended, except that same night two of the suspects in Ryazan were apprehended. To the local authorities’ astonishment, both produced <abbr class='smallcaps'>FSB</abbr> identification cards. A short time later, a call came down from <abbr class='smallcaps'>FSB</abbr> headquarters in Moscow that the two were to be released.
+
+The following morning, <abbr class='smallcaps'>FSB</abbr> director Patrushev appeared on television to report a wholly new version of events in Ryazan. Rather than an aborted terrorist attack, he explained, the incident at 14/16 Novosyolov Street had actually been an <abbr class='smallcaps'>FSB</abbr> “training exercise” to test the public’s alertness. Further, he said, the sacks in the basement had contained not explosives, but rather common household sugar.
+
+Contradictions in the <abbr class='smallcaps'>FSB</abbr>’s account were manifold. How to reconcile <abbr class='smallcaps'>FSB</abbr> headquarters’ sacks-of-sugar claim with the local <abbr class='smallcaps'>FSB</abbr>’s chemical analysis that had found <abbr class='smallcaps'>RDX</abbr>? If this truly had been a training exercise, how was it that the local <abbr class='smallcaps'>FSB</abbr> branch wasn’t informed ahead of time, or that Patrushev himself didn’t see fit to make mention of it for a day and a half after the terrorist alert was raised? For that matter, why did the apartment-building-bombing spree suddenly stop after Ryazan? If the attacks were truly the handiwork of Chechen terrorists, surely the public-relations black eye the <abbr class='smallcaps'>FSB</abbr> had received over the Ryazan affair would spur them to carry out more.
+
+But the time for such questions had already passed. Even as Prime Minister Putin gave his speech on the night of September 23 praising the residents of Ryazan for their vigilance, Russian warplanes began launching massive air strikes on Grozny, the capital of Chechnya. Within a few more days, Russian armored battalions that had been massed on the border for months crossed into Chechnya, marking the start of the Second Chechen War.
+
+Events moved very quickly after that. On New Year’s Eve <ins>0</ins>1999, Boris Yeltsin stunned the nation by announcing that he was stepping down from the presidency effective immediately, which made Vladimir Putin acting president until new elections could be held. And instead of holding them sometime in the summer, as originally scheduled, those elections would now occur in just ten weeks’ time, leaving Putin’s many competitors for the position little time to prepare.
+
+In a presidential poll taken in August <ins>0</ins>1999, Putin had garnered less than 2 percent support. By March <ins>0</ins>2000, however, riding a wave of popularity for his total-war policy in Chechnya, he swept into office with 53 percent of the vote. The reign of Vladimir Putin had begun, and Russia would never be the same.
+
+* * *
+
+For our next meeting, Trepashkin invited me into his apartment. I was a bit surprised by this — I’d been told that, for security reasons, Trepashkin rarely brought visitors to his home — but I guess he figured all his enemies knew where he lived, anyway.
+
+It was a pleasant enough place, if a bit on the spartan side, on the ground floor of a high-rise tower surrounded by other high-rise towers in southern Moscow. Trepashkin gave me a quick tour, and I noticed that the only space with even a hint of clutter was the tiny, paper-filled room — a converted walk-in closet, really — he used as his office. One of his daughters was home, and she brought us tea as we settled in the sitting room.
+
+With a vaguely embarrassed smile, Trepashkin offered that there was actually another reason he rarely had work-related meetings at his home: his wife. <q>She wants me to stop all this political stuff, but since she is away this morning…</q> His smile eased away. <q>Well, it’s because of the raids. You know, they came charging in here</q> — he waved toward the front door — <q>with their guns, shouting orders; the children were terrified. It really affected my wife, and she is always worried it will happen again.</q>
+
+The first of those raids had occurred in January <ins>0</ins>2002. Late one night, a squad of <abbr class='smallcaps'>FSB</abbr> agents burst in and proceeded to take the apartment apart. Trepashkin maintains they found nothing but instead planted enough evidence — some classified documents from the <abbr class='smallcaps'>FSB</abbr> archives, a handful of bullets — to enable prosecutors to hang three “pending” charges over his head.
+
+<q>It was their way of putting me on notice,</q> he explained, <q>of letting me know they would come after me if I didn’t straighten up.</q>
+
+Trepashkin had a good idea of what had sparked the <abbr class='smallcaps'>FSB</abbr>’s attention: Just days before the raid, he had started getting telephone calls from the man regarded by the Putin regime as one of Russia’s greatest traitors, Alexander Litvinenko.
+
+Lieutenant Colonel Litvinenko’s fall from grace had been swift. After his <ins>0</ins>1998 press conference alleging the <abbr class='smallcaps'>URPO</abbr> assassination plots, he’d spent nine months in prison on an “abuse of authority” charge and had then fled Russia as prosecutors prepared to move against him again. With the help of the now exiled tycoon Boris Berezovsky, Litvinenko and his family settled in England, where he joined forces with Berezovsky to expose to the world what they claimed were the crimes of the Putin regime. A primary focus of that campaign was getting to the truth of the apartment-building bombings.
+
+<q>So this is why he was calling,</q> Trepashkin explained. <q>Litvinenko couldn’t come back to Russia, obviously, so they needed someone here to help with the investigation.</q>
+
+Easier said than done, for by January <ins>0</ins>2002, Russia had become a very different place. In the two years since Putin had been elected president, the once-thriving independent media had all but disappeared, while the political opposition was being steadily marginalized to the point of insignificance.
+
+One indication of this chilling effect was the revisions performed on the shakiest aspect of the government’s bombing story, the <abbr class='smallcaps'>FSB</abbr> “training exercise” in Ryazan. By <ins>0</ins>2002 the Ryazan <abbr class='smallcaps'>FSB</abbr> commander who had overseen the manhunt for “the terrorists” now supported the training-exercise explanation. The local <abbr class='smallcaps'>FSB</abbr> explosives expert who had insisted before television cameras that the Ryazan sacks contained explosives suddenly went silent on the whole matter and disappeared from sight. Even some of the residents of 14/16 Novosyolov Street who had appeared in a television documentary six months after the incident to angrily deride the <abbr class='smallcaps'>FSB</abbr>’s account and insist the bomb was real now refused to talk with anyone beyond allowing that perhaps they’d been mistaken after all.
+
+<q>I told Litvinenko that the only way I could become involved was in some kind of official capacity,</q> Trepashkin explained in his sitting room. <q>If I just went out on my own, the authorities would move against me immediately.</q>
+
+That official capacity was fashioned at a meeting held in Boris Berezovsky’s London office in early March <ins>0</ins>2002. one of those in attendance, a Russian member of Parliament named <span class='person'>Sergei Yushenkov</span>, would organize a blue-ribbon committee of inquiry into the bombings and make Trepashkin one of his investigators. Another attendee was <span class='person'>Tatiana Morozova</span>, a 31-year-old Russian émigré living in Milwaukee, Wisconsin. Morozova’s mother had been killed in the Guryanova Street blast, and under Russian law that gave her the right to review the government’s records on the case; since Trepashkin had recently obtained his license to practice law, Morozova would appoint him as her attorney and petition the courts for access to the <abbr class='smallcaps'>FSB</abbr>’s Guryanova Street files.
+
+<q>So I agreed to both of these ideas,</q> Trepashkin said, <q>but the question was where to look first. So many of the reports were unreliable, and so many people had changed their stories, that my first goal was to get access to the actual forensic evidence.</q>
+
+Also easier said than done, for a hallmark of the government’s response to the bombings had been a peculiar haste in clearing away the ruins. Whereas, for example, the Americans had spent six months sifting through the remnants of the World Trade Center after September 11, regarding it as an active crime scene, Russian authorities had razed 19 Guryanova street just days after the blast and hauled everything away to a municipal dump. Whatever forensic evidence had been preserved — and it wasn’t clear that any had — was presumably locked away in <abbr class='smallcaps'>FSB</abbr> storehouses.
+
+While what he discovered didn’t pertain to the specifics of the bombings, Trepashkin did soon manage to come up with something quite interesting.
+
+One of the odder footnotes to the whole affair was a statement that <span class='person'>Gennady Seleznyov</span>, the Speaker of the Duma, had made on the floor of Parliament on the morning of September 13, <ins>0</ins>1999. <q>I have just received a report,</q> he had announced to legislators. <q>An apartment building in the city of Volgodonsk was blown up last night.</q>
+
+While Seleznyov got the basics right — an apartment building had indeed just been blown up — he had the wrong city; the blast that morning had been at 6/3 Kashirskoye Highway in Moscow. Which put the Speaker in kind of an awkward spot when an apartment building in Volgodonsk *was* blown up three days later. At least one Duma member found that puzzling.
+
+<q><abbr class='smallcaps'>Mr.</abbr> Speaker, please explain,</q> he had asked Seleznyov on the Parliament floor, <q>how come you told us on Monday about the blast that occurred on Thursday?</q>
+
+In lieu of an answer, the questioner had his microphone quickly cut off.
+
+To many observers, it suggested that someone in the <abbr class='smallcaps'>FSB</abbr> chain of command had screwed up the order in which the bombings were to take place and had given the “news” to Seleznyov in reverse.
+
+Searching around nearly three years after the fact, Trepashkin says he determined that Seleznyov had been given the erroneous report by an <abbr class='smallcaps'>FSB</abbr> officer, though he won’t say how he knows.
+
+But with progress also came the potential for danger to Trepashkin. One of those who had attended the London meeting, human-rights activist and Berezovsky lieutenant <span class='person'>Alex Goldfarb</span>, became concerned enough about Trepashkin’s welfare that he arranged a meeting with him in Ukraine in early <ins>0</ins>2003. The two had never met before, and Goldfarb found it an odd encounter.
+
+<q>He was one of the stranger people I’ve ever met,</q> Goldfarb recounted. <q>He had no interest in the philosophical or political implications of what he was doing. To him, this was all just a criminal case. In the back of my mind, I was thinking, ‘Is this guy crazy? Doesn’t he appreciate what he’s up against?’ but I finally concluded he was this kind of supercop — you know, a Serpico figure. He was determined to do the right thing because it was the right thing to do; it was just that simple.</q> Still, Goldfarb felt it his duty to at least alert Trepashkin to the deepening peril, the very little that could be done if the authorities decided to go after him. The more he pressed on this, though, the more Trepashkin seemed to bristle.
+
+<q>He didn’t care about any of that,</q> Goldfarb remembered. <q>I think he still believed he was fighting to reform the system, rather than that he was up against the system itself.</q>
+
+But as it turned out, the hammer first fell elsewhere. In April <ins>0</ins>2003, Sergei Yushenkov, the Duma member who had hired Trepashkin for his committee of inquiry, was murdered in front of his Moscow home, shot down in broad daylight. Three months later, another committee member died under mysterious circumstances. The two deaths effectively ended the independent inquiry — which also meant that Trepashkin was now essentially on his own. Still, acting as Tatiana Morozova’s attorney, he soldiered on — and in July <ins>0</ins>2003, he finally hit pay dirt. It hinged on another loose end in the case, one that no amount of cleaning up after the fact could quite tie off.
+
+In the hours just before the Guryanova Street bombing, the <abbr class='smallcaps'>FSB</abbr> had released a composite sketch of a suspect based on information provided by a building manager. But soon after and with no explanation, that sketch had been withdrawn and replaced with that of a completely different man. This second man had long since been identified as one <span class='person'>Achemez Gochiyayev</span>, a small-time businessman from the region of Cherkessia, who had immediately gone into hiding. In the spring of <ins>0</ins>2002, Alexander Litvinenko had tracked Gochiyayev to a remote area of Georgia where, through an intermediary, the businessman steadfastly insisted that he had been framed by the <abbr class='smallcaps'>FSB</abbr> and had only run because he was sure they would kill him.
+
+It made Trepashkin very curious to learn the identity of the man in the first sketch, even more so when, going through the voluminous <abbr class='smallcaps'>FSB</abbr> files on Guryanova Street, he discovered there wasn’t a copy of it to be found anywhere. As a last resort, he started sifting through newspaper archives to see if any had run that sketch before the <abbr class='smallcaps'>FSB</abbr> had pulled it from circulation. And there it was.
+
+It depicted a square-jawed man in his mid-30s, with dark hair and glasses. Trepashkin was convinced he knew the man, that in fact he had arrested him eight years before. He believed it was a sketch of <span class='person'>Vladimir Romanovich</span>, the <abbr class='smallcaps'>FSB</abbr> agent who had manned the electronic-surveillance van for the Raduyev gang during the robbery of Bank Soldi.
+
+Trepashkin’s first thought was to find Romanovich and try to compel him to reveal his role in the apartment bombings. Not likely. As far as Trepashkin could determine, shortly after the bombings, Romanovich had left Russia for Cyprus and died there in the summer of <ins>0</ins>2000, killed by a hit-and-run driver.
+
+Trepashkin then tracked down the original source of the sketch, the Guryanova Street building manager.
+
+<q>I showed him the sketch of Romanovich,</q> Trepashkin said in his sitting room, <q>And he told me that was the accurate one, the one he had given to the police. But then they had taken him to Lubyakna [<abbr class='smallcaps'>FSB</abbr> headquarters], where they showed him the Gochiyayev sketch and insisted that was the man he saw.</q>
+
+With his bombshell, Trepashkin planned a little surprise for the authorities. the <abbr class='smallcaps'>FSB</abbr> had long since released the names of nine men they claimed were responsible for the Moscow and Volgodonsk bombings. Ironically, considering that the bombings had been the chief pretext for embarking on the Second Chechen War, none of these suspects were Chechen. By the summer of <ins>0</ins>2003, five of those men were reportedly dead, and two others remained at large, but the trial for the two in custody was slated to begin that October. As attorney for Tatiana Morozova, Trepashkin intended to attend the trial and introduce the Romanovich sketch as evidence for the defense.
+
+He took an added precaution. Shortly before the trial’s tart, he met with <span class='person'>Igor Korolkov</span>, a journalist with the independent magazine <span class='magazine'>Moskovskiye Novosti</span>, and described the Romanovich connection in detail.
+
+<q>He said, ‘If they get me, at least everyone will know why,’</q> Korolkov explained. <q>He was apprehensive, tense, because I think he already knew they were coming for him.</q>
+
+Sure enough, shortly after meeting with Korolkov, Trepashkin was picked up by authorities. while he was being held, the <abbr class='smallcaps'>FSB</abbr> conducted another raid on his apartment, this one involving a whole busload of agents.
+
+<q>I understand it was very exciting for the neighbors,</q> Trepashkin said with a laugh, <q>the biggest thing to happen around here in a long time.</q>
+
+They brought him up on an old <abbr class='smallcaps'>FSB</abbr> standby — possession of an unlicensed gun — but the judge, apparently familiar with that tired cliché, immediately dismissed the charge. Prosecutors then turned to the charges they still had pending on Trepashkin from the raid two years earlier and the classified he maintains were planted. It wasn’t much, but it was enough; tried in a closed court, trepashkin received a four-year sentence for “improper handling of classified material” and was shipped off to a prison camp in the Ural Mountains.
+
+In his absence, the two men tried for the apartment bombings were found guilty and sentenced to life in prison. Declaring the matter officially closed, the government then ordered all <abbr class='smallcaps'>FSB</abbr> investigative files on the case to be sealed for the next seventy-five years.
+
+* * *
+
+My last question to Mikhail Trepashkin was something of a throwaway.
+
+We were standing on the sidewalk outside his apartment building, and I asked him if, in looking over the trajectory of his life for the past fifteen years, he would have done things any differently.
+
+It was a throwaway because people in Trepashkin’s position, those who have waged battle against power and been crushed, almost invariably say no: In the pursuit of justice or liberty or a better society, they explain, they’d do it all again and in just the same way. It’s what such people tell themselves to give their suffering meaning.
+
+Instead, Trepashkin gave a quick laugh, his face creasing into his trademark grin.
+
+<q>Yes,</q> he said, <q>I would have done things very differently. I see now that one of my flaws is that I am too trusting. I always thought the problems were with just a few bad people, not with the system itself. Even when I was in prison, I never believed that Putin could actually be behind it. I always believed that once he knew, I would be released immediately.</q> Trepashkin’s grin eased away; he gave a slow shrug of his powerful shoulders. <q>So a certain naïveté, I guess, that led to mistakes.</q>
+
+I wasn’t wholly convinced of this. More than naïveté, I suspected his “flaw” was actually rooted in a kind of old-fashioned — if not downright medieval — sense of loyalty. At our first meeting, Trepashkin had given me a copy of his official résumé, a document that ran to sixteen pages, and the first thing that struck me was the prominence he’d given to the many awards and commendations he had received over his lifetime of service to the state: as a navy specialist, as a <abbr class='smallcaps'>KGB</abbr> officer, as an <abbr class='smallcaps'>FSB</abbr> investigator. As bizarre or as quaint as it might seem, he was still a true believer. How else to explain the years he had spent being the dutiful investigator, meticulously building cases against organized-crime syndicates or corrupt government officials, while stubbornly refusing to accept that, in the new Russia, it was the thieves themselves who ran the show?
+
+Of course, it was also this abiding sense of loyalty that rather paralyzed Trepashkin and prevented him from learning from his past “mistakes,” from living his life any differently in order to get out of harm’s way. For that matter, even the change of venue of our meeting from his apartment to the sidewalk outside was kind of a testament to Trepashkin’s obduracy; his wife, returning home earlier than expected, had been so incensed at finding him meeting with a Western journalist that she’d promptly kicked both of us out of the house.
+
+<q>Well, what can you do?</q> Trepashkin had whispered as we’d fled, as if he really had no control over the matter.
+
+But perhaps his wife’s edginess that day — September 25 — was rooted in something else. That afternoon, Trepashkin was headed downtown to meet with a handful of his supporters, and then at 6 <abbr class='smallcaps'>P.M.</abbr> they would hold a demonstration in Pushkin Square to demand a new investigation into the bombings. <q>You should come by,</q> he said with his usual grin. <q>It could be interesting.</q>
+
+In the five years since Trepashkin had first gone off to prison, there’d been a lot of changes in Russia — but none of them particularly auspicious for a man like him. In March <ins>0</ins>2004, Vladimir Putin had been reelected with 71 percent of the vote, and he’d use the mandate to even more forcefully restrict political and press freedoms. In October <ins>0</ins>2006, <span class='person'>Anna Politkovskaya</span>, Russia’s leading investigative journalist and someone who had written extensively on the murky connections between the <abbr class='smallcaps'>FSB</abbr> and Chechen “terrorists,” had been shot to death in the elevator of her Moscow apartment building. The following month, it had been Alexander Litvinenko’s turn to be eliminated.
+
+But perhaps most dispiriting, it appeared the Russian public saw very little cause for worry in all this. Instead, with their economy booming on a flood of petrodollars, most seemed rather pleased with Putin’s tough-guy image and his increasingly belligerent posture to the outside world, the whiff of superpower redux it conveyed. This image was fittingly captured in May <ins>0</ins>2008 when Putin, constitutionally barred from a third term as president (although he remained on as prime minister), officially handed the reins of state over to his handpicked successor, <span class='person'>Dmitry Medvedev</span>. For the occasion, the two men donned matching black jackets with Medvedev in jeans, looking less like co-heads of state than a pair of gangsters as they strutted about Red Square. Even Russia’s ferocious intervention in Georgia in August <ins>0</ins>2008, an act roundly denounced in the West, spawned a new burst of Russian national pride, a new spike in Putin’s popularity.
+
+Perhaps not surprising, then, the rally in Pushkin Square was a rather pitiful showing. Other than Trepashkin and his closest aides, perhaps thirty demonstrators showed up. Many of them were elderly people who had lost relatives in the bombings, and they stood mutely on the sidewalk holding up posters or faded photographs of their dead. The small band was watched over by eight uniformed policemen — and presumably a number of others in plainclothes — but it seemed quite unnecessary. Of the vast throngs passing on the sidewalk at rush hour, very few gave the protestors a second glance, and fewer still took the leaflet proffered them.
+
+Watching Trepashkin that evening, it seemed there might be another way to understand why someone like him was still alive while people like LItvinenko and Politkovskaya were dead. Part of it, no doubt, is that Trepashkin has always shied away from pointing an accusatory finger directly at Putin or anyone else in connection with the apartment bombings. This fits with his criminal investigator’s mind-set: that you only make accusations based on facts, on what is knowable and certain.
+
+But surely another part of it is his single-minded focus on getting to the bottom of the apartment bombings, his bringing the same level of dogged tenacity to that case as he did to the Bank Soldi affair. This was the problem for Litvinenko and Politkovskaya: They made so many accusations against so many members of Russia’s ruling circle that they gave their enemies safety in numbers. For Trepashkin, there is really nothing else but the apartment bombings, and if he is murdered, everyone in Russia will know why.
+
+The irony, though, is that by continuing to push on with the case, and by continuing to call for a public investigation, Trepashkin may also be propelling himself ever closer to the answers that will destroy him. So long as those behind the bombings are confident that they have won or that they have at least sufficiently buried the past, he remains relatively safe. It is when the crowds start taking his leaflets that the danger to him grows.
+
+That day may now be fast approaching. Amid the international economic collapse of the past year, few countries have been more ravaged than russia, and almost every day brings accounts of new popular protests: against the oligarchs, against government policies, increasingly against Vladimir Putin himself. It may not be very long now before the Russian people start to ask themselves how all this was set in motion and remember back to the awful events of September <ins>0</ins>1999.
+
+But it didn’t come on that day in Pushkin Square. On that day, the throngs were still true believers in the Russian renaissance, and they hurried on past Trepashkin toward the subway and home, hurried toward the bright, shiny future their ruler has promised them.
