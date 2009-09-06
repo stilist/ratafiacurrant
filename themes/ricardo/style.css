@@ -83,6 +83,11 @@ ins:before {
 ins:after {
  content: ']';
 }
+q[lang-=en] { quotes: "“" "”" "‘" "’"; }
+q[lang=en-GB] { quotes: "‘" "’" "“" "”"; }
+q[lang-=fr] { quotes: "«" "»"; }
+q[lang-=de] { quotes: "„" "“" "‚" "‘"; }
+q[lang-=ru] { quotes: "«" "»" "„" "“"; }
 strong {
  font-size: .9em;
  font-weight: normal;
