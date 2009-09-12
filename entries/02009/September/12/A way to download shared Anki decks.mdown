@@ -1,0 +1,22 @@
+PERMALINK: /post/186115554/a-way-to-download-shared-anki-decks
+PUBLISHED: Sep 12th, 02009 10:15am
+TAGS: anki, bugs, hacks
+
+Today I downloaded [Anki][anki] as a result of [a discussion at Hacker
+News][hn]. When I attempted to download a deck (none are built-in), I
+consistently got errors — complaints about bad ZIP files, file problems, and so
+on. After some digging, I found a techy workaround.
+
+ [anki]: http://ichi2.net/anki/
+ [hn]: http://news.ycombinator.com/item?id=818157
+
+1. Find an interesting deck using Anki’s shared deck list.
+1. Load `http://anki.ichi2.net/file/search` in your browser.
+1. Search for the name of the deck you wanted. Note the number immediately
+ after its opening `[`. For example, ‘Latin 101’ is `33`. 
+1. Open a command line (<abbr lang='la'>e.g.</abbr> Terminal for Mac users).
+1. Type `curl http://anki.ichi2.net/file/get?id=NUMBER > deck.zip`
+ (again, ‘Latin 101’ would be `33`).
+1. Open the resultant zip.
+1. `shared.anki` is your deck, and can be renamed if desired. No other files
+ are needed.
