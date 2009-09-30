@@ -1,0 +1,38 @@
+LINK: http://gizmodo.com/5370252/apple-tablet-aiming-to-redefine-newspapers-textbooks-and-magazines
+PERMALINK: /post/201135489/apple-tablet-to-redefine-newspapers-textbooks-and
+PUBLISHED: Sep 30th, 02009 3:46pm
+TAGS: apple, appletablet, digital, ituneslp, multimedia
+
+<span class='person'>Brian Lam</span> reports that the rumored
+<span class='company'>Apple</span> tablet will be launched with a variety of
+multimedia-enhanced text sources. If correct,
+[iTunes <abbr class='smallcaps'>LP</abbr> and iTunes Extras][ars] are merely
+the first steps in [an envisioned world of enhanced digital formats][fs2].
+
+ [ars]: http://arstechnica.com/apple/news/2009/09/apple-rocks-and-rolls-with-new-ipods-itunes-lps.ars "“Apple rocks with iTunes 9, iTunes Store improvments”"
+ [fs2]: http://www.fakesteve.net/2009/09/nobody-seems-to-realize-true.html "“Tablet Part Two: The true significance of the Tablet”"
+
+Would such formats be open to anyone other than Apple?
+[iTunes <abbr class='smallcaps'>LP</abbr> is][itlp], but Lam writes:
+
+ [itlp]: http://jayrobinson.org/2009/09/11/some-notes-on-itunes-lp/ "“Some Notes on iTunes LP”"
+
+
+> The logic here is that textbooks are sold new at a few hundred dollars, and
+> resold by local stores without any kickbacks to publishers. A
+> <abbr class='smallcaps'>DRM</abbr>’d one-time-use book would not only be
+> attractive because publishers would earn more money, but electronic text
+> books would be able to be sold for a fraction of the cost, cutting out book
+> stores and creating a landslide marketshare shift by means of that huge price
+> differential.
+
+While Apple does seem rather taken with <abbr class='smallcaps'>HTML</abbr>
+these days — again, the iTunes <abbr class='smallcaps'>LP</abbr> format and
+[the Safari 4 welcome page][saf4] — the invocation of
+<abbr class='smallcaps'>DRM</abbr> means there has to be *some* kind of
+lockdown preventing the world at large from using the format.
+
+ [saf4]: http://www.apple.com/safari/welcome/
+
+As much as I love the idea of spiffy multimedia content, I don’t want Apple
+(or anyone else) controlling that future.
