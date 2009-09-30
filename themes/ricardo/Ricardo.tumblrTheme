@@ -6,7 +6,7 @@
   <meta name='keywords' content='jordan 
 cole, stilist, ratafia, ratafia currant'>
   <title>{block:PostTitle}{PostTitle} — {/block:PostTitle}Ratafia Currant</title>
-  <link rel='icon' type='text/css'
+  <link rel='shortcut icon'
         href='http://static.ratafia.info/favicon.ico'>
   <link rel='stylesheet' type='text/css' media='screen'
         href='http://static.ratafia.info/ricardo/style.css'>
@@ -61,12 +61,12 @@ while(x=eval(x));}
 
   {block:Posts}
   <div class='hentry'>
-   {block:Regular}
+   {block:Text}
    <h1 class='entry-title'>{block:IndexPage}<a href='{Permalink}'>{/block:IndexPage}{block:Title}{Title}{/block:Title}{block:IndexPage}</a>{/block:IndexPage}</h1>
    <div class='entry-content'>
     {Body}
    </div>
-   {/block:Regular}
+   {/block:Text}
    {block:Link}
    <h1 class='entry-title'><a href='{URL}'>{Name}</a></h1>
    {block:Description}
@@ -81,7 +81,7 @@ while(x=eval(x));}
     {Video-500}
    </div>
    {/block:Video}
-   <p class='signoff'>written <a href='/day/{Year}/{Month}/{DayOfMonth}/' class='published updated'>{DayOfMonth} {Month}, 0{Year}</a> • <a href='{Permalink}#disqus_thread'>Comments</a> <a href='{Permalink}' class='pilcrow' title='Permanent link to this entry' rel='bookmark'>⁋</a></p>
+   <p class='signoff'>written <a href='/day/{Year}/{MonthNumberWithZero}/{DayOfMonth}/' class='published updated'>{DayOfMonth} {Month}, 0{Year}</a> • <a href='{Permalink}#disqus_thread'>Comments</a> <a href='{Permalink}' class='pilcrow' title='Permanent link to this entry' rel='bookmark'>⁋</a></p>
   </div>
   {block:Posts}
 
