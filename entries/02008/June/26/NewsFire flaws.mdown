@@ -1,6 +1,9 @@
-PERMALINK: /post/39960754/newsfire-flaws
-PUBLISHED: Jun 26th, 02008 3:30pm
-TAGS: import:tumblr, newsfire, software
+KEYWORDS: import:tumblr, newsfire, software
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/39960754/newsfire-flaws
+PUBLISHED: 02008-06-26T15:30:00-0400
+TITLE: NewsFire flaws
+UPDATED: 02008-06-26T15:30:00-0400
 
 I recently switched over to [NewsFire][newsfi] as my feed reader, after
 becoming increasingly annoyed with the performance problems and ‘open source

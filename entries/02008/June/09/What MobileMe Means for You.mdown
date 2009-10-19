@@ -1,6 +1,9 @@
-PERMALINK: /post/37796887/what-mobileme-means-for-you
-PUBLISHED: Jun 9th, 02008 8:34pm
-TAGS: apple, cloudcomputing, import:tumblr, mobileme
+KEYWORDS: apple, cloudcomputing, import:tumblr, mobileme
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/37796887/what-mobileme-means-for-you
+PUBLISHED: 02008-06-09T20:34:00-0400
+TITLE: What MobileMe Means for You
+UPDATED: 02008-06-09T20:34:00-0400
 
 Today, among a number of other things, Apple announced [MobileMe][mm] — a
 service based around the idea of personal ‘cloud computing’. In essence, the

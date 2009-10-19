@@ -1,6 +1,9 @@
-PERMALINK: /post/65077849/searching-your-delicious-bookmarks-for-a-lacking-tag
-PUBLISHED: Dec 15th, 02008 10:05pm
-TAGS: bash, delicious, hacking
+KEYWORDS: bash, delicious, hacking
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/65077849/searching-your-delicious-bookmarks-for-a-lacking-tag
+PUBLISHED: 02008-12-15T22:05:00-0500
+TITLE: Searching your delicious bookmarks for a lacking tag
+UPDATED: 02008-12-15T22:05:00-0500
 
 Several months ago I began to more thoroughly tag things as I
 [bookmarked them][mydel], adding in things like the publication year, authors,

@@ -1,6 +1,9 @@
-PERMALINK: /post/31961887/paraphernalia-update-released
-PUBLISHED: Apr 16th, 02008 1:55pm
-TAGS: adium, design, import:tumblr
+KEYWORDS: adium, design, import:tumblr
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/31961887/paraphernalia-update-released
+PUBLISHED: 02008-04-16T13:55:00-0400
+TITLE: ‘Paraphernalia’ update released
+UPDATED: 02008-04-16T13:55:00-0400
 
 I’ve just pushed out [version 1.1][paraphernalia] of my [Adium][adium] message
 style.

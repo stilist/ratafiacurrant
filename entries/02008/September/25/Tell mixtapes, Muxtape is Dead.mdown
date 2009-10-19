@@ -1,6 +1,9 @@
-PERMALINK: /post/51789950/tell-mixtapes-muxtape-is-dead
-PUBLISHED: Sep 25th, 02008 9:02pm
-TAGS: music, muxtape, riaa
+﻿KEYWORDS: music, muxtape, riaa
+LICENSE: CC:BY-NC
+PERMALINK: http://ratafia.info/post/51789950/tell-mixtapes-muxtape-is-dead
+PUBLISHED: 02008-09-25T21:02:00-0400
+TITLE: Tell mixtapes, Muxtape is Dead
+UPDATED: 02008-09-25T21:02:00-0400
 
 The idea of changing what was a great way to share mixtapes — a very personal
 listener’s view of music — into yet another way for marketing machines to push

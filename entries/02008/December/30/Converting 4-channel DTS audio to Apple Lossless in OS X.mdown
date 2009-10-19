@@ -1,6 +1,9 @@
-PERMALINK: /post/67538369/converting-4-channel-dts-audio-to-apple-lossless-in-os
-PUBLISHED: Dec 30th, 02008 3:14pm
-TAGS: audio, conversion, dts, flac, foobar2000, itunes, osx, tutorial
+KEYWORDS: audio, conversion, dts, flac, foobar2000, itunes, osx, tutorial
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/67538369/converting-4-channel-dts-audio-to-apple-lossless-in-os
+PUBLISHED: 02008-12-30T15:14:00-0500
+TITLE: Converting 4-channel DTS audio to Apple Lossless in OS Ⅹ
+UPDATED: 02008-12-30T15:14:00-0500
 
 ## Why?
 
