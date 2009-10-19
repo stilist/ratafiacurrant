@@ -1,0 +1,52 @@
+﻿PERMALINK: /post/94002123/how-can-i-get-vendor-specific-css-properties-from-the
+PUBLISHED: Apr 7th, 02009 9:11pm
+TAGS: coding, css, javascript, pagering
+
+When I first released [pagering][pring], I [wrote][prentry]:
+
+> It’s not bug free — the ‘pages’ don’t all appear at the same spot, and so
+> on — but it’s written, and it works. Now I can move on to making it better.
+
+ [prentry]: http://ratafia.info/post/90069689/pagering
+ [pring]: http://github.com/stilist/pagering/
+ 
+Today I decided to work on making it better, and quickly figured out why the
+‘pages’ render inconsistently. It turns out there are three variables involved:
+
+1. the width of the ‘paged’ element in the <abbr class='smallcaps'>CSS</abbr>
+box model;
+1. the padding of the element that holds the paged element; and
+1. the <abbr class='smallcaps'>CSS</abbr>3 `column-gap` of the paged element.
+
+I was only accounting for the first one. The second was easy to add, but the
+third is proving quite difficult. Currently, `column-gap` has only experimental
+implementations (in the WebKit and Gecko engines), so I can’t simply test
+against `column-gap`; I also have to check `-webkit-column-gap` and
+`-moz-column-gap`.
+
+Fortunately, this much works — I can test against `undefined` and get a result
+from the different browsers. Unfortunately, that result is *always* a null
+string. This means that it doesn’t matter whether I’ve specified something like
+`-webkit-column-gap: 2em`; I’ll always get the same unhelpful answer. Here’s
+the code I’m using:
+
+    if (text.style.columnGap !== undefined) {
+      columnGap = text.style.columnGap;
+    } else if (text.style.webkitColumnGap !== undefined) {
+      columnGap = text.style.webkitColumnGap;
+    } else if (text.style.MozColumnGap !== undefined) {
+      columnGap = text.style.MozColumnGap;
+    }
+
+    alert(columnGap.length); // always 0
+
+Without knowing the column gap, I can’t entirely fix the rendering problem.
+
+This brings us back to the entry’s title: how can I get vendor-specific
+<abbr class='smallcaps'>CSS</abbr> properties from the
+<abbr class='smallcaps'>DOM</abbr>? Have I overlooked something simple?
+
+**Update:** I found a solution! Read about it [here][pre3].
+
+ [pre3]: http://ratafia.info/post/94280368/follow-up-on-vendor-specific-css-and-the-dom
+ 
