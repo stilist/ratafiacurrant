@@ -4,7 +4,7 @@ PERMALINK: http://ratafia.info/post/57974751/window-resize-bookmarklet
 PUBLISHED: 02008-11-04T15:48:00-0500
 TITLE: Window resize bookmarklet
 UPDATED: 02008-11-04T15:48:00-0500
-
+--
 ## The code
 
     s=self;
