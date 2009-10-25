@@ -1,0 +1,234 @@
+﻿# `.rc` format documentation
+
+(Hopefully) thorough documentation of the format used to store all media on
+this site.
+
+## General notes
+
+* A given metadata tag (see below) may only appear once in each file.
+* Metadata tags are not required to appear in any specific order, but I prefer
+to keep them alphabetized for easier skimming.
+* All notation in the form `U+nnnn` refers to a valid codepoint in the
+[Unicode][unicode] standard.
+* The entire entry must be valid [<abbr class='smallcaps'>UTF</abbr>-8][utf8].
+
+ [unicode]: http://en.wikipedia.org/wiki/Unicode "Wikipedia article for Unicode"
+ [utf8]: http://en.wikipedia.org/wiki/UTF-8 "Wikipedia article for UTF-8"
+
+## File structure
+
+Every file using this format will have the following structure:
+
+    METATAG1: value
+    METATAG2: value
+    --
+    Entry text.
+
+That is:
+
+* One or more metadata tags, each with the following form: a valid tag name (in
+uppercase <abbr class='smallcaps'>ASCII</abbr>), a U+003A COLON character, a
+U+0020 SPACE, the tag’s data, and a [newline][newline]. The entire tag must
+appear on a single line.
+* Two consecutive U+002D HYPHEN-MINUS characters, followed by a newline.
+* Freeform text using valid [Markdown][mdown] syntax.
+
+ [ascii]: http://en.wikipedia.org/wiki/ASCII "Wikipedia article for ASCII"
+ [mdown]: http://daringfireball.net/projects/markdown/ "Documentation for Markdown format"
+ [newline]: http://en.wikipedia.org/wiki/Newline "Wikipedia article for newline"
+
+## Metadata tags
+
+### `AUTHOR`
+
+*Optional.* If the entry is material written by a third party, gives the
+author’s name as written in the source. Should not be included if the author
+is unknown.
+
+Example: `AUTHOR: Charles Dickens`
+
+### `BOOKMARK`
+
+*Optional.* Full <abbr class='smallcaps'>URI</abbr> to an external
+bookmarking service’s collection page for the
+<abbr class='smallcaps'>URI</abbr> specified by `LINK`. If `LINK` is not
+present, this tag should be ignored.
+
+Example: `BOOKMARK: http://delicious.com/url/9bee2228e34ffe2f93a4f02a2c5f070c`
+
+### `COPYRIGHT`
+
+*Optional.* Five-digit year of publication, with leading zeroes as needed.
+Should only be used for material by third parties. May optionally include name
+of time-of-publication copyright holder after U+002C COMMA, U+0020 SPACE.
+
+Example: `COPYRIGHT: 02009`
+
+### `GEOLOCATION`
+
+*Optional.* Gives physical location of entry’s writing and publication. Can
+be specified as a postal address or a <abbr class='smallcaps'>GPS</abbr>
+coordinate pair.
+
+Postal addresses can be specified to whatever granularity is desired, but if,
+<abbr lang='la'>e.g.</abbr>, a city is given, then the state/province/&c. must
+also be given for clarity. Postal addresses take the form `ADDR address`:
+U+0041 LATIN CAPITAL LETTER A, U+0044 LATIN CAPITAL LETTER D, U+0044 LATIN
+CAPITAL LETTER D, U+0052 LATIN CAPITAL LETTER R, U+0020 SPACE, followed by the
+address.
+
+<abbr class='smallcaps'>GPS</abbr> coordinate pairs take the form `GPS
+coordinate-system dd-latitude, dd-longitude`: U+0047 LATIN CAPITAL LETTER G,
+U+0050 LATIN CAPITAL LETTER P, U+0053 LATIN CAPITAL LETTER S, U+0020 SPACE, the
+name of the coordinate system (substituting U+002D HYPHEN-MINUS for any
+spaces), latitude in [decimal degrees][decdeg] (excluding degree symbol),
+U+002C COMMA, U+0020 SPACE, longitude in decimal degrees (again excluding
+degree symbol).
+
+ [decdeg]: http://en.wikipedia.org/wiki/Decimal_degrees "Wikipedia article for decimal degrees"
+
+Examples: `ADDR 233 S Wacker Dr #3500 Chicago, IL USA`;
+`GPS WGS84 51.500611, -0.124611`
+
+### `KEYWORDS`
+
+*Optional.* A list of one or more keywords relating to the entry’s contents.
+If there is more than one keyword, a U+002C COMMA and U+0020 SPACE will be
+placed between each keyword.
+
+*Note:* Keywords may be written and ordered as desired. It is the parser’s
+responsibility to handle matching and sorting correctly.
+
+Example: `KEYWORDS: demo, example`
+
+### `LICENSE`
+
+*Optional.* Material’s license at time of entry’s publication. If the copyright
+is expired, this would be `public-domain`; if published under a
+[Creative Commons][cc] license — <abbr lang='la'>e.g.</abbr>
+[Attribution, Non-commercial][ccbync], this would be the abbreviated license
+name (<abbr lang='la'>e.g.</abbr> <abbr class='smallcaps'>CC:BY-NC<?abbr>). If
+no `LICENSE` is specified, the material is assumed to be under full copyright
+at time of publication.
+
+ [cc]: http://creativecommons.org "Creative Commons homepage"
+ [ccbync]: http://creativecommons.org/licenses/by-nc/3.0/us/
+
+Example: `LICENSE: CC:BY-NC`
+
+### `LINK`
+
+*Optional.* If the entry is meant as a bookmark or commentary on an external
+link, this provides a full <abbr class='smallcaps'>URI</abbr> to the original
+material.
+
+Example: `LINK: http://ratafia.info`
+
+### `MEDIUM`
+
+*Optional.* For audio, print, and video content, this gives the parser
+additional information that can optionally be used to determine eventual
+presentation.
+
+Example: `MEDIUM: magazine`
+
+### `PERMALINK`
+
+*Required.* Full <abbr class='smallcaps'>URI</abbr> for the entry’s final,
+canonical location on the local site.
+
+Example: `PERMALINK: http://ratafia.info/02009/April/06/text/on-tumblelogs`
+
+### `PUBLISHED`
+
+*Required.* Entry’s initial publication date in the full *extended* format
+specified by [<abbr class='smallcaps'>ISO</abbr> 8601:2004][iso8601] with the
+year being given a leading zero for a total of five digits — a practice taken
+from [<abbr class='organization'>The Long Now Foundation</abbr>][longnow].
+
+ [iso8601]: http://en.wikipedia.org/wiki/ISO_8601
+ [longnow]: https://longnow.org/ "The Long Now Foundation’s homepage"
+
+*Note:* In cases where the date of publication is not exactly known, follow
+the *duration format* specified by <abbr class='smallcaps'>ISO</abbr>
+8601:2004 to the maximum available precision.
+ 
+Example: `PUBLISHED: 02009-04-06T21:38:00-0400`
+
+### `SOURCE`
+
+*Optional.* Name of the service or publication where the entry was originally
+published. Whether a given `SOURCE` affects the entry’s eventual presentation
+is entirely up to the parser.
+
+Example: `SOURCE: Tumblr`
+
+### `SOURCERANGE`
+
+*Optional.* For audio, print, and video, specifies what portion of the source
+material is presented. Print takes the form `p x-y` (U+0070 LATIN SMALL LETTER
+P, U+0020 SPACE, <var>n</var>-digit page number, U+002D HYPHEN-MINUS,
+<var>n</var>-digit page number). Audio and video use the *duration* format
+specified in [<abbr class='smallcaps'>ISO</abbr> 8601:2004][iso8601]; there is
+no additional signifier corresponding to print’s leading `p `. If more than one
+segment (in any of the formats) is used, a U+002C COMMA and U+0020 SPACE will
+be placed between each segment.
+
+Examples: `SOURCERANGE: p 20-25, 27-29`; `SOURCERANGE: PT0H0M0S/PT0H3M55S`
+
+### `SOURCEURI`
+
+*Optional.* Full <abbr class='smallcaps'>URI</abbr> for the entry’s original
+location on the web. Given only if the entry was not originally published on
+the local site.
+
+Example: `SOURCEURI: http://ratafia.info/post/93660146/on-tumblelogs`
+
+### `TITLE`
+
+*Required.* Entry’s full title. If none is specified by the source, use the
+first fifty characters of the text, stripped of all Markdown and
+<abbr class='smallcaps'>HTML</abbr> formatting. (If the text is fewer than
+fifty characters long, then the full text should be used. If the entry also
+lacks text, use `(untitled)`.
+
+Example: `TITLE: On Tumblelogs`
+
+### `UPDATED`
+
+*Required.* Follows the same rules as `PUBLISHED`, and on initial publication
+will have the same value as `PUBLISHED`. Each subsequent edit will fully
+replace the `UPDATED` timestamp.
+
+Example: `UPDATED: 02009-04-07T14:52:12-0400`
+
+## Full example
+
+### Sample document
+
+    BOOKMARK: http://pinboard.in/url:45c08837fb8ba45be16bf19647b0915319147265/
+    GEOLOCATION: ADDR New York, NY USA
+    KEYWORDS: chiptunes, history, joshuadiaz, kevindriscoll, music
+    LINK: http://journal.transformativeworks.org/index.php/twc/article/view/96/94
+    PERMALINK: http://ratafia.info/post/92895364/endless-loop-a-brief-history-of-chiptunes
+    PUBLISHED: 02009-04-04T11:28:00-0400
+    TITLE: Endless loop: A brief history of chiptunes
+    UPDATED: 02009-04-04T11:28:00-0400
+    --
+    I’ve loved chiptunes and tracker tunes since I stumbled across scene.org in
+    02003 and went on a download spree. This paper summarizes the culture’s
+    history.
+
+### A possible parsing result in <abbr class='smallcaps'>HTML</abbr>
+
+    <h1><a href='http://journal.transformativeworks.org/index.php/twc/article/view/96/94'>Endless loop: A brief history of chiptunes</a></h1>
+    
+    <p>I’ve loved chiptunes and tracker tunes since I stumbled across scene.org in
+    02003 and went on a download spree. This paper summarizes the culture’s
+    history.</p>
+    
+    <p>Keywords: <a href='/keywords/chiptunes'> <a href='/keywords/history'>
+     <a href='/keywords/joshuadiaz'> <a href='/keywords/kevindriscoll'>
+     <a href='/keywords/music'></p>
+     
+    <p>Published 4 April, 02009</p>

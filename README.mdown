@@ -8,50 +8,45 @@ images).
 The `themes` directory holds a few Tumblr themes I’ve made.
 
 The `entries` directory holds most of the stuff I’ve written for my blog. The
-formatting is in [Markdown][mdown], but with a few additional bits that match
-my way of doing things. At the moment nothing actually _uses_ the extra stuff,
-but it’s a platform-independent way of storing it in case I want to move on
-to a different publishing system.
+formatting is in [Markdown][mdown], with some additions to handle my needs.
+The format is [thoroughly documented][rcdoc], and I’ve written an accompanying
+[validator][validate].
 
-The entries are organized into a subdirectory structure that follows the format
-`0%Y/%M/%d/<entry name>.mdown` (in [MySQL parlance][msdate]).
+ [rcdoc]: rcformat.mdown
+ [validate]: rc_validator
 
- [msdate]: http://dev.mysql.com/doc/refman/5.1/en/date-and-time-functions.html#function_date-format
+### First-party entries
 
-### Metadata tags
+All first-party entries use the following directory structure:
 
-At the moment, there are five metadata tags that can appear
-at the start of an entry: `BOOKMARK`, `LINK`, `PERMALINK`, `PUBLISHED`, and
-`TAGS`; they are followed by a colon, a single space, and a single line of
-data. None of these should be assumed to exist, and they may be in any
-order.
+`/yyyyy/Month/dd/format/safe_title.rc`
 
- [mdown]: http://daringfireball.net/projects/markdown/
+That is:
 
-`BOOKMARK` refers to an external (to the blog) bookmark site (such as
-delicious), and provides the destination service’s unique address (such as
-delicious’ hash lookup). I have a pretty well-developed bookmarking system
-that’s very helpful for finding things, so it’s convenient to have the lookup
-available. The field is only included with link articles, but isn’t guaranteed
-to accompany the `LINK` tag. 
+* Five-digit publication year, with initial zero as needed.
+* Full name of month as declared in [the Gregorian calendar][gregcal],
+using <abbr class='smallcaps'>US</abbr> English names (`January`, `February`,
+`March`, `April`, `May`, `June`, `July`, `August`, `September`, `November`,
+`December`).
+* Two-digit day number, again following the rules of the Gregorian calendar,
+with initial zero as needed.
+* Name of entry’s publication format. (<abbr lang='la'>e.g.</abbr> `text`,
+`image`, `audio`).
+* Cross-platform-safe form of entry’s title. This basically means following
+standard [<abbr class='smallcaps'>URL</abbr> rules][urls], with the
+exceptions that spaces and any [Unicode][unicode] codepoints outside the range
+of [<abbr class='smallcaps'>ASCII</abbr>][eascii] are acceptable.
 
-`LINK`: Only appears when the entry is a link to an external address. These
-entries are rendered in the linking style used by Tumblr and Daring Fireball
-(meaning that the article title serves as a link to the targeted URL).
+ [eascii]: http://en.wikipedia.org/wiki/Extended_ASCII "Wikipedia article for Extended ASCII"
+ [gregcal]: http://en.wikipedia.org/wiki/Gregorian_calendar "Wikipedia article for Gregorian calendar"
+ [unicode]: http://en.wikipedia.org/wiki/Unicode "Wikipedia article for Unicode"
+ [urls]: http://www.eskimo.com/~bloo/indexdot/html/topics/urlencoding.htm
 
-`PERMALINK`: The relative address where the entry is located. Domain name is
-assumed. Useful for restoring backups or changing services because it allows
-me to avoid 404s.
+For non-text entries, there will always be an accompanying `.rc` file that
+describes the entry and uses the title. Thus, given an image
+`/02008/January/01/image/fireworks.jpg` there will be a file
+`/02008/January/01/image/fireworks.rc` with metadata about the image.
 
-`PUBLISHED`: Date and time first published. Because I’m currently based in
-Tumblr, this takes the form `%b %D, 0%Y %l:%i%p` (again, using MySQL’s
-`DATE_FORMAT` as a reference).
+### Third-party entries
 
-And, finally, `TAGS`. This is simply a list of terms associated with the entry,
-separated by a comma and a space. I generally put them in alphabetical order
-but sometimes I mess up.
-
-## Of course…
-
-Everything mentioned here is subject to change, but I feel the format is fairly
-stable.
+Third-party material is published under `/documents/document_title.rc`.
