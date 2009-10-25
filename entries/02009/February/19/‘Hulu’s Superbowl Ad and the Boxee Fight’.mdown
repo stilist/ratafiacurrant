@@ -1,7 +1,10 @@
 BOOKMARK: http://delicious.com/url/bbc9742180f29e317e2177468432a24d
+KEYWORDS: boxee, hulu, internet, marchedlund, media, television, technology
+LICENSE: CC:BY-NC
 LINK: http://radar.oreilly.com/2009/02/hulus-superbowl-ad-and-the-box.html
 PERMALINK: http://ratafia.info/post/79663095/hulus-superbowl-ad-and-the-boxee-fight
-PUBLISHED: Feb 19th, 02009 9:13am
-TAGS: boxee, hulu, internet, marchedlund, media, television, technology
-
+PUBLISHED: 02009-02-19T09:13:00-0500
+TITLE: ‘Hulu’s Superbowl Ad and the Boxee Fight’
+UPDATED: 02009-02-19T09:13:00-0500
+--
 Media companies won’t move forward. They’re being left behind.

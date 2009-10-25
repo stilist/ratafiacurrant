@@ -1,7 +1,10 @@
-PERMALINK: /post/72095951/how-to-easily-back-up-your-delicious-bookmarks
-PUBLISHED: Jan 21st, 02009 11:40am
-TAGS: bash, delicious, dataportability, ruby
-
+KEYWORDS: bash, delicious, dataportability, ruby
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/72095951/how-to-easily-back-up-your-delicious-bookmarks
+PUBLISHED: 02009-01-21T11:40:00-0500
+TITLE: How to easily back up your delicious bookmarks
+UPDATED: 02009-01-21T11:40:00-0500
+--
 <cite class='person'>[Jason Scott:][ftc]</cite>
 
 > Don’t trust the Cloud to safekeep this stuff. Hell yeah, use the Cloud, blow

@@ -1,9 +1,12 @@
 ﻿BOOKMARK: http://delicious.com/url/6247b75ed97afc00ea78d0170ec4cfc7
+KEYWORDS: apple, design, marcoarment
+LICENSE: CC:BY-SA
 LINK: http://www.marco.org/85610270
-PERMALINK: /post/85669445/whats-apples-problem-with-buttons
-PUBLISHED: Mar 11th, 02009 7:30pm
-TAGS: apple, design, marcoarment
-
+PERMALINK: http://ratafia.info/post/85669445/whats-apples-problem-with-buttons
+PUBLISHED: 02009-03-11T19:30:00-0400
+TITLE: ‘What’s Apple’s problem with buttons?’
+UPDATED: 02009-03-11T19:30:00-0400
+--
 > With both the new buttonless trackpads and the new iPod Shuffle, it seems
 > that Apple’s going on an all-out war to eliminate as many buttons as possible
 > from their products.

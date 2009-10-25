@@ -1,7 +1,10 @@
-PERMALINK: /post/90069689/pagering
-PUBLISHED: Mar 26th, 02009 1:11pm
-TAGS: javascript, pagering
-
+KEYWORDS: javascript, pagering
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/90069689/pagering
+PUBLISHED: 02009-03-26T13:11:00-0400
+TITLE: pagering
+UPDATED: 02009-03-26T13:11:00-0400
+--
 [![Screenshot: pagering demo text][img]][fl]
 
  [fl]: http://www.flickr.com/photos/stilist/3387184785/

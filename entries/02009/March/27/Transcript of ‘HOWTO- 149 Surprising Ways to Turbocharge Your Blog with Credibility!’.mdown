@@ -1,7 +1,10 @@
+KEYWORDS: johngruber, merlinmann, podcast, sxsw, sxswinteractive02009, thought, transcript
+LICENSE: CC:BY-SA
 PERMALINK: http://ratafia.info/post/90530195/transcript-of-howto-149-surprising-ways-to, http://ratafia.info/post/90532973/transcript-of-howto-149-surprising-ways-to
-PUBLISHED: Mar 27th, 2009 10:28pm
-TAGS: johngruber, merlinmann, podcast, sxsw, sxswinteractive02009, thought, transcript
-
+PUBLISHED: 02009-03-27T22:28:00-0400
+TITLE: Transcript of ‘HOWTO: 149 Surprising Ways to Turbocharge Your Blog with Credibility!’
+UPDATED: 02009-03-30T08:40:48-0400
+--
 Transcript of <span class='person'>John Gruber</span> and
 <span class='person'>Merlin Mann</span>’s <abbr class='smallcaps'>SxSW</abbr>
 Interactive 02009 presentation, [HOWTO: 149 Surprising Ways to Turbocharge Your

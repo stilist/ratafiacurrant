@@ -1,8 +1,11 @@
+KEYWORDS: feeds, information
+LICENSE: CC:BY-SA
 LINK: http://al3x.net/2009/07/18/fever-and-the-future-of-feed-readers.html
-PERMALINK: 
-PUBLISHED: 
-TAGS: feeds, information
-
+PERMALINK: http://ratafia.info/post/144754264/fever-and-the-future-of-feed-readers
+PUBLISHED: 02009-07-19T11:17:00-0400
+TITLE: ‘Fever and the Future of Feed Readers’
+UPDATED: 02009-07-19T11:17:00-0400
+--
 <span class='person'>Alex Payne</span>:
 
 > Today, at least in the web-tech echo chamber, feed reading is quickly falling

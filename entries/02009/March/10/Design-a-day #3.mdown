@@ -1,7 +1,10 @@
-PERMALINK: /post/85227036/design-a-day-3
-PUBLISHED: Mar 10th, 02009 11:30am
-TAGS: design, design-a-day
-
+KEYWORDS: design, design-a-day
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/85227036/design-a-day-3
+PUBLISHED: 02009-03-10T11:30:00-0400
+TITLE: Design-a-day #3
+UPDATED: 02009-03-10T11:30:00-0400
+--
 Day three of design-a-day. <abbr class='smallcaps'>PSD</abbr> by request.
 
 [![Design-a-day #3][fl]][dad]

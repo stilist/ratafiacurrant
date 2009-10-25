@@ -1,9 +1,12 @@
 BOOKMARK: http://delicious.com/url/8060347678e778ad99da691dc4f14e01
+KEYWORDS: davidgelernter, future, lifestream
+LICENSE: CC:BY-SA
 LINK: http://edge.org/3rd_culture/gelernter/gelernter_p1.html
-PERMALINK: /post/69435370/the-second-coming-a-manifesto-edge-02000
-PUBLISHED: Jan 9th, 02009 3:05pm
-TAGS: davidgelernter, future, lifestream
-
+PERMALINK: http://ratafia.info/post/69435370/the-second-coming-a-manifesto-edge-02000
+PUBLISHED: 02009-01-09T15:05:00-0500
+TITLE: ‘The Second Coming — A Manifesto’, Edge, 02000
+UPDATED: 02009-01-09T15:05:00-0500
+--
 Another Gelernter piece. I’m about done now.
 
 The manifest seems to be effectively one for cloud computing. The whole

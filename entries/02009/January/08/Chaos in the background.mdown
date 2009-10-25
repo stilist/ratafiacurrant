@@ -1,7 +1,10 @@
-PERMALINK: /post/69269144/chaos-in-the-background
-PUBLISHED: Jan 8th, 02009 8:27pm
-TAGS: github, tumblr
-
+KEYWORDS: github, tumblr
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/69269144/chaos-in-the-background
+PUBLISHED: 02009-01-08T20:27:00-0500
+TITLE: Chaos in the background
+UPDATED: 02009-01-08T20:27:00-0500
+--
 Today I began work on a new Tumblr theme. I decided I’d start keeping everything related to the blog [in GitHub][rcgh], and develop ‘live’ by pushing <abbr class='smallcaps'>CSS</abbr> updates and working in the Tumblr editor. Great idea, but there’s a problem: trying to load the <abbr class='smallcaps'>CSS</abbr> file doesn’t work right. Most of the time there’s a [delay of at least a minute][ghwi] before it loads, even when it’s already in my browser cache. In my cursory search I wasn’t able to find any mention by GitHub for or against using it as a file server. They evidently support it in some capacity since they launched ‘pages’; I may try to set up the needed files as a branch of some sort inside my page repository and see if I can fix it that way. It’d give me a much shorter <abbr class='smallcaps'>URL</abbr>, if nothing else!
 
  [ghwi]: http://flickr.com/photos/stilist/3181256116/ "Screen capture demonstrating delay"

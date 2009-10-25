@@ -1,7 +1,10 @@
-PERMALINK: 
-PUBLISHED: 
-TAGS: theculture, theodorekaczynski, thought 
-
+KEYWORDS: theculture, theodorekaczynski, thought 
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/72584903/compare-and-contrast
+PUBLISHED: 02009-01-23T10:37:00-0500
+TITLE: Compare and contrast
+UPDATED: 02009-01-23T10:37:00-0500
+--
 <span class='person'>Theodore Kaczynski</span>’s [unnamed essay][ue], 01971;
 <span class='person'>Iain Banks</span>’ [Culture][tc].
 

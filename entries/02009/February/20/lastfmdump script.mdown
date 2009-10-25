@@ -1,7 +1,10 @@
-PERMALINK: /post/80107616/lastfmdump-script
-PUBLISHED: Feb 20th, 02009 8:10pm
-TAGS: data, last.fm, ruby, scripting
-
+KEYWORDS: data, last.fm, ruby, scripting
+LICENSE: CC:BY-NC
+PERMALINK: http://ratafia.info/post/80107616/lastfmdump-script
+PUBLISHED: 02009-02-20T20:10:00-0500
+TITLE: lastfmdump script
+UPDATED: 02009-02-20T20:10:00-0500
+--
 Due to the news that [last.fm may have given the
 <abbr class='smallcaps'>RIAA</abbr> user data][tc], I’ve thrown together [a
 Ruby script][lfd] that will dump out a user’s listening history. Having

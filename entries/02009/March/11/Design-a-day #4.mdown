@@ -1,7 +1,10 @@
-PERMALINK: /post/85594555/design-a-day-4
-PUBLISHED: Mar 11th, 02009 2:23pm
-TAGS: design, design-a-day
-
+KEYWORDS: design, design-a-day
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/85594555/design-a-day-4
+PUBLISHED: 02009-03-11T14:23:00-0400
+TITLE: Design-a-day #4
+UPDATED: 02009-03-11T14:23:00-0400
+--
 Day four of design-a-day. <abbr class='smallcaps'>PSD</abbr> by request.
 
 [![(Design-a-day #4 mockup)][img]][fl]

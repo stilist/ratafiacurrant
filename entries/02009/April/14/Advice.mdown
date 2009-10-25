@@ -1,7 +1,10 @@
-PERMALINK: /post/96314742/advice
-PUBLISHED: Apr 14th, 02009 10:15pm
-TAGS: ronaldjenkees, though
-
+KEYWORDS: ronaldjenkees, though
+LICENSE: CC:BY-NC
+PERMALINK: http://ratafia.info/post/96314742/advice
+PUBLISHED: 02009-04-14T22:15:00-0400
+TITLE: Advice
+UPDATED: 02009-04-14T22:15:00-0400
+--
 <span class='person'>[Ronald Jenkees][rj]</span>:
 
  [rj]: http://youtube.com/watch?v=zuJW7H08HrQ

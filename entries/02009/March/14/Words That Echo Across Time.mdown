@@ -1,7 +1,10 @@
-PERMALINK: 
-PUBLISHED: 
-TAGS: advertising, johnbattelle, web2.0
-
+KEYWORDS: advertising, johnbattelle, web2.0
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/86416329/words-that-echo-across-time
+PUBLISHED: 02009-03-14T11:01:00-0400
+TITLE: Words That Echo Across Time
+UPDATED: 02009-03-14T11:01:00-0400
+--
 [<span class='person'>John Battelle</span>, claiming web 2.0 was not a bubble,
 in 02005][jb]
 

@@ -1,9 +1,12 @@
 BOOKMARK: http://delicious.com/url/ef6d526169ba0e176b1ce1a161def13c
+KEYWORDS: apple, archive, datadetectors
+LICENSE: CC:BY-SA
 LINK: http://web.archive.org/web/19980128233606/http://applescript.apple.com/data_detectors/index.html
-PERMALINK: /post/69660530/archive-of-apples-data-detector-subsite
-PUBLISHED: Jan 10th, 02009 7:34pm
-TAGS: apple, archive, datadetectors
-
+PERMALINK: http://ratafia.info/post/69660530/archive-of-apples-data-detector-subsite
+PUBLISHED: 02009-01-10T19:34:00-0500
+TITLE: Archive of Apple’s data detector subsite
+UPDATED: 02009-01-10T19:34:00-0500
+--
 The copy is fun, but it’s certainly not the modern Apple voice — it’s written
 from the perspective of somebody who knows that you have to deal with the
 whims of flawed technology, but hey, here’s something to help. The current

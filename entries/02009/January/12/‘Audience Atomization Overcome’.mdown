@@ -1,9 +1,12 @@
 BOOKMARK: http://delicious.com/url/8c3773382a4191b9e0433b8286a869e1
+KEYWORDS: culture, journalism, overtonwindow, press, psychology
+LICENSE: CC:BY-SA
 LINK: http://journalism.nyu.edu/pubzone/weblogs/pressthink/2009/01/12/atomization.html
-PERMALINK: /post/70109286/audience-atomization-overcome
-PUBLISHED: Jan 12th, 02009 10:35pm
-TAGS: culture, journalism, overtonwindow, press, psychology
-
+PERMALINK: http://ratafia.info/post/70109286/audience-atomization-overcome
+PUBLISHED: 02009-01-12T22:35:00-0500
+TITLE: ‘Audience Atomization Overcome’
+UPDATED: 02009-01-12T22:35:00-0500
+--
 Journalists are supposed to be the people that question assumptions, but
 they’re just as stuck in a worldview as everybody else — especially on
 political issues. As a commenter notes, the illustration is similar to

@@ -1,7 +1,9 @@
-PERMALINK: /post/69861404/now-with-comments
-PUBLISHED: Jan 11th, 02009 8:45pm
-TAGS: comments, disqus, tumblr
-
+KEYWORDS: comments, disqus, tumblr
+PERMALINK: http://ratafia.info/post/69861404/now-with-comments
+PUBLISHED: 02009-01-11T20:45:00-0500
+TITLE: Now with comments
+UPDATED: 02009-01-11T20:45:00-0500
+--
 Another administrative note: I have enabled support for comments, by way of
 Disqus. This is somewhat experimental; if the system proves troublesome or
 invites spam I will remove it.

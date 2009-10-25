@@ -1,7 +1,10 @@
-PERMALINK: /post/74443947/the-web-and-journalism
-PUBLISHED: Jan 30th, 02009 8:27pm
-TAGS: blogging, journalism, web
-
+KEYWORDS: blogging, journalism, web
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/74443947/the-web-and-journalism
+PUBLISHED: 02009-01-30T20:27:00-0500
+TITLE: The Web and Journalism
+UPDATED: 02009-01-30T20:27:00-0500
+--
 [<span class='person'>Dan Lyons</span>][dl], writing about
 <span class='organization'>Apple</span>’s public relations and press:
 

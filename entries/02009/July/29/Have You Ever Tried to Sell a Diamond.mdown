@@ -1,8 +1,11 @@
-﻿LINK: http://www.theatlantic.com/doc/print/198202/diamond
-PERMALINK: /post/151963741/have-you-ever-tried-to-sell-a-diamond
-PUBLISHED: Jul 29th, 2009 10:11pm
-TAGS: debeers, diamonds, marketing
-
+﻿KEYWORDS: debeers, diamonds, marketing
+LICENSE: CC:BY-SA
+LINK: http://www.theatlantic.com/doc/print/198202/diamond
+PERMALINK: http://ratafia.info/post/151963741/have-you-ever-tried-to-sell-a-diamond
+PUBLISHED: 02009-07-29T22:11:00-0400
+TITLE: ‘Have You Ever Tried to Sell a Diamond?’
+UPDATED: 02009-07-29T22:11:00-0400
+--
 The story of how <span class='organization'>De Beers</span> (with help from
 advertising firm <span class='organization'><abbr>N.</abbr><abbr>W.</abbr>
 Ayer</span>) created the romantic ‘diamonds are forever’ mythos.

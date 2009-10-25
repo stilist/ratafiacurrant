@@ -1,9 +1,12 @@
 BOOKMARK: http://delicious.com/url/6fc368b1a92248ad79273c7455664451
+KEYWORDS: architecture, culture, russelldavies
+LICENSE: CC:BY-SA
 LINK: http://russelldavies.typepad.com/planning/2009/01/building-sights.html
-PERMALINK: /post/70923665/building-sights
-PUBLISHED: Jan 16th, 02009 10:37am
-TAGS: architecture, culture, russelldavies
-
+PERMALINK: http://ratafia.info/post/70923665/building-sights
+PUBLISHED: 02009-01-16T10:37:00-0500
+TITLE: ‘Building Sights’
+UPDATED: 02009-01-16T10:37:00-0500
+--
 <span class='person'>Russell Davies</span>:
 
 > The shame that always strikes me though is what a waste this flat bit of

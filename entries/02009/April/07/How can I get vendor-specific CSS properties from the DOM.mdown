@@ -1,7 +1,10 @@
-﻿PERMALINK: /post/94002123/how-can-i-get-vendor-specific-css-properties-from-the
-PUBLISHED: Apr 7th, 02009 9:11pm
-TAGS: coding, css, javascript, pagering
-
+﻿KEYWORDS: coding, css, javascript, pagering
+LICENSE: CC:BY-NC
+PERMALINK: http://ratafia.info/post/94002123/how-can-i-get-vendor-specific-css-properties-from-the
+PUBLISHED: 02009-04-07T21:11:00-0400
+TITLE: How can I get vendor-specific CSS properties from the DOM?
+UPDATED: 02009-04-07T21:11:00-0400
+--
 When I first released [pagering][pring], I [wrote][prentry]:
 
 > It’s not bug free — the ‘pages’ don’t all appear at the same spot, and so

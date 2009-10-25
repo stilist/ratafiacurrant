@@ -1,9 +1,12 @@
 BOOKMARK: http://delicious.com/url/eb6416fd723da8e71614326ee560e394
+KEYWORDS: election01960, johnfkennedy, normanmailer, politics
+LICENSE: CC:BY-SA
 LINK: http://www.esquire.com/print-this/superman-supermarket
-PERMALINK: /post/70745369/superman-comes-to-the-supermarket-esquire-01960
-PUBLISHED: Jan 15th, 02009 3:59pm
-TAGS: election01960, johnfkennedy, normanmailer, politics
-
+PERMALINK: http://ratafia.info/post/70745369/superman-comes-to-the-supermarket-esquire-01960
+PUBLISHED: 02009-01-15T15:59:00-0500
+TITLE: ‘Superman Comes to the Supermarket’, Esquire, 01960
+UPDATED: 02009-01-15T15:59:00-0500
+--
 Norman Mailer’s lengthy article on the 01960 Democratic National Convention.
 
 Although the whole thing is well-written, I was particularly taken by the

@@ -1,7 +1,10 @@
-PERMALINK: /post/72734532/git-vs-bash-vs-os-x-vs-colons
-PUBLISHED: Jan 24th, 02009 12:27am
-TAGS: bash, bugs, git
-
+KEYWORDS: bash, bugs, git
+LICENSe: CC:BY-SA
+PERMALINK: http://ratafia.info/post/72734532/git-vs-bash-vs-os-x-vs-colons
+PUBLISHED: 02009-01-24T00:27:00-0500
+TITLE: git vs Bash vs OS Ⅹ vs colons
+UPDATED: 02009-01-24T00:27:00-0500
+--
 In posting my last entry, I discovered an unusual bug that lies somewhere
 between git, the Bash shell, and <abbr class='smallcaps'>OS</abbr> Ⅹ, as
 indicated by this entry’s title.

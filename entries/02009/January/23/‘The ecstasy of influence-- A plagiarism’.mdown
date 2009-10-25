@@ -1,9 +1,12 @@
 BOOKMARK: http://delicious.com/url/401326d9557eac9d0d184be759488d23
+KEYWORDS: creativity, intellectualproperty, jonathanlethem, thought
+LICENSE: CC:BY-SA
 LINK: http://harpers.org/archive/2007/02/0081387
-PERMALINK: /post/72724992/the-ecstasy-of-influence-a-plagiarism
-PUBLISHED: Jan 23rd, 02009 11:27pm
-TAGS: creativity, intellectualproperty, jonathanlethem, thought
-
+PERMALINK: http://ratafia.info/post/72724992/the-ecstasy-of-influence-a-plagiarism
+PUBLISHED: 02009-01-23T23:27:00-0500
+TITLE: ‘The ecstasy of influence: A plagiarism’
+UPDATED: 02009-01-23T23:27:00-0500
+--
 Although I’d ordinarily include some excerpts, it would be difficult to select
 any particular sections as more worthy of reproduction. The article is lengthy,
 but well worth the time it takes to read.

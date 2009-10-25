@@ -1,6 +1,9 @@
+KEYWORDS: davewiner, jayrosen, journalism, podcast, rebootthenews
+LICENSE: CC:BY-SA
 LINK: http://rebootnews.com/2009/07/13/00020.html
 PERMALINK: http://ratafia.info/post/151142994/reboot-the-news-16
-PUBLISHED: Jul 28th, 2009 6:46pm
-TAGS: davewiner, jayrosen, journalism, podcast, rebootthenews
-
+PUBLISHED: 02009-07-28T18:46:00-0400
+TITLE: Reboot the News #16
+UPDATED: 02009-07-28T18:46:00-0400
+--
 I’ve recently begun listening to Reboot the News after steadily ignoring it. I was particularly taken by this episode’s discussion of the authoritative cloak journalists put on, and whether they truly deserve it.

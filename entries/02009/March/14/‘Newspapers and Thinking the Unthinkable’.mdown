@@ -1,9 +1,12 @@
 BOOKMARK: http://delicious.com/url/7010e7eb7245fb78f77dc2a3771d8f38
+KEYWORDS: clayshirky, newspaper, print
+LICENSE: CC:BY-SA
 LINK: http://www.shirky.com/weblog/2009/03/newspapers-and-thinking-the-unthinkable/
-PERMALINK: /post/86463811/newspapers-and-thinking-the-unthinkable
-PUBLISHED: Mar 14th, 02009 3:05pm
-TAGS: clayshirky, newspaper, print
-
+PERMALINK: http://ratafia.info/post/86463811/newspapers-and-thinking-the-unthinkable
+PUBLISHED: 02009-03-14T15:05:00-0400
+TITLE: ‘Newspapers and Thinking the Unthinkable’
+UPDATED: 02009-03-14T15:05:00-0400
+--
 <span class='person'>Clay Shirky</span>:
 
 > And so it is today. When someone demands to know how we are going to replace

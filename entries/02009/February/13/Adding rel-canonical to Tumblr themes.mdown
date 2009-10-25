@@ -1,7 +1,10 @@
-PERMALINK: post/78022030/adding-rel-canonical-to-tumblr-themes
-PUBLISHED: Feb 13th, 02009 9:32am
-TAGS: google, seo, tumblr
-
+KEYWORDS: google, seo, tumblr
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.infopost/78022030/adding-rel-canonical-to-tumblr-themes
+PUBLISHED: 02009-02-13T09:32:00-0500
+TITLE: Adding rel-canonical to Tumblr themes
+UPDATED: 02009-02-13T09:32:00-0500
+--
 Google recently [introduced][rcan] a way to tell their crawler which address
 variant you want indexed:
 

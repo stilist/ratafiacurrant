@@ -1,7 +1,10 @@
-PERMALINK: /post/74124201/spimes-and-other-things-that-think
-PUBLISHED: Jan 29th, 02009 3:43pm
-TAGS: brucesterling, nicholasnegroponte, russelldavies, spime
-
+KEYWORDS: brucesterling, nicholasnegroponte, russelldavies, spime
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/74124201/spimes-and-other-things-that-think
+PUBLISHED: 02009-01-29T15:43:00-0400
+TITLE: Spimes and other Things That Think
+UPDATED: 02009-01-29T15:43:00-0400
+--
 Still working my way through the first volume of MEME. One reason I keep
 sharing things from the ’90s is that I’m continually impressed by how often
 it’s taken ten years for ideas to gain traction or see real implementation.

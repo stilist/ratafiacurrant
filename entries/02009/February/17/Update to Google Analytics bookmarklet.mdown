@@ -1,7 +1,10 @@
-PERMALINK: /post/79066657/update-to-google-analytics-bookmarklet
-PUBLISHED: Feb 17th, 02009 9:10am
-TAGS: bookmarklet, google, javascript
-
+KEYWORDS: bookmarklet, google, javascript
+LICENSE: CC:BY-NC
+PERMALINK: http://ratafia.info/post/79066657/update-to-google-analytics-bookmarklet
+PUBLISHED: 02009-02-17T09:10:00-0500
+TITLE: Update to Google Analytics bookmarklet
+UPDATED: 02009-02-17T09:10:00-0500
+--
 Back on the fourteenth of January, I published [a bookmarklet][rcbmk] to jump
 to the current day’s stats in Analytics.
 

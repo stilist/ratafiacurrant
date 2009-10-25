@@ -1,9 +1,12 @@
 BOOKMARK: http://delicious.com/url/be234aa096573453db5725cb4f7a25c1
+KEYWORDS: multimedia, publicdomain, wikipedia
+LICENSE: CC:BY-SA
 LINK: http://www.pcworld.com/printable/article/id,157894/printable.html
-PERMALINK: /post/71351238/wikipedia-beefs-up-for-multimedia
-PUBLISHED: Jan 18th, 02009 12:24pm
-TAGS: multimedia, publicdomain, wikipedia
-
+PERMALINK: http://ratafia.info/post/71351238/wikipedia-beefs-up-for-multimedia
+PUBLISHED: 02009-01-18T12:24:00-0500
+TITLE: ‘Wikipedia Beefs Up for Multimedia’
+UPDATED: 02009-01-18T12:24:00-0500
+--
 > For example, users are uploading public domain classical music, and some
 > recordings can last a half-hour. Documentary films that are out of copyright
 > are also being uploaded, and some users are struggling to keep files under

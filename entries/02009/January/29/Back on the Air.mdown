@@ -1,7 +1,10 @@
-PERMALINK: /post/74071556/back-on-the-air
-PUBLISHED: Jan 29th, 02009 11:37am
-TAGS: meta, tumblr
-
+KEYWORDS: meta, tumblr
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/74071556/back-on-the-air
+PUBLISHED: 02009-01-29T11:37:00-0500
+TITLE: Back on the Air
+UPDATED: 02009-01-29T11:37:00-0500
+--
 For the past day, I was unable to post here, or use Tumblr at all, because I
 locked myself out. This was a result of several actions on my part:
 

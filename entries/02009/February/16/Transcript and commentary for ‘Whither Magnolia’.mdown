@@ -1,7 +1,10 @@
-PERMALINK: /post/78915439/transcript-and-commentary-for-whither-magnolia
-PUBLISHED: Feb 16th, 02009 7:31pm
-TAGS: citizengarden, data, Ma.gnolia, podcast, transcript
-
+KEYWORDS: citizengarden, data, Ma.gnolia, podcast, transcript
+LICENSE: CC:BY-NC
+PERMALINK: http://ratafia.info/post/78915439/transcript-and-commentary-for-whither-magnolia
+PUBLISHED: 02009-02-16T19:31:00-0500
+TITLE: Transcript and commentary for ‘Whither Magnolia’
+UPDATED: 02009-02-16T19:31:00-0500
+--
 Transcription of Citizen Garden episode 11, [‘Whither Magnolia’][cgwm].
 
  [cgwm]: http://citizengarden.com/2009/02/15/episode-11-whither-magnolia/ "Citizen Garden entry for ‘Whither Magnolia’"

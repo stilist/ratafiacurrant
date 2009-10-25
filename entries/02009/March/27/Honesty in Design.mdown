@@ -1,7 +1,10 @@
-PERMALINK: /post/90545547/honesty-in-design
-PUBLISHED: Mar 27th, 02009 11:30pm
-TAGS: charts, design, wired
-
+KEYWORDS: charts, design, wired
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/90545547/honesty-in-design
+PUBLISHED: 02009-03-27T23:30:00-0400
+TITLE: Honesty in Design
+UPDATED: 02009-03-27T23:30:00-0400
+--
 ![Graph of The Settlers of Catan sales][chart]
 
  [chart]: http://img.photobucket.com/albums/v240/stilist/Miscellaneous/mf_settlers3_f.gif

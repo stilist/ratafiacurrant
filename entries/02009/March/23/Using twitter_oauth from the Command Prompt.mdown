@@ -1,7 +1,10 @@
-PERMALINK: /post/89029640/using-twitter-oauth-from-the-command-prompt
-PUBLISHED: Mar 23rd, 02009 9:47am
-TAGS: coding, oauth, ruby, turpentine, twitter
-
+KEYWORDS: coding, oauth, ruby, turpentine, twitter
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/89029640/using-twitter-oauth-from-the-command-prompt
+PUBLISHED: 02009-03-23T21:47:00-0400
+TITLE: Using twitter_oauth from the Command Prompt
+UPDATED: 02009-03-23T21:47:00-0400
+--
 Several days ago I began work on [Turpentine][turp], a Twitter client written
 in Ruby that currently runs as a [<abbr class='smallcaps'>CLI</abbr>][cli].
 After I got things working to my satisfaction, I decided to add

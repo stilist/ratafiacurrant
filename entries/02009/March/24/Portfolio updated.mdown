@@ -1,7 +1,10 @@
-PERMALINK: /post/89256619/portfolio-updated
-PUBLISHED: Mar 24th, 02009 12:01am
-TAGS: portfolio
-
+KEYWORDS: portfolio
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/89256619/portfolio-updated
+PUBLISHED: 02009-03-24T00:01:00-0400
+TITLE: Portfolio updated
+UPDATED: 02009-03-24T00:01:00-0400
+--
 As indicated in [the previous entry][dad10], I’ve updated my
 [portfolio][port]’s design somewhat. It now includes an ‘about me’ section and
 a skills rundown (parts of which are reflected in my résumé). I’ve also added a

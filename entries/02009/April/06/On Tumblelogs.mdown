@@ -1,7 +1,10 @@
-PERMALINK: /post/93660146/on-tumblelogs
-PUBLISHED: Apr 6th, 02009 9:38pm
-TAGS: culture, curation, identity, thought, tumblelog, web
-
+KEYWORDS: culture, curation, identity, thought, tumblelog, web
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/93660146/on-tumblelogs
+PUBLISHED: 02009-04-06T21:38:00-0400
+TITLE: On Tumblelogs
+UPDATED: 02009-04-06T21:38:00-0400
+--
 [<span class='person'>Samuel Fine</span>][sftl]:
 
  [sftl]: http://nrbd.tumblr.com/post/67825378/happy-new-year-im-leaving-tumblr "‘Happy New Year! I’m Leaving Tumblr.’"

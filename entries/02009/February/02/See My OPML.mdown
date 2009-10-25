@@ -1,7 +1,10 @@
-PERMALINK: /post/75088558/see-my-opml
-PUBLISHED: Feb 2nd, 02009 1:14pm
-TAGS: meta
-
+KEYWORDS: meta
+LICENSE: CC:BY-NC
+PERMALINK: http://ratafia.info/post/75088558/see-my-opml
+PUBLISHED: 02009-02-02T13:14:00-0500
+TITLE: See My OPML
+UPDATED: 02009-02-02T13:14:00-0500
+--
 When I [wrote about journalism][wej] the other day, I noted that I generally
 follow my rule that sources should be open by sharing all my bookmarks. That
 neglects a major set of sources, though — feed subscriptions. So today I’ve

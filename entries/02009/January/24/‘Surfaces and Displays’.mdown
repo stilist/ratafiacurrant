@@ -1,9 +1,12 @@
 BOOKMARK: http://delicious.com/url/76cb8c373e99a854936d3a7f884dad57
+KEYWORDS: digitalpaper, eink, kindle
+LICENSE: CC:BY-SA
 LINK: http://www.wired.com/wired/archive/5.01/negroponte_pr.html
-PERMALINK: /post/72809378/surfaces-and-displays
-PUBLISHED: Jan 24th, 02009 10:50am
-TAGS: digitalpaper, eink, kindle
-
+PERMALINK: http://ratafia.info/post/72809378/surfaces-and-displays
+PUBLISHED: 02009-01-24T10:50:00-0500
+TITLE: ‘Surfaces and Displays’
+UPDATED: 02009-01-24T10:50:00-0500
+--
 <span class='person'>Nicholas Negroponte</span> and
 <span class='person'>Joe Jacobson</span>, <span class='magazine'>Wired</span>,
 01997:

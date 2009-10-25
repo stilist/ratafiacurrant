@@ -1,9 +1,12 @@
 BOOKMARK: http://delicious.com/url/a58f3acbfede355bac3df7ed5225197a
+KEYWORDS: estherdyson, macintosh
+LICENSE: CC:BY-SA
 LINK: http://atariarchives.org/deli/the_mac_on_skis.php
-PERMALINK: post/70913387/the-mac-on-skis-01984
-PUBLISHED: Jan 16th, 02009 9:45am
-TAGS: estherdyson, macintosh
-
+PERMALINK: http://ratafia.info/post/70913387/the-mac-on-skis-01984
+PUBLISHED: 02009-01-16T09:45:00-0500
+TITLE: ‘The Mac on Skis’, 01984
+UPDATED: 02009-01-16T09:45:00-0500
+--
 <span class='person'>Esther Dyson</span>, writing for the
 <span class='book'>Digital Deli</span> anthology:
 

@@ -1,7 +1,10 @@
-PERMALINK: /post/94280368/follow-up-on-vendor-specific-css-and-the-dom
-PUBLISHED: Apr 8th, 02009 5:08pm
-TAGS: coding, css, javascript, pagering
-
+KEYWORDS: coding, css, javascript, pagering
+LICENSE: CC:BY-NC
+PERMALINK: http://ratafia.info/post/94280368/follow-up-on-vendor-specific-css-and-the-dom
+PUBLISHED: 02009-04-08T17:08:00-0400
+TITLE: Follow-up on vendor-specific CSS and the DOM
+UPDATED: 02009-04-08T17:08:00-0400
+--
 [Yesterday][pre2] I wrote about my difficulty in getting certain
 <abbr class='smallcaps'>CSS</abbr> properties that I needed for my code. Today
 I discovered the solution.

@@ -1,9 +1,12 @@
 BOOKMARK: http://delicious.com/url/2dbb83ab0fa452391d834a006b0a97d5
+KEYWORDS: books, corydoctorow, future, media, web
+LICENSE: CC:BY-NC
 LINK: http://www.internetevolution.com/document.asp?doc_id=171555&print=yes
 PERMALINK: http://ratafia.info/post/80350795/media-morphosis-how-the-internet-will-devour
-PUBLISHED: Feb 21st, 02009 8:28pm
-TAGS: books, corydoctorow, future, media, web
-
+PUBLISHED: 02009-02-21T20:28:00-0500
+TITLE: ‘Media-Morphosis: How the Internet Will Devour, Transform, or Destroy Your Favorite Medium’
+UPDATED: 02009-02-21T20:28:00-0500
+--
 <span class='person'>Cory Doctorow</span>:
 
 > The Internet chews up media and spits them out again. Sometimes they get more

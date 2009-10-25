@@ -1,7 +1,10 @@
-PERMALINK: /post/75872462/portfolio-launched
-PUBLISHED: Feb 5th, 02009 9:28am
-TAGS: portfolio
-
+KEYWORDS: portfolio
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/75872462/portfolio-launched
+PUBLISHED: 02009-02-05T09:28:00-0500
+TITLE: Portfolio launched
+UPDATED: 02009-02-05T09:28:00-0500
+--
 [![(Screen capture of the portfolio.)][pimg]][prtfl]
 
  [pimg]: http://img.photobucket.com/albums/v240/stilist/Miscellaneous/Portfolio.png

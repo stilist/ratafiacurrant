@@ -1,7 +1,10 @@
-PERMALINK: /post/76466304/custom-css-in-safari
-PUBLISHED: Feb 7th, 02009 4:10pm
-TAGS: greasekit, modding, safari
-
+KEYWORDS: greasekit, modding, safari
+LICENSE: CC:BY-NC
+PERMALINK: http://ratafia.info/post/76466304/custom-css-in-safari
+PUBLISHED: 02009-02-07T16:10:00-0500
+TITLE: Custom CSS in Safari
+UPDATED: 02009-02-07T16:10:00-0500
+--
 Although many of the web’s visual scars can be eliminated with the help of an
 ad blocker, there are still times when you’ll want to change a page’s actual
 appearance. Because there’s no official way to do this, there are a variety of

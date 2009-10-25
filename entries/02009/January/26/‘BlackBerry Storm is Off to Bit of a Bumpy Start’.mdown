@@ -1,9 +1,12 @@
 BOOKMARK: http://delicious.com/url/2aeb7eab938be249a991f51e1bbcd528
+KEYWORDS: blackberry, design, technology
+LICENSE: CC:BY-SA
 LINK: http://online.wsj.com/article/SB123292905716613927.html
-PERMALINK: /post/73306064/blackberry-storm-is-off-to-bit-of-a-bumpy-start
-PUBLISHED: Jan 26th, 02009 3:41pm
-TAGS: blackberry, design, technology
-
+PERMALINK: http://ratafia.info/post/73306064/blackberry-storm-is-off-to-bit-of-a-bumpy-start
+PUBLISHED: 02009-01-26T15:41:00-0500
+TITLE: ‘BlackBerry Storm is Off to Bit of a Bumpy Start’
+UPDATED: 02009-01-26T15:41:00-0500
+--
 > <span class='organization'>Verizon</span> and
 > <span class='organization'><abbr class='smallcaps'>RIM</abbr></span>,
 > determined to release the Storm in time for the holidays, rushed the device

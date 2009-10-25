@@ -1,7 +1,10 @@
-PERMALINK: /post/85711477/x-treme-advertising-yeah
-PUBLISHED: Mar 11th, 02009 10:38pm
-TAGS: advertising, web
-
+KEYWORDS: advertising, web
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/85711477/x-treme-advertising-yeah
+PUBLISHED: 02009-03-11T22:38:00-0400
+TITLE: X-treme Advertising! Yeah!
+UPDATED: 02009-03-11T22:38:00-0400
+--
 [<span class='person'>Dan Frost</span>, for the
 <span class='newspaper'>Los Angeles Times</span>:][lat]
 

@@ -1,7 +1,10 @@
-PERMALINK: /post/147293529/television-summer-02009
-PUBLISHED: Jul 23rd, 02009 12:37am
-TAGS: television
-
+KEYWORDS: television
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/147293529/television-summer-02009
+PUBLISHED: 02009-07-23T00:37:00-0400
+TITLE: Television, Summer 02009
+UPDATED: 02009-07-23T00:37:00-0400
+--
 This summer has seen a dramatic leap in the amount of television I
 watch — previously it was <abbr class='smallcaps'>NFL</abbr> (regular season
 onward) and a very rare ‘plop on the couch’; now I’ve begun regularly watching

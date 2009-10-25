@@ -1,7 +1,10 @@
-PERMALINK: /post/70509179/bookmarklet-to-show-todays-stats-in-google-analytics
-PUBLISHED: Jan 14th, 02009 3:55pm
-TAGS: bookmarklet, googleanalytics, javascript
-
+KEYWORDS: bookmarklet, googleanalytics, javascript
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/70509179/bookmarklet-to-show-todays-stats-in-google-analytics
+PUBLISHED: 02009-01-14T15:55:00-0500
+TITLE: Bookmarklet to show today’s stats in Google Analytics
+UPDATED: 02009-01-14T15:55:00-0500
+--
 I currently use Google Analytics for traffic stats here. Although the interface
 defaults to only showing information through the previous day, clicking the
 down arrow on the date selector allows showing today’s information. After doing

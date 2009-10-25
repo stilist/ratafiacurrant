@@ -1,7 +1,10 @@
 BOOKMARK: http://delicious.com/url/d560592c1dfd5dcc07da8347097d4aae
+KEYWORDS: davidpogue, google, googlevoice, grandcentral
+LICENSE: CC:BY-SA
 LINK: http://nytimes.com/2009/03/12/technology/personaltech/12pogue.html?pagewanted=all
-PERMALINK: /post/86398976/google-voice-blows-my-mind
-PUBLISHED: Mar 14th, 02009 9:09am
-TAGS: davidpogue, google, googlevoice, grandcentral
-
+PERMALINK: http://ratafia.info/post/86398976/google-voice-blows-my-mind
+PUBLISHED: 02009-03-14T09:09:00-0400
+TITLE: Google Voice blows my mind
+UPDATED: 02009-03-14T09:09:00-0400
+--
 The telephone as optionally-spoken email. It’s a pretty amazing idea.

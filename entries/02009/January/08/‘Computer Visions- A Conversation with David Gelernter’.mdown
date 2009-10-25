@@ -1,9 +1,12 @@
 BOOKMARK: http://delicious.com/url/cb549baccd9429b1b8cb84b8b30539f2
+KEYWORDS: davidgelernter, interview, lifestream
+LICENSE: CC:BY-SA
 LINK: http://java.sun.com/jsp_utils/PrintPage.jsp?url=http%3A%2F%2Fjava.sun.com%2Fdeveloper%2FtechnicalArticles%2FInterviews%2Fgelernter_qa.html
-PERMALINK: /post/69174869/computer-visions-a-conversation-with-david-gelernter
-PUBLISHED: Jan 8th, 02009 11:25am
-TAGS: davidgelernter, interview, lifestream
-
+PERMALINK: http://ratafia.info/post/69174869/computer-visions-a-conversation-with-david-gelernter
+PUBLISHED: 02009-01-08T11:25:00-0500
+TITLE: ‘Computer Visions: A Conversation with David Gelernter’
+UPDATED: 02009-01-08T11:25:00-0500
+--
 ## On lifestreams
 
 > Those are the goals of our [lifestream][ls] (or “information beam”) project. In our

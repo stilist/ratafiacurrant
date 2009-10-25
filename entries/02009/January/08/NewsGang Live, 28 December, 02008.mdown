@@ -1,6 +1,9 @@
+KEYWORDS: economics, newsgang, web, web2.0
+LICENSE: CC:BY-SA
 LINK: http://gillmorgang.techcrunch.com/2008/12/30/newsgang-live-122808/
-PERMALINK: /post/69085660/newsgang-live-28-december-02008
-PUBLISHED: Jan 8th, 02009 12:06am
-TAGS: economics, newsgang, web, web2.0
-
+PERMALINK: http://ratafia.info/post/69085660/newsgang-live-28-december-02008
+PUBLISHED: 02009-01-08T00:06:00-0500
+TITLE: NewsGang Live, 28 December, 02008
+UPDATED: 02009-01-08T00:06:00-0500
+--
 Pondering health care and the future of the web.

@@ -1,7 +1,10 @@
-PERMALINK: /post/74329819/timely-spam
-PUBLISHED: Jan 30th, 02009 10:51am
-TAGS: spam
-
+KEYWORDS: spam
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/74329819/timely-spam
+PUBLISHED: 02009-01-30T10:51:00-0500
+TITLE: Timely Spam
+UPDATED: 02009-01-30T10:51:00-0500
+--
 Several variants of this in my spambox.
 
 > Good day, Respective Sir or Madam!

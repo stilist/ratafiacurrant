@@ -1,7 +1,10 @@
-PERMALINK: /post/88582663/quiettube-as-custom-css
-PUBLISHED: Mar 21st, 02009 6:39pm
-TAGS: greasekit, greasemonkey, javascript, modding, quiettube, youtube
-
+KEYWORDS: greasekit, greasemonkey, javascript, modding, quiettube, youtube
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/88582663/quiettube-as-custom-css
+PUBLISHED: 02009-03-21T18:39:00-0400
+TITLE: quiettube as Custom CSS
+UPDATED: 02009-03-21T18:39:00-0400
+--
 There’s a bookmarklet going around called [quiettube][qt], which hides
 everything on YouTube’s video pages except the video. About a year ago I made a
 custom stylesheet that does the same thing, but never shared it.

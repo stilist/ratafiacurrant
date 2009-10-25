@@ -1,7 +1,10 @@
-PERMALINK: /post/69084067/online-avatars
-PUBLISHED: Jan 7th, 02009 11:57pm
-TAGS: microformats, persona, web
-
+KEYWORDS: microformats, persona, web
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/69084067/online-avatars
+PUBLISHED: 02009-01-07T23:57:00-0500
+TITLE: Online avatars
+UPDATED: 02009-01-07T23:57:00-0500
+--
 In order to have a single image representing me, I need to put it in the following places:
 
 * Address Book.app

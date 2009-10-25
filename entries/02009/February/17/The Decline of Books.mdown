@@ -1,7 +1,10 @@
-PERMALINK: /post/79168300/the-decline-of-books
-PUBLISHED: Feb 17th, 02009 4:52pm
-TAGS: books, reading, ursulaleguin
-
+KEYWORDS: books, reading, ursulaleguin
+LICENSE: CC:BY-NC
+PERMALINK: http://ratafia.info/post/79168300/the-decline-of-books
+PUBLISHED: 02009-02-17T16:52:00-0500
+TITLE: The Decline of Books
+UPDATED: 02009-02-17T16:52:00-0500
+--
 In an 02008 article for <span class='magazine'>Harper’s</span>,
 <span class='person'>Ursula Le Guin</span> [argues][ulgh] that book sales are
 declining because publishing corporations see volume as the only way to

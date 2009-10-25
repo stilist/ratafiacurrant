@@ -1,7 +1,10 @@
-PERMALINK: /post/143165292/what-i-want-in-a-bookmarking-service
-PUBLISHED: Jul 16th, 02009 9:52pm
-TAGS: bookmarks, tagging
-
+KEYWORDS: bookmarks, tagging
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/143165292/what-i-want-in-a-bookmarking-service
+PUBLISHED: 02009-07-16T21:52:00-0400
+TITLE: What I Want in a Bookmarking Service
+UPDATED: 02009-07-16T21:52:00-0400
+--
 When <span class='person'>[Maciej Cegłowski][mc]</span> first [put out the call][pba] for people to alpha-test [Pinboard][pb], I quickly applied. After accepting me, Maciej asked what kinds of features I was looking for. I didn’t have much to offer except complaints about the limits of [delicious][del], but I’ve since spent some time trying to come up with a more definitive list. My ideas are primarily drawn from experience with delicious, Pinboard, Flickr, blogging, and iTunes, and represent my present approach. 
 
  [del]: http://delicious.com

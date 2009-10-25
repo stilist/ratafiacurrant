@@ -1,7 +1,10 @@
-PERMALINK: /post/152533665/microformatting
-PUBLISHED: Jul 30th, 2009 6:56pm
-TAGS: microformats, ratafiacurrant
-
+KEYWORDS: microformats, ratafiacurrant
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/152533665/microformatting
+PUBLISHED: 02009-07-30T18:56:00-0400
+TITLE: Microformatting
+UPDATED: 02009-07-30T18:56:00-0400
+--
 For [some time now][rc1] I’ve been using [rel-license][rellic]; today I added
 [hAtom][hat] and [hCard][hca]. hCard was easy; I decided to just drop the
 `url` and `fn` attributes into a link around my name. hAtom, however, was a bit

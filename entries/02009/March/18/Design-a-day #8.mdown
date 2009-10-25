@@ -1,7 +1,10 @@
-PERMALINK: /post/87742390/design-a-day-8
-PUBLISHED: Mar 18th, 02009 9:08pm
-TAGS: design, design-a-day
-
+KEYWORDS: design, design-a-day
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/87742390/design-a-day-8
+PUBLISHED: 02009-03-18T21:08:00-0400
+TITLE: Design-a-day #8
+UPDATED: 02009-03-18T21:08:00-0400
+--
 [![Preview of design #8][img]][fl]
 
  [fl]: http://flickr.com/photos/stilist/3366135773/

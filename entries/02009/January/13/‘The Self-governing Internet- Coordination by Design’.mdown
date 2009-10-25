@@ -1,9 +1,12 @@
 BOOKMARK: http://delicious.com/url/fb6758cfa6de9f89a3405ed88c8bb6b1
+KEYWORDS: decentralization, internet, technology, web
+LICENSE: CC:BY-SA
 LINK: http://ccs.mit.edu/papers/CCSWP197/CCSWP197.html
-PERMALINK: /post/70219751/the-self-governing-internet-coordination-by-design
-PUBLISHED: Jan 13th, 02009 11:14am
-TAGS: decentralization, internet, technology, web
-
+PERMALINK: http://ratafia.info/post/70219751/the-self-governing-internet-coordination-by-design
+PUBLISHED: 02009-01-13T11:14:00-0500
+TITLE: ‘The Self-governing Internet: Coordination by Design’
+UPDATED: 02009-01-13T11:14:00-0500
+--
 I tend to forget how fortunate we are that the Internet is largely
 decentralized, free from the control of organizations that would force us to
 pay for the right to do anything.

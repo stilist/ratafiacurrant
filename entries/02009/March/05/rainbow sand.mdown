@@ -1,7 +1,10 @@
-PERMALINK: /post/83877017/rainbow-sand
-PUBLISHED: Mar 5th, 02009 4:04pm
-TAGS: design, meta, rainbowsand, wordpress
-
+KEYWORDS: design, meta, rainbowsand, wordpress
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/83877017/rainbow-sand
+PUBLISHED: 02009-03-05T16:04:00-0500
+TITLE: rainbow sand
+UPDATED: 02009-03-05T16:04:00-0500
+--
 Today I had a fit of inspiration and created a new blog design: 
 
 ![(Screen capture of rainbow sand design)][rsimg]

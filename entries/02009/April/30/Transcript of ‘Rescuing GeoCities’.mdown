@@ -1,7 +1,10 @@
-PERMALINK: /post/101890695/transcript-of-rescuing-geocities
-PUBLISHED: Apr 30th, 02009 11:30am
-TAGS: futuretense, geocities, interview, jasonscott, jongordon, podcast, transcript
-
+KEYWORDS: futuretense, geocities, interview, jasonscott, jongordon, podcast, transcript
+LICENSE: CC:BY-NC
+PERMALINK: http://ratafia.info/post/101890695/transcript-of-rescuing-geocities
+PUBLISHED: 02009-04-30T11:30:00-0400
+TITLE: Transcript of ‘Rescuing GeoCities’
+UPDATED: 02009-04-30T11:30:00-0400
+--
 Transcript of the [<span class='radio'>Future Tense</span>][ft] episode
 [‘Rescuing GeoCities’][rgc].
 

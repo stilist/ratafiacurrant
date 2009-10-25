@@ -1,7 +1,10 @@
-PERMALINK: /post/162398360/quick-tip-stop-auto-printing-with-glimmerblocker
-PUBLISHED: Aug 13th, 02009 8:06pm
-TAGS: glimmerblocker, javascript, web
-
+KEYWORDS: glimmerblocker, javascript, web
+LICENSE: CC:BY-NC
+PERMALINK: http://ratafia.info/post/162398360/quick-tip-stop-auto-printing-with-glimmerblocker
+PUBLISHED: 02009-08-13T20:06:00-0400
+TITLE: Quick Tip: Stop Auto-printing with GlimmerBlocker
+UPDATED: 02009-08-13T20:06:00-0400
+--
 As part of my high-volume web reading habits, I click through to the print
 versions of articles whenever possible. Annoyingly, sites will often use
 JavaScript to automatically make the page print. Here’s a simple way to stop

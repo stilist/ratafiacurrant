@@ -1,7 +1,10 @@
-PERMALINK: /post/67832896/javascript-bookmarklet-for-a-word-count-on-selected
-PUBLISHED: Jan 1st, 02009 1:16pm
-TAGS: bookmarklet, javascript
-
+KEYWORDS: bookmarklet, javascript
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/67832896/javascript-bookmarklet-for-a-word-count-on-selected
+PUBLISHED: 02009-01-01T13:16:00-0500
+TITLE: JavaScript bookmarklet for a word count on selected text
+UPDATED: 02009-01-01T13:16:00-0500
+--
 Sometimes I read lengthy articles or essays online and I’m curious how just
 how much the author has put down. I could copy the text into a text editor and
 find out, but why leave the browser?

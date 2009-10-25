@@ -1,8 +1,11 @@
+KEYWORDS: patrickhanlon, tumblelog, tumblr
+LICENSE: CC:BY-NC
 LINK: http://illogicalmotion.com/post/93981963/why-i-use-tumblr
-PERMALINK: /post/94289001/why-i-use-tumblr
-PUBLISHED: Apr 8th, 02009 5:41pm
-TAGS: patrickhanlon, tumblelog, tumblr
-
+PERMALINK: http://ratafia.info/post/94289001/why-i-use-tumblr
+PUBLISHED: 02009-04-08T17:41:00-0400
+TITLE: ‘Why I Use Tumblr’
+UPDATED: 02009-04-08T17:41:00-0400
+--
 <span class='person'>Patrick Hanlon</span>’s response to my
 [entry on tumblelogs][tle]. I agree with everything he says.
 

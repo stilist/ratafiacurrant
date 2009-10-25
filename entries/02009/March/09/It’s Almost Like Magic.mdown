@@ -1,4 +1,8 @@
+KEYWORDS: books, comics, pennyarcade, reading
+LICENSE: CC:BY-SA
 LINK: http://penny-arcade.com/comic/2009/3/9/progress/
-PERMALINK: /post/84930837/its-almost-like-magic
-PUBLISHED: Mar 9th, 02009 1:18pm
-TAGS: books, comics, pennyarcade, reading
+PERMALINK: http://ratafia.info/post/84930837/its-almost-like-magic
+PUBLISHED: 02009-03-09T13:18:00-0400
+TITLE: It’s Almost Like Magic
+UPDATED: 02009-03-09T13:18:00-0400
+--

@@ -1,7 +1,10 @@
-PERMALINK: /post/83563012/ricardo-theme-ported-to-wordpress
-PUBLISHED: Mar 4th, 02009 4:04pm
-TAGS: coding, design, meta, tumblr, wordpress
-
+KEYWORDS: coding, design, meta, tumblr, wordpress
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/83563012/ricardo-theme-ported-to-wordpress
+PUBLISHED: 02009-03-04T16:04:00-0500
+TITLE: ricardo theme ported to WordPress
+UPDATED: 02009-03-04T16:04:00-0500
+--
 [See it on GitHub][gh].
 
  [gh]: http://github.com/stilist/ratafiacurrant/tree/master/themes/ricardo-wp

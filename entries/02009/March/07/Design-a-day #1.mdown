@@ -1,7 +1,10 @@
-PERMALINK: /post/84465927/design-a-day-1
-PUBLISHED: Mar 7th, 02009 7:04pm
-TAGS: design, design-a-day
-
+KEYWORDS: design, design-a-day
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/84465927/design-a-day-1
+PUBLISHED: 02009-03-07T19:04:00-0500
+TITLE: Design-a-day #1
+UPDATED: 02009-03-07T19:04:00-0500
+--
 [![Design-a-day #1][fl]][dad1]
 
  [dad1]: http://flickr.com/photos/stilist/3336716356/

@@ -1,7 +1,10 @@
-PERMALINK: /post/74410243/doing-it-wrong
-PUBLISHED: Jan 30th, 02009 5:14pm
-TAGS: life
-
+KEYWORDS: life
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/74410243/doing-it-wrong
+PUBLISHED: 02009-01-30T17:14:00-0500
+TITLE: Doing It Wrong
+UPDATED: 02009-01-30T17:14:00-0500
+--
 [<span class='person'>Santiago Lyon</span>][sl]:
 
  [sl]: http://morris.blogs.nytimes.com/2009/01/25/mirror-mirror-on-the-wall/ "Errol Morris: ‘Mirror, Mirror on the Wall’"

@@ -1,9 +1,12 @@
 BOOKMARK: http://delicious.com/url/593f9dd9c6cc728f41e37438e3f50870
+KEYWORDS: crateandbarrel, curation, design, philosophy
+LICENSE: CC:BY-SA
 LINK: http://retailtrafficmag.com/mag/retail_crate_barrel_story/
-PERMALINK: /post/72455036/the-crate-and-barrel-story
-PUBLISHED: Jan 22nd, 02009 8:36pm
-TAGS: crateandbarrel, curation, design, philosophy
-
+PERMALINK: http://ratafia.info/post/72455036/the-crate-and-barrel-story
+PUBLISHED: 02009-01-22T20:36:00-0500
+TITLE: ‘The Crate and Barrel Story’
+UPDATED: 02009-01-22T20:36:00-0500
+--
 I’m intrigued by the idea of curated retail — presenting the customer with a
 careful selection of goods, rather than simply displaying products from anybody
 who fills categories or will cut a good distribution deal.

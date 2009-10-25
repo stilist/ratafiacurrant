@@ -1,7 +1,10 @@
-PERMALINK: /post/69457109/posts-now-simulcast-at-github
-PUBLISHED: Jan 9th, 02009 5:14pm
-TAGS: github, ratafia
-
+KEYWORDS: github, ratafia
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/69457109/posts-now-simulcast-at-github
+PUBLISHED: 02009-01-09T17:14:00-0500
+TITLE: Posts now simulcast at GitHub
+UPDATED: 02009-01-09T17:14:00-0500
+--
 I’ve copied and pasted most of the stuff I’ve published here into Markdown
 files that are published in the [GitHub directory for this site][rcgh]. As
 noted in the <abbr class='smallcaps'>`README`</abbr> over there, I’ve used a

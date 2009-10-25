@@ -1,7 +1,10 @@
-PERMALINK: /post/86400521/x-treme-advertising-pt-2
-PUBLISHED: Mar 14th, 02009 9:21am
-TAGS: advertising, onlinepublishersassociation
-
+KEYWORDS: advertising, onlinepublishersassociation
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/86400521/x-treme-advertising-pt-2
+PUBLISHED: 02009-03-14T09:21:00-0400
+TITLE: X-treme Advertising, pt. 2
+UPDATED: 02009-03-14T09:21:00-0400
+--
 First [new big ad][xtreme] I’ve seen in the wild:
 
  [xtreme]: http://ratafia.info/post/85711477/x-treme-advertising-yeah

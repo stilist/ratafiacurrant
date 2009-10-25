@@ -1,7 +1,10 @@
-PERMALINK: /post/72249064/on-venture-capital
-PUBLISHED: Jan 22nd, 02009 12:47am
-TAGS: economics, technology
-
+KEYWORDS: economics, technology
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/72249064/on-venture-capital
+PUBLISHED: 02009-01-22T00:47:00-0500
+TITLE: On venture capital
+UPDATED: 02009-01-22T00:47:00-0500
+--
 Just a quick one adapted from a few of my tweets ([1][1], [2][2], [3][3]).
 
  [1]: https://twitter.com/stilist/status/1138378585

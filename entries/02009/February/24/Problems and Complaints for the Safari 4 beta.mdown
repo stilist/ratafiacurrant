@@ -1,7 +1,10 @@
-PERMALINK: /post/81101200/problems-and-complaints-for-the-safari-4-beta
-PUBLISHED: Feb 24th, 02009 10:52am
-TAGS: safari, safari4, software
-
+KEYWORDS: safari, safari4, software
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.nfo/post/81101200/problems-and-complaints-for-the-safari-4-beta
+PUBLISHED: 02009-02-24T10:52:00-0500
+TITLE: Problems and Complaints for the Safari 4 beta
+UPDATED: 02009-02-24T10:52:00-0500
+--
 A list of things that have annoyed me so far about Safari 4. I don’t know how
 many of these things are intentional.
 

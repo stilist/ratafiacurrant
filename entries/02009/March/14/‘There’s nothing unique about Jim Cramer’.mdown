@@ -1,9 +1,12 @@
 BOOKMARK: http://delicious.com/url/678b4723bb8f90650e8454d0a859a1ee
+KEYWORDS: glenngreenwald, journalism
+LICENSE: CC:BY-SA
 LINK: http://www.salon.com/opinion/greenwald/2009/03/13/cramer/print.html
-PERMALINK: /post/86441124/theres-nothing-unique-about-jim-cramer
-PUBLISHED: Mar 14th, 02009 1:11pm
-TAGS: glenngreenwald, journalism
-
+PERMALINK: http://ratafia.info/post/86441124/theres-nothing-unique-about-jim-cramer
+PUBLISHED: 02009-03-14T13:11:00-0400
+TITLE: ‘There’s nothing unique about Jim Cramer’
+UPDATED: 02009-03-14T13:11:00-0400
+--
 <span class='person'>Glenn Greenwald</span> argues that leading journalists are
 sometimes *proud* of their willingness to pass along information without
 digging to see if the information is true.

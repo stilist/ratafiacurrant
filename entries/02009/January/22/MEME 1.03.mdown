@@ -1,9 +1,12 @@
 BOOKMARK: http://delicious.com/url/e65127710381c3b42007884e28ea15ce
+KEYWORDS: apple, davidbennahum, history, technology
+LICENSE: CC:BY-SA
 LINK: http://memex.org/meme1-03.html
-PERMALINK: /post/72420994/meme-1-03
-PUBLISHED: Jan 22nd, 02009 5:36pm
-TAGS: apple, davidbennahum, history, technology
-
+PERMALINK: http://ratafia.info/post/72420994/meme-1-03
+PUBLISHED: 02009-01-22T17:36:00-0500
+TITLE: MEME 1.03
+UPDATED: 02009-01-22T17:36:00-0500
+--
 <cite><span class='person'>David Bennahum</span>, 01995:</cite>
 
 > Thanks to the microprocessor things get so much more powerful so quickly that

@@ -1,8 +1,11 @@
+KEYWORDS: apple, appletablet, digital, ituneslp, multimedia
+LICENSE: CC:BY-SA
 LINK: http://gizmodo.com/5370252/apple-tablet-aiming-to-redefine-newspapers-textbooks-and-magazines
-PERMALINK: /post/201135489/apple-tablet-to-redefine-newspapers-textbooks-and
-PUBLISHED: Sep 30th, 02009 3:46pm
-TAGS: apple, appletablet, digital, ituneslp, multimedia
-
+PERMALINK: http://ratafia.info/post/201135489/apple-tablet-to-redefine-newspapers-textbooks-and
+PUBLISHED: 02009-09-30T15:46:00-0400
+TITLE: “Apple Tablet to Redefine Newspapers, Textbooks and Magazines”
+UPDATED: 02009-09-30T15:46:00-0400
+--
 <span class='person'>Brian Lam</span> reports that the rumored
 <span class='company'>Apple</span> tablet will be launched with a variety of
 multimedia-enhanced text sources. If correct,

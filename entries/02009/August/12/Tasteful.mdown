@@ -1,7 +1,10 @@
-PERMALINK: /post/161040058/tasteful
-PUBLISHED: Aug 12th, 02009 12:42am
-TAGS: life, music, philayoub, schoolbuswindowpaperheart
-
+KEYWORDS: life, music, philayoub, schoolbuswindowpaperheart
+LICENSE: CC:BY-NC
+PERMALINK: http://ratafia.info/post/161040058/tasteful
+PUBLISHED: 02009-08-12T00:42:00-0400
+TITLE: Tasteful
+UPDATED: 02009-08-12T00:42:00-0400
+--
 Four years ago when I was in college I’d regularly play the radio while driving
 to and from campus, primarily listening to oldies (which had already shifted to
 mean ’70s and ’80s rock) or the local <abbr class='smallcaps'>NPR</abbr>

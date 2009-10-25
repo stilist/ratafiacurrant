@@ -1,7 +1,10 @@
-PERMALINK: /post/69521533/transcription-of-phish-my-phail-whale
-PUBLISHED: Jan 10th, 02009 12:50am
-TAGS: alexpayne, audio, chrismessina, citizengarden, larryhalff, OAuth, OpenID, podcast, transcript, Twitter
-
+KEYWORDS: alexpayne, audio, chrismessina, citizengarden, larryhalff, OAuth, OpenID, podcast, transcript, Twitter
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/69521533/transcription-of-phish-my-phail-whale
+PUBLISHED: 02009-01-10T00:50:00-0500
+TITLE: Transcript of ‘Phish My Phail Whale’
+UPDATED: 02009-01-10T00:50:00-0500
+--
 Transcription of Citizen Garden episode 10, [‘Phish My Phail Whale’][cgphish].
 
 This took about four and a half hours to transcribe, and another to edit for

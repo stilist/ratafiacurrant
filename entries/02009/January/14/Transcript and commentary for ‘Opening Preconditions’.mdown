@@ -1,7 +1,10 @@
-PERMALINK: /post/70445622/transcript-and-commentary-for-opening-preconditions
-PUBLISHED: Jan 14th, 02009 10:50am
-TAGS: audio, citizengarden, dataportability, ma.gnolia, oauth, openid, openweb, podcast, transcript
-
+KEYWORDS: audio, citizengarden, dataportability, ma.gnolia, oauth, openid, openweb, podcast, transcript
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/70445622/transcript-and-commentary-for-opening-preconditions
+PUBLISHED: 02009-01-14T10:50:00-0500
+TITLE: Transcript and commentary for ‘Opening Preconditions’
+UPDATED: 02009-01-14T10:50:00-0500
+--
 Transcription of Citizen Garden episode 9, [‘Opening Preconditions’][cgop].
 
  [cgop]: http://citizengarden.com/2008/08/27/episode-9-opening-preconditions/ "Citizen Garden entry for ‘Opening Preconditions’"

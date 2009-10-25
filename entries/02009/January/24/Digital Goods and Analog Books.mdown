@@ -1,7 +1,10 @@
-PERMALINK: /post/72804685/digital-goods-and-analog-books
-PUBLISHED: Jan 24th, 02009 10:15am
-TAGS: books, curation, digitalgoods, library
-
+KEYWORDS: books, curation, digitalgoods, library
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/72804685/digital-goods-and-analog-books
+PUBLISHED: 02009-01-24T10:15:00-0500
+TITLE: Digital Goods and Analog Books
+UPDATED: 02009-01-24T10:15:00-0500
+--
 In the roughly two decades the Web has existed, we’ve all been participating in
 an experiment to see what happens with post-scarcity goods: things that can be
 reproduced infinitely, at effectively zero cost for reproduction, distribution,

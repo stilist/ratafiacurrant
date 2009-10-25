@@ -1,9 +1,11 @@
 BOOKMARK: http://delicious.com/url/d42cc27c9f685541eb213c1fd8fa883a
+KEYWORDS: assassination, lasanthawickramatunga, politics, srilanka
 LINK: http://www.thesundayleader.lk/20090111/editorial-.htm
-PERMALINK: /post/70781455/and-then-they-came-for-me
-PUBLISHED: Jan 15th, 02009 7:04pm
-TAGS: assassination, lasanthawickramatunga, politics, srilanka
-
+PERMALINK: http://ratafia.info/post/70781455/and-then-they-came-for-me
+PUBLISHED: 02009-01-15T19:04:00-0500
+TITLE: ‘And Then They Came for Me’
+UPDATED: 02009-01-15T19:04:00-0500
+--
 [Lasantha Wickramatunga][lw], an editor of the Sri Lankan
 [<span class='newspaper'>The Sunday Leader</span>][tsl], was assassinated on 8
 January, 02009. He had written an editorial to be published in the event of his

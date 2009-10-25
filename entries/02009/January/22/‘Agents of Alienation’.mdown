@@ -1,7 +1,10 @@
-PERMALINK: /post/72339982/agents-of-alienation
-PUBLISHED: Jan 22nd, 02009 10:50am
-TAGS: artificialintelligence, generalmagic, jaronlanier, wired
-
+KEYWORDS: artificialintelligence, generalmagic, jaronlanier, wired
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/72339982/agents-of-alienation
+PUBLISHED: 02009-01-22T10:50:00-0500
+TITLE: ‘Agents of Alienation’
+UPDATED: 02009-01-22T10:50:00-0500
+--
 Back on the tenth, I read a somewhat unusual [essay][aoa] by
 <span class='person'>Jaron Lanier</span> seemingly railing against
 <abbr class='smallcaps' title='Artificial Intelligence'>AI</abbr>.

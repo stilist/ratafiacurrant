@@ -1,6 +1,9 @@
-PERMALINK: /post/86296383/no-design-a-day-today
-PUBLISHED: Mar 13th, 02009 9:19pm
-TAGS: design-a-day
-
+KEYWORDS: design-a-day
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/86296383/no-design-a-day-today
+PUBLISHED: 02009-03-13T21:19:00-0400
+TITLE: No Design-a-day Today
+UPDATED: 02009-03-13T21:19:00-0400
+--
 I was on a day trip, and got back too late. But it all works out, because
 design #1 was released early — so I did finish with five designs this week.

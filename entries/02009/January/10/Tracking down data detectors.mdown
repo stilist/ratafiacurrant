@@ -1,7 +1,10 @@
-PERMALINK: /post/69626208/tracking-down-data-detectors
-PUBLISHED: Jan 10th, 02009 3:26pm
-TAGS: apple, artificialintelligence, datadetector, technology
-
+KEYWORDS: apple, artificialintelligence, datadetector, technology
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/69626208/tracking-down-data-detectors
+PUBLISHED: 02009-01-10T15:26:00-0500
+TITLE: Tracking down data detectors
+UPDATED: 02009-01-10T15:26:00-0500
+--
 Today I’ve been looking for information about the origins of
 <span class='organization'>Apple</span>’s ‘data detector’ technology. Although
 it was available in some form starting in the late 90s, it seems to have
