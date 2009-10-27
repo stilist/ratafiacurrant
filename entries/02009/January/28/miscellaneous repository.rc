@@ -1,9 +1,9 @@
 KEYWORDS: github, meta
 LICENSE: CC:BY-SA
 PERMALINK: http://ratafia.info/post/74066848/miscellaneous-repository
-PUBLISHED: 02009-01-28T10:30-0500
+PUBLISHED: 02009-01-28T10:30:00-0500
 TITLE: miscellaneous repository
-UPDATED: 02009-01-28T10:30-0500
+UPDATED: 02009-01-28T10:30:00-0500
 --
 I’ve created a [new git repository][misc] to hold bits and bobs of my code. I’m
 still looking around to see what I can put in, so it’s a little thin right now.
