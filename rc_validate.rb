@@ -1,46 +1,20 @@
 #!/usr/bin/ruby -w
 
-# This code's a mess, but hey--it works.
-
 require 'find'
 
-DEBUG = true
+# This code's a mess, but hey--it works.
 
 class RC_VALIDATE
-  def validate_entry
-    entries = File.expand_path(ARGV[0])
+  DEBUG = false
+  @@is_invalid = false
+  @@errors = []
 
-    if entries.nil?
-      puts "Please specify a file or directory to validate"
-    else
-      Find.find(entries) { |path|
-        if File.file?(path) && (0 === (File.extname(path) =~ /\.rc/))
-          begin
-            entry = IO.read(path)
-            is_invalid = valid_tag?(entry)
-            if true === is_invalid
-              puts "#{path} failed validation\n\n"
-            else
-              #puts "#{path} passed validation\n\n" if true === DEBUG
-            end
-          rescue => err
-            puts "Problem reading file: #{err}\n\n"
-          end
-        elsif File.file?(path) && (0 === (File.extname(path) =~ /\.mdown/))
-          puts "#{path} might be valid, but you need to rename it first"
-        end
-      }
-    end
-  end
-
-  def valid_tag?(entry)
-    is_invalid = false
-
-    # http://www.manamplified.org/archives/2006/10/url-regex-pattern.html
-    url_pattern = /([A-Za-z][A-Za-z0-9+.-]{1,120}:[A-Za-z0-9\/](([A-Za-z0-9$_.+!*,;\/?:@&~=-])|%[A-Fa-f0-9]{2}){1,333}(#([a-zA-Z0-9][a-zA-Z0-9$_.+!*,;\/?:@&~=%-]{0,1000}))?)/
-    iso_8601_datetime = /[\+-]?\d{5}-(0[1-9]|1[0-2])-([0-2][0-9]|3[0-1])T([0-1][0-9]|2[0-4]):[0-5][0-9]:[0-5][0-9](\.\d+)?(-[0-2]\d{3}|Z)/
-    iso_8601_duration = /P(\d+YnMnD)?T\d+H\d+M\d+S\/P(\d+YnMnD)?T\d+H\d+M\d+S/
-    valid_metatags = {
+  # http://www.manamplified.org/archives/2006/10/url-regex-pattern.html
+  # tags are documented in `rc format.mdown`
+  url_pattern = /([A-Za-z][A-Za-z0-9+.-]{1,120}:[A-Za-z0-9\/](([A-Za-z0-9$_.+!*,;\/?:@&~=-])|%[A-Fa-f0-9]{2}){1,333}(#([a-zA-Z0-9][a-zA-Z0-9$_.+!*,;\/?:@&~=%-]{0,1000}))?)/
+  iso_8601_datetime = /[\+-]?\d{5}-(0[1-9]|1[0-2])-([0-2][0-9]|3[0-1])T([0-1][0-9]|2[0-4]):[0-5][0-9]:[0-5][0-9](\.\d+)?(-[0-2]\d{3}|Z)/
+  iso_8601_duration = /P(\d+YnMnD)?T\d+H\d+M\d+S\/P(\d+YnMnD)?T\d+H\d+M\d+S/
+  @@valid_metatags = {
         'AUTHOR' => {'req' => false, 'pat' => /\w+/},
         'BOOKMARK' => {'req' => false, 'pat' => url_pattern},
         'COPYRIGHT' => {'req' => false, 'pat' => /\w+/},
@@ -56,66 +30,113 @@ class RC_VALIDATE
         'SOURCEURI' => {'req' => false, 'pat' => url_pattern},
         'TITLE' => {'req' => true, 'pat' => /.+/},
         'UPDATED' => {'req' => true, 'pat' => iso_8601_datetime}}
-    required_tags = []
-    valid_metatags.each { |key, value|
-      required_tags << key if true === value['req']
+
+  def load_files(path)
+    entries = File.expand_path(path)
+    file_list = []
+
+    if entries.nil?
+      puts "Please specify a file or directory to validate"
+    else
+      Find.find(entries) { |f|
+        file_list << f
+      }
+    end
+
+    file_list
+  end
+
+  def parse_entry(entry)
+    document = entry.split("--\n")
+    metatags = document[0]
+    body = document[1]
+
+    tags = prepare_tags(metatags)
+    tags.each { |name, data|
+      bad_tag = valid_tag?(name, data)
     }
 
-    # separate entry's metatags from body
-    document = entry.split("--\n")
-    tag_section = document[0]
-    is_invalid = true if document[1].nil?
+    #valid_body?(body)
+  end
 
-    if false === is_invalid
-      tags = { }
-      tag_section.each_line { |t|
-        tag = t.split(':')
-        tag_name = tag[0]
-        # handle cases like URIs where there's more colons; remove leading space
-        tag.delete_at(0)
-        tag_data = tag.join(':').strip!
+  def prepare_tags(metatags)
+    tags = { }
+    metatags.each_line { |t|
+      tag = t.split(':')
+      tag_name = tag[0]
+      # handle tag data with colons
+      tag.delete_at(0)
+      tag_data = tag.join(':').strip!
 
-        this_tag = { tag_name => tag_data }
-        # catch duplicate metatags
-        if tags[tag_name]
-          puts "Duplicate metatag: #{tag_name}" if true === DEBUG
-          is_invalid = true
-        else
-          tags.merge!(this_tag)
-        end
-      }
-    end
+      this_tag = { tag_name => tag_data }
+      # catch duplicate metatags
+      if tags[tag_name]
+        @@errors << ["Duplicate metatag: #{tag_name}"]
+      else
+        tags.merge!(this_tag)
+      end
+    }
 
-    if false === is_invalid && tags
-      required_tags.each { |key, value|
-        unless tags[key]
-          puts "Missing metatag: #{key}" if true === DEBUG
-          is_invalid = true
-        end
-      }
+    tags
+  end
+
+  def required_tags?(tags)
+    required_tags = []
+    @@valid_metatags.each { |key, value|
+      required_tags << key if true === value['req']
+    }
+    required_tags.each { |key, value|
+      unless tags[key]
+        @@errors["Missing metatag: #{key}"]
+      end
+    }
+  end
+
+  def valid_tag?(name, data)
+    if @@valid_metatags[name]
+      match = data =~ @@valid_metatags[name]['pat']
+      unless 0 === match
+        @@errors << ["Invalid metatag data for #{name}: #{data}"]
+      end
     else
-      is_invalid = true
+      @@errors << ["Invalid metatag: #{name}"]
     end
-    
-    if false === is_invalid
-      tags.each { |name, data|
-        if valid_metatags[name]
-          match = data =~ valid_metatags[name]['pat']
-          unless 0 === match
-            puts "Invalid metatag data for #{name}: #{data}" if true === DEBUG
-            is_invalid = true
-          end
-        else
-          puts "Invalid metatag: #{name}" if true === DEBUG
-          is_invalid = true
-        end
-      }
-    end
+  end
 
-    # return document's validity
-    is_invalid
+  def valid_body?(body)
+  end
+
+  def valid_entry?(path)
+    file_list = load_files(path)
+
+    file_list.each { |file|
+      if File.file?(file)
+        if 0 === (File.extname(file) =~ /\.rc/)
+          begin
+            entry = IO.read(file)
+            parse_entry(entry)
+          rescue => err
+            @@errors << ["Problem reading file: #{err}\n\n"]
+          end
+        elsif 0 === (File.extname(file) =~ /\.mdown/)
+          @@errors << ["#{file} might be valid, but you need to rename it first"]
+        end
+      end
+
+      unless @@errors.empty?
+        puts "#{file} failed validation"
+        puts "--"
+        @@errors.each { |e| puts e }
+        puts "\n\n"
+      else
+        puts "#{file} passed validation" if DEBUG
+      end
+
+      @@errors = []
+    }
   end
 end
 
 v = RC_VALIDATE.new
-v.validate_entry
+# xxx handle any number of arguments
+v.valid_entry?(ARGV[0])
