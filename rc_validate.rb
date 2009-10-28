@@ -12,10 +12,28 @@ class RC_VALIDATE
   # http://www.manamplified.org/archives/2006/10/url-regex-pattern.html
   # tags are documented in `rc format.mdown`
   url_pattern = /([A-Za-z][A-Za-z0-9+.-]{1,120}:[A-Za-z0-9\/](([A-Za-z0-9$_.+!*,;\/?:@&~=-])|%[A-Fa-f0-9]{2}){1,333}(#([a-zA-Z0-9][a-zA-Z0-9$_.+!*,;\/?:@&~=%-]{0,1000}))?)/
-  iso_8601_datetime = /[\+-]?\d{5}-?(0[1-9]|1[0-2])-?([0-2][0-9]|3[0-1])T([0-1][0-9]|2[0-4]):?[0-5][0-9]:?[0-5][0-9](\.\d+)?(-?[0-2]\d{3}|Z)/
-  iso_8601_duration = /P[\+-]?((\d{5}Y)?((0[1-9]|1[0-2])M)?(([0-2][0-9]|3[0-1])D)?)?(T(([0-1][0-9]|2[0-4])H)?([0-5][0-9]M)?([0-5][0-9]S)?)?/
 
-  iso_8601_interval = /(#{iso_8601_datetime}|#{iso_8601_duration})\/(#{iso_8601_datetime}|#{iso_8601_duration})/
+  iso_year = /[\+-]?\d{5}/
+  iso_month = /(0[1-9]|1[0-2])/
+  iso_week = /W([0-4][0-9]|5[0-3])/
+  iso_day = /([0-2][0-9]|3[0-1])/
+  iso_weekday = /[1-7]/
+  iso_fraction = /([\.,]\d+)?/
+  iso_hour = /([0-1][0-9]|2[0-4])#{iso_fraction}/
+  iso_minute = /[0-5][0-9]#{iso_fraction}/
+  iso_second = /[0-5][0-9]#{iso_fraction}/
+  iso_timezone = /(Z|[\+-](#{iso_hour}:#{iso_minute}|#{iso_hour}#{iso_minute}|#{iso_hour}))/
+  # xxx does not enforce months' day counts
+  iso_cal_date = /#{iso_year}(-#{iso_month}-#{iso_day}|#{iso_month}#{iso_day}|-#{iso_month})/
+  iso_week_date = /#{iso_year}(-#{iso_week}|#{iso_week}|-#{iso_week}-#{iso_weekday}|#{iso_week}#{iso_weekday})/
+  iso_ordinal_date = /#{iso_year}-?([0-2][0-9][0-9]|3([0-5][0-9]|6[0-6]))/
+  iso_time = /(#{iso_hour}:#{iso_minute}(:#{iso_second})?|#{iso_hour}#{iso_minute}(#{iso_second})?|#{iso_hour})/
+
+  iso_datetime = /#{iso_cal_date}T#{iso_time}/
+  iso_duration = /P(((\d+#{iso_fraction}Y)?(#{iso_month}#{iso_fraction}M)?(#{iso_day}#{iso_fraction}D)?)?(T(#{iso_hour}H)?(#{iso_month}M)?(#{iso_second}S)?)?|\d+#{iso_fraction}W|#{iso_datetime})/
+  iso_interval = /(#{iso_datetime}|#{iso_duration})\/(#{iso_datetime}|#{iso_duration})/
+  iso_repeating_interval = /R[\d+]?\/#{iso_interval}/
+
   @@valid_metatags = {
         'AUTHOR' => {'req' => false, 'pat' => /\w+/},
         'BOOKMARK' => {'req' => false, 'pat' => url_pattern},
@@ -26,12 +44,12 @@ class RC_VALIDATE
         'LINK' => {'req' => false, 'pat' => url_pattern},
         'MEDIUM' => {'req' => false, 'pat' => /.+/},
         'PERMALINK' => {'req' => true, 'pat' => url_pattern},
-        'PUBLISHED' => {'req' => true, 'pat' => /(#{iso_8601_datetime}|#{iso_8601_duration})/},
+        'PUBLISHED' => {'req' => true, 'pat' => /(#{iso_datetime}|#{iso_duration})/},
         'SOURCE' => {'req' => false, 'pat' => /.+/},
-        'SOURCERANGE' => {'req' => false, 'pat' => /(p \d+-\d+(, \d+-\d+)*|#{iso_8601_interval}(, #{iso_8601_interval})*)/},
+        'SOURCERANGE' => {'req' => false, 'pat' => /(p \d+-\d+(, \d+-\d+)*|#{iso_interval}(, #{iso_interval})*)/},
         'SOURCEURI' => {'req' => false, 'pat' => url_pattern},
         'TITLE' => {'req' => true, 'pat' => /.+/},
-        'UPDATED' => {'req' => true, 'pat' => /(#{iso_8601_datetime}|#{iso_8601_duration})/}}
+        'UPDATED' => {'req' => true, 'pat' => /(#{iso_datetime}|#{iso_duration})/}}
 
   def load_files(path)
     entries = File.expand_path(path)
