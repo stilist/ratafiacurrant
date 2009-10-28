@@ -34,21 +34,21 @@ class RC_VALIDATE
   iso_repeating_interval = /R[\d+#{iso_fraction}]?\/#{iso_interval}/
 
   @@valid_metatags = {
-        'AUTHOR' => {'req' => false, 'pat' => /\w+/},
-        'BOOKMARK' => {'req' => false, 'pat' => url_pattern},
-        'COPYRIGHT' => {'req' => false, 'pat' => /\w+/},
-        'GEOLOCATION' => {'req' => false, 'pat' => /(ADDR .+|GPS [A-Z0-9-]+ (-)?\d{1,3}(.\d{0,})?, (-)?\d{1,3}(.\d{0,})?)/},
-        'KEYWORDS' => {'req' => false, 'pat' => /\w+( \w*)*(, \w+( \w+)*)*/},
-        'LICENSE' => {'req' => false, 'pat' => /\w+/},
-        'LINK' => {'req' => false, 'pat' => url_pattern},
-        'MEDIUM' => {'req' => false, 'pat' => /.+/},
-        'PERMALINK' => {'req' => true, 'pat' => url_pattern},
-        'PUBLISHED' => {'req' => true, 'pat' => /(#{iso_datetime}|#{iso_duration})/},
-        'SOURCE' => {'req' => false, 'pat' => /.+/},
-        'SOURCERANGE' => {'req' => false, 'pat' => /(p \d+-\d+(, \d+-\d+)*|#{iso_interval}(, #{iso_interval})*)/},
-        'SOURCEURI' => {'req' => false, 'pat' => url_pattern},
-        'TITLE' => {'req' => true, 'pat' => /.+/},
-        'UPDATED' => {'req' => true, 'pat' => /(#{iso_datetime}|#{iso_duration})/}}
+      'AUTHOR' => { 'req' => false, 'pat' => /\w+/ },
+      'BOOKMARK' => { 'req' => false, 'pat' => url_pattern },
+      'COPYRIGHT' => { 'req' => false, 'pat' => /\w+/ },
+      'GEOLOCATION' => { 'req' => false, 'pat' => /(ADDR .+|GPS [A-Z0-9-]+ (-)?\d{1,3}(.\d{0,})?, (-)?\d{1,3}(.\d{0,})?)/ },
+      'KEYWORDS' => { 'req' => false, 'pat' => /\w+( \w*)*(, \w+( \w+)*)*/ },
+      'LICENSE' => { 'req' => false, 'pat' => /\w+/ },
+      'LINK' => { 'req' => false, 'pat' => url_pattern },
+      'MEDIUM' => { 'req' => false, 'pat' => /.+/ },
+      'PERMALINK' => { 'req' => true, 'pat' => url_pattern },
+      'PUBLISHED' => { 'req' => true, 'pat' => /(#{iso_datetime}|#{iso_duration})/ },
+      'SOURCE' => { 'req' => false, 'pat' => /.+/ },
+      'SOURCERANGE' => { 'req' => false, 'pat' => /(p \d+-\d+(, \d+-\d+)*|#{iso_interval}(, #{iso_interval})*)/ },
+      'SOURCEURI' => { 'req' => false, 'pat' => url_pattern },
+      'TITLE' => { 'req' => true, 'pat' => /.+/ },
+      'UPDATED' => { 'req' => true, 'pat' => /(#{iso_datetime}|#{iso_duration})/} }
 
   def load_files(path)
     entries = File.expand_path(path)
@@ -73,7 +73,7 @@ class RC_VALIDATE
 
     tags = prepare_tags(metatags)
     tags.each { |name, data|
-      bad_tag = valid_tag?(name, data)
+      valid_tag?(name, data)
     }
 
     #valid_body?(body)
