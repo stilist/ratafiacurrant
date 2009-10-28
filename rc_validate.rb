@@ -28,11 +28,10 @@ class RC_VALIDATE
   iso_week_date = /#{iso_year}(-#{iso_week}|#{iso_week}|-#{iso_week}-#{iso_weekday}|#{iso_week}#{iso_weekday})/
   iso_ordinal_date = /#{iso_year}-?([0-2][0-9][0-9]|3([0-5][0-9]|6[0-6]))/
   iso_time = /(#{iso_hour}:#{iso_minute}(:#{iso_second})?|#{iso_hour}#{iso_minute}(#{iso_second})?|#{iso_hour})/
-
   iso_datetime = /#{iso_cal_date}T#{iso_time}/
-  iso_duration = /P(((\d+#{iso_fraction}Y)?(#{iso_month}#{iso_fraction}M)?(#{iso_day}#{iso_fraction}D)?)?(T(#{iso_hour}H)?(#{iso_month}M)?(#{iso_second}S)?)?|\d+#{iso_fraction}W|#{iso_datetime})/
+  iso_duration = /P((\d+#{iso_fraction}Y)?(#{iso_month}#{iso_fraction}M)?(#{iso_day}#{iso_fraction}D)??(T(#{iso_hour}H)?(#{iso_month}M)?(#{iso_second}S)?)?|\d+#{iso_fraction}W|#{iso_datetime})/
   iso_interval = /(#{iso_datetime}|#{iso_duration})\/(#{iso_datetime}|#{iso_duration})/
-  iso_repeating_interval = /R[\d+]?\/#{iso_interval}/
+  iso_repeating_interval = /R[\d+#{iso_fraction}]?\/#{iso_interval}/
 
   @@valid_metatags = {
         'AUTHOR' => {'req' => false, 'pat' => /\w+/},
