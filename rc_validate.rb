@@ -12,8 +12,10 @@ class RC_VALIDATE
   # http://www.manamplified.org/archives/2006/10/url-regex-pattern.html
   # tags are documented in `rc format.mdown`
   url_pattern = /([A-Za-z][A-Za-z0-9+.-]{1,120}:[A-Za-z0-9\/](([A-Za-z0-9$_.+!*,;\/?:@&~=-])|%[A-Fa-f0-9]{2}){1,333}(#([a-zA-Z0-9][a-zA-Z0-9$_.+!*,;\/?:@&~=%-]{0,1000}))?)/
-  iso_8601_datetime = /[\+-]?\d{5}-(0[1-9]|1[0-2])-([0-2][0-9]|3[0-1])T([0-1][0-9]|2[0-4]):[0-5][0-9]:[0-5][0-9](\.\d+)?(-[0-2]\d{3}|Z)/
-  iso_8601_duration = /P(\d+YnMnD)?T\d+H\d+M\d+S\/P(\d+YnMnD)?T\d+H\d+M\d+S/
+  iso_8601_datetime = /[\+-]?\d{5}-?(0[1-9]|1[0-2])-?([0-2][0-9]|3[0-1])T([0-1][0-9]|2[0-4]):?[0-5][0-9]:?[0-5][0-9](\.\d+)?(-?[0-2]\d{3}|Z)/
+  iso_8601_duration = /P[\+-]?((\d{5}Y)?((0[1-9]|1[0-2])M)?(([0-2][0-9]|3[0-1])D)?)?(T(([0-1][0-9]|2[0-4])H)?([0-5][0-9]M)?([0-5][0-9]S)?)?/
+
+  iso_8601_interval = /(#{iso_8601_datetime}|#{iso_8601_duration})\/(#{iso_8601_datetime}|#{iso_8601_duration})/
   @@valid_metatags = {
         'AUTHOR' => {'req' => false, 'pat' => /\w+/},
         'BOOKMARK' => {'req' => false, 'pat' => url_pattern},
@@ -24,19 +26,19 @@ class RC_VALIDATE
         'LINK' => {'req' => false, 'pat' => url_pattern},
         'MEDIUM' => {'req' => false, 'pat' => /.+/},
         'PERMALINK' => {'req' => true, 'pat' => url_pattern},
-        'PUBLISHED' => {'req' => true, 'pat' => iso_8601_datetime},
-        'SOURCE' => {'req' => false, 'pat' => /\d{5}(, \w*)?/},
-        'SOURCERANGE' => {'req' => false, 'pat' => "(p \d+-\d+(, \d+-\d+)*|#{iso_8601_duration}/#{iso_8601_duration}(, #{iso_8601_duration}/#{iso_8601_duration})*)"},
+        'PUBLISHED' => {'req' => true, 'pat' => /(#{iso_8601_datetime}|#{iso_8601_duration})/},
+        'SOURCE' => {'req' => false, 'pat' => /.+/},
+        'SOURCERANGE' => {'req' => false, 'pat' => /(p \d+-\d+(, \d+-\d+)*|#{iso_8601_interval}(, #{iso_8601_interval})*)/},
         'SOURCEURI' => {'req' => false, 'pat' => url_pattern},
         'TITLE' => {'req' => true, 'pat' => /.+/},
-        'UPDATED' => {'req' => true, 'pat' => iso_8601_datetime}}
+        'UPDATED' => {'req' => true, 'pat' => /(#{iso_8601_datetime}|#{iso_8601_duration})/}}
 
   def load_files(path)
     entries = File.expand_path(path)
     file_list = []
 
     if entries.nil?
-      puts "Please specify a file or directory to validate"
+      @@errors << "Please specify a file or directory to validate"
     else
       Find.find(entries) { |f|
         file_list << f
@@ -50,6 +52,7 @@ class RC_VALIDATE
     document = entry.split("--\n")
     metatags = document[0]
     body = document[1]
+    @@errors << "Couldn't find body section" if body.nil?
 
     tags = prepare_tags(metatags)
     tags.each { |name, data|
@@ -71,7 +74,7 @@ class RC_VALIDATE
       this_tag = { tag_name => tag_data }
       # catch duplicate metatags
       if tags[tag_name]
-        @@errors << ["Duplicate metatag: #{tag_name}"]
+        @@errors << "Duplicate metatag: #{tag_name}"
       else
         tags.merge!(this_tag)
       end
@@ -87,19 +90,19 @@ class RC_VALIDATE
     }
     required_tags.each { |key, value|
       unless tags[key]
-        @@errors["Missing metatag: #{key}"]
+        @@errors << "Missing metatag: #{key}"
       end
     }
   end
 
   def valid_tag?(name, data)
     if @@valid_metatags[name]
-      match = data =~ @@valid_metatags[name]['pat']
+      match = (data =~ @@valid_metatags[name]['pat'])
       unless 0 === match
-        @@errors << ["Invalid metatag data for #{name}: #{data}"]
+        @@errors << "Invalid metatag data for #{name}: #{data}"
       end
     else
-      @@errors << ["Invalid metatag: #{name}"]
+      @@errors << "Invalid metatag: #{name}"
     end
   end
 
@@ -116,10 +119,10 @@ class RC_VALIDATE
             entry = IO.read(file)
             parse_entry(entry)
           rescue => err
-            @@errors << ["Problem reading file: #{err}\n\n"]
+            @@errors << "Problem reading file: #{err}"
           end
         elsif 0 === (File.extname(file) =~ /\.mdown/)
-          @@errors << ["#{file} might be valid, but you need to rename it first"]
+          @@errors << "#{file} might be valid, but you need to rename it first"
         end
       end
 
