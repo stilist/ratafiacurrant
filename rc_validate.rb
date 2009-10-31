@@ -1,64 +1,67 @@
-#!/usr/bin/ruby -w
+#!/usr/bin/env ruby -wKU
+# encoding: UTF-8
+
+# (Ruby 1.8 requires `KU`; 1.9 and forward prefer the magic keyword. See:
+#  http://blog.grayproductions.net/articles/ruby_19s_three_default_encodings)
 
 require 'find'
 
-# This code's a mess, but hey--it works.
-
-class RC_VALIDATE
-  DEBUG = false
-  @@is_invalid = false
+class RCValidate
   @@errors = []
 
   # http://www.manamplified.org/archives/2006/10/url-regex-pattern.html
   # tags are documented in `rc format.mdown`
-  url_pattern = /([A-Za-z][A-Za-z0-9+.-]{1,120}:[A-Za-z0-9\/](([A-Za-z0-9$_.+!*,;\/?:@&~=-])|%[A-Fa-f0-9]{2}){1,333}(#([a-zA-Z0-9][a-zA-Z0-9$_.+!*,;\/?:@&~=%-]{0,1000}))?)/
+  url_pattern = /([A-Za-z][A-Za-z0-9+.-]{1,120}:[A-Za-z0-9\/](([A-Za-z0-9$_.+!*,;\/?:@&~=-])|%[A-Fa-f0-9]{2}){1,333}(#([a-zA-Z0-9][a-zA-Z0-9$_.+!*,;\/?:@&~=%-]{0,1000}))?)/u
 
-  iso_year = /[\+-]?\d{5}/
-  iso_month = /(0[1-9]|1[0-2])/
-  iso_week = /W([0-4][0-9]|5[0-3])/
-  iso_day = /([0-2][0-9]|3[0-1])/
-  iso_weekday = /[1-7]/
-  iso_fraction = /([\.,]\d+)?/
-  iso_hour = /([0-1][0-9]|2[0-4])#{iso_fraction}/
-  iso_minute = /[0-5][0-9]#{iso_fraction}/
-  iso_second = /[0-5][0-9]#{iso_fraction}/
-  iso_timezone = /(Z|[\+-](#{iso_hour}:#{iso_minute}|#{iso_hour}#{iso_minute}|#{iso_hour}))/
+  iso_year = /[\+-]?\d{5}/u
+  iso_month = /(0[1-9]|1[0-2])/u
+  iso_week = /W([0-4][0-9]|5[0-3])/u
+  iso_day = /([0-2][0-9]|3[0-1])/u
+  iso_weekday = /[1-7]/u
+  iso_fraction = /([\.,]\d+)?/u
+  iso_hour = /([0-1][0-9]|2[0-4])#{iso_fraction}/u
+  iso_minute = /[0-5][0-9]#{iso_fraction}/u
+  iso_second = /[0-5][0-9]#{iso_fraction}/u
+  iso_timezone = /(Z|[\+-](#{iso_hour}:#{iso_minute}|#{iso_hour}#{iso_minute}|#{iso_hour}))/u
   # xxx does not enforce months' day counts
-  iso_cal_date = /#{iso_year}(-#{iso_month}-#{iso_day}|#{iso_month}#{iso_day}|-#{iso_month})/
-  iso_week_date = /#{iso_year}(-#{iso_week}|#{iso_week}|-#{iso_week}-#{iso_weekday}|#{iso_week}#{iso_weekday})/
-  iso_ordinal_date = /#{iso_year}-?([0-2][0-9][0-9]|3([0-5][0-9]|6[0-6]))/
-  iso_time = /(#{iso_hour}:#{iso_minute}(:#{iso_second})?|#{iso_hour}#{iso_minute}(#{iso_second})?|#{iso_hour})/
-  iso_datetime = /#{iso_cal_date}T#{iso_time}/
-  iso_duration = /P((\d+#{iso_fraction}Y)?(#{iso_month}#{iso_fraction}M)?(#{iso_day}#{iso_fraction}D)??(T(#{iso_hour}H)?(#{iso_month}M)?(#{iso_second}S)?)?|\d+#{iso_fraction}W|#{iso_datetime})/
-  iso_interval = /(#{iso_datetime}|#{iso_duration})\/(#{iso_datetime}|#{iso_duration})/
-  iso_repeating_interval = /R[\d+#{iso_fraction}]?\/#{iso_interval}/
+  iso_cal_date = /#{iso_year}(-#{iso_month}-#{iso_day}|#{iso_month}#{iso_day}|-#{iso_month})/u
+  iso_week_date = /#{iso_year}(-#{iso_week}|#{iso_week}|-#{iso_week}-#{iso_weekday}|#{iso_week}#{iso_weekday})/u
+  iso_ordinal_date = /#{iso_year}-?([0-2][0-9][0-9]|3([0-5][0-9]|6[0-6]))/u
+  iso_time = /(#{iso_hour}:#{iso_minute}(:#{iso_second})?|#{iso_hour}#{iso_minute}(#{iso_second})?|#{iso_hour})/u
+  iso_datetime = /#{iso_cal_date}T#{iso_time}/u
+  iso_duration = /P((\d+#{iso_fraction}Y)?(#{iso_month}#{iso_fraction}M)?(#{iso_day}#{iso_fraction}D)??(T(#{iso_hour}H)?(#{iso_month}M)?(#{iso_second}S)?)?|\d+#{iso_fraction}W|#{iso_datetime})/u
+  iso_interval = /(#{iso_datetime}|#{iso_duration})\/(#{iso_datetime}|#{iso_duration})/u
+  iso_repeating_interval = /R(\d+#{iso_fraction})?\/#{iso_interval}/u
 
   @@valid_metatags = {
-      'AUTHOR' => { 'req' => false, 'pat' => /\w+/ },
+      'AUTHOR' => { 'req' => false, 'pat' => /\w+/u },
       'BOOKMARK' => { 'req' => false, 'pat' => url_pattern },
-      'COPYRIGHT' => { 'req' => false, 'pat' => /\w+/ },
-      'GEOLOCATION' => { 'req' => false, 'pat' => /(ADDR .+|GPS [A-Z0-9-]+ (-)?\d{1,3}(.\d{0,})?, (-)?\d{1,3}(.\d{0,})?)/ },
-      'KEYWORDS' => { 'req' => false, 'pat' => /\w+( \w*)*(, \w+( \w+)*)*/ },
-      'LICENSE' => { 'req' => false, 'pat' => /\w+/ },
+      'COPYRIGHT' => { 'req' => false, 'pat' => /\w+/u },
+      'GEOLOCATION' => { 'req' => false, 'pat' => /(ADDR .+|GPS [A-Z0-9-]+ (-)?\d{1,3}(.\d{0,})?, (-)?\d{1,3}(.\d{0,})?)/u },
+      'KEYWORDS' => { 'req' => false, 'pat' => /\w+( \w*)*(, \w+( \w+)*)*/u },
+      'LICENSE' => { 'req' => false, 'pat' => /\w+/u },
       'LINK' => { 'req' => false, 'pat' => url_pattern },
-      'MEDIUM' => { 'req' => false, 'pat' => /.+/ },
+      'MEDIUM' => { 'req' => false, 'pat' => /.+/u },
       'PERMALINK' => { 'req' => true, 'pat' => url_pattern },
-      'PUBLISHED' => { 'req' => true, 'pat' => /(#{iso_datetime}|#{iso_duration})/ },
-      'SOURCE' => { 'req' => false, 'pat' => /.+/ },
-      'SOURCERANGE' => { 'req' => false, 'pat' => /(p \d+-\d+(, \d+-\d+)*|#{iso_interval}(, #{iso_interval})*)/ },
+      'PUBLISHED' => { 'req' => true, 'pat' => /(#{iso_datetime}|#{iso_duration})/u },
+      'SOURCE' => { 'req' => false, 'pat' => /.+/u },
+      'SOURCERANGE' => { 'req' => false, 'pat' => /(p \d+-\d+(, \d+-\d+)*|#{iso_interval}(, #{iso_interval})*)/u },
       'SOURCEURI' => { 'req' => false, 'pat' => url_pattern },
-      'TITLE' => { 'req' => true, 'pat' => /.+/ },
-      'UPDATED' => { 'req' => true, 'pat' => /(#{iso_datetime}|#{iso_duration})/} }
+      'TITLE' => { 'req' => true, 'pat' => /.+/u },
+      'UPDATED' => { 'req' => true, 'pat' => /(#{iso_datetime}|#{iso_duration})/u }}
 
-  def load_files(path)
-    entries = File.expand_path(path)
+  def load_files(paths)
+    entry_paths = []
     file_list = []
+    paths.each { |p| entry_paths << File.expand_path(p) }
 
-    if entries.nil?
+    if entry_paths.empty?
       @@errors << "Please specify a file or directory to validate"
     else
-      Find.find(entries) { |f|
-        file_list << f
+      entry_paths.each { |path|
+        Find.find(path) { |f|
+          file_list << f
+        }
       }
     end
 
@@ -126,8 +129,8 @@ class RC_VALIDATE
   def valid_body?(body)
   end
 
-  def valid_entry?(path)
-    file_list = load_files(path)
+  def valid_entry?(paths)
+    file_list = load_files(paths.to_a).flatten
 
     file_list.each { |file|
       if File.file?(file)
@@ -141,22 +144,19 @@ class RC_VALIDATE
         elsif 0 === (File.extname(file) =~ /\.mdown/)
           @@errors << "#{file} might be valid, but you need to rename it first"
         end
-      end
 
-      unless @@errors.empty?
-        puts "#{file} failed validation"
-        puts "--"
-        @@errors.each { |e| puts e }
-        puts "\n\n"
-      else
-        puts "#{file} passed validation" if DEBUG
-      end
+        unless @@errors.empty?
+          puts "#{file} failed validation:"
+          puts "--"
+          @@errors.each { |e| puts e }
+          puts "\n\n"
+        end
 
+      end
       @@errors = []
     }
   end
 end
 
-v = RC_VALIDATE.new
-# xxx handle any number of arguments
-v.valid_entry?(ARGV[0])
+v = RCValidate.new
+v.valid_entry?(ARGV)
