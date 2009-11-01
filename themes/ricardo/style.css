@@ -5,9 +5,7 @@
  padding: 0;
 }
 
-html, body {
- background-color: #371d10;
-}
+html, body { background-color: #371d10; }
 html {
  background-attachment: fixed;
  background-image: url('http://static.ratafia.info/ricardo/gradient.png');
@@ -40,10 +38,15 @@ abbr.smallcaps {
  text-transform: uppercase;
 }
 address, cite { font-style: normal; }
+article, footer, header, nav, section { display: block; } /* html5 */
 code {
  font-family: Monaco, monospace;
  font-size: 8pt;
  line-height: 1.6em;
+}
+footer, .hentry {
+ margin: 0 auto;
+ width: 536px;
 }
 h1 {
  font-size: 18pt;
@@ -56,12 +59,8 @@ h1 a {
  display: block;
  margin-left: -1px;
 }
-h1 code, h2 code {
- font-size: inherit;
-}
-h1 + .copy > h2:first-child {
- margin-top: 0.9em;
-}
+h1 code, h2 code { font-size: inherit; }
+h1 + .copy > h2:first-child { margin-top: 0.9em; }
 h2 {
  font-size: 1.1em;
  line-height: 1.6em;
@@ -77,12 +76,10 @@ ins {
  background-color: rgba(171, 136, 118, .15); /* #ab8876 */
  text-decoration: none;
 }
-ins:before {
- content: '[';
-}
-ins:after {
- content: ']';
-}
+ins:before { content: '['; }
+ins:after { content: ']'; }
+q:before { content: open-quote; }
+q:after { content: close-quote; }
 q[lang-=en] { quotes: "“" "”" "‘" "’"; }
 q[lang=en-GB] { quotes: "‘" "’" "“" "”"; }
 q[lang-=fr] { quotes: "«" "»"; }
@@ -97,7 +94,6 @@ strong {
 
 #nameplate {
  height: 118px;
- list-style: none;
  position: relative;
 }
 #nameplate a {
@@ -108,6 +104,7 @@ strong {
  position: absolute;
  text-indent: -1000em;
 }
+#nameplate ul { list-style: none; }
 #nameplate #logo {
  background-image: url('http://static.ratafia.info/ricardo/logo.png');
  height: 77px;
@@ -116,46 +113,36 @@ strong {
 #nameplate #archives {
  background-image: url('http://static.ratafia.info/ricardo/archives.png');
  bottom: 0;
- left: 172px;
+ left: 237px;
  width: 114px;
 }
 #nameplate #code {
  background-image: url('http://static.ratafia.info/ricardo/code.png');
  bottom: 0;
- left: 301px;
+ left: 366px;
  width: 63px;
 }
 #nameplate #links {
  background-image: url('http://static.ratafia.info/ricardo/links.png');
  bottom: 0;
- right: 304px;
+ right: 237px;
  width: 67px;
 }
-#nameplate #hireme {
- background-image: url('http://static.ratafia.info/ricardo/hireme.png');
- bottom: 0;
- right: 170px;
- width: 123px;
-}
 
-.hentry, #footer {
- margin: 0 auto;
- width: 536px;
-}
-.hentry blockquote {
- margin: 0 2em;
-}
-.hentry ol, .hentry p, .hentry ul {
- margin: 1.55em 0;
-}
+.hentry blockquote { margin: 0 2em; }
+.hentry ol, .hentry p, .hentry ul { margin: 1.55em 0; }
 .hentry .entry-content > p:first-child,
 .hentry .entry-content > blockquote:first-child > p:first-child {
  margin-top: 9px;
 }
-.hentry .signoff {
+.hentry .keywords, .hentry .keywords li { display: inline; }
+.hentry .keywords { list-style: none; }
+.hentry .keywords li { margin-right: 0.5em; }
+.hentry .meta {
  font-size: .9em;
  text-align: right;
 }
+.hentry .meta ul, .hentry .meta p { margin: .5em; }
 
 .album, .book, .film, .game, .magazine, .newspaper, .programme {
  font-style: italic;
@@ -171,16 +158,10 @@ strong {
  position: absolute;
  width: 49%;
 }
-#nextprev #nextpage {
- right: 0;
-}
-#nextprev #prevpage {
- text-align: right;
-}
+#nextprev #nextpage { right: 0; }
+#nextprev #prevpage { text-align: right; }
 
-#footer {
- margin-top: 5.05em;
-}
+footer { margin-top: 5.05em; }
 
 /* disqus */
 #disqus_thread {
@@ -196,9 +177,4 @@ strong {
  background: transparent;
  border: none;
 }
-#disqus_thread #dsq-content {
- font-size: inherit !important;
-}
-
-/* hide Tumblr’s reblog bar */
-iframe#tumblr_controls { display: none; }
+#disqus_thread #dsq-content { font-size: inherit !important; }

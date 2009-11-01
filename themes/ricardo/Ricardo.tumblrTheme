@@ -3,12 +3,11 @@
  <head profile='http://purl.org/uF/2008/03/'>
   <meta charset='UTF-8'>
   <meta name='verify-v1' content='fBP5k+EA4BFJx2aaK3hiOymbZSUbEAkp8OcEdeK/Fk8='>
-  <meta name='keywords' content='jordan 
-cole, stilist, ratafia, ratafia currant'>
+  <meta name='keywords' content='jordan cole, stilist, ratafia, ratafia currant'>
   <title>{block:PostTitle}{PostTitle} — {/block:PostTitle}Ratafia Currant</title>
   <link rel='shortcut icon'
         href='http://static.ratafia.info/favicon.ico'>
-  <link rel='stylesheet' type='text/css' media='screen'
+  <link rel='stylesheet' media='screen'
         href='http://static.ratafia.info/ricardo/style.css'>
   <link rel='openid.server' href='http://www.myopenid.com/server'>
   <link rel='openid.delegate' href='http://stilist.myopenid.com/'>
@@ -18,14 +17,14 @@ cole, stilist, ratafia, ratafia currant'>
         content='http://www.myopenid.com/xrds?username=stilist.myopenid.com'>
   <link rel='alternate' type='application/atom+xml' title='Ratafia Currant'
         href='http://feeds.feedburner.com/ratafia'>
-  <link rel='me' href='http://twitter.com/stilist'>
-  <link rel='me' href='http://pinboard.in/u:stilist'>
-  <link rel='me' href='http://flickr.com/photos/stilist/'>
-  <link rel='me' href='http://vimeo.com/stilist'>
-  <link rel='me' href='http://friendfeed.com/stilist'>
-  <link rel='me' href='http://www.youtube.com/user/stilist'>
-  <link rel='me' href='http://www.metafilter.com/user/96063'>
-  <link rel='me' href='http://www.discogs.com/user/ratafia'>
+  <link rel='me external' href='http://twitter.com/stilist'>
+  <link rel='me external' href='http://pinboard.in/u:stilist'>
+  <link rel='me external' href='http://flickr.com/photos/stilist/'>
+  <link rel='me external' href='http://vimeo.com/stilist'>
+  <link rel='me external' href='http://friendfeed.com/stilist'>
+  <link rel='me external' href='http://www.youtube.com/user/stilist'>
+  <link rel='me external' href='http://www.metafilter.com/user/96063'>
+  <link rel='me external' href='http://www.discogs.com/user/ratafia'>
   <script>
   /* <![CDATA[ */
   function hivelogic_enkoder(){var i,j,x,y,x=
@@ -49,26 +48,37 @@ while(x=eval(x));}
   </script>
   {block:PermalinkPage}<link rel='canonical'
         href='{Permalink}'>{/block:PermalinkPage}
+  <!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
  </head>
  <body>
-  <ul id='nameplate'>
-   <li><a href='http://ratafia.info' id='logo' rel='home'>Ratafia Currant</a></li>
-   <li><a href='/archive' id='archives'>Archives</a></li>
-   <li><a href='http://github.com/stilist' id='code'>Code</a></li>
-   <li><a href='http://pinboard.in/u:stilist' id='links'>Links</a></li>
-   <li><a href='http://portfolio.ratafia.info' id='hireme'>Hire Me</a></li>
-  </ul>
+  <nav id='nameplate'>
+   <ul>
+    <li><a href='http://ratafia.info' id='logo' rel='home index'>Ratafia Currant</a></li>
+    <li><a href='/archive' id='archives' rel='archives'>Archives</a></li>
+    <li><a href='http://github.com/stilist' rel='external' id='code'>Code</a></li>
+    <li><a href='http://pinboard.in/u:stilist' rel='external' id='links'>Links</a></li>
+   </ul>
+  </nav>
 
-  {block:Posts}
-  <div class='hentry'>
+  <section>{block:Posts}<article class='hentry'>
    {block:Text}
-   <h1 class='entry-title'>{block:IndexPage}<a href='{Permalink}'>{/block:IndexPage}{block:Title}{Title}{/block:Title}{block:IndexPage}</a>{/block:IndexPage}</h1>
+   <header>
+    <h1 class='entry-title'>
+     {block:IndexPage}<a href='{Permalink}'>{/block:IndexPage}
+     {block:Title}{Title}{/block:Title}
+     {block:IndexPage}</a>{/block:IndexPage}
+    </h1>
+   </header>
    <div class='entry-content'>
     {Body}
    </div>
    {/block:Text}
    {block:Link}
-   <h1 class='entry-title'><a href='{URL}'>{Name}</a></h1>
+   <header>
+    <h1 class='entry-title'><a href='{URL}' rel='external'>{Name}</a></h1>
+   </header>
    {block:Description}
    <div class='entry-content'>
     {Description}
@@ -76,16 +86,26 @@ while(x=eval(x));}
    {/block:Description}
    {/block:Link}
    {block:Video}
-   <h1 class='entry-title'><a href='{Permalink}'>{block:Caption}{Caption}{/block:Caption}</a></h1>
+   <header>
+    <h1 class='entry-title'>
+     {block:IndexPage}<a href='{Permalink}'>{/block:IndexPage}
+     {block:Caption}{Caption}{/block:Caption}
+     {block:IndexPage}</a>{/block:IndexPage}
+    </h1>
+   </header>
    <div class='entry-content'>
     {Video-500}
    </div>
    {/block:Video}
-   <p class='signoff'>written <a href='/day/{Year}/{MonthNumberWithZero}/{DayOfMonth}/' class='published updated'>{DayOfMonth} {Month}, 0{Year}</a> • <a href='{Permalink}#disqus_thread'>Comments</a> <a href='{Permalink}' class='pilcrow' title='Permanent link to this entry' rel='bookmark'>⁋</a></p>
-  </div>
-  {block:Posts}
+   <section class='meta'>
+    {block:HasTags}<ul class='keywords'>
+     {block:Tags}<li><a href='{TagURL}' rel='tag'>{Tag}</a></li>{/block:Tags}
+    </ul>{/block:HasTags}
+    <p class='signoff'>written <a href='/day/{Year}/{MonthNumberWithZero}/{DayOfMonth}/' class='published updated'>{DayOfMonth} {Month}, 0{Year}</a> • <a href='{Permalink}#disqus_thread'>Comments</a> <a href='{Permalink}' class='pilcrow' title='Permanent link to this entry' rel='bookmark'>⁋</a></p>
+   </section>
+  </article>{/block:Posts}</section>
 
-  {block:PermalinkPage}<!-- disqus -->
+  {block:PermalinkPage}<section><!-- disqus -->
   <script>
    var disqus_url = '{Permalink}';
    var disqus_title = '{block:PostTitle}{PostTitle}{/block:PostTitle}';
@@ -106,17 +126,17 @@ while(x=eval(x));}
    })();
    //]]>
   </script>
-  <!-- /disqus -->{/block:PermalinkPage}
+  <!-- /disqus --></section>{/block:PermalinkPage}
 
   {block:Pagination}<div id='nextprev'>
    {block:PreviousPage}<span id='prevpage'><a href='{PreviousPage}'>← Newer</a></span>{/block:PreviousPage}
    {block:NextPage}<span id='nextpage'><a href='{NextPage}'>Older →</a></span>{/block:NextPage}
   </div>{/block:Pagination}
 
-  <div id='footer'>
+  <footer>
    <address class='vcard author'>Copyright <a class='url fn' href='http://ratafia.info'>Jordan Cole</a> (<script>hivelogic_enkoder();</script>), and provided under the <a href='http://creativecommons.org/licenses/by-nc/3.0/us/' rel='license'><abbr class='smallcaps' title='Creative Commons attribution, non-commercial'>CC:BY-NC</abbr></a> license.</address>
-   <p><a href='http://github.com/stilist/ratafiacurrant/tree/master'>Check out how this is made.</a></p>
-  </div>
+   <p><a href='http://github.com/stilist/ratafiacurrant/tree/master' rel='external'>Check out how this is made.</a></p>
+  </footer>
 
   <script>
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
