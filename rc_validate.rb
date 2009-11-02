@@ -75,6 +75,7 @@ class RCValidate
     @@errors << "Couldn't find body section" if body.nil?
 
     tags = prepare_tags(metatags)
+    required_tags?(tags)
     tags.each { |name, data|
       valid_tag?(name, data)
     }
