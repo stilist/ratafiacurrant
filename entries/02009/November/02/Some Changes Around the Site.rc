@@ -1,0 +1,46 @@
+KEYWORDS: css, design, html5, meta
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/230863032/some-changes-around-the-site
+PUBLISHED: 02009-11-02T10:35:00-0500
+TITLE: Some Changes Around the Site
+UPDATED: 02009-11-02T10:35:00-0500
+--
+Last night I [made some adjustments][cset] to the theme/design:
+
+ [cset]: http://github.com/stilist/ratafiacurrant/commit/86ae500e2210257f880adbb2106c1667033e7601 "Changeset at GitHub"
+
+I changed my markup to be more in line with <abbr class='smallcaps'>HTML</abbr>5,
+primarily as a result of [<span class='noun person'>Mark Pilgrim</span>’s][mp]
+[<span class='noun book'>Dive Into <abbr class='smallcaps'>HTML</abbr>5</span>][dih]
+[chapter on the changed semantics][sem]. It’s not yet clear [how microformats
+will be affected][mf], so I’ve largely left the existing classes intact.
+
+ [dih]: http://diveintohtml5.org/ "Dive into HTML5"
+ [mf]: http://microformats.org/wiki/html5 "Microformats in HTML5"
+ [mp]: http://diveintomark.org "Mark Pilgrim’s homepage"
+ [sem]: http://diveintohtml5.org/semantics.html "What Does It All Mean?”"
+
+Of note:
+
+* I had to add a <abbr class='smallcaps'>CSS</abbr> rule to make
+<abbr class='smallcaps'>HTML</abbr>5 elements display as intended:
+`article, footer, header, nav, section { display: block; }`
+* I added quite a few `rel='external'`s
+* I was pleased to see that we can, in fact, remove `type='text/stylesheet'`
+from <abbr class='smallcaps'>CSS</abbr> declarations (because what other
+stylesheet language is there?)
+
+I also un-hid the Tumblr bar. Previously I’d had the
+<abbr class='smallcaps'>CSS</abbr> rule
+`iframe#tumblr_controls { display: none; }` because I felt the bar interfered with
+the design.
+
+Keywords are now exposed for each post. This is something that I’d written about
+[ten months ago][waj], but was reluctant to implement because I liked the
+minimal amount of metadata I displayed on entries. I’m not entirely satisfied
+with the way it came out, but it works okay for now.
+
+ [waj]: http://ratafia.info/post/74443947/the-web-and-journalism
+
+There are other changes I’ve been working on, but I don’t think they’re quite
+ready yet.
