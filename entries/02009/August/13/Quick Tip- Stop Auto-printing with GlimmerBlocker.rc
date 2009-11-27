@@ -1,4 +1,4 @@
-KEYWORDS: glimmerblocker, javascript, web
+KEYWORDS: glimmerblocker, javascript, regex, web
 LICENSE: CC:BY-NC
 PERMALINK: http://ratafia.info/post/162398360/quick-tip-stop-auto-printing-with-glimmerblocker
 PUBLISHED: 02009-08-13T20:06:00-0400
@@ -29,3 +29,7 @@ command.
  [reg]: http://en.wikipedia.org/wiki/Regular_expression "Wikipedia article for regular expression"
 
 I forget exactly how I came up with this, but it works great.
+
+<ins>**UPDATE:** [an improved version is available][gb2].</ins>
+
+ [gb2]: http://ratafia.info/post/259752144/corrections-to-auto-print-regex

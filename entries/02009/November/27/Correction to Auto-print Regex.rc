@@ -1,0 +1,41 @@
+KEYWORDS: glimmerblocker, javascript, regex, web
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/259752144/corrections-to-auto-print-regex
+PUBLISHED: 02009-11-27T14:19:00-0500
+TITLE: Correction to Auto-print Regex
+UPDATED: 02009-11-27T14:19:00-0500
+--
+[Several months ago][gb] I published a regular expression that would strip
+auto-print links from webpages. Unfortunately, the <abbr>regex</abbr> doesn’t
+actually catch everything, so here’s a corrected version:
+
+ [gb]: http://ratafia.info/post/162398360/quick-tip-stop-auto-printing-with-glimmerblocker
+
+    replace(/((window|self)\.print(\(\))?|print\(\));?/ig, "");
+
+This will catch all the following:
+
+    print()
+    print();
+    self.print
+    self.print()
+    self.print();
+    window.print
+    window.print()
+    window.print();
+
+Further, the addition of the `g` after the `/` means *all* instances of the
+`print` command will be replaced, rather than just the first, and the `i`
+means this will work regardless of whether or not the command is written
+entirely in lowercase text.
+
+I’ve also noticed a separate issue that I’m still not sure how to
+resolve — if the rule is set to run on all content-types, it will blindly
+strip out instances regardless of whether they’re actually operational
+JavaScript (<abbr lang='la'>e.g.</abbr> the above ‘all the following’
+section); if it is set to only run on the JavaScript content-type it will miss
+any instances that don’t appear in a JavaScript file.
+
+I suppose an even more complicated variation could be made that checks for
+things like `javascript:` or `<script>…</script>`, but it really begins to
+spiral out of control. If anybody has a solution for this problem, I’d love to know.
