@@ -1,0 +1,29 @@
+KEYWORDS: html, meta, microformats
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/266421155/todays-markup-changes
+PUBLISHED: 02009-12-02T11:32:00-0500
+TITLE: Today’s Markup Changes
+UPDATED: 02009-12-02T11:34:00-0500
+--
+* Switch to [‘asynchronous tracking’][atrack], which should improve load times.
+* Move [`profile` <abbr class='smallcaps'>URI</abbr>][puri] from `<head>` to
+a [`<link>`][relprofile] — <abbr class='smallcaps'>HTML5</abbr>
+[breaks the old approach][html5issues].
+* Use [value-class pattern][vcp] for hCard dates. My datestamps are still
+unusable, though, because I can’t get a timezone from Tumblr custom
+themes — either as offsets from UTC or conversions to it — meaning I can’t
+represent an [<abbr class='smallcaps'>ISO</abbr> 8601 datetime][iso8601].
+The value-class pattern is claimed to resolve the
+[accessibility issues][access] of the [datetime design pattern][dtpatt], but
+I’m not convinced it’s a significant improvement.
+* A few more of my profiles on other sites indicated with
+`<link rel='me external' …>`.
+
+ [access]: http://www.webstandards.org/2007/04/27/haccessibility/ "‘hAccessibility’ at The Web Standards Project"
+ [atrack]: http://code.google.com/apis/analytics/docs/tracking/asyncTracking.html "Asynchronous Tracking documentation"
+ [dtpatt]: http://microformats.org/wiki/datetime-design-pattern "Microformats wiki page for datetime design patern"
+ [html5issues]: http://microformats.org/wiki/html5#Issues "Microformats wiki page for HTML5"
+ [iso8601]: http://en.wikipedia.org/wiki/ISO_8601 "Wikipedia page for ISO 8601"
+ [puri]: http://microformats.org/wiki/profile-uris "Microformats wiki page for profile URIs"
+ [relprofile]: http://microformats.org/wiki/rel-profile "Microformats wiki page for rel-profile"
+ [vcp]: http://microformats.org/wiki/value-class-pattern "Microformats wiki page for value-class pattern"
