@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang='en'>
- <head profile='http://purl.org/uF/2008/03/'>
+ <head>
   <meta charset='UTF-8'>
   <meta name='verify-v1' content='fBP5k+EA4BFJx2aaK3hiOymbZSUbEAkp8OcEdeK/Fk8='>
   <meta name='keywords' content='jordan cole, stilist, ratafia, ratafia currant'>
@@ -9,6 +9,7 @@
         href='http://static.ratafia.info/favicon.ico'>
   <link rel='stylesheet' media='screen'
         href='http://static.ratafia.info/ricardo/style.css'>
+  <link rel='profile' href='http://purl.org/uF/2008/03/'>
   <link rel='openid.server' href='http://www.myopenid.com/server'>
   <link rel='openid.delegate' href='http://stilist.myopenid.com/'>
   <link rel='openid2.local_id' href='http://stilist.myopenid.com'>
@@ -17,14 +18,19 @@
         content='http://www.myopenid.com/xrds?username=stilist.myopenid.com'>
   <link rel='alternate' type='application/atom+xml' title='Ratafia Currant'
         href='http://feeds.feedburner.com/ratafia'>
-  <link rel='me external' href='http://twitter.com/stilist'>
-  <link rel='me external' href='http://pinboard.in/u:stilist'>
-  <link rel='me external' href='http://flickr.com/photos/stilist/'>
-  <link rel='me external' href='http://vimeo.com/stilist'>
-  <link rel='me external' href='http://friendfeed.com/stilist'>
-  <link rel='me external' href='http://www.youtube.com/user/stilist'>
-  <link rel='me external' href='http://www.metafilter.com/user/96063'>
+  <link rel='me external' href='http://delicious.com/stilist'>
   <link rel='me external' href='http://www.discogs.com/user/ratafia'>
+  <link rel='me external' href='http://disqus.com/stilist/'>
+  <link rel='me external' href='http://flickr.com/photos/stilist/'>
+  <link rel='me external' href='http://friendfeed.com/stilist'>
+  <link rel='me external' href='http://github.com/stilist'>
+  <link rel='me external' href='http://www.metafilter.com/user/96063'>
+  <link rel='me external' href='http://news.ycombinator.com/user?id=stilist'>
+  <link rel='me external' href='http://pinboard.in/u:stilist'>
+  <link rel='me external' href='http://www.slideshare.net/stilist'>
+  <link rel='me external' href='http://twitter.com/stilist'>
+  <link rel='me external' href='http://vimeo.com/stilist'>
+  <link rel='me external' href='http://www.youtube.com/user/stilist'>
   <script>
   /* <![CDATA[ */
   function hivelogic_enkoder(){var i,j,x,y,x=
@@ -51,6 +57,17 @@ while(x=eval(x));}
   <!--[if IE]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  <script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-450269-1'], ['_trackPageview']);
+  
+  (function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+  })();
+  </script>
  </head>
  <body>
   <nav id='nameplate'>
@@ -101,7 +118,13 @@ while(x=eval(x));}
     {block:HasTags}<ul class='keywords'>
      {block:Tags}<li><a href='{TagURL}' rel='tag'>{Tag}</a></li>{/block:Tags}
     </ul>{/block:HasTags}
-    <p class='signoff'>written <a href='/day/{Year}/{MonthNumberWithZero}/{DayOfMonth}/' class='published updated'>{DayOfMonth} {Month}, 0{Year}</a> • <a href='{Permalink}#disqus_thread'>Comments</a> <a href='{Permalink}' class='pilcrow' title='Permanent link to this entry' rel='bookmark'>⁋</a></p>
+    <p class='signoff'>written
+     <span class='published updated'>
+      <a href='/day/{Year}/{MonthNumberWithZero}/{DayOfMonth}/' class='value' title='{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}'>{DayOfMonth} {Month}, 0{Year}</a>
+     </span> •
+     <a href='{Permalink}#disqus_thread'>Comments</a>
+     <a href='{Permalink}' class='pilcrow' title='Permanent link to this entry' rel='bookmark'>⁋</a>
+    </p>
    </section>
   </article>{/block:Posts}</section>
 
@@ -137,15 +160,5 @@ while(x=eval(x));}
    <address class='vcard author'>Copyright <a class='url fn' href='http://ratafia.info'>Jordan Cole</a> (<script>hivelogic_enkoder();</script>), and provided under the <a href='http://creativecommons.org/licenses/by-nc/3.0/us/' rel='license'><abbr class='smallcaps' title='Creative Commons attribution, non-commercial'>CC:BY-NC</abbr></a> license.</address>
    <p><a href='http://github.com/stilist/ratafiacurrant/tree/master' rel='external'>Check out how this is made.</a></p>
   </footer>
-
-  <script>
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' %3E%3C/script%3E"));
-  </script>
-  <script>
-var pageTracker = _gat._getTracker("UA-450269-1");
-pageTracker._initData();
-pageTracker._trackPageview();
-  </script>
  </body>
 </html>

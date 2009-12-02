@@ -94,6 +94,7 @@ strong {
 
 #nameplate {
  height: 118px;
+ margin-bottom: 70px;
  position: relative;
 }
 #nameplate a {
@@ -129,6 +130,10 @@ strong {
  width: 67px;
 }
 
+.hentry {
+ margin-bottom: 1em;
+ margin-top: 1em;
+}
 .hentry blockquote { margin: 0 2em; }
 .hentry ol, .hentry p, .hentry ul { margin: 1.55em 0; }
 .hentry .entry-content > p:first-child,
@@ -137,12 +142,12 @@ strong {
 }
 .hentry .keywords, .hentry .keywords li { display: inline; }
 .hentry .keywords { list-style: none; }
-.hentry .keywords li { margin-right: 0.5em; }
+.hentry .keywords li { margin-left: 0.5em; }
 .hentry .meta {
  font-size: .9em;
  text-align: right;
 }
-.hentry .meta ul, .hentry .meta p { margin: .5em; }
+.hentry .meta ul, .hentry .meta p { margin: .5em 0; }
 
 .album, .book, .film, .game, .magazine, .newspaper, .programme {
  font-style: italic;
