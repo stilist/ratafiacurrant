@@ -1,0 +1,58 @@
+KEYWORDS: pinboard
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/267240046/pinboard-now-supports-multiple-tags
+PUBLISHED: 02009-12-02T11:42:00-0500
+TITLE: Pinboard now supports multiple tags
+UPDATED: 02009-12-02T11:42:00-0500
+--
+Quoting from [the blog][pblog], which has no apparent entry permalinks:
+
+> **Tag Intersections**
+> 
+> You can now filter by combinations of tags using the syntax
+> /u:username/t:apples/t:oranges/. Up to three tags can be combined this way.
+> 
+> For the moment, this only works on the user+tag pages, and not in the global
+> tag page nor any of the RSS feeds.
+
+ [pblog]: http://pinboard.in/blog "Pinboard site blog"
+
+This makes me happy, as it was one of the features I missed most after moving
+away from delicious. I had also mentioned it in my feedback to
+<span class='person'>Maciej Cegłowski</span>, which I’ll also reproduce here:
+
+> On the whole, I think Pinboard is a very nice service, and holds to its goal
+> of being simpler/less-cluttered than delicious. The ‘anti-social’ philosophy
+> has worked out pretty well for my purposes. I think the two concessions of
+> ‘x others’ and the public stream are just right.
+> 
+> The feature I miss most from delicious is filtering on multiple tags. I guess
+> the search feature comes close, but I’m not sure I want the full search
+> functionality that uses.
+> 
+> The recent addition of the `code:404` keyword is clever, and half of a nice
+> solution for the issue of dead links. (I still hope to see the caching
+> mechanism brought back, though I understand the processing problems.)
+> <ins>In his response, Maciej said processing isn’t really the issue.</ins>
+> 
+> Personally, I’ve never found tag clouds to be particularly useful. I could
+> see it being interesting when graphed over time — I think I played with a
+> third-party thing that did it using delicious — but that’s not really
+> something that’s relevant for the service itself. <ins>The service I
+> referred to may have been [cloudalicious][cloud].</ins>
+> 
+> I would be interested in having the `toread` tag connect to Instapaper, and I
+> seem to remember this existing or planned at some point?
+> 
+> Out of curiosity, would it be hard on the server for me to pull down my
+> bookmarks once a day? I’m not sure what the computation costs are, but I know
+> the delicious documentation strongly discouraged using anything other than
+> the ‘updates since’ <abbr class='smallcaps'>API</abbr> call. <ins>Apparently
+> a non-issue, at least for now.</ins>
+
+ [cloud]: http://cloudalicio.us/
+
+Maciej is seeking feedback from all Pinboard users — either by email (see
+[his site][idlewords]) or blog posts. If you use it, why not take a moment?
+
+ [idlewords]: http://idlewords.com/ "Maciej Cegłowski’s homepage"
