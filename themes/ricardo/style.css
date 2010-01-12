@@ -33,8 +33,9 @@ a:hover {
  background-color: #640a00;
  color: #ffa2a2;
 }
-abbr.smallcaps {
+abbr.smallcaps, strong {
  font-size: .9em;
+ letter-spacing: 0.1em;
  text-transform: uppercase;
 }
 address, cite { font-style: normal; }
@@ -80,17 +81,13 @@ ins:before { content: '['; }
 ins:after { content: ']'; }
 q:before { content: open-quote; }
 q:after { content: close-quote; }
-q[lang-=en] { quotes: "“" "”" "‘" "’"; }
-q[lang=en-GB] { quotes: "‘" "’" "“" "”"; }
-q[lang-=fr] { quotes: "«" "»"; }
-q[lang-=de] { quotes: "„" "“" "‚" "‘"; }
-q[lang-=ru] { quotes: "«" "»" "„" "“"; }
-strong {
- font-size: .9em;
- font-weight: normal;
- letter-spacing: .1em;
- text-transform: uppercase;
-}
+q[lang^=en], q[lang=eng] { quotes: "‘" "’" "“" "”"; }
+q[lang=en-GB] { quotes: "‘ " " ’" "“ " " ”"; }
+q[lang=en-US] { quotes: "“" "”" "‘" "’"; }
+q[lang^=fr] { quotes: "« " " »"; }
+q[lang^=de] { quotes: "„" "“" "‚" "‘"; }
+q[lang^=ru] { quotes: "«" "»" "„" "“"; }
+strong { font-weight: normal; }
 
 #nameplate {
  height: 118px;
