@@ -1,0 +1,47 @@
+KEYWORDS: wordpress
+LICENSE: CC:BY-SA
+PERMALINK: /post/329844593/simplified-wordpress-post-loop
+PUBLISHED: 02010-01-11T22:35:00-0500
+TITLE: Simplified WordPress post loop
+UPDATED: 02010-01-11T22:35:00-0500
+--
+The built-in WordPress theme has a lot of redundancy in the various
+entry-viewing templates (`index.php`, `archives.php`, `category.php`,
+`search.php`). Because I dislike repetition and don’t want to worry about
+whether I’ve kept the markup in sync across multiple files, I ended up with
+the following approach.
+
+Each of the noted files is reset to the following code:
+
+    <?php get_header() ?>
+    
+    <div id='content'>
+    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+     <?php include('_post.php') ?>
+    <?php endwhile; else : ?>
+     <?php include('_no_post.php') ?>
+    <?php endif; ?>
+    </div>
+    
+    <ol id='nextprev'>
+     <li id='previous'><?php next_posts_link('Previous Posts') ?></li>
+     <li id='next'><?php previous_posts_link('Next Posts') ?></li>
+    </ol>
+    
+    <?php get_footer(); ?>
+
+`_post.php` contains whatever markup I’ve chosen for my posts and is
+a great way to do self-contained [hAtom][hatom] `hentry` classes.
+`_no_post.php` contains a ‘sorry, bub!’ kind of message.
+
+ [hatom]: http://microformats.org/wiki/hatom "Microformats wiki article on hAtom"
+
+Of course, the templates don’t always need to have exactly the same
+code — for example, in the search template you may want to indicate the page
+is different from the standard view.
+
+    …
+    <div id='content'>
+    <div id='search_note'>Search results for ‘<?php searchbox_text() ?>’</div>
+    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+    …
