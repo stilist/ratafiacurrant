@@ -1,0 +1,174 @@
+KEYWORDS: ajax, coding, javascript, jquery, livesearch, wordpress
+LICENSE: CC:BY-SA
+PERMALINK: /post/343731443/ajax-in-wordpress
+PUBLISHED: 02010-01-19T23:00:00-0500
+TITLE: AJAX in WordPress
+UPDATED: 02010-01-19T23:00:00-0500
+--
+<ins>Note: ‘<abbr class='smallcaps'>AJAX</abbr>’ simply meaning ‘getting data
+via JavaScript’, not <span class='person'>Jesse James Garrett</span>’s
+[more holistic approach][ajax].</ins>
+
+ [ajax]: http://adaptivepath.com/ideas/essays/archives/000385.php "Ajax: A New Approach to Web Applications"
+
+For a project I’ve been working on I needed a way to easily grab data from
+the backend without reloading the page. I didn’t want to fight with any of
+the big [<abbr class='smallcaps'>AJAX</abbr> plugins][ajaxplugins], as the
+ones I looked into seemed to have their own complicated approaches involving
+magic markup or pre-formatted output, or didn’t seem to work. I also wasn’t
+interested in spending the time to learn about writing my own plugin.
+
+ [ajaxplugins]: http://wordpress.org/extend/plugins/tags/ajax "WordPress plugins tagged ‘ajax’"
+
+After some hunting I came across a [explanation][egyptforum] (dead;
+[temporary cache][egyptforumcache]) stolen from [another site][xcodetuts]
+(also dead) that led me to my eventual solution.
+
+ [egyptforum]: http://forum.egypt.com/enforum/javascript-vb-script-f128/building-wordpress-website-live-ajax-search-using-jquery-6887.html
+ [egyptforumcache]: http://google.com/search?q=cache:http://forum.egypt.com/enforum/javascript-vb-script-f128/building-wordpress-website-live-ajax-search-using-jquery-6887.html
+ [xcodetuts]: http://xcodetuts.com/javascript-ajax/building-a-wordpress-website-live-ajax-search-using-jquery/
+
+The essence is as follows: if you want to dynamically pull in, say, search
+results, add the following to the top of your `search.php` file:
+
+    <?php
+      if ('1' == $_GET['ajax']) {
+    ?>
+    <ul>
+    <? php
+        if (have_posts()) {
+          while (have_posts()) : the_post();
+    ?>
+     <li id='post-<?php the_ID() ?>'><a href='<?php the_permalink() ?>'><?php the_title() ?></a></li>
+    <?php
+          endwhile;
+        } else {
+    ?>
+     <li class='empty'>No results.</li>
+    <?php
+        }
+    ?>
+    </ul>
+    <?php
+      } else {
+    ?>
+
+(See also: [simplified WordPress post loop][wploop])
+
+ [wploop]: http://ratafia.info/post/329844593/simplified-wordpress-post-loop
+
+This means that if you load `/index.php?s=foo&ajax=1` you might get something like:
+
+    <ul>
+     <li id='post-5'><a href='http://example.com/?p=5'>foo baz!</a></li>
+     <li id='post-3'><a href='http://example.com/?p=3'>foo bar!</a></li>
+    </ul>
+
+## Let’s hook it up
+
+Assume our search form’s search box has the id `#s` (as is standard for
+WordPress). With the assistance of <span class='person'>Andreas
+Lagerkvist</span>’s [liveSearch][livesearch] jQuery plugin (*also* dead
+currently, but [code here][livesearchcode]) we can get a dynamically-updated
+list of search results.
+
+ [livesearch]: http://andreaslagerkvist.com/jquery/live-search/
+ [livesearchcode]: http://aframework.googlecode.com/svn/trunk/__v3/aFramework/Modules/Base/jquery.liveSearch.js
+
+    $("#s").liveSearch({url: 'index.php?ajax=1&s='});
+
+## Make it multi-purpose
+
+With a slight adaptation, the above approach can be used to get various
+other data out. For example, if we use WordPress’ built-in
+[`wp_list_categories()`][wplc] function…
+
+ [wplc]: http://codex.wordpress.org/Template_Tags/wp_list_categories
+
+    <div id='categories'>
+     <?php wp_list_categories() ?>
+     <div id='in_category'></div>
+    </div>
+
+The `wp_list_categories()` function will give markup like the following:
+
+    <li class='categories'>Categories
+    <ul>
+     <li class='cat-item cat-item-3'><a href='http://example.com/?cat=3' title='View all posts filed under Demo'>Demo</a></li>
+     <li class='cat-item cat-item-2'><a href='http://example.com/?cat=2' title='View all posts filed under Sample'>Sample</a></li>
+     <li class='cat-item cat-item-1'><a href='http://example.com/?cat=1' title='View all posts filed under Uncategorized'>Uncategorized</a></li>
+    </ul>
+    </li>
+
+If we copy the <abbr class='smallcaps'>PHP</abbr> we used for our search
+results into the top of the `category.php` file, we can pull in a list of a
+given category’s entries:
+
+    $(".categories .cat-item a").click(function () {
+      theURL = $(this).attr("href") + '?ajax=1';
+      $.get(theURL), function (data) {
+        $("#in_category").html(data);
+        return false;
+      });
+    });
+
+This means that if the user clicks a link for a category, instead of going
+to the actual page it’ll get the link’s address, tack on our `ajax`
+parameter, and stick the resultant data into the `#in_category` `<div>`.
+(`return false` cancels the click event, thus preventing the link
+from clicking through.)
+
+## A complication involving nice permalinks
+
+All the above examples have assumed that the WordPress installation is
+using the default permalink structure (<abbr lang='lat'>i.e.</abbr>
+`?p=n` for posts, `?cat=n` for categories, and so on). Thus we used
+`&ajax=1`, because we our pages will have already have something like
+`?cat=3`. But this assumption breaks the moment the user switches away from
+the default permalink structure, because our links will now have the form
+`/category/uncategorized`. <ins>Note: the old
+<abbr class='smallcaps'>URL</abbr>s will still work, they just won’t be
+exposed — so our search code is unaffected.</ins>
+
+So what can we do?
+
+Well, the easiest solution is to simply check if the
+<abbr class='smallcaps'>URL</abbr> we’re working with has a `?`:
+
+    if (undefined === $(this).attr("href").split('?')[1]) {
+      // using nice permalinks
+    } else {
+      // default permalinks
+    }
+
+This works by [`split`ting][jssplit] the <abbr class='smallcaps'>URL</abbr>
+string into an array, using `?` as a separator. Nice permalinks won’t have a
+question mark, so the array will only have one element (remember, arrays
+are [zero-indexed][zeroindex]).
+
+ [jssplit]: http://www.w3schools.com/jsref/jsref_split.asp
+ [zeroindex]: http://en.wikipedia.org/wiki/0_(number)#Numbering_from_1_or_0
+
+Rather than repeating this code everywhere, we can write a little function
+that simplifies the process:
+
+    var ajaxURL = function (url) {
+      var token = (undefined === url.split('?')[1] ? '?' : '&';
+      return url + token + 'ajax=1';
+    }
+
+And we adapt our jQuery to:
+
+    $(".categories .cat-item a").click(function () {
+      theURL = ajaxURL($(this).attr("href"));
+      $.get(theURL), function (data) {
+        $("#in_category").html(data);
+        return false;
+      });
+    });
+
+## Finally
+
+This approach of listening for `ajax=1` will work on probably any page
+type. In the project that inspired this entry, I’m using it for searching,
+categories, pages, and date-based archives.
