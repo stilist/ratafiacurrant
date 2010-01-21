@@ -1,0 +1,30 @@
+BOOKMARK: http://pinboard.in/url:02734e5f19325fc3664fb04e7682c477c147e505
+KEYWORDS: bash
+LICENSE: CC:BY-SA
+LINK: http://asemanfar.com/Current-Git-Branch-in-Bash-Prompt
+PERMALINK: http://ratafia.info/post/345534785/current-git-branch-in-bash-prompt
+PUBLISHED: 02010-01-21T00:59:00-0500
+TITLE: Current Git Branch in Bash Prompt
+UPDATED: 02010-01-21T00:59:00-0500
+--
+Good trick; saves typing `git status` or `git branch` so often. <ins>Note:
+it’s not very clear from the article, but the code for the prompt goes in
+`~/.bashrc`.</ins>
+
+* * *
+
+I wasn’t interested in colors, and I’m fairly happy with Terminal’s standard
+prompt (`\h:\w \u\$ `), so I ended up with something pretty close to the
+default:
+
+    parse_git_branch() {
+      git name-rev HEAD 2> /dev/null | sed 's#HEAD\ \(.*\)#[\1]#'
+    }
+    export PS1="\h:\w \u\$(parse_git_branch)\$ "
+
+Which yields a prompt like
+`Pangu:~/programming/git/ratafiacurrant stilist[master]$ `.
+
+The downsides are that it can get rather long (especially since I keep my
+Terminal window width to 80 characters plus scrollbar) and its placement
+can seem a bit odd.
