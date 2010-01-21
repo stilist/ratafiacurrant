@@ -34,15 +34,15 @@ a:hover {
  color: #ffa2a2;
 }
 abbr.smallcaps, strong {
- font-size: .9em;
- letter-spacing: 0.1em;
+ font-size: 0.8em;
+ letter-spacing: 0.2em;
  text-transform: uppercase;
 }
 address, cite { font-style: normal; }
 article, footer, header, nav, section { display: block; } /* html5 */
 code {
  font-family: Monaco, monospace;
- font-size: 8pt;
+ font-size: 0.9em;
  line-height: 1.6em;
 }
 footer, .hentry {
@@ -74,19 +74,19 @@ hr {
  width: 150px;
 }
 ins {
- background-color: rgba(171, 136, 118, .15); /* #ab8876 */
+ background-color: rgba(171, 136, 118, .13); /* #ab8876 */
  text-decoration: none;
 }
 ins:before { content: '['; }
 ins:after { content: ']'; }
 q:before { content: open-quote; }
 q:after { content: close-quote; }
-q[lang^=en], q[lang=eng] { quotes: "‘" "’" "“" "”"; }
-q[lang=en-GB] { quotes: "‘ " " ’" "“ " " ”"; }
-q[lang=en-US] { quotes: "“" "”" "‘" "’"; }
-q[lang^=fr] { quotes: "« " " »"; }
-q[lang^=de] { quotes: "„" "“" "‚" "‘"; }
-q[lang^=ru] { quotes: "«" "»" "„" "“"; }
+q:lang(de), q:lang(deu) { quotes: "„" "“" "‚" "‘"; }
+q:lang(en), q:lang(eng) { quotes: "‘" "’" "“" "”"; }
+q:lang(en-GB) { quotes: "‘ " " ’" "“ " " ”"; }
+q:lang(en-US) { quotes: "“" "”" "‘" "’"; }
+q:lang(fr), q:lang(fra) { quotes: "« " " »"; }
+q:lang(ru), q:lang(rus) { quotes: "«" "»" "„" "“"; }
 strong { font-weight: normal; }
 
 #nameplate {
