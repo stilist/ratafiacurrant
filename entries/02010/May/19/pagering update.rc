@@ -1,0 +1,70 @@
+KEYWORDS: coding, css, javascript, jquery, pagering
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/615482491/pagering-update
+PUBLISHED: 02010-05-19T23:21:00-0800
+TITLE: pagering update
+UPDATED: 02010-05-19T23:21:00-0800
+--
+It’s been a while since I last published anything about my [pagering][pagering]
+project — and a while since I last worked on it. But over the past few days
+I’ve put in some time and made some major changes.
+
+ [pagering]: http://ratafia.info/tagged/pagering "Entries about pagering"
+
+The most significant change is that pagering has been rewritten as a jQuery
+plugin. This comes with a number of benefits; primarily, it’s now generalized
+for use outside the example page. The use of jQuery also means that I was able
+to greatly simplify the code, making it easier to track down logical issues
+related to calculating offsets.
+
+## Practical use
+
+Let’s say you have an <abbr class='smallcaps'>HTML</abbr> page marked up with
+hAtom:
+
+    <div class='hatom'>
+      <div class='hentry'>
+        <h1 class='entry-title'>…
+        <div class='entry-content'>…
+      </div>
+      <div class='hentry'
+        <h1 class='entry-title'>…
+        <div class='entry-content'>…
+      </div>
+      …
+    </div>
+
+You want pagering to operate on all the entries:
+
+    jQuery(".hentry").pagering({ contentClass : "entry-content" });
+
+(**Note:** `"entry-content"` is, in fact, the default `contentClass` the plugin
+will look for, but I’m being explicit for demonstration purposes.)
+
+You can control how many columns are visible on a ‘page’ with the
+`columnGap` and `columnWidth` properties:
+
+    jQuery(".hentry").pagering({ contentClass: "entry-content",
+        columnGap: "3em", columnWidth: "18em" });
+
+Both properties will accept inputs of the form `N`, `"N"`, `"Npx"`, `"Nem"`,
+`"N%"`. `columnGap` defaults to twenty pixels, `columnWidth` to three hundred
+pixels.
+
+## Technical notes
+
+The plugin is known to work correctly in Safari 4, WebKit nightlies, and Chrome
+5. It’s broken in Firefox 3.6 because [my hack to check for
+<abbr class='smallcaps'>CSS</abbr> property support][gist] indicates
+the browser recognizes `column-gap`, but the rule does not apply successfully.
+All other browsers are unknown.
+
+ [gist]: https://gist.github.com/405856/2a8622c60b44c35fca81dadb0a219b078fbad745
+
+## Get the plugin
+
+You can find all the code in [the git repository][github], provided under the
+<abbr class='smallcaps'>MIT</abbr> license. Bug reports, corrections, and
+enhancements are welcome.
+
+ [github]: http://github.com/stilist/pagering
