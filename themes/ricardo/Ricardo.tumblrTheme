@@ -53,6 +53,8 @@
 while(x=eval(x));}
   /* ]]> */
   </script>
+  <script src='http://use.typekit.com/yws8cub.js'></script>
+  <script>try{Typekit.load();}catch(e){}</script>
   {block:PermalinkPage}<link rel='canonical'
         href='{Permalink}'>{/block:PermalinkPage}
   <!--[if IE]>
@@ -70,7 +72,7 @@ while(x=eval(x));}
   })();
   </script>
  </head>
- <body>
+ <body class='tk-anivers'>
   <nav id='nameplate'>
    <ul>
     <li><a href='http://ratafia.info' id='logo' rel='home index'>Ratafia Currant</a></li>

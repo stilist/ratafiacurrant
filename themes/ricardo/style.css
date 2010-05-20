@@ -16,7 +16,7 @@ body {
  background: #371d10 url('http://static.ratafia.info/ricardo/branch.png') right 41px no-repeat;
  border-top: 10px solid #aa5a32;
  color: #ab8876;
- font: 10pt 'Trebuchet MS', Arial, sans-serif;
+ font: 11pt 'Trebuchet MS', Arial, sans-serif;
  line-height: 1.5em;
  margin: 0 auto;
  padding: 24px 0 26px 0;
@@ -35,7 +35,7 @@ a:hover {
 }
 abbr.smallcaps, strong {
  font-size: 0.8em;
- letter-spacing: 0.2em;
+ letter-spacing: 0.1em;
  text-transform: uppercase;
 }
 address, cite { font-style: normal; }
