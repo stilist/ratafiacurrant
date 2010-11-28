@@ -1,0 +1,42 @@
+KEYWORDS: coding, jquery, ruby
+LICENSE: CC:BY-SA
+PERMALINK: 02010-06-09T21:04:00-0800
+PUBLISHED: http://ratafia.info/post/682394786/jquery-style-options-hash-in-ruby
+TITLE: jQuery-style options hash in Ruby
+UPDATED: 02010-06-09T21:04:00-0800
+--
+A common idiom in jQuery plugins is passing a named hash of options that’s
+merged in with defaults:
+
+    (function ($) {
+      $.fn.plugin_name = function (options) {
+        var settings = {};
+        var defaults = {
+          thing1: "foo",
+          thing2: 20
+        };
+        if (options) {
+          settings = $.extend(defaults, options);
+        } else {
+          settings = defaults;
+        }
+        …
+
+The settings are then accessed within the plugin with,
+<abbr lang='la'>e.g.</abbr>, `settings.thing1`. If we call the plugin with
+`$("#example").plugin_name({thing1: "bar"});`, `settings.thing1` will give
+`"bar"` instead of `"foo"`.
+
+We can easily adapt this for use with Ruby:
+
+    def method_name(options = {})
+      settings = {}
+      defaults = {
+        :thing1 => "foo",
+        :thing2 => 20
+      }
+      settings = defaults.merge(options)
+      …
+
+As before, calling the method with `method_name({ :thing1 => "bar" })` makes
+`settings[:thing1]` give `"bar"`.

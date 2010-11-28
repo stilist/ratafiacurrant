@@ -1,0 +1,47 @@
+KEYWORDS: coding, data, database, rubyonrails
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/919215565/reseeding-the-database-with-ruby-on-rails
+PUBLISHED: 02010-08-07T14:37:00-0800
+TITLE: Reseeding the database with Ruby on Rails
+UPDATED: 02010-08-07T14:37:00-0800
+--
+Database-driven applications often need data pre-seeded into the system, such
+as locations or user roles. For a long time there was no good way to do this in
+Ruby on Rails — the primary options were seeding data directly in migrations,
+having migrations call a rake task to manage the relevant records, or using an
+external plugin.
+
+[Rails 2.3.4 largely fixed this][railscast] with the introduction of the
+[`db/seeds.rb` file][rer] and corresponding `rake db:seed` task. The default
+`seeds.rb` included with a fresh Rails install offers the following examples:
+
+ [railscast]: http://railscasts.com/episodes/179-seed-data "Seed Data"
+ [rer]: http://ryandaigle.com/articles/2009/5/13/what-s-new-in-edge-rails-database-seeding "What's New in Edge Rails: Database Seeding"
+
+    cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
+    Mayor.create(:name => 'Daley', :city => cities.first)
+
+Rather than scattering the seeds around dozens of files and dealing with the
+corresponding gotchas, there’s a single, well-known place.
+
+`seeds.rb` is a wonderful thing, provided nobody ever edits it, or you’re
+happy resetting your database every time it *is* edited — otherwise it’ll
+blindly try to recreate records every time it’s run, regardless of whether the
+data is already in the database. Naturally, this becomes a significant
+annoyance in development.
+
+After a couple months of wondering how my coworkers and I could update the
+seeds file while avoiding frequent resets, I think I’ve got a straightforward
+solution: replace calls like
+
+    User.create(:email => "jsmith@example.com", :name => "Jane Smith")
+    User.create(:email => "jsmythe@example.org", :name => "John Smythe")
+
+with
+
+    [
+        { :email => "jsmith@example.com", :name => "Jane Smith" },
+        { :email => "jsmythe@example.org", :name => "John Smythe" }
+    ].each do |user|
+        User.find_or_create_by_email(user)
+    end

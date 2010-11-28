@@ -2,36 +2,75 @@
 <html lang='en'>
  <head>
   <meta charset='UTF-8'>
+    <!-- Google Webmaster Tool -->
   <meta name='verify-v1' content='fBP5k+EA4BFJx2aaK3hiOymbZSUbEAkp8OcEdeK/Fk8='>
+    <!-- Yahoo! Site Explorer -->
   <meta name='y_key' content='cfc35a49dda0d46c'>
   <meta name='keywords' content='jordan cole, stilist, ratafia, ratafia currant'>
   <title>{block:PostTitle}{PostTitle} — {/block:PostTitle}Ratafia Currant</title>
   <link rel='shortcut icon'
         href='http://static.ratafia.info/favicon.ico'>
   <link rel='stylesheet' media='screen'
-        href='http://static.ratafia.info/ricardo/style.css'>
+        href='http://static.ratafia.info/themes/ricardo/style.css'>
+    <link rel='alternate' type='application/atom+xml' title='Ratafia Currant'
+        href='http://feeds.feedburner.com/ratafia'>
+    <!-- for microformats -->
   <link rel='profile' href='http://purl.org/uF/2008/03/'>
+    <!-- OpenID -->
   <link rel='openid.server' href='http://www.myopenid.com/server'>
   <link rel='openid.delegate' href='http://stilist.myopenid.com/'>
   <link rel='openid2.local_id' href='http://stilist.myopenid.com'>
   <link rel='openid2.provider' href='http://www.myopenid.com/server'>
   <meta http-equiv='X-XRDS-Location'
         content='http://www.myopenid.com/xrds?username=stilist.myopenid.com'>
-  <link rel='alternate' type='application/atom+xml' title='Ratafia Currant'
-        href='http://feeds.feedburner.com/ratafia'>
-  <link rel='me external' href='http://delicious.com/stilist'>
-  <link rel='me external' href='http://www.discogs.com/user/ratafia'>
-  <link rel='me external' href='http://disqus.com/stilist/'>
-  <link rel='me external' href='http://flickr.com/photos/stilist/'>
-  <link rel='me external' href='http://friendfeed.com/stilist'>
-  <link rel='me external' href='http://github.com/stilist'>
-  <link rel='me external' href='http://www.metafilter.com/user/96063'>
-  <link rel='me external' href='http://news.ycombinator.com/user?id=stilist'>
-  <link rel='me external' href='http://pinboard.in/u:stilist'>
-  <link rel='me external' href='http://www.slideshare.net/stilist'>
-  <link rel='me external' href='http://twitter.com/stilist'>
-  <link rel='me external' href='http://vimeo.com/stilist'>
-  <link rel='me external' href='http://www.youtube.com/user/stilist'>
+    <!-- external data -->
+    <link rel="me external"
+        href="http://adiumxtras.com/index.php?a=users&amp;do=profile&amp;user_id=3324">
+    <link rel="me external"
+        href="http://www.archiveteam.org/index.php?title=User:Stilist">
+    <link rel="me external" href="http://blippy.com/stilist">
+    <link rel="me external" href="https://www.boxee.tv/go/stilist">
+    <link rel="me external" href="http://claimid.com/stilist">
+    <link rel="me external" href="http://customize.org/stilist">
+    <link rel="me external" href="http://www.delicious.com/stilist">
+    <link rel="me external" href="http://www.discogs.com/user/ratafia">
+    <link rel="me external" href="https://disqus.com/stilist/">
+    <link rel="me external" href="http://www.flickr.com/photos/stilist/">
+    <link rel="me external" href="https://friendfeed.com/stilist">
+    <link rel="me external" href="http://forrst.com/people/stilist">
+    <link rel="me external" href="http://foursquare.com/user/469956">
+    <link rel="me external"
+        href="http://www.freesound.org/usersViewSingle.php?id=28618">
+    <link rel="me external" href="https://github.com/stilist">
+    <link rel="me external"
+        href="https://www.google.com/profiles/112892083743497606983">
+    <link rel="me external" href="https://gowalla.com/users/stilist">
+    <link rel="me external" href="http://gravatar.com/stilist">
+    <link rel="me external" href="https://www.hulu.com/profiles/stilist">
+    <link rel="me external"
+        href="http://www.kickstarter.com/profile/stilist">
+    <link rel="me external" href="http://www.kongregate.com/accounts/stilist">
+    <link rel="me external" href="http://www.metafilter.com/user/96063">
+    <link rel="me external" href="https://microformats.org/wiki/User:Stilist">
+    <link rel="me external" href="https://stilist.myopenid.com/">
+    <link rel="me external" href="http://news.ycombinator.com/user?id=stilist">
+    <link rel="me external" href="https://www.path.com/stilist">
+    <link rel="me external" href="https://pinboard.in/u:stilist">
+    <link rel="me external"
+        href="http://smg.photobucket.com/home/stilist/index">
+    <link rel="me external" href="http://www.reddit.com/user/stilist">
+    <link rel="me external" href="http://www.rockband.com/users/stilist">
+    <link rel="me external" href="http://www.slideshare.net/stilist">
+    <link rel="me external" href="https://steamcommunity.com/id/stilist/">
+    <link rel="me external" href="http://tinypic.com/stilist">
+    <link rel="me external" href="https://twitter.com/stilist">
+    <link rel="me external" href="http://vimeo.com/stilist">
+    <link rel="me external"
+        href="https://secure.wikimedia.org/wikipedia/en/wiki/User:Stilist">
+    <link rel="me external" href="http://stilist.wordpress.com/">
+    <link rel="me external" href="http://stilist.xanga.com/">
+    <link rel="me external" href="http://stilist.yelp.com">
+    <link rel="me external" href="https://www.youtube.com/user/stilist">
   <script>
   /* <![CDATA[ */
   function hivelogic_enkoder(){var i,j,x,y,x=
@@ -72,7 +111,7 @@ while(x=eval(x));}
   })();
   </script>
  </head>
- <body class='tk-anivers'>
+ <body class='tk-museo-sans'>
   <nav id='nameplate'>
    <ul>
     <li><a href='http://ratafia.info' id='logo' rel='home index'>Ratafia Currant</a></li>
@@ -122,6 +161,7 @@ while(x=eval(x));}
      {block:Tags}<li><a href='{TagURL}' rel='tag'>{Tag}</a></li>{/block:Tags}
     </ul>{/block:HasTags}
     <p class='signoff'>written
+     <span class='vcard author'>by <a class='url fn' href='http://ratafia.info'>Jordan Cole</a></span>
      <span class='published updated'>
       <a href='/day/{Year}/{MonthNumberWithZero}/{DayOfMonth}/' class='value' title='{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}'>{DayOfMonth} {Month}, 0{Year}</a>
      </span> •

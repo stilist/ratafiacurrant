@@ -8,12 +8,12 @@
 html, body { background-color: #371d10; }
 html {
  background-attachment: fixed;
- background-image: url('http://static.ratafia.info/ricardo/gradient.png');
+ background-image: url('http://static.ratafia.info/themes/ricardo/gradient.png');
  background-position: top left;
  background-repeat: repeat-x;
 }
 body {
- background: #371d10 url('http://static.ratafia.info/ricardo/branch.png') right 41px no-repeat;
+ background: #371d10 url('http://static.ratafia.info/themes/ricardo/branch.png') right 41px no-repeat;
  border-top: 10px solid #aa5a32;
  color: #ab8876;
  font: 11pt 'Trebuchet MS', Arial, sans-serif;
@@ -104,24 +104,24 @@ strong { font-weight: normal; }
 }
 #nameplate ul { list-style: none; }
 #nameplate #logo {
- background-image: url('http://static.ratafia.info/ricardo/logo.png');
+ background-image: url('http://static.ratafia.info/themes/ricardo/logo.png');
  height: 77px;
  width: 750px;
 }
 #nameplate #archives {
- background-image: url('http://static.ratafia.info/ricardo/archives.png');
+ background-image: url('http://static.ratafia.info/themes/ricardo/archives.png');
  bottom: 0;
  left: 237px;
  width: 114px;
 }
 #nameplate #code {
- background-image: url('http://static.ratafia.info/ricardo/code.png');
+ background-image: url('http://static.ratafia.info/themes/ricardo/code.png');
  bottom: 0;
  left: 366px;
  width: 63px;
 }
 #nameplate #links {
- background-image: url('http://static.ratafia.info/ricardo/links.png');
+ background-image: url('http://static.ratafia.info/themes/ricardo/links.png');
  bottom: 0;
  right: 237px;
  width: 67px;
@@ -132,19 +132,21 @@ strong { font-weight: normal; }
  margin-top: 1em;
 }
 .hentry blockquote { margin: 0 2em; }
-.hentry ol, .hentry p, .hentry ul { margin: 1.55em 0; }
+.hentry ol, .hentry p, .hentry ul { clear: both; margin: 1.55em 0; }
 .hentry .entry-content > p:first-child,
 .hentry .entry-content > blockquote:first-child > p:first-child {
  margin-top: 9px;
 }
 .hentry .keywords, .hentry .keywords li { display: inline; }
 .hentry .keywords { list-style: none; }
-.hentry .keywords li { margin-left: 0.5em; }
+.hentry .keywords li { float: right; margin-left: 0.5em; }
 .hentry .meta {
  font-size: .9em;
  text-align: right;
 }
 .hentry .meta ul, .hentry .meta p { margin: .5em 0; }
+/* information is requiredfor hAtom validation */
+.hentry .meta .author { display: none; }
 
 .album, .book, .film, .game, .magazine, .newspaper, .programme {
  font-style: italic;

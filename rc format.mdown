@@ -6,8 +6,8 @@ this site.
 ## General notes
 
 * A given metadata tag (see below) may only appear once in each file.
-* Metadata tags are not required to appear in any specific order, but I prefer
-to keep them alphabetized for easier skimming.
+* Metadata tags may appear in any order. I personally prefer to keep them
+alphabetized for easier skimming.
 * All notation in the form `U+nnnn` refers to a valid codepoint in the
 [Unicode][unicode] standard.
 * The entire entry must be valid [<abbr class='smallcaps'>UTF</abbr>-8][utf8].
@@ -26,10 +26,11 @@ Every file using this format will have the following structure:
 
 That is:
 
-* One or more metadata tags, each with the following form: a valid tag name (in
-uppercase <abbr class='smallcaps'>ASCII</abbr>), a U+003A COLON character, a
-U+0020 SPACE, the tag’s data, and a [newline][newline]. The entire tag must
-appear on a single line.
+* All required metadata tags (and any desired optional tags), each with the
+following form: a valid tag name (in uppercase
+<abbr class='smallcaps'>ASCII</abbr>), a U+003A COLON character, a U+0020
+SPACE, the tag’s data, and a [newline][newline]. The entire tag must appear on
+a single line.
 * Two consecutive U+002D HYPHEN-MINUS characters, followed by a newline.
 * Freeform text using valid [Markdown][mdown] syntax.
 
@@ -87,8 +88,8 @@ degree symbol).
 
  [decdeg]: http://en.wikipedia.org/wiki/Decimal_degrees "Wikipedia article for decimal degrees"
 
-Examples: `ADDR 233 S Wacker Dr #3500 Chicago, IL USA`;
-`GPS WGS84 51.500611, -0.124611`
+Examples: `GEOLOCATION: ADDR 233 S Wacker Dr #3500 Chicago, IL USA`;
+`GEOLOCATION: GPS WGS84 51.500611, -0.124611`
 
 ### `KEYWORDS`
 
@@ -96,8 +97,8 @@ Examples: `ADDR 233 S Wacker Dr #3500 Chicago, IL USA`;
 If there is more than one keyword, a U+002C COMMA and U+0020 SPACE will be
 placed between each keyword.
 
-*Note:* Keywords may be written and ordered as desired. It is the parser’s
-responsibility to handle matching and sorting correctly.
+*Note:* Keywords may be ordered as desired. It is the parser’s responsibility
+to handle matching and sorting correctly.
 
 Example: `KEYWORDS: demo, example`
 
@@ -107,7 +108,7 @@ Example: `KEYWORDS: demo, example`
 is expired, this would be `public-domain`; if published under a
 [Creative Commons][cc] license — <abbr lang='la'>e.g.</abbr>
 [Attribution, Non-commercial][ccbync], this would be the abbreviated license
-name (<abbr lang='la'>e.g.</abbr> <abbr class='smallcaps'>CC:BY-NC<?abbr>). If
+name (<abbr lang='la'>e.g.</abbr> <abbr class='smallcaps'>CC:BY-NC</abbr>). If
 no `LICENSE` is specified, the material is assumed to be under full copyright
 at time of publication.
 
@@ -129,6 +130,8 @@ Example: `LINK: http://ratafia.info`
 *Optional.* For audio, print, and video content, this gives the parser
 additional information that can optionally be used to determine eventual
 presentation.
+
+*Note:* This tag is freeform, so the information it gives may be unusable.
 
 Example: `MEDIUM: magazine`
 
@@ -159,7 +162,9 @@ Example: `PUBLISHED: 02009-04-06T21:38:00-0400`
 
 *Optional.* Name of the service or publication where the entry was originally
 published. Whether a given `SOURCE` affects the entry’s eventual presentation
-is entirely up to the parser.
+is the parser’s decision.
+
+*Note:* This tag is freeform, so the information it gives may be unusable.
 
 Example: `SOURCE: Tumblr`
 
@@ -168,21 +173,21 @@ Example: `SOURCE: Tumblr`
 *Optional.* For audio, print, and video, specifies what portion of the source
 material is presented. Print takes the form `p x-y` (U+0070 LATIN SMALL LETTER
 P, U+0020 SPACE, <var>n</var>-digit page number, U+002D HYPHEN-MINUS,
-<var>n</var>-digit page number). Audio and video use the *duration* format
+<var>n</var>-digit page number). Audio and video use the duration format
 specified in [<abbr class='smallcaps'>ISO</abbr> 8601:2004][iso8601]; there is
 no additional signifier corresponding to print’s leading `p `. If more than one
-segment (in any of the formats) is used, a U+002C COMMA and U+0020 SPACE will
-be placed between each segment.
+segment (in either formats) is used, a U+002C COMMA and U+0020 SPACE will be
+placed between each segment.
 
 Examples: `SOURCERANGE: p 20-25, 27-29`; `SOURCERANGE: PT0H0M0S/PT0H3M55S`
 
 ### `SOURCEURI`
 
 *Optional.* Full <abbr class='smallcaps'>URI</abbr> for the entry’s original
-location on the web. Given only if the entry was not originally published on
+location. Should only be given if the entry was not originally published on
 the local site.
 
-Example: `SOURCEURI: http://ratafia.info/post/93660146/on-tumblelogs`
+Example: `SOURCEURI: https://twitter.com/stilist/status/1113665797`
 
 ### `TITLE`
 
@@ -230,5 +235,31 @@ Example: `UPDATED: 02009-04-07T14:52:12-0400`
     <p>Keywords: <a href='/keywords/chiptunes'> <a href='/keywords/history'>
      <a href='/keywords/joshuadiaz'> <a href='/keywords/kevindriscoll'>
      <a href='/keywords/music'></p>
-     
+    
     <p>Published 4 April, 02009</p>
+
+## Error handling
+
+Whenever a document standard is created, it is certain that the creation of
+documents that violate the standard will follow. Because I’ve developed this
+format as part of an effort to preserve my work a long time, I feel it’s
+important to have a fairly strict approach to bad data.
+
+### Unknown tag names
+
+Any metadata tags that are not specified in this document cannot be relied on
+and should be discarded. (Note: I am open to suggestions for new tags.)
+
+### Invalid tag data
+
+Tags containing data that does not match the above formats should be ignored,
+even if t
+
+### Repeated tag names
+
+In the event that a given tag appears more than once in an entry, the first
+instance should be used and any further instances ignored. Validators may
+give the user an opportunity to mark one instance as correct, removing
+the other instance(s) from the entry.
+
+This is somewhat less strict, but 
