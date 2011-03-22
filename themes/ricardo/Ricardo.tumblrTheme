@@ -6,6 +6,8 @@
   <meta name='verify-v1' content='fBP5k+EA4BFJx2aaK3hiOymbZSUbEAkp8OcEdeK/Fk8='>
     <!-- Yahoo! Site Explorer -->
   <meta name='y_key' content='cfc35a49dda0d46c'>
+    <!-- Facebook Insights -->
+  <meta property="fb:admins" content="211500669">
   <meta name='keywords' content='jordan cole, stilist, ratafia, ratafia currant'>
   <title>{block:PostTitle}{PostTitle} — {/block:PostTitle}Ratafia Currant</title>
   <link rel='shortcut icon'
