@@ -1,0 +1,41 @@
+KEYWORDS: apple, appleid, appstore, ios, mac, macappstore, mobileme
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/2621149180/mac-app-store-questions
+PUBLISHED: 01-06-02011T00:29:00-0800
+TITLE: Mac App Store Questions
+UPDATED: 01-06-02011T00:29:00-0800
+--
+* Can Mac App Store apps and iOS App Store apps share data?
+* If so, will there be an official syncing mechanism? Will it use MobileMe?
+* If the Mac App Store sees significant use, will Apple bind entire OS Ⅹ user
+accounts to Apple IDs?
+* How will Apple resolve the potential confusion of ‘Hey, download our app from
+the App Store. No, not that one, the other one.’
+* Will all app purchasing be shifted out of iTunes and into the Mac App Store?
+* Is there any significance to the similarity between the Mac App Store and
+iTunes 10 icons?
+* Does this make wireless syncing more likely?
+
+* * *
+
+For some time Apple’s been working to eliminate the filesystem as an end-user
+concept. iOS never exposes one (hence MobileSafari’s inability to handle file
+uploads, because where would it look?), and OS Ⅹ has become increasingly
+opaque — see Spotlight, Quick Look, the shift away from per-file application
+bindings. I think this is also the answer to Gruber’s question of why Apple
+hasn’t bought Dropbox, which is implicitly bound to the notion of a file
+system.
+
+I would love to see MobileMe’s syncing functionality grow to fully handle
+cross-device data management. Binding OS Ⅹ user accounts to Apple IDs makes a
+lot of sense to me: they’re bound into nearly all of Apple’s services, and
+would greatly simplify the process of setting up a new machine, since Apple
+would already know about your applications and data. More fantastically, it
+could lead to a scenario where Apple-produced devices are effectively dumb
+terminals, all accessing the same data but presenting various strengths and
+weaknesses. I doubt bandwidth and storage are in place for this to be a
+realistic idea, but why not dream?
+
+If computing’s shifting away from a model where the desktop is everything,
+we need need to account for multiple devices, and ‘your data, anywhere’ becomes
+the fundamental problem.

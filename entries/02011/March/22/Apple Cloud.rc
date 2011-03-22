@@ -1,0 +1,106 @@
+KEYWORDS: apple, appleid, ios, lion, osx, technology
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/4024876090/apple-cloud
+PUBLISHED: 02011-03-22T08:39:00-0700
+TITLE: Apple Cloud
+UPDATED: 02011-03-22T08:39:00-0700
+--
+<ins>I wrote the following in late December/early January and haven’t touched
+it since. It’s primarily bullet points because couldn’t figure out how to put
+it all together in a coherent way. I still agree with the content.</ins>
+
+* * *
+
+[![](http://farm6.static.flickr.com/5086/5216318522_71387d4e50_o.jpg)](http://www.flickr.com/photos/stilist/5216318522/)
+
+Since the launch of the iOS App Store, <span class="company">Apple</span> has
+made increasing use of its Apple ID system. Apple ID powers all the company’s
+digital purchasing — [iTunes Store][itunes_store], [App Store][app_store], the
+forthcoming [Mac App Store][mac_app_store], and the online
+[Apple Store][apple_store]. [FaceTime][facetime] and the
+[recently-made-free][ios_42] [Find My iPhone][find_my_iphone] services use it,
+as do a [wide variety of other offerings][w_apple_id].
+
+  [app_store]: http://www.apple.com/iphone/apps-for-iphone/ "iPhone App Store overview"
+  [apple_store]: http://store.apple.com "Apple Store"
+  [facetime]: http://www.apple.com/mac/facetime/ "FaceTime for Mac"
+  [find_my_iphone]: http://www.apple.com/iphone/find-my-iphone-setup/ "‘How to set up Find My iPhone’"
+  [ios_42]: http://www.apple.com/pr/library/2010/11/22ios.html "‘Apple’s iOS 4.2 Available Today for iPad, iPhone & iPod touch’"
+  [itunes_store]: http://www.apple.com/itunes/features/#purchasing "iTunes Features"
+  [mac_app_store]: http://www.apple.com/mac/app-store/ "Mac App Store"
+  [w_apple_id]: https://secure.wikimedia.org/wikipedia/en/wiki/Apple_ID#Benefits_of_an_Apple_ID "Wikipedia article for Apple ID"
+
+The stores are my primary interest — Apple’s firsthand purchase data for
+millions of customers. It’s a touted feature that if a user downloads an audio
+track or app they’re free to download it again at no cost. Users don’t need to
+worry about switching hardware or reinstalling; no concerns over paying again
+or losing data.
+
+I’ve been wondering what would happen if Apple took things a step further and
+bound OS Ⅹ user accounts to Apple IDs. What if you could log into any Mac and
+have access to your applications and personal data? Or be able to access your
+own information on anyone’s iOS device?
+
+* * *
+
+The central issue with such an idea is the user’s data. Apple already offers
+cloud storage and synchronization through its MobileMe service — currently a
+minimum of 20 <abbr class="smallcaps" title="gigabytes">GB</abbr> for
+<abbr class="smallcaps" title="United States dollars">USD</abbr>$99 per year.
+
+  [mobileme]: http://www.apple.com/mobileme/ "Apple’s MobileMe page"
+  [mobilemeprice]: http://www.apple.com/mobileme/pricing/ "MobileMe pricing overview"
+
+It doesn’t offer full syncing, though; instead, users can choose to sync
+data from certain Apple applications, and can use the remaining space allowance
+to store data in [iDisk][idisk]. This approach of selective syncing isn’t
+enough for a truly portable experience. As
+<span class="person">Shawn Blanc</span> [discusses][blanc], Apple should follow
+the example of [Dropbox][dropbox] and synchronize anything the user wants.
+[^filesystems]
+
+  [blanc]: http://shawnblanc.net/2010/10/mobileme-potential/ "‘The Potential of MobileMe’"
+  [dropbox]: https://dropbox.com "Dropbox homepage"
+  [idisk]: http://www.apple.com/mobileme/features/idisk.html "About iDisk"
+
+  [^filesystems]: The biggest problem I see here is the conflict between
+filesystem-centric desktops/laptops and app-centric iOS.
+
+## existing elements
+
+* streaming
+* data centers
+* focus on portability
+* increasingly powerful devices
+
+## in progress
+
+* abstract away file system: Spotlight, Dock, Launchpad (Lion)
+* single-tasking (iOS, Lion full-screen)
+* new free MobileMe account (Find My iPhone)
+* same app, different platform (e.g. iWork)
+
+## missing
+
+* iOS file system?
+* wireless sync
+* large-scale data synchronization
+
+## competitors
+
+* Windows Live Mesh / ChromeOS
+* Dropbox
+
+## problems
+
+* reluctant to fully embrace cloud
+* network
+* storage capability and cost
+* setup times (new install)
+* pricing
+* consumer interest
+
+## references
+
+http://shawnblanc.net/2010/10/mobileme-potential/
+http://daringfireball.net/linked/2010/10/20/blanc-cloud
