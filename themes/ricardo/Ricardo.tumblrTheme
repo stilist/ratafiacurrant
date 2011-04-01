@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang='en' xmlns:og="http://ogp.me/ns#">
-  <head>
+  <head profile="http://gmpg.org/xfn/11">
     <meta charset='UTF-8'>
     <!-- Google Webmaster Tool -->
     <meta name='verify-v1'
@@ -34,6 +34,8 @@
         href='http://static.ratafia.info/themes/ricardo/style.css'>
     <link rel='alternate' type='application/atom+xml' title='Ratafia Currant'
         href='http://feeds.feedburner.com/ratafia'>
+    <!-- PubSubHubBub syndication -->
+    <link rel="hub" href="http://pubsubhubbub.appspot.com/">
     <!-- for microformats -->
     <link rel='profile' href='http://purl.org/uF/2008/03/'>
     <!-- OpenID -->
@@ -135,6 +137,7 @@
     <link rel="me" href="http://gravatar.com/stilist" title="Gravatar">
     <link rel="me" href="https://www.hulu.com/profiles/stilist" title="Hulu">
     <link rel="me" href="http://www.icq.com/people/235009402/" title="ICQ">
+    <link rel="me" href="http://identi.ca/stilist" title="identi.ca">
     <link rel="me"
         href="http://downloads.khinsider.com/forums/member.php?u=23061"
         title="KHDownloads forums">
@@ -142,6 +145,8 @@
         href="http://www.kickstarter.com/profile/stilist" title="Kickstarter">
     <link rel="me" href="http://www.kongregate.com/accounts/stilist"
         title="Kongregate">
+    <link rel="me" href="http://www.last.fm/user/ratafiacurrant"
+        title="last.fm">
     <link rel="me" href="http://www.linkedin.com/in/stilist" title="LinkedIn">
     <link rel="me"
         href="http://www.livejournal.com/userinfo.bml?userid=24558144&amp;t=I"
