@@ -1,12 +1,17 @@
 <!doctype html>
-<html lang='en' xmlns:og="http://ogp.me/ns#">
+<html lang="en" xmlns:og="http://ogp.me/ns#">
   <head profile="http://gmpg.org/xfn/11">
-    <meta charset='UTF-8'>
+    <meta charset="UTF-8">
     <!-- Google Webmaster Tool -->
-    <meta name='verify-v1'
-        content='fBP5k+EA4BFJx2aaK3hiOymbZSUbEAkp8OcEdeK/Fk8='>
+    <meta name="verify-v1"
+        content="fBP5k+EA4BFJx2aaK3hiOymbZSUbEAkp8OcEdeK/Fk8=">
     <!-- Yahoo! Site Explorer -->
-    <meta name='y_key' content='cfc35a49dda0d46c'>
+    <meta name="y_key" content="cfc35a49dda0d46c">
+    {block:IndexPage}
+    <!-- Readability publisher -->
+    <meta name="readability-verification"
+        content="hw4FKyh3RrzAXzVGndy9KFv3c3eDC7gLfsLpvf9J">
+    {/block:IndexPage}
     <!-- Facebook Open Graph + Insights -->
     {block:IndexPage}
     <meta property="og:title" content="Ratafia Currant">
@@ -24,27 +29,29 @@
     <meta property="og:site_name" content="Ratafia Currant">
     <meta property="fb:admins" content="211500669">
     <!-- stuff -->
-    <meta name='keywords'
-        content='jordan cole, stilist, ratafia, ratafia currant'>
+    <meta name="keywords"
+        content="jordan cole, stilist, ratafia, ratafia currant">
     <meta name="copyright" content="Copyright © Jordan Cole">
     <title>{block:PostTitle}{PostTitle} — {/block:PostTitle}Ratafia Currant</title>
-    <link rel='shortcut icon'
-        href='http://static.ratafia.info/favicon.ico'>
-    <link rel='stylesheet' media='screen'
-        href='http://static.ratafia.info/themes/ricardo/style.css'>
-    <link rel='alternate' type='application/atom+xml' title='Ratafia Currant'
-        href='http://feeds.feedburner.com/ratafia'>
+    <link rel="shortcut icon"
+        href="http://static.ratafia.info/favicon.ico">
+    <link rel="license"
+        href="http://creativecommons.org/licenses/by-nc/3.0/us/">
+    <link rel="stylesheet" media="screen"
+        href="http://static.ratafia.info/themes/ricardo/style.css">
+    <link rel="alternate" type="application/atom+xml" title="Ratafia Currant"
+        href="http://feeds.feedburner.com/ratafia">
     <!-- PubSubHubBub syndication -->
     <link rel="hub" href="http://pubsubhubbub.appspot.com/">
     <!-- for microformats -->
-    <link rel='profile' href='http://purl.org/uF/2008/03/'>
+    <link rel="profile" href="http://purl.org/uF/2008/03/">
     <!-- OpenID -->
-    <link rel='openid.server' href='http://www.myopenid.com/server'>
-    <link rel='openid.delegate' href='http://stilist.myopenid.com/'>
-    <link rel='openid2.local_id' href='http://stilist.myopenid.com'>
-    <link rel='openid2.provider' href='http://www.myopenid.com/server'>
-    <meta http-equiv='X-XRDS-Location'
-        content='http://www.myopenid.com/xrds?username=stilist.myopenid.com'>
+    <link rel="openid.server" href="http://www.myopenid.com/server">
+    <link rel="openid.delegate" href="http://stilist.myopenid.com/">
+    <link rel="openid2.local_id" href="http://stilist.myopenid.com">
+    <link rel="openid2.provider" href="http://www.myopenid.com/server">
+    <meta http-equiv="X-XRDS-Location"
+        content="http://www.myopenid.com/xrds?username=stilist.myopenid.com">
     <!-- pavatar -->
     <link rel="pavatar avatar logo"
         href="http://static.ratafia.info/bird_80x80.png">
@@ -65,6 +72,9 @@
     <link rel="me"
         href="http://www.amazon.com/gp/pdp/profile/A23TDZ3SH64OM"
         title="Amazon">
+    <link rel="me"
+        href="http://c.itunes.apple.com/us/profile/id93206769"
+        title="iTunes Ping">
     <link rel="me"
         href="http://lifestream.aol.com/stream/chartereuese"
         title="AOL Lifestream">
@@ -94,10 +104,10 @@
         href="http://www.bebo.com/Profile.jsp?MemberId=10082459697"
         title="bebo">
     <link rel="me" href="http://blippy.com/stilist" title="Blippy">
-    <link rel="me" href="https://www.boxee.tv/go/stilist" title="Boxee">
     <link rel="me"
         href="http://www.blogger.com/profile/00416913816087619738"
         title="Blogger">
+    <link rel="me" href="https://www.boxee.tv/go/stilist" title="Boxee">
     <link rel="me" href="http://claimid.com/stilist" title="claimID">
     <link rel="me" href="http://customize.org/stilist" title="customize.org">
     <link rel="me" href="http://www.dailymile.com/people/stilist"
@@ -113,11 +123,16 @@
         title="Experts Exchange">
     <link rel="me"
         href="http://portland.everyblock.com/users/17109/" title="EveryBlock">
+    <link rel="me"
+        href="https://www.facebook.com/Xi4zEkRCtU9tpEHWwa5wOv1u6rtgWhkS"
+        title="Facebook">
     <link rel="me" href="http://favstar.fm/users/stilist/" title="Favstar">
     <link rel="me" href="http://www.flickr.com/photos/stilist/" title="Flickr">
     <link rel="me" href="http://flightaware.com/user/stilist"
         title="FlightAware">
-    <link rel="me" href="https://friendfeed.com/stilist" title="FriendFeed">
+    <link rel="me"
+        href="http://www.foreignaffairs.com/users/stilistratafiainfo"
+        title="Foreign Affairs">
     <link rel="me" href="http://forrst.com/people/stilist" title="Forrst">
     <link rel="me" href="http://foursquare.com/user/469956" title="Foursquare">
     <link rel="me"
@@ -125,7 +140,10 @@
         title="freesound">
     <link rel="me"
         href="http://freewebs.com/stilist/" title="Freewebs">
+    <link rel="me" href="https://friendfeed.com/stilist" title="FriendFeed">
     <link rel="me" href="https://github.com/stilist" title="GitHub">
+    <link rel="me" href="http://beta.glitch.com/profiles/PHVM14S8G952NTF/"
+        title="Glitch">
     <link rel="me"
         href="https://profiles.google.com/stilist" title="Google">
     <link rel="me"
@@ -138,11 +156,15 @@
     <link rel="me" href="https://www.hulu.com/profiles/stilist" title="Hulu">
     <link rel="me" href="http://www.icq.com/people/235009402/" title="ICQ">
     <link rel="me" href="http://identi.ca/stilist" title="identi.ca">
+    <link rel="me" href="http://www.imdb.com/user/ur25570491/" title="IMDb">
+    <link rel="me" href="http://osx.iusethis.com/user/stilist"
+        title="i use this">
     <link rel="me"
         href="http://downloads.khinsider.com/forums/member.php?u=23061"
         title="KHDownloads forums">
     <link rel="me"
         href="http://www.kickstarter.com/profile/stilist" title="Kickstarter">
+    <link rel="me" href="http://klout.com/stilist" title="Klout">
     <link rel="me" href="http://www.kongregate.com/accounts/stilist"
         title="Kongregate">
     <link rel="me" href="http://www.last.fm/user/ratafiacurrant"
@@ -151,9 +173,14 @@
     <link rel="me"
         href="http://www.livejournal.com/userinfo.bml?userid=24558144&amp;t=I"
         title="LiveJournal">
+    <link rel="me" href="http://lotsofskins.com/?profile=stilist"
+        title="Lotsofskins">
     <link rel="me"
         href="http://macthemes.net/forum/profile.php?id=16271"
         title="MacThemes forums">
+    <link rel="me"
+        href="http://forums.macworld.com/index.php?showuser=116584"
+        title="Macworld forums">
     <link rel="me" href="http://www.metafilter.com/user/96063"
         title="MetaFilter">
     <link rel="me" href="https://microformats.org/wiki/User:Stilist"
@@ -161,9 +188,12 @@
     <link rel="me" href="http://modmyi.com/forums/members/77962.html"
         title="ModMyi forums">
     <link rel="me" href="https://stilist.myopenid.com/" title="MyOpenID">
+    <link rel="me" href="http://developer.netflix.com/profile/profile/273183"
+        title="Netflix Developer">
     <link rel="me" href="http://news.ycombinator.com/user?id=stilist"
         title="Hacker News">
     <link rel="me" href="http://stilist.newsvine.com/" title="Newsvine">
+    <link rel="me" href="http://my.nike.com/stilist" title="Nike">
     <link rel="me"
         href="http://timespeople.nytimes.com/view/user/61907004/activities.html"
         title="TimesPeople">
@@ -176,22 +206,27 @@
     <link rel="me"
         href="http://forums.penny-arcade.com/member.php?u=8108"
         title="Penny Arcade Forums">
+    <link rel="me" href="https://secure.phabricator.com/p/stilist/"
+        title="Phabricator">
+    <link rel="me"
+        href="http://smg.photobucket.com/home/stilist/index"
+        title="Photobucket">
     <link rel="me" href="https://pinboard.in/u:stilist" title="Pinboard">
     <link rel="me"
         href="http://www.planetamd64.com/index.php?showuser=123029"
         title="PlanetAMD64">
     <link rel="me"
-        href="http://smg.photobucket.com/home/stilist/index"
-        title="Photobucket">
+        href="https://us.playstation.com/publictrophy/?onlinename=stilist"
+        title="PlayStation Network">
     <link rel="me" href="http://pouet.net/user.php?who=7264" title="pouet">
     <link rel="me"
         href="http://www.programmersheaven.com/user/stilist/"
         title="Programmer’s Heaven">
-    <link rel="me"
-        href="https://us.playstation.com/publictrophy/?onlinename=stilist"
-        title="PlayStation Network">
     <link rel="me" href="http://www.quora.com/Jordan-Cole" title="Quora">
+    <link rel="me" href="http://www.qwerly.com/stilist" title="Qwerly">
     <link rel="me" href="http://www.rdio.com/people/stilist/" title="rdio">
+    <link rel="me" href="http://www.readability.com/stilist"
+        title="Readability">
     <link rel="me" href="http://www.reddit.com/user/stilist" title="reddit">
     <link rel="me" href="http://www.rockband.com/users/stilist"
         title="Rock Band">
@@ -208,6 +243,9 @@
         title="Technorati">
     <link rel="me" href="http://tinypic.com/stilist" title="Tinypic">
     <link rel="me" href="https://twitter.com/stilist" title="Twitter">
+    <link rel="me"
+        href="http://reviews.urbanoutfitters.com/5309/1087951223/profile.htm"
+        title="Urban Outfitters">
     <link rel="me" href="http://www.ustream.tv/user/stilist"
         title="Ustream.TV">
     <link rel="me" href="http://www.viddler.com/explore/stilist/"
@@ -216,12 +254,20 @@
     <link rel="me"
         href="https://secure.wikimedia.org/wikipedia/en/wiki/User:Stilist"
         title="Wikipedia">
+    <link rel="me" href="http://www.wincustomize.com/users/698241/stilist"
+        title="WinCustomize">
     <link rel="me" href="http://stilist.wordpress.com/" title="WordPress">
     <link rel="me" href="http://stilist.xanga.com/" title="Xanga">
     <link rel="me" href="http://stilist.yelp.com" title="Yelp">
     <link rel="me" href="https://www.youtube.com/user/stilist" title="YouTube">
-  <script>
-  function hivelogic_enkoder(){var i,j,x,y,x=
+    {block:PermalinkPage}<link rel="canonical"
+        href="{Permalink}">{/block:PermalinkPage}
+    <script>
+var disqus_url = "{Permalink}",
+    disqus_title = "{block:PostTitle}{PostTitle}{/block:PostTitle}";
+
+/* Enkoder (http://hivelogic.com/enkoder/) */
+function hivelogic_enkoder(){var i,j,x,y,x=
 "x=\"1,x9h=\\\"9:{@:7%29;5_6:_:6e;69<g55e566g9665765<99:e96:<965e_%6g25:<@{" +
 "68:69h869899:67696969486:39998865;:65:{@5e_%__258565:598e:6:;56:h:6:6:6589" +
 "695:6<6:6:7:66h5675;699<685f65656;5<655<656e66:g96:<69_%672564fd65>|63@*69" +
@@ -238,117 +284,137 @@
 "0));x=x.substr(1);y='';for(i=0;i<x.length;i+=4){y+=x.substr(i,2);}for(i=2;" +
 "i<x.length;i+=4){y+=x.substr(i,2);}y=y.substr(j);";
 while(x=eval(x));}
-  </script>
-  <script src='http://use.typekit.com/yws8cub.js'></script>
-  <script>try{Typekit.load();}catch(e){}</script>
-  {block:PermalinkPage}<link rel='canonical'
-        href='{Permalink}'>{/block:PermalinkPage}
-  <!--[if IE]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  <script>
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-450269-1'], ['_trackPageview']);
-  
-  (function() {
-    var ga = document.createElement('script');
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    ga.setAttribute('async', 'true');
-    document.documentElement.firstChild.appendChild(ga);
-  })();
-  </script>
- </head>
- <body class='tk-museo-sans'>
-  <nav id='nameplate'>
-   <ul>
-    <li><a href='http://ratafia.info' id='logo' rel='home index'>Ratafia Currant</a></li>
-    <li><a href='/archive' id='archives' rel='archives'>Archives</a></li>
-    <li><a href='http://github.com/stilist' rel='external' id='code'>Code</a></li>
-    <li><a href='http://pinboard.in/u:stilist' rel='external' id='links'>Links</a></li>
-   </ul>
-  </nav>
+    </script>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body class="tk-museo-sans">
+    <nav id="nameplate">
+      <ul>
+        <li><a href="http://ratafia.info" id="logo"
+            rel="home index">Ratafia Currant</a></li>
+        <li><a href="/archive" id="archives"
+            rel="archives">Archives</a></li>
+        <li><a href="http://github.com/stilist" rel="external"
+            id="code">Code</a></li>
+        <li><a href="http://pinboard.in/u:stilist" rel="external"
+            id="links">Links</a></li>
+      </ul>
+    </nav>
 
-  <section>{block:Posts}<article class='hentry'>
-   {block:Text}
-   <header>
-    <h1 class='entry-title'>
-     {block:IndexPage}<a href='{Permalink}'>{/block:IndexPage}
-     {block:Title}{Title}{/block:Title}
-     {block:IndexPage}</a>{/block:IndexPage}
-    </h1>
-   </header>
-   <div class='entry-content'>
-    {Body}
-   </div>
-   {/block:Text}
-   {block:Link}
-   <header>
-    <h1 class='entry-title'><a href='{URL}' rel='external'>{Name}</a></h1>
-   </header>
-   {block:Description}
-   <div class='entry-content'>
-    {Description}
-   </div>
-   {/block:Description}
-   {/block:Link}
-   {block:Video}
-   <header>
-    <h1 class='entry-title'>
-     {block:IndexPage}<a href='{Permalink}'>{/block:IndexPage}
-     {block:Caption}{Caption}{/block:Caption}
-     {block:IndexPage}</a>{/block:IndexPage}
-    </h1>
-   </header>
-   <div class='entry-content'>
-    {Video-500}
-   </div>
-   {/block:Video}
-   <section class='meta'>
-    {block:HasTags}<ul class='keywords'>
-     {block:Tags}<li><a href='{TagURL}' rel='tag'>{Tag}</a></li>{/block:Tags}
-    </ul>{/block:HasTags}
-    <p class='signoff'>written
-     <span class='vcard author'>by <a class='url fn' href='http://ratafia.info'>Jordan Cole</a></span>
-     <span class='published updated'>
-      <a href='/day/{Year}/{MonthNumberWithZero}/{DayOfMonth}/' class='value' title='{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}'>{DayOfMonth} {Month}, 0{Year}</a>
-     </span> •
-     <a href='{Permalink}#disqus_thread'>Comments</a>
-     <a href='{Permalink}' class='pilcrow' title='Permanent link to this entry' rel='bookmark'>⁋</a>
-    </p>
-   </section>
-  </article>{/block:Posts}</section>
+    <section class="hfeed">{block:Posts}
+      <article class="hentry hnews">
+        {block:Text}
+        <header>
+          <h1 class="entry-title">
+            {block:IndexPage}<a href="{Permalink}">{/block:IndexPage}
+            {block:Title}{Title}{/block:Title}
+            {block:IndexPage}</a>{/block:IndexPage}
+          </h1>
+        </header>
+        <section class="entry-content">
+          {Body}
+        </section>
+        {/block:Text}
+        {block:Link}
+        <header>
+          <h1 class="entry-title">
+            <a href="{URL}" rel="external">{Name}</a>
+          </h1>
+        </header>
+        {block:Description}
+        <section class="entry-content">
+          {Description}
+        </section>
+        {/block:Description}
+        {/block:Link}
+        {block:Video}
+        <header>
+          <h1 class="entry-title">
+            {block:IndexPage}<a href="{Permalink}">{/block:IndexPage}
+            {block:Caption}{Caption}{/block:Caption}
+            {block:IndexPage}</a>{/block:IndexPage}
+          </h1>
+        </header>
+        <section class="entry-content">
+          {Video-500}
+        </section>
+        {/block:Video}
 
-  {block:PermalinkPage}<section><!-- disqus -->
-  <script>
-   var disqus_url = '{Permalink}';
-   var disqus_title = '{block:PostTitle}{PostTitle}{/block:PostTitle}';
-  </script>
-  <div id='disqus_thread'></div>
-  <script src='http://disqus.com/forums/ratafia/embed.js'></script>
-  <script>
-   //<![CDATA[
-   (function() {
-    var links = document.getElementsByTagName('a');
-    var query = '?';
-    for(var i = 0; i < links.length; i++) {
-     if(links[i].href.indexOf('#disqus_thread') >= 0) {
-      query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-     }
-    }
-    document.write('<script src="http://disqus.com/forums/ratafia/get_num_replies.js' + query + '"></' + 'script>');
-   })();
-   //]]>
-  </script>
-  <!-- /disqus --></section>{/block:PermalinkPage}
+        <section class="meta">
+          {block:HasTags}<ul class="keywords">
+            {block:Tags}
+            <li><a href="{TagURL}" rel="tag">{Tag}</a></li>
+            {/block:Tags}
+          </ul>{/block:HasTags}
+          <p class="signoff">written
+            <span class="vcard author byline source-org">by
+              <a class="url fn" href="http://ratafia.info">Jordan Cole</a>
+            </span>
+            {block:Date}<a
+                href="/day/{Year}/{MonthNumberWithZero}/{DayOfMonth}/">
+              <time class="updated"
+                  datetime="0{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}"
+                  pubdate>{DayOfMonth} {Month}, 0{Year}</time>
+            </a>{/block:Date} •
+            <a href="{Permalink}#disqus_thread">Comments</a><!-- Disqus -->
+            <a href="{Permalink}" class="pilcrow"
+                title="Permanent link to this entry" rel="bookmark">⁋</a>
+          </p>
+        </section>
+      </article>
+    {/block:Posts}</section>
 
-  {block:Pagination}<div id='nextprev'>
-   {block:PreviousPage}<span id='prevpage'><a href='{PreviousPage}'>← Newer</a></span>{/block:PreviousPage}
-   {block:NextPage}<span id='nextpage'><a href='{NextPage}'>Older →</a></span>{/block:NextPage}
-  </div>{/block:Pagination}
+    {block:PermalinkPage}<!-- Disqus -->
+    <section>
+      <div id="disqus_thread"></div>
+    </section>{/block:PermalinkPage}
 
-  <footer>
-   <address class='vcard author'>Copyright <a class='url uid fn' href='http://ratafia.info'>Jordan Cole</a> (<script>hivelogic_enkoder();</script>), and provided under the <a href='http://creativecommons.org/licenses/by-nc/3.0/us/' rel='license'><abbr class='smallcaps' title='Creative Commons attribution, non-commercial'>CC:BY-NC</abbr></a> license.</address>
-   <p><a href='http://github.com/stilist/ratafiacurrant/tree/master' rel='external'>Check out how this is made.</a></p>
-  </footer>
- </body>
+    {block:Pagination}<div id="nextprev">
+      {block:PreviousPage}<span id="prevpage">
+        <a href="{PreviousPage}">← Newer</a>
+      </span>{/block:PreviousPage}
+      {block:NextPage}<span id="nextpage">
+        <a href="{NextPage}">Older →</a>
+      </span>{/block:NextPage}
+    </div>{/block:Pagination}
+
+    <footer class="vcard copyright">
+      <p>
+        Copyright
+        <a class="url uid fn" href="http://ratafia.info">Jordan Cole</a>
+        (<script>hivelogic_enkoder();</script>), and provided under the
+        <a href="http://creativecommons.org/licenses/by-nc/3.0/us/">
+          <abbr class="smallcaps"
+             title="Creative Commons attribution, non-commercial">CC:BY-NC</abbr>
+        </a> license.
+        <a href="http://github.com/stilist/ratafiacurrant/tree/master"
+            rel="external">Check out how this is made.</a>
+      </p>
+    </footer>
+
+    <!-- push as much JS to the end as possible so it's non-blocking -->
+    {block:PermalinkPage}
+    <script src="http://disqus.com/forums/ratafia/embed.js"></script>
+    {/block:PermalinkPage}
+    <script src="http://use.typekit.com/yws8cub.js"></script>
+    <script>
+var _gaq = _gaq || [];
+
+/* Typekit */
+try{Typekit.load();}catch(e){}
+
+/* Google Analytics */
+_gaq.push(["_setAccount", "UA-450269-1"], ["_trackPageview"]);
+
+(function () {
+  var ga = document.createElement("script");
+  ga.src = ("https:" === document.location.protocol ? "https://ssl" :
+      "http://www") + ".google-analytics.com/ga.js";
+  ga.setAttribute("async", "true");
+  document.documentElement.firstChild.appendChild(ga);
+})();
+    </script>
+  </body>
 </html>
