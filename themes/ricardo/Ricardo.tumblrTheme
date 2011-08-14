@@ -123,6 +123,9 @@
         title="Experts Exchange">
     <link rel="me"
         href="http://portland.everyblock.com/users/17109/" title="EveryBlock">
+    <link rel="me"
+        href="https://www.facebook.com/Xi4zEkRCtU9tpEHWwa5wOv1u6rtgWhkS"
+        title="Facebook">
     <link rel="me" href="http://favstar.fm/users/stilist/" title="Favstar">
     <link rel="me" href="http://www.flickr.com/photos/stilist/" title="Flickr">
     <link rel="me" href="http://flightaware.com/user/stilist"
@@ -139,6 +142,8 @@
         href="http://freewebs.com/stilist/" title="Freewebs">
     <link rel="me" href="https://friendfeed.com/stilist" title="FriendFeed">
     <link rel="me" href="https://github.com/stilist" title="GitHub">
+    <link rel="me" href="http://beta.glitch.com/profiles/PHVM14S8G952NTF/"
+        title="Glitch">
     <link rel="me"
         href="https://profiles.google.com/stilist" title="Google">
     <link rel="me"
@@ -389,7 +394,7 @@ while(x=eval(x));}
       </p>
     </footer>
 
-    <!-- push as much JS to the end as possible so it’s non-blocking -->
+    <!-- push as much JS to the end as possible so it's non-blocking -->
     {block:PermalinkPage}
     <script src="http://disqus.com/forums/ratafia/embed.js"></script>
     {/block:PermalinkPage}
