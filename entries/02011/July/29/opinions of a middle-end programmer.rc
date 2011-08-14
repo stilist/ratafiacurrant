@@ -1,0 +1,157 @@
+KEYWORDS: coding, philosophy
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/8249333642/opinions-of-a-middle-end-programmer
+PUBLISHED: 02011-07-29T23:28:00-0700
+TITLE: Opinions of a middle-end programmer
+UPDATED: 02011-07-29T23:28:00-0700
+--
+I’m not a person who worries about developing a coherent philosophy. But for
+the last few years I’ve worked hard to become a decent programmer, and any time
+you care about something you’re bound to develop some opinions. Here are a
+few things I’ve been thinking about recently.
+
+## Take your time when possible
+
+I haven’t been a serious programmer for very long — while I’ve ‘programmed’ off
+and on for more than a decade, I didn’t really try to learn anything until
+[about three years ago][bookmarklets] (and even then it [took a while][ajax]
+to get going).
+
+ [ajax]: http://ratafia.info/post/343731443/ajax-in-wordpress "‘AJAX in WordPress’"
+ [bookmarklets]: http://ratafia.info/tagged/bookmarklet "Bookmarklets I’ve published"
+
+As a result of this short timeframe, I’m not very fast programmer, although
+experience has naturally led to gradual improvements. I try to compensate by
+writing good code and building infrastructure that will help other parts of the
+project — part of why I call myself a ‘middle-end programmer’.
+
+Steve Yegge wrote an essay entitled [‘Done and Gets Things Smart’][done] that’s
+been my inspiration here — I haven’t reached the ‘done’, but I can at least
+work toward ‘gets things smart’.
+
+ [done]: http://steve-yegge.blogspot.com/2008/06/done-and-gets-things-smart.html "‘Done, and Gets Things Smart’"
+
+## Expect v2
+
+Careful, slower work will produce a better implementation, but it’s impossible
+to account for every scenario or know exactly what will be useful. Even authors
+of literature [revise published work][leaves].
+
+ [leaves]: http://en.wikipedia.org/wiki/Leaves_of_Grass#Publication_history_and_origin "Changes to Whitman’s ‘Leaves of Grass’"
+
+1. write it
+1. wait to see problems/holes/unnecessary features
+1. fix it
+1. ↩
+
+Two alternate versions of this are [‘correct, beautiful, fast’][cbf] and
+[‘make it work, make it right, make it fast’][makeit].
+
+ [cbf]: http://railstips.org/blog/archives/2010/01/26/correct-beautiful-fast-in-that-order/ "‘Correct, Beautiful, Fast (In That Order)’"
+ [makeit]: http://c2.com/cgi/wiki?MakeItWorkMakeItRightMakeItFast "‘Make it work, make it right, make it fast’"
+
+## Be general
+
+When building out a system you’ll find yourself writing variations of the same
+code. It can happen gradually as new features reuse old mechanisms, or simply
+be the result of a compressed development cycle. Either way, it’s important to
+[pull the code into a central place][dry] when the opportunity arises. Whether
+it’s part of the version 2 rework or just code cleanup, always strive to
+improve code quality.
+
+ [dry]: http://en.wikipedia.org/wiki/Don't_repeat_yourself
+
+An important goal here is code that can handle most situations, but not all of
+them. Aiming for 100% coverage tends to result in a messy pile of code that
+simply trades the original problem for something new. Code should explicitly
+deal with the majority of foreseeable uses, and provide for the remainder.
+
+## Method definitions are <abbr class="smallcaps">API</abbr>s
+
+So far, the best approach I’ve found for writing general code is to
+[build sensible defaults with overrides][hash] and include extensibility
+mechanisms like callbacks.
+
+ [hash]: http://ratafia.info/post/682394786/jquery-style-options-hash-in-ruby "‘jQuery-style options hash in Ruby’"
+
+When writing these methods, keep in mind that you’re effectively building
+a miniature <abbr class="smallcaps">API</abbr>. Just as you’d put a lot of
+thought into how something like a post would be transmitted to a client, it’s
+worth spending time so code that calls in here won’t have to work around an
+awkward implementation.
+
+## <abbr class="smallcaps">MVC</abbr> is not loosely-coupled
+
+From the perspective of an <abbr class="smallcaps">API</abbr>-driven system,
+the standard <abbr class="smallcaps">MVC(H)</abbr> approach isn’t exactly
+right. It’s more accurate to view it as <abbr class="smallcaps">MC</abbr>
+<abbr class="smallcaps">VH</abbr>.
+
+That is, the controller moves information in and out of the data store via the
+model. The view presents the information, possibly with assistance from
+helpers.
+
+Done correctly, an <abbr class="smallcaps">API</abbr> is an opaque barrier
+between the <abbr class="smallcaps">MC</abbr> and
+<abbr class="smallcaps">VH</abbr> portions, because neither side should care
+how the other one works. All that matters is the data.
+
+I think this is a conceptual next step after
+[‘skinny controller, fat model’][skinny].
+
+ [skinny]: http://weblog.jamisbuck.org/2006/10/18/skinny-controller-fat-model "‘Skinny Controller, Fat Model’"
+
+## Documentation
+
+You’re probably not the only person who will read your code, and you can’t keep
+the mechanics of the entire codebase in your head. Documentation is partly
+about explanation, but mostly about being sympathetic to your reader. Maybe
+they have to maintain your code, or maybe they just need to use something
+you’ve produced. This is your chance to help them understand.
+
+It’s tough to describe what makes good documentation, and everybody will have a
+different opinion of what qualifies — even a given person’s beliefs are likely
+to change over time.
+
+I think there are a few key elements, though:
+
+1. explain the motivation
+1. give at least one example of usage
+1. explain implementation choices
+
+Not all of these are relevant all the time (you probably don’t need to write up
+the details of a simple one-line helper method) but code of any significant
+complexity or length deserves a comment explaining the how and why.
+
+## Favor concise to dense
+
+Even the best documentation can’t make up for code that does too much. While
+it’s good to look for ways to accomplish a given result with less
+effort — compare [CoffeeScript][coffee] to JavaScript — there’s always the risk
+of [taking things too far][golf] and creating complicated, unreadable code. As
+with documentation, write for the person who has to use your code in a year. It
+may be you.
+
+ [coffee]: http://jashkenas.github.com/coffee-script/
+ [golf]: http://codegolf.com/
+
+> <q>Everyone knows that debugging is twice as hard as writing a program in the
+> first place. So if you’re as clever as you can be when you write it, how will
+> you ever debug it?</q> — Brian Kernighan
+
+## Expand your horizons
+
+Read about languages, paradigms, and concepts you don't understand or don't
+currently have a need for. Even if you never find a way to make direct use of
+this knowledge, you’ll gain a broader awareness of your tools and the choices
+that went into their development.
+
+It feeds back into the things you produce — for example, reading about
+metaprogramming and Smalltalk message-passing led me to start using Ruby’s
+[`send`][send] method, and a casual interest in Python and functional
+programming has helped me with CoffeeScript.
+
+ [send]: http://ruby-doc.org/core/classes/Object.html#M000999
+
+You never know if something that seems unimportant today will be helpful in the
+future, so make the effort to look around.

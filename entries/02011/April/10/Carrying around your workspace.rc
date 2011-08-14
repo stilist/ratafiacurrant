@@ -1,0 +1,50 @@
+KEYWORDS: computing, technology
+LICENSE: CC:BY-SA
+PERMALINK: http://ratafia.info/post/4489347671/carrying-around-your-workspace
+PUBLISHED: 02001-04-10T00:44:00-0700
+TITLE: Carrying around your workspace
+UPDATED: 02001-04-10T00:44:00-0700
+--
+<span class="person">Russ Cox</span> at The Setup:
+
+  [rc]: http://russ.cox.usesthis.com/
+
+> The thing I miss most about Plan 9 was the way that no matter which computer
+> you sat down at, you had the same environment. <ins>…</ins>
+>
+> Today it’s taken for granted that everyone has local files on disk and you
+> need programs like Unison or Dropbox (or for the power users, Mercurial or
+> Git) to synchronize them, but what we had in Plan 9 was completely
+> effortless, and my dream is to return to that kind of environment. I want to
+> be working on my home desktop, realize what time it is, run out the door to
+> catch my train, open my laptop on the train, continue right where I left off,
+> close the laptop, hop off the train, sit down at work, and have all my state
+> sitting there on the monitor on my desk, all without even thinking about it.
+>
+> Moving everything into “The Cloud” may be a path to that dream, but we are
+> definitely not there yet.
+
+<span class="company">Google</span>’s [ChromeOS][chromeos] is partly a bet on
+this sort of future — if all the software you use is on the web, then there’s
+no real distinction between which machine you’re working on.
+
+  [chromeos]: https://www.youtube.com/watch?v=lm-Vnx58UYo
+
+I think even non-web software is headed this way, though. It’s part of what I
+was thinking about with my unfinished [Apple Cloud][ac] article, and Lion does
+provide [a limited version][ars]:
+
+  [ac]: http://ratafia.info/post/4024876090/apple-cloud
+  [ars]: http://arstechnica.com/apple/news/2011/02/what-we-know-about-mac-os-x-lion-so-far.ars
+
+> Apps updated for Lion also gain the ability to automatically save state
+> whenever they quit. When reopened, the application appears as it did when
+> quit, including any open documents and windows. Lion can automatically resume
+> any open applications whenever you need to log out or reboot. This is
+> especially useful for getting back up and running after performing an
+> <abbr class="smallcaps">OS</abbr> update, for instance, lessening the pain of
+> lost productivity and increasing the likelihood that important updates get
+> installed instead of ignored.
+
+Will we need to confront this issue as mobile devices (phones and tablets) gain
+popularity, or is it due to the more monolithic nature of desktop computing?
