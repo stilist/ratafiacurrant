@@ -11,9 +11,7 @@
     <!-- Readability publisher -->
     <meta name="readability-verification"
         content="hw4FKyh3RrzAXzVGndy9KFv3c3eDC7gLfsLpvf9J">
-    {/block:IndexPage}
     <!-- Facebook Open Graph + Insights -->
-    {block:IndexPage}
     <meta property="og:title" content="Ratafia Currant">
     <meta property="og:image"
         content="http://static.ratafia.info/bird_80x80.png">
@@ -61,6 +59,8 @@
     <!-- give Facebook a default image when this URL is shared -->
     <link rel="image_src" href="http://static.ratafia.info/bird_80x80.png">
     <!-- external profiles -->
+    <link rel="me"
+        href="https://profiles.google.com/stilist" title="Google">
     <link rel="me" href="https://8bc.org/members/stilist/"
         title="8bitcollective">
     <link rel="me" href="http://about.me/stilist" title="about.me">
@@ -75,6 +75,8 @@
     <link rel="me"
         href="http://c.itunes.apple.com/us/profile/id93206769"
         title="iTunes Ping">
+    <link rel="me" href="https://discussions.apple.com/people/stilist"
+        title="Apple Discussions">
     <link rel="me"
         href="http://lifestream.aol.com/stream/chartereuese"
         title="AOL Lifestream">
@@ -118,6 +120,8 @@
     <link rel="me" href="http://www.discogs.com/user/ratafia" title="discogs">
     <link rel="me" href="https://disqus.com/stilist/" title="Disqus">
     <link rel="me" href="http://dribbble.com/stilist" title="Dribbble">
+    <link rel="me" href="http://www.etsy.com/people/ratafiacurrant"
+        title="Etsy">
     <link rel="me"
         href="http://www.experts-exchange.com/M_1431552.html"
         title="Experts Exchange">
@@ -144,8 +148,6 @@
     <link rel="me" href="https://github.com/stilist" title="GitHub">
     <link rel="me" href="http://beta.glitch.com/profiles/PHVM14S8G952NTF/"
         title="Glitch">
-    <link rel="me"
-        href="https://profiles.google.com/stilist" title="Google">
     <link rel="me"
         href="http://maps.google.com/maps/user?uid=217124401204746979873"
         title="Google Maps">
@@ -193,6 +195,8 @@
     <link rel="me" href="http://news.ycombinator.com/user?id=stilist"
         title="Hacker News">
     <link rel="me" href="http://stilist.newsvine.com/" title="Newsvine">
+    <link rel="me" href="http://www.nfl.com/fans/profile/stilist"
+        title="NFL.com">
     <link rel="me" href="http://my.nike.com/stilist" title="Nike">
     <link rel="me"
         href="http://timespeople.nytimes.com/view/user/61907004/activities.html"
@@ -239,6 +243,7 @@
         href="http://stackoverflow.com/users/672403/user672403"
         title="Stack Overflow">
     <link rel="me" href="https://steamcommunity.com/id/stilist/" title="Steam">
+    <link rel="me" href="http://svpply.com/stilist" title="Svpply">
     <link rel="me" href="http://technorati.com/people/stilist"
         title="Technorati">
     <link rel="me" href="http://tinypic.com/stilist" title="Tinypic">
@@ -257,6 +262,8 @@
     <link rel="me" href="http://www.wincustomize.com/users/698241/stilist"
         title="WinCustomize">
     <link rel="me" href="http://stilist.wordpress.com/" title="WordPress">
+    <link rel="me" href="http://www.x100enthusiasts.com/profile/935/stilist"
+        title="X100 Enthusiasts">
     <link rel="me" href="http://stilist.xanga.com/" title="Xanga">
     <link rel="me" href="http://stilist.yelp.com" title="Yelp">
     <link rel="me" href="https://www.youtube.com/user/stilist" title="YouTube">
@@ -345,22 +352,25 @@ while(x=eval(x));}
         <section class="meta">
           {block:HasTags}<ul class="keywords">
             {block:Tags}
-            <li><a href="{TagURL}" rel="tag">{Tag}</a></li>
+            <li><a href="{TagURLChrono}" rel="tag">{Tag}</a></li>
             {/block:Tags}
           </ul>{/block:HasTags}
-          <p class="signoff">written
-            <span class="vcard author byline source-org">by
+          <p class="signoff">written by
+            <span class="vcard author byline source-org">
               <a class="url fn" href="http://ratafia.info">Jordan Cole</a>
             </span>
-            {block:Date}<a
+            {block:Date}on <a
                 href="/day/{Year}/{MonthNumberWithZero}/{DayOfMonth}/">
+              <!-- TODO Tumblr doesn't offer a template tag for timezone, so
+                  have to manually provide. Timestamps will be wrong 50% of the
+                  year. -->
               <time class="updated"
-                  datetime="0{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}"
+                  datetime="0{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}T{24HourWithZero}:{Minutes}:{Seconds}.{Beats}-0700"
                   pubdate>{DayOfMonth} {Month}, 0{Year}</time>
             </a>{/block:Date} •
             <a href="{Permalink}#disqus_thread">Comments</a><!-- Disqus -->
             <a href="{Permalink}" class="pilcrow"
-                title="Permanent link to this entry" rel="bookmark">⁋</a>
+                title="{lang:Permalink for this post}" rel="bookmark">⁋</a>
           </p>
         </section>
       </article>
@@ -373,22 +383,37 @@ while(x=eval(x));}
 
     {block:Pagination}<div id="nextprev">
       {block:PreviousPage}<span id="prevpage">
-        <a href="{PreviousPage}">← Newer</a>
+        <a href="{PreviousPage}" rel="prev">← {lang:Newer}</a>
       </span>{/block:PreviousPage}
       {block:NextPage}<span id="nextpage">
-        <a href="{NextPage}">Older →</a>
+        <a href="{NextPage}" rel="next">{lang:Older} →</a>
       </span>{/block:NextPage}
     </div>{/block:Pagination}
 
     <footer class="vcard copyright">
       <p>
-        Copyright
-        <a class="url uid fn" href="http://ratafia.info">Jordan Cole</a>
-        (<script>hivelogic_enkoder();</script>), and provided under the
+        Brought to you from
+        <span class="adr">
+          <span class="locality">Portland</span>,
+          <abbr class="region smallcaps" title="Oregon">OR</abbr>
+          <abbr class="country-name smallcaps"
+              title="United States of America">USA</abbr>
+        </span>
+        by
+        <a href="http://ratafia.info" class="url uid fn"
+            rel="me">Jordan Cole</a>,
+        <abbr title="also known as" class="smallcaps">aka</abbr>
+        <q class="nickname">stilist</q>, who works as
+        <span class="title">middle-end lead</span> at
+        <a href="http://workwithopal.com" class="org">Opal Labs</a>
+        (<script>hivelogic_enkoder();</script>).
+
+        Content provided under the
         <a href="http://creativecommons.org/licenses/by-nc/3.0/us/">
-          <abbr class="smallcaps"
-             title="Creative Commons attribution, non-commercial">CC:BY-NC</abbr>
+          <abbr title="Creative Commons attribution, non-commercial"
+              class="smallcaps">CC:BY-NC</abbr>
         </a> license.
+
         <a href="http://github.com/stilist/ratafiacurrant/tree/master"
             rel="external">Check out how this is made.</a>
       </p>

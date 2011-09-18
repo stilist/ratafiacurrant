@@ -65,15 +65,11 @@ strong {font-weight:normal;}
 .hentry .entry-content > p:first-child, .hentry .entry-content > blockquote:first-child > p:first-child {margin-top:9px;}
 /* margins are to hide default styling on links */
 .hentry .entry-content a img {background-color:#371d10; border:2px solid #c12d2d; margin-bottom:-5px; margin-right:-1px; padding:2px;}
-.hentry .entry-content p a:only-child {display:block; border:none; padding:0;}
-.hentry .entry-content p a:only-child img {margin:0;}
 .hentry .keywords, .hentry .keywords li {display:inline;}
 .hentry .keywords {list-style:none;}
 .hentry .keywords li {float:right; margin-left:0.5em;}
-.hentry .meta {font-size:0.9em; text-align:right;}
+.hentry .meta {font-size:0.8em; text-align:right;}
 .hentry .meta ul, .hentry .meta p {margin:0.5em 0;}
-/* `.author` is required for hAtom validation */
-.hentry .meta .author {display:none;}
 
 .album, .book, .film, .game, .magazine, .newspaper, .programme {font-style:italic;}
 
