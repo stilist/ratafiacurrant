@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang='en'>
+ <head profile='http://purl.org/uF/2008/03/'>
+  <meta charset='UTF-8'>
+  <title>{block:PostTitle}{PostTitle} — {/block:PostTitle}{Title}</title>
+  <link rel='shortcut icon'
+        href='{Favicon}'>
+  <style type='text/css'>
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ background-color: #fffaea;
+ font: 62.5% Helvetica, Arial, sans-serif;
+ margin: 21px auto;
+ width: 1050px;
+}
+
+#logo {
+ font-size: 5.9em;
+ font-weight: bold;
+ letter-spacing: .02em;
+ text-transform: uppercase;
+}
+
+.hentry {
+ margin-top: 6.3em;
+ position: relative;
+}
+.hentry .entry-title, .hentry .published {
+ margin-left: 550px;
+}
+.hentry .entry-title {
+ font-weight: normal;
+}
+.hentry .published {
+ display: block;
+ margin-top: .4em;
+}
+.hentry .entry-content {
+ font-size: 1.5em;
+ line-height: 1.4em;
+ margin-top: 2.7em;
+}
+.hentry .entry-content img {
+ border: 3px solid #808080;
+ float: left;
+ margin-bottom: 1.4em; /* 22px */
+ margin-left: -3px;
+ margin-right: 47px;
+ width: 500px;
+}
+.hentry.photo img {
+}
+.hentry .entry-content p {
+ margin-bottom: 1em;
+}
+.hentry .clear {
+ clear: both;
+ display: block;
+}
+
+#nextprev {
+ clear: both;
+}
+  </style>
+  <link rel='alternate' type='application/rss+xml'
+        href='{RSS}'>
+  {block:PermalinkPage}<link rel='canonical'
+        href='{Permalink}'>{/block:PermalinkPage}
+ </head>
+ <body>
+  <div id='nameplate'>
+   <a href='/' id='logo'>{Title}</a>
+  </div>
+
+  {block:Posts}
+  <div class='hentry{block:Photo} photo{/block:Photo}'>
+   <h1 class='entry-title'>{block:IndexPage}<a href='{Permalink}'>{/block:IndexPage}
+    {block:Regular}{block:Title}{Title}{/block:Title}{/block:Regular}
+    {block:Photo}(photo){/block:Photo}
+    {block:Video}{block:Caption}{Caption}{/block:Caption}{/block:Video}
+    {block:Quote}“{Quote}”{/block:Quote}
+   {block:IndexPage}</a>{/block:IndexPage}</h1>
+
+   <a href='/day/{Year}/{Month}/{DayOfMonth}/' class='published updated'>{DayOfMonth} {Month}, {Year}</a>
+
+   <div class='entry-content'>
+
+   {block:Regular}{Body}{/block:Regular}
+
+   {block:Photo}{LinkOpenTag}<img src='{PhotoURL-500}' alt='{PhotoAlt}'>{LinkCloseTag}
+    {block:Caption}{Caption}{/block:Caption}
+   {/block:Photo}
+
+   </div>
+   <span class='clear'></span>
+  </div>
+  {/block:Posts}
+
+  {block:Pagination}<div id='nextprev'>
+   {block:PreviousPage}<span id='prevpage'><a href='{PreviousPage}'>← Newer</a></span>{/block:PreviousPage}
+   {block:NextPage}<span id='nextpage'><a href='{NextPage}'>Older →</a></span>{/block:NextPage}
+  </div>{/block:Pagination}
+
+
+  <div id='footer'>
+   <a href='http://themes.ratafia.info/magazine/'>‘Magazine’ theme</a> by <a href='http://ratafia.info'>Jordan Cole</a>
+  </div>
+ </body>
+</html>

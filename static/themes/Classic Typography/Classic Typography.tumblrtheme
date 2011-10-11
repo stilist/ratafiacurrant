@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang='en'>
+ <head>
+  <meta charset='UTF-8'>
+  <title>
+    {block:PostSummary}{PostSummary} ·{/block:PostSummary}
+    {block:SearchPage}Search results for “{SearchQuery}” ·{/block:SearchPage}
+    {Title}
+  </title>
+  <link rel='shortcut icon'
+      href='{Favicon}'>
+  <link rel='alternate' type='application/rss+xml' title='{Title}'
+      href='{RSS}'>
+  <link rel='profile' href='http://purl.org/uF/2008/03/'>
+  <link rel='stylesheet' media='screen'
+      href='http://static.ratafia.info/classictypography/style.css'>
+  {block:PermalinkPage}<link rel='canonical'
+      href='{Permalink}'>{/block:PermalinkPage}
+  <!--[if IE]>
+  <script src='http://html5shiv.googlecode.com/svn/trunk/html5.js'></script>
+  <![endif]-->
+ </head>
+ <body>
+  <nav id='nameplate'>
+   <a href='/' id='logo' rel='home index'>{Title}</a>
+   <a href='/archives' id='archives'>Archives</a>
+  </nav>
+
+  <section class='hfeed'>{block:Posts}<article class='hentry'>
+   {block:Text}
+   <header>
+    <h1 class='entry-title'>
+     {block:IndexPage}<a href='{Permalink}'>{/block:IndexPage}
+     {block:Title}{Title}{/block:Title}
+     {block:IndexPage}</a>{/block:IndexPage}
+    </h1>
+   </header>
+   <div class='entry-content'>
+    {Body}
+   </div>
+   {/block:Text}
+   {block:Link}
+   <header>
+    <h1 class='entry-title'><a href='{URL}' rel='external'>{Name}</a></h1>
+   </header>
+   {block:Description}
+   <div class='entry-content'>
+    {Description}
+   </div>
+   {/block:Description}
+   {/block:Link}
+   {block:Photo}
+   {block:Caption}<header>
+    <h1 class='entry-title'>
+     {block:IndexPage}<a href='{Permalink}'>{/block:IndexPage}
+     {Caption}
+     {block:IndexPage}</a>{/block:IndexPage}
+    </h1>
+   </header>{/block:Caption}
+   <div class='entry-content'>
+    {LinkOpenTag}<img src='{PhotoURL-500}' alt='{PhotoAlt}'>{LinkCloseTag}
+   </div>
+   {/block:Photo}
+   <section class='meta' class='vcard author'>
+    — <a href='{PostAuthorURL}' class='url fn'>{PostAuthorName}</a> ·
+    {block:Reblog}from {block:RebloggedFromReblog}{ReblogRootName}{/block:RebloggedFromReblog} ·{/block:Reblog}
+    {block:NoteCount}{NoteCountWithLabel} ·{/block:NoteCount}
+    <span class='published updated'><a href='/day/{Year}/{MonthNumberWithZero}/{DayOfMonth}/' class='value' title='{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}'>{Month} {DayOfMonth}, {Year}</a>
+    <a href='{Permalink}' class='signoff' title='Permanent link to this entry' rel='bookmark'>¶</a>
+    {block:HasTags}<ul class='keywords'>
+     {block:Tags}<li><a href='{TagURL}' rel='tag'>{Tag}</a></li>{/block:Tags}
+    </ul>{/block:HasTags}
+   </section>
+  </article>{/block:Posts}</section>
+
+    <div id="wrapper">
+        <div id="content">
+            
+            {block:SearchPage}
+                <div id="searchresults" class="searchresultcount">{SearchResultCount} results for <strong>"{SearchQuery}"</strong></div>
+            {/block:SearchPage}
+            
+            {block:NoSearchResults}
+                <style type="text/css">
+                    .searchresultcount {
+                        display: none;
+                    }
+                </style>
+                <div id="searchresults">No results for <strong>"{SearchQuery}"</strong></div>
+            {/block:NoSearchResults}
+            
+            {block:Posts}
+                <div class="post">
+                    {block:Video}
+                        <div class="media">{Video-500}</div>
+                        {block:Caption}<div class="copy">{Caption}</div>{/block:Caption}
+                    {/block:Video}
+                
+                    {block:Audio}
+                        {block:IfShowAlbumArtOnAudioPosts}
+                            {block:AlbumArt}
+                                <div class="album_art">
+                                    <img src="{AlbumArtURL}" alt="{block:Artist}{Artist}{/block:Artist}{block:TrackName} - {TrackName}{/block:TrackName}" style="margin-bottom: 10px" />
+                                </div>
+                            {/block:AlbumArt}
+                        {/block:IfShowAlbumArtOnAudioPosts}
+                        
+                        <div class="audio">
+                            <div class="player">{AudioPlayerWhite}</div>
+                            <div class="meta">{PlayCountWithLabel}{block:ExternalAudio} &bull; <a href="{ExternalAudioURL}">download</a>{/block:ExternalAudio}</div>
+                        </div>
+                        {block:Caption}<div class="copy">{Caption}</div>{/block:Caption}
+                    {/block:Audio}
+                    
+                    {block:Quote}
+                        <div class="quote {Length}">{Quote}</div>
+                        <div class="copy">
+                            <div class="quotebg">“</div>
+                            {block:Source}
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td valign="top" style="width: 20px">&mdash;</td>
+                                        <td valign="top" class="quote_source">
+                                            {Source}
+                                        </td>
+                                    </tr>
+                                </table>
+                            {/block:Source}
+                        </div>
+                    {/block:Quote}
+                        
+                    {block:Answer}
+                        <div class="question">
+                            <div class="nip"></div>
+                            {Question}
+                        </div>
+                        <div class="asker_container"><img src="{AskerPortraitURL-24}">{Asker}</div>
+                        <div class="copy">{Answer}</div>
+                    {block:Answer}
+                
+                    {block:Chat}
+                        {block:Title}<div class="title">{Title}</div>{/block:Title}
+                        <div class="chat">
+                            <div class="lines">
+                                {block:Lines}
+                                    <div class="line {Alt}">{block:Label}<strong>{Label}</strong>{/block:Label} {Line}</div>
+                                {/block:Lines}
+                            </div>
+                        </div>
+                    {/block:Chat}
+
+                    {block:PostNotes}<div class="notecontainer">{PostNotes}</div>{/block:PostNotes}
+
+                </div>
+            {/block:Posts}
+
+        </div>
+
+        <div id="sidebar">
+            <div id="top">
+                    <form action="/search" method="get" id="search-form">
+                        <input type="hidden" name="t" value="{Name}" />
+                        <input type="search" name="q" class="query" value="{SearchQuery}" />
+                        <input type="submit" value="Search" class="submit" />
+                    </form>
+
+                {block:IfShowPeopleIFollow}
+                    {block:Following}
+                        <div class="heading" id="following">Following</div>
+                        <div class="content" id="following-avatars">
+                            {block:Followed}<a href="{FollowedURL}"><img src="{FollowedPortraitURL-40}" /></a>{/block:Followed}
+                        </div>
+                    {/block:Following}
+                {/block:IfShowPeopleIFollow}
+
+            </div>
+        </div>
+    </div>
+
+  {block:Pagination}<div id='nextprev'>
+   {block:PreviousPage}<span id='prevpage'><a href='{PreviousPage}'>← Newer</a></span>{/block:PreviousPage}
+   {block:NextPage}<span id='nextpage'><a href='{NextPage}'>Older →</a></span>{/block:NextPage}
+  </div>{/block:Pagination}
+
+  <footer id='credits'>
+   <h1>Credits</h1>
+   <ul>
+    <li>Contents &copy; {CopyrightYears}</li>
+    <li>The Fell Types are digitally reproduced by Igino Marini. <a href='http://www.iginomarini.com'>www.iginomarini.com</a></li>
+    <li>Background derived using two images from <a href='http://flickr.com/photos/tbcave/'>WikiMechanics</a> (<a href='http://flickr.com/photos/tbcave/4110101553/'>1</a>, <a href='http://flickr.com/photos/tbcave/4110860958/'>2</a>).</li>
+   </ul>
+  </footer>
+ </body>
+</html>

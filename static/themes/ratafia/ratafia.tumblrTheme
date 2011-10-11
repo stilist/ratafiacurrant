@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta name="verify-v1" content="fBP5k+EA4BFJx2aaK3hiOymbZSUbEAkp8OcEdeK/Fk8=">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>{block:PostTitle}{PostTitle} — {/block:PostTitle}Ratafia</title>
+  <link rel='icon' type='text/css'
+        href='http://static.ratafia.info/favicon.ico'>
+  <link rel='stylesheet' type='text/css' media='screen'
+        href='http://static.ratafia.info/ricardo/style.css'>
+  <link rel="openid.server"
+        href="http://www.myopenid.com/server" />
+  <link rel="openid.delegate"
+        href="http://stilist.myopenid.com/" />
+  <link rel="openid2.local_id"
+        href="http://stilist.myopenid.com" />
+  <link rel="openid2.provider"
+        href="http://www.myopenid.com/server" />
+  <meta http-equiv="X-XRDS-Location"
+        content="http://www.myopenid.com/xrds?username=stilist.myopenid.com" />
+  <link rel='alternate' type='application/atom+xml' title='Ratafia Currant'
+        href='http://feeds.feedburner.com/ratafia'>
+ </head>
+ <body>
+  <div id="masthead">
+   <a href="http://ratafia.info/" id="logo">Ratafia</a>
+   <a href="/archive" id="archives">Archive</a>
+  </div>
+
+  <div id="content">
+   {block:Posts}
+   <div class="post">
+    {block:NewDayDate}
+    <div class="date">
+     {DayOfMonth} <abbr>{ShortMonth}.</abbr>, {Year}
+    </div>
+    {/block:NewDayDate}
+
+    {block:Regular}
+    <div class="regular">
+     {block:Title}<h1><a href="{Permalink}">{Title}</a></h1>{/block:Title}
+     <p class="permalink"><a href="{Permalink}">Permalink</a></p>
+     {Body}
+    </div>
+    {/block:Regular}
+
+    {block:Photo}
+    <div class="photo">
+     <p class="permalink"><a href="{Permalink}">Permalink</a></p>
+     {LinkOpenTag}<img src="{PhotoURL-400}" alt="{PhotoAlt}"/>{LinkCloseTag}
+     {block:Caption}
+     <div class="caption">{Caption}</div>
+     {/block:Caption}
+    </div>
+    {/block:Photo}
+
+    {block:Quote}
+    <div class="quote">
+     <p class="permalink"><a href="{Permalink}">Permalink</a></p>
+     <div class="quote_text"><p class="{Length}">{Quote}</p></div>
+     {block:Source}
+     <div class="source">&mdash; {Source}</div>
+     {/block:Source}
+    </div>
+    {/block:Quote}
+
+    {block:Link}
+    <div class="link">
+     <p class="permalink"><a href="{Permalink}">Permalink</a></p>
+     <p><a href="{URL}" class="link" {Target}>{Name}</a></p>
+     {block:Description}
+     <p class="description">{Description}</p>
+     {/block:Description}
+    </div>
+    {/block:Link}
+
+    {block:Conversation}
+    <div class="conversation">
+     <p class="permalink"><a href="{Permalink}">Permalink</a></p>
+     {block:Title}
+     <h1><a href="{Permalink}">{Title}</a></h1>
+     {/block:Title}
+     <ul>
+     {block:Lines}
+     <li class="{Alt}">
+      {block:Label}
+      <span class="label user_{UserNumber}">{Label}</span>
+      {/block:Label}
+      {Line}
+     </li>
+     {/block:Lines}
+     </ul>
+    </div>
+    {/block:Conversation}
+
+    {block:Audio}
+    <div class="audio">
+     <p class="permalink"><a href="{Permalink}">Permalink</a></p>
+     {AudioPlayerBlack}
+     {block:Caption}
+     <div class="caption">{Caption}</div>
+     {/block:Caption}
+    </div>
+    {/block:Audio}
+                    
+    {block:Video}
+    <div class="video">
+     <p class="permalink"><a href="{Permalink}">Permalink</a></p>
+     {Video-400}
+     {block:Caption}
+     <div class="caption">{Caption}</div>
+     {/block:Caption}
+    </div>
+    {/block:Video}
+   </div>
+   {/block:Posts}
+
+   <div id="nextprev">
+    {block:PreviousPage}
+     <a href="{PreviousPage}">&larrow; Older</a>
+    {/block:PreviousPage}
+
+    {block:NextPage}
+     <a href="{NextPage}">Newer &rarrow;</a>
+    {/block:NextPage}
+   </div>
+
+   <p id="footer">Copyright <a href="http://twitter.com/stilist">stilist</a>, except as follows: text is provided under the <a href="http://creativecommons.org/"><acronym title="Creative Commons">CC</acronym></a> <a href="http://creativecommons.org/licenses/by-nc/3.0/us/" rel="license"><acronym title="attribution, non-commercial">BY-NC</acronym></a> license; <a href="http://code.google.com/p/twotiny/">twotone icons</a> are released by <a href="http://twothirty.com/">Paul Jarvis</a> under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"><acronym title="GNU Public License">GPL</acronym><abbr title="version">v</abbr>2</a>.</p>
+  </div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-450269-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+ </body>
+</html>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang='en'>
+ <head>
+  <meta charset='UTF-8'>
+  <title>{block:PostTitle}{PostTitle} — {/block:PostTitle}{Title}</title>
+  <link rel='shortcut icon'
+        href='{Favicon}'>
+  <link rel='stylesheet' media='screen'
+      href='http://static.ratafia.info/changingseasons/style.css'>
+  <link rel='alternate' type='application/rss+xml'
+        href='{RSS}'>
+  {block:PermalinkPage}<link rel='canonical'
+        href='{Permalink}'>{/block:PermalinkPage}
+ </head>
+ <body>
+  <div id='nameplate'>
+   <a href='/' id='logo'>{Title}</a>
+   {block:Description}<p id='description'>{Description}</p>{/block:Description}
+  </div>
+
+  <form action='/search' method='get' id='search'>
+   <input type='text' name='q' value='{SearchQuery}' id='q'>
+   <input type='submit' value='Search'>
+  </form>
+
+  {block:DayPage}<div class='pagemeta'>Showing all entries from
+   <a href='/day/{Year}/{Month}/{DayOfMonth}/'
+   class='published'>{DayOfMonth} {Month}, {Year}</a></div>{/block:DayPage}
+  {block:TagPage}<div class='pagemeta'>Showing all entries labeled
+   ‘{Tag}’</div>{/block:TagPage}
+  {block:SearchPage}<div class='pagemeta'>Search results for
+   ‘{SearchQuery}’</div>{/block:SearchPage}
+
+  {block:Posts}<div class='entry {Month} y{Year} h{24Hour}'>
+   {block:Text}<h1>
+    {block:Title}{Title}{/block:Title}
+    <a href='{Permalink}' title='Permanent link to this post'
+    class='permalink'>⁋</a></h1>{/block:Text}
+   {block:Link}<h1>
+    <a href='{URL}'>{Name} →</a>
+    <a href='{Permalink}' title='Permanent link to this post' class='permalink'>⁋</a>
+    </h1>{/block:Link}
+   {block:Quote}<h1>
+    <q>{Quote}</q>
+    <a href='{Permalink}' title='Permanent link to this post' class='permalink'>⁋</a>
+    </h1>{/block:Quote}
+   {block:Chat}<h1>
+    {block:Title}{Title}{/block:Title}
+    <a href='{Permalink}' title='Permanent link to this post' class='permalink'>⁋</a>
+    </h1>{/block:Chat}
+   {block:Audio}<h1>
+    <a href='{Permalink}' title='Permanent link to this post' class='permalink'>⁋</a>
+    {block:Caption}{Caption}{/block:Caption}
+    </h1>{/block:Audio}
+
+   {block:Text}<div>{Body}</div>{/block:Text}
+   {block:Link}<div>{block:Description}{Description}</div>{/block:Description}
+    {/block:Link}
+   {block:Photo}
+    <div><a href='{Permalink}' title='Permanent link to this post'
+    class='permalink'>⁋</a>
+    {LinkOpenTag}<img src='{PhotoURL-500}' alt='{PhotoAlt}'>{LinkCloseTag}
+    {block:Caption}{Caption}{/block:Caption}</div>
+    {/block:Photo}
+   {block:Video}
+    <div><a href='{Permalink}' title='Permanent link to this post'
+    class='permalink'>⁋</a>
+    {Video-500}
+    {block:Caption}{Caption}{/block:Caption}</div>
+    {/block:Video}
+   {block:Quote}
+    <div><blockquote>{Quote}</blockquote>
+    {block:Source}— {Source}{/block:Source}</div>{/block:Quote}
+   {block:Chat} <!-- xxx: needs better markup -->
+    <div>{block:Lines}<p class='chat {Alt}'>
+    {Line}</p>{/block:Lines}</div>{/block:Chat}
+   {block:Audio}
+    <div>{AudioPlayerBlack}
+    Download: {block:ExternalAudio}{ExternalAudioURL}{/block:ExternalAudio}</div>
+    {/block:Audio}
+
+   <div class='entrymeta'>
+    <a href='/day/{Year}/{MonthNumberWithZero}/{DayOfMonth}/'
+     class='published updated'>{12Hour}:{Minutes} {ampm} {DayOfMonth} {Month}, {Year}</a>
+    {block:HasTags} • Tagged: <ul class='tags'>
+     {block:Tags}<li><a href='{TagURL}'>{Tag}</a></li>{/block:Tags}
+     </ul>{/block:HasTags}
+   </div>
+
+   <div class='notes'>{PostNotes}</div>
+  </div>{/block:Posts}
+
+  {block:Pagination}<div class='nextprev'>
+   {block:PreviousPage}<span class='prevpage'><a href='{PreviousPage}'>← Newer</a></span>{/block:PreviousPage}
+   {block:NextPage}<span class='nextpage'><a href='{NextPage}'>Older →</a></span>{/block:NextPage}
+  </div>{/block:Pagination}
+  {block:DayPagination}<div class='nextprev'>
+   {block:NextDayPage}<span class='prevpage'><a href='{NextDayPage}'>← Next Day</a></span>{/block:NextDayPage}
+   {block:PreviousDayPage}<span class='nextpage'><a href='{PreviousDayPage}'>Previous Day →</a></span>{/block:PreviousDayPage}
+  </div>{/block:DayPagination}
+
+
+  <p id='footer'><a href='http://themes.ratafia.info/changingseasons/'>‘Changing Seasons’ theme</a> by <a href='http://ratafia.info/'>Jordan Cole</a></p>
+ </body>
+</html>

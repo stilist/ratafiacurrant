@@ -1,0 +1,108 @@
+@charset "utf-8"; /* via John Gruber */
+
+* {margin:0; padding:0;}
+
+html {background:#371d10 url("gradient.png") 0 0 fixed repeat-x;}
+body {background:#371d10 url("branch.png") right 41px no-repeat; border-top:10px solid #aa5a32; color:#ab8876; font-family:museo-sans-1, museo-sans-2, "Trebuchet MS", Arial, sans-serif; font-weight:500; line-height:1.55em; padding:39px 0 26px 0;}
+
+/* 22px baseline */
+@media all and (max-width:1024px) {
+	body {font-size:11pt; margin:0 auto; width:750px;}
+	.hfeed, #disqus_thread, .bottom {margin:0 107px;}
+	.hentry .entry-title {font-size:18pt;}
+	.hentry .entry-content h2 {font-size:1.1em;}
+	.hentry .entry-content img {margin-left:-1px; max-width:100%;}
+}
+/* 26px baseline */
+@media all and (min-width:1025px) {
+	body {font-size:13pt; margin:0 107px;}
+	#nameplate {margin-bottom:69px;}
+	.hfeed, #disqus_thread, .bottom {max-width:35em; margin:0 auto;}
+	.hentry .entry-title {font-size:20pt; margin-bottom:17px;}
+	.hentry .entry-content h2 {font-size:1em; margin-bottom:25px; margin-top:52px;}
+	.hentry .entry-content h2 + p {margin-top:25px;}
+	.hentry .entry-content figure, .hentry .entry-content ol, .hentry .entry-content p, .hentry .entry-content ul {margin-bottom:26px; margin-top:26px;}
+	.hentry .meta {margin-top:30px;}
+	.hentry .meta .clear + .signoff {margin-top:7px;}
+	#disqus_thread {margin-top:78px;}
+	.bottom .copyright {margin-top:26px;}
+}
+@media all and (min-width:1025px) and (max-width:1399px) {
+	.hentry .entry-content figure {margin-left:-33px; max-width:683px;}
+	.hentry .entry-content img {margin-left:-1px; width:675px;}
+}
+@media all and (min-width:1400px) {
+	.hentry .entry-content figure {margin-left:-200px; max-width:1012px;}
+	.hentry .entry-content figure a img, .hentry .entry-content figure img {margin-left:0;}
+
+	/* preserve existing entries */
+	.hentry .entry-content img {margin-left:-150px; max-width:1000px;}
+	.hentry .entry-content a img {margin-left:-154px;}
+}
+
+a {border-bottom:1px solid #c12d2d; color:#c12d2d; padding:1px 1px 0 1px; text-decoration:none;}
+a:hover {background-color:#640a00; color:#ffa2a2;}
+abbr.smallcaps, strong {font-size:0.8em; letter-spacing:0.1em; line-height:1.25em; text-transform:uppercase;}
+address, cite {font-style:normal;}
+article, footer, header, nav, section {display:block;} /* html5 */
+code {font-family:Inconsolata, Monaco, monospace; font-size:0.9em; line-height:1.6em;}
+h1 + .copy > h2:first-child {margin-top:0.9em;}
+h2 {font-weight:700; line-height:1.6em; margin:42px 0 -1px 0;}
+hr {border:none; border-top:1px solid #ab8876; margin:32px auto 33px auto; width:20%;}
+ins {background-color:rgba(171, 136, 118, .13); /* #ab8876 */ text-decoration:none;}
+ins:before {content:"[";}
+ins:after {content:"]"; }
+q:before {content:open-quote;}
+q:after {content:close-quote;}
+q:lang(de), q:lang(deu) {quotes:"„" "“" "‚" "‘";}
+q:lang(en), q:lang(eng) {quotes:"‘" "’" "“" "”";}
+q:lang(en-GB) {quotes:"‘ " " ’" "“ " " ”";}
+q:lang(en-US) {quotes: "“" "”" "‘" "’";}
+q:lang(fr), q:lang(fra) {quotes:"« " " »";}
+q:lang(ru), q:lang(rus) {quotes:"«" "»" "„" "“";}
+strong {font-weight:normal;}
+.clear {clear:both;}
+
+#nameplate {height:116px; margin:0 auto 78px auto; position:relative; width:750px;}
+#nameplate a {background:none bottom center no-repeat; border-bottom:none; display:block; font-family:chaparral-pro-1,chaparral-pro-2, "Chaparral Pro", Times, "Times New Roman", serif; line-height:1em; position:absolute; text-transform:lowercase;}
+#nameplate a:hover {color:#c12d2d;}
+#nameplate ul {list-style:none;}
+#nameplate #logo {font-size:90px; height:72px; left:105px; width:538px;}
+#nameplate #archives, #nameplate #code, #nameplate #links {bottom:0; font-size:33px; font-weight:300; height:27px;}
+#nameplate #archives {left:237px; width:114px;}
+#nameplate #code {left:366px; width:63px;}
+#nameplate #links {right:237px; width:67px;}
+
+.hentry + .hentry {margin-bottom:1em; margin-top:1em;}
+.hentry blockquote {margin:0 2em;}
+.hentry figure, .hentry ol, .hentry p, .hentry ul {clear:both; margin:22px 0;}
+.hentry .entry-title {font-weight:normal; line-height:1.9em; margin:57px 0 13px 0;}
+.hentry + .hentry .entry-title {margin-bottom:14px; margin-top:75px;}
+.hentry .entry-title a {border:none; margin-left:-1px;}
+.hentry .entry-title code, h2 code {font-size:inherit;}
+.hentry .entry-content > figure:first-child, .hentry .entry-content > p:first-child, .hentry .entry-content > blockquote:first-child > p:first-child {margin-top:9px;}
+/* margins are to hide default styling on links */
+.hentry .entry-content a img {background-color:#371d10; border:2px solid #c12d2d; margin-bottom:-5px; margin-right:-1px; padding:2px;}
+.hentry .entry-content pre {margin-bottom:-1px; padding-top:1px;}
+.hentry .keywords, .hentry .keywords li {display:inline;}
+.hentry .keywords {line-height:1.55em; list-style:none;}
+.hentry .keywords li {float:right; margin-left:0.5em;}
+.hentry .meta {font-size:0.8em; line-height:1.25em; margin-top:25px; text-align:right;}
+.hentry .meta ul, .hentry .meta p {margin:0.5em 0;}
+.hentry .meta .clear + .signoff {margin-top:6px;}
+
+.album, .book, .film, .game, .magazine, .newspaper, .programme {font-style:italic;}
+
+#nextprev {height:1em; margin:4.5em auto; position:relative;}
+#nextprev span {display:block; position:absolute; width:49%;}
+#nextprev #nextpage {right:0;}
+#nextprev #prevpage {text-align:right;}
+
+.bottom {margin-top:5.05em;}
+.bottom .copyright {margin-top:22px;}
+
+/* disqus */
+#disqus_thread {margin-top:66px; margin-bottom:50px;}
+#disqus_thread #dsq-add-new-comment {font-size:1.1em; line-height:1.6em; margin:3em 0 1em 0;}
+#disqus_thread .dsq-by a {background:transparent; border:none;}
+#disqus_thread #dsq-content {font-size:inherit !important;}

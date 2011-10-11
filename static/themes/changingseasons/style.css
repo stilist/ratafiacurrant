@@ -1,0 +1,206 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+body {
+ background-color: #eee;
+ color: #000;
+ font: 62.5% Helvetica, Arial, sans-serif;
+ margin: 0 auto;
+ padding: 32px 0;
+ position: relative;
+ width: 655px;
+}
+a {
+ border-bottom: 1px solid #000;
+ color: inherit;
+ padding: 1px 1px 0 1px;
+ text-decoration: none;
+}
+a:active { background-color: #fff; }
+a:hover {
+ background-color: #000;
+ border-bottom-color: #666;
+ color: #666;
+}
+a:visited {
+ border-bottom-color: #999;
+ color: #999;
+}
+blockquote {
+ border-left: 2px solid #000;
+ margin-left: -2px;
+ padding: 0 1em;
+}
+
+#nameplate { min-height: 59px; }
+#nameplate #logo { font-size: 2.5em; }
+#nameplate #description {
+ font-size: 1.5em;
+ line-height: 1.5em;
+ margin: 22px 0 53px 0;
+ width: 400px;
+}
+
+#search {
+ position: absolute;
+ right: 0;
+ top: 85px;
+ width: 150px;
+}
+#search #q { width: 90px; }
+
+/* shown on tag/search/single-day pages */
+.pagemeta {
+ font-size: 1.5em;
+ font-weight: bold;
+ margin: 3em 0;
+ padding: 1em 2em;
+}
+
+.entry {
+ background: 0 0.5em no-repeat url('data:image/gif;base64,R0lGODlhqQAIAIABAAAAAAAAACH5BAEAAAEALAAAAACpAAgAAAJUjI+py+0PFYi02ssm3rwn7YUiBI7meZTo6gFq8MbS/NGIXOe3nfIGvtP1hD8fDDgMKpPMIhFmRDqX0yb0Kb1StVaW9/L6iknjciVsTnfVbDTbDCgAADs%3D');
+ line-height: 22px;
+ margin: 33px 0;
+ width: 500px;
+}
+.entry a:hover { color: #fff; }
+.entry div, .entry h1, .entry .permalink { background-color: #eee }
+.entry h1 {
+ font-size: 1.3em;
+ margin-bottom: 11px;
+}
+.entry ol, .entry p, .entry ul { margin: 22px 0; }
+.entry p.chat { margin: 0; }
+.hentry .entry-content > p:first-child,
+.hentry .entry-content > blockquote:first-child > p:first-child {
+ margin-top: 9px;
+}
+.entry .permalink {
+ float: left;
+ margin-left: -1em;
+ padding: 0 1px;
+ visibility: hidden;
+}
+.entry:hover .permalink { visibility: visible; }
+.entry .entrymeta {
+ font-size: 0.8em;
+ line-height: 22px;
+ margin-top: 11px;
+}
+.entry ul.tags, .entry .tags li { display: inline; }
+.entry ul.tags { list-style: none; }
+.entry ul.tags li { margin-right: 0.5em; }
+
+/*
+ time of day moves the entry horizontally
+ (concept from lonelysandwich.com)
+*/
+.entry.h0 { padding-left: 0px; }
+.entry.h1 { padding-left: 7px; }
+.entry.h2 { padding-left: 14px; }
+.entry.h3 { padding-left: 21px; }
+.entry.h4 { padding-left: 28px; }
+.entry.h5 { padding-left: 35px; }
+.entry.h6 { padding-left: 42px; }
+.entry.h7 { padding-left: 49px; }
+.entry.h8 { padding-left: 56px; }
+.entry.h9 { padding-left: 63px; }
+.entry.h10 { padding-left: 70px; }
+.entry.h11 { padding-left: 77px; } /* noon */
+.entry.h12 { padding-left: 84px; }
+.entry.h13 { padding-left: 91px; }
+.entry.h14 { padding-left: 98px; }
+.entry.h15 { padding-left: 105px; }
+.entry.h16 { padding-left: 112px; }
+.entry.h17 { padding-left: 119px; }
+.entry.h18 { padding-left: 126px; }
+.entry.h19 { padding-left: 133px; }
+.entry.h20 { padding-left: 140px; }
+.entry.h21 { padding-left: 147px; }
+.entry.h22 { padding-left: 154px; }
+.entry.h23 { padding-left: 161px; }
+
+/*
+ each month gets its own color scheme. colors from:
+ http://www.colourlovers.com/palette/129773/Gardening
+ http://www.colourlovers.com/palette/82605/spritelove
+ http://www.colourlovers.com/palette/44867/prisoners_dilemma
+ http://www.colourlovers.com/palette/961368/ready_set_takeoff
+*/
+.entry.January, .entry.January a { color: #667; }
+.entry.January a:hover { background-color: #667; }
+.entry.January blockquote { border-left-color: #667; }
+.entry.February, .entry.Feburary a { color: #687; }
+.entry.February blockquote { border-left-color: #687; }
+.entry.March, .entry.March a { color: #7a7; }
+.entry.March blockquote { border-left-color: #7a7; }
+.entry.April, .entry.April a { color: #97d852; }
+.entry.April blockquote { border-left-color: #97d852; }
+.entry.May, .entry.May a { color: #b2ff5f; }
+.entry.May blockquote { border-left-color: #b2ff5f; }
+.entry.June, .entry.June a { color: #cbb200; }
+.entry.June blockquote { border-left-color: #cbb200; }
+.entry.July, .entry.July a { color: #db1907; }
+.entry.July blockquote { border-left-color: #db1907; }
+.entry.August, .entry.August a { color: #d81848; }
+.entry.August blockquote { border-left-color: #d81848; }
+.entry.September, .entry.September a { color: #d86018; }
+.entry.September blockquote { border-left-color: #d86018; }
+.entry.October, .entry.October a { color: #a11b35; }
+.entry.October blockquote { border-left-color: #a11b35; }
+.entry.November, .entry.November a { color: #5c004d; }
+.entry.November blockquote { border-left-color: #5c004d; }
+.entry.December, .entry.December a { color: #776; }
+.entry.December blockquote { border-left-color: #776; }
+
+/* gradually shrink older content to indicate age */
+
+.entry.y2010 {
+ font-size: 1.6em;
+}
+.entry.y2010 h1 {
+ margin-bottom: 10px;
+}
+.entry.y2009 {
+ font-size: 1.5em;
+}
+.entry.y2009 h1 {
+ margin-bottom: 12px;
+}
+.entry.y2008 {
+ font-size: 1.4em;
+}
+.entry.y2007 {
+ font-size: 1.3em;
+}
+.entry.y2007 h1 {
+ margin-bottom: 12px;
+}
+.entry.y2006, .entry.y2005, .entry.y2004, .entry.y2003 {
+ font-size: 1.2em;
+}
+.entry.y2002, .entry.y2001, .entry.y2000, .entry.y1999 {
+ font-size: 1.1em;
+}
+.entry.y2002 h1, .entry.y2001 h1, .entry.y2000 h1, .entry.y1999 h1 {
+ margin-bottom: 12px;
+}
+/* (anything more than eleven years old is 1 em) */
+
+/* older/newer entries; next/previous date */
+.nextprev {
+ font-size: 1.3em;
+ height: 1em;
+ margin: 4.5em auto;
+ position: relative;
+}
+.nextprev span {
+ display: block;
+ position: absolute;
+ width: 49%;
+}
+.nextprev .nextpage { right: 0; }
+.nextprev .prevpage { text-align: right; }
+
+#footer { font-size: 1.3em; }

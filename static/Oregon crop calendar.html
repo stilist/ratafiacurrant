@@ -1,0 +1,1830 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Oregon crop calendar</title>
+    <meta name="keywords"
+        content="oregon, harvest, crop calendar, harvest calendar, food">
+    <meta name="copyright" content="Copyright © Jordan Cole">
+    <link rel="shortcut icon"
+        href="http://static.ratafia.info/favicon.ico">
+    <link rel="profile" href="http://purl.org/uF/2008/03/">
+    <link rel="license"
+        href="http://creativecommons.org/licenses/by-nc/3.0/us/">
+    <style>
+body {color:#333; font-family:"Myriad Pro", Arial, sans-serif; margin:0 auto; padding-left:213px; width:662px;}
+h1 {font-weight:500;}
+h2 {font-weight:500; font-size:1.2em;}
+.clear {clear:both;}
+.smallcaps {font-size:0.8em;}
+
+#key {margin-bottom:56px; margin-top:45px;}
+#key .type {float:left; margin-right:30px; vertical-align:center;}
+#key .type .cell, #key .type .label {display:block; float:left;}
+#key .type .cell {border:1px solid transparent; height:20px; margin-left:-1px; margin-right:10px; padding:5px 3px; width:48px;}
+#key .type .label {color:#555; margin-top:8px; width:70px;}
+#key .type.animal .cell {background-color:#e25959; border-color:#b74848;}
+#key .type.plant .cell {background-color:#6c6; border-color:#52a552;}
+
+table {border-collapse:collapse; cursor:default; margin-left:-213px; position:relative;}
+table thead {margin-left:213px; position:fixed; top:160px;}
+table thead th {background-color:rgba(245, 245, 245, 0.85); border-bottom:1px solid #aaa; border-top:1px solid #f5f5f5; font-weight:500;} /* #f5f5f5 */
+table thead th:first-child {display:none;}
+table td, table th {height:20px; padding:5px 3px; width:49px;}
+table tr + tr td {border-top:1px solid #999;}
+table tr:hover {background-color:rgba(0, 0, 0, 0.03);}
+table .crop {border-top:none; color:#444; padding-right:10px; text-align:right; width:200px;}
+table .crop .source {font-size:0.7em; vertical-align:super;}
+table .animal .in_season {background-color:#e25959; border-top-color:#b74848;}
+table .animal .in_season.uncertain {background-color:#ebb5b5; border-top-color:#be9393;}
+table tr.animal:nth-child(even) .in_season {background-color:#c94f4f;}
+table tr.animal:nth-child(even) .in_season.uncertain {background-color:#e6a3a3;}
+table .plant .in_season {background-color:#6c6; border-top-color:#52a552;}
+table .plant .in_season.uncertain {background-color:#bae3ba; border-top-color:#7a9e7a;}
+table tr.plant:nth-child(even) .in_season {background-color:#6b6;}
+table tr.plant:nth-child(even) .in_season.uncertain {background-color:#a4daa4;}
+table .month {background-color:#f3f3f3;}
+table .month_alt {background-color:#ddd;}
+
+#sources, #about {margin-bottom:40px;}
+#sources h2 {margin-top:75px;}
+#sources ol {line-height:1.4em; margin-left:-40px;}
+#sources ol li:focus {background-color:#f0c;}
+#sources ol cite {font-style:normal;}
+#about h2 {margin-top:40px;}
+    </style>
+  </head>
+
+  <body>
+    <h1><span class="adr"><span class="region">Oregon</span></span> crop calendar</h1>
+
+    <section id="key">
+      <div class="type animal">
+        <span class="cell"></span>
+        <span class="label">animal</span>
+      </div>
+      <div class="type plant">
+        <span class="cell"></span>
+        <span class="label">plant</span>
+      </div>
+      <div class="clear"></div>
+    </section>
+
+    <table>
+      <colgroup><col class="crop_name"></col></colgroup>
+      <colgroup><col class="month"></col></colgroup>
+      <colgroup><col class="month_alt"></col></colgroup>
+      <colgroup><col class="month"></col></colgroup>
+      <colgroup><col class="month_alt"></col></colgroup>
+      <colgroup><col class="month"></col></colgroup>
+      <colgroup><col class="month_alt"></col></colgroup>
+      <colgroup><col class="month"></col></colgroup>
+      <colgroup><col class="month_alt"></col></colgroup>
+      <colgroup><col class="month"></col></colgroup>
+      <colgroup><col class="month_alt"></col></colgroup>
+      <colgroup><col class="month"></col></colgroup>
+      <colgroup><col class="month_alt"></col></colgroup>
+      <thead>
+        <tr class="plant">
+          <th></th>
+          <th title="January">Jan</th>
+          <th title="February">Feb</th>
+          <th title="March">Mar</th>
+          <th title="April">Apr</th>
+          <th title="May">May</th>
+          <th title="June">Jun</th>
+          <th title="July">Jul</th>
+          <th title="August">Aug</th>
+          <th title="September">Sep</th>
+          <th title="October">Oct</th>
+          <th title="November">Nov</th>
+          <th title="December">Dec</th>
+        </tr>
+      </thead>
+      <tr class="plant">
+        <td class="crop">apples <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_5" class="source">5</a></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">apricots <a href="#source_1" class="source">1</a> <a href="#source_5" class="source">5</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">artichokes <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">Asian pears <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">asparagus <a href="#source_1" class="source">1</a> <a href="#source_4" class="source">4</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">bamboo shoots <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">basil <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">beans <a href="#source_1" class="source">1</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="animal">
+        <td class="crop">beef <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">beets <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">blackberries <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_5" class="source">5</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">black currants <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">blueberries <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_5" class="source">5</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">boysenberries <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">broccoli <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">Brussels sprouts <a href="#source_1" class="source">1</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">cabbage <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">cantaloupes <a href="#source_1" class="source">1</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">carrots <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">cauliflower <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">celery <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+      </tr>
+      <tr class="animal">
+        <td class="crop">chicken <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+      </tr>
+      <tr class="animal">
+        <td class="crop">chicken eggs <a href="#source_2" class="source">2</a></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">Chinese peas <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">Chinese vegetables <a href="#source_2" class="source">2</a></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">chives <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">cilantro <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">collards <a href="#source_3" class="source">3</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">corn <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">cucumbers <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">daikon <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">dill <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">dry beans <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">endive <a href="#source_3" class="source">3</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">eggplant <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_4" class="source">4</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">elephant garlic <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">everbearing strawberries <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">fall raspberries <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">fava beans <a href="#source_3" class="source">3</a></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">figs <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">filberts <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">garlic <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">gooseberries <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">grapes <a href="#source_2" class="source">2</a> <a href="#source_5" class="source">5</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">greens <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_4" class="source">4</a></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">green beans <a href="#source_2" class="source">2</a> <a href="#source_4" class="source">4</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">hazelnut <a href="#source_5" class="source">5</a></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">Jerusalem artichokes <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">kale <a href="#source_3" class="source">3</a></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">kiwi <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">kohlrabi <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+      </tr>
+      <tr class="animal">
+        <td class="crop">lamb <a href="#source_2" class="source">2</a></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">lavendar <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">leeks <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">lettuce <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">lingonberries <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">loganberries <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">marionberries <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">melons <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_5" class="source">5</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">mushrooms <a href="#source_4" class="source">4</a></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">mustard <a href="#source_3" class="source">3</a></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">nectarines <a href="#source_1" class="source">1</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">nuts <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">onions <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">parsley <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">parsnips <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">peaches <a href="#source_1" class="source">1</a> <a href="#source_5" class="source">5</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">pears <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_5" class="source">5</a></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">peas <a href="#source_1" class="source">1</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">peppers <a href="#source_1" class="source">1</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">pie cherries <a href="#source_2" class="source">2</a> <a href="#source_5" class="source">5</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">plums <a href="#source_2" class="source">2</a> <a href="#source_5" class="source">5</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">pole beans <a href="#source_3" class="source">3</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="animal">
+        <td class="crop">pork <a href="#source_2" class="source">2</a></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">potatoes <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">prunes <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">pumpkins <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">quince <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">radishes <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">raspberries <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_5" class="source">5</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">red currants <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">rhubarb <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_5" class="source">5</a></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">rosemary <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">rutabaga <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">sage <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">saskatoons <a href="#source_1" class="source">1</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">scallions <a href="#source_3" class="source">3</a></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">shallots <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">shell beans <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">shell peas <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">snap beans <a href="#source_3" class="source">3</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">spinach <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">strawberries <a href="#source_1" class="source">1</a> <a href="#source_5" class="source">5</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">sugar snap peas <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">summer squash <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">sweet cherries <a href="#source_2" class="source">2</a></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">sweet corn <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">sweet potatoes <a href="#source_1" class="source">1</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">Swiss chard <a href="#source_3" class="source">3</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">tarragon <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">tayberries <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">tea <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">thyme <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">tomatoes <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a> <a href="#source_5" class="source">5</a></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+      </tr>
+      <tr class="animal">
+        <td class="crop">turkey <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">turnips <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a> <a href="#source_4" class="source">4</a></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">watermelons <a href="#source_1" class="source">1</a> <a href="#source_3" class="source">3</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">walnuts <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">wax beans <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">winter squash <a href="#source_1" class="source">1</a> <a href="#source_2" class="source">2</a> <a href="#source_3" class="source">3</a></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season uncertain"></td>
+        <td class="in_season uncertain"></td>
+      </tr>
+      <tr class="plant">
+        <td class="crop">zucchini <a href="#source_2" class="source">2</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td class="in_season"></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <section id="sources">
+      <h2>Sources</h2>
+      <ol>
+        <li id="source_1">
+          <cite>
+            <a href="http://www.pickyourown.org/ORharvestcalendar.htm">Oregon Harvest Calendar</a>
+          </cite> — <span class="vcard">
+            <a href="http://www.pickyourown.org/" class="url">
+              <span class="fn author">Blake Slemmer</span>,
+              <span class="org">PickYourOwn.org</span>
+            </a>
+          <span>
+        </li>
+        <li id="source_2">
+          <cite>
+            <a href="http://smallfarms.wsu.edu/farms/harvest_schedule-wa-or.asp">Harvest Schedule for <abbr title="southwest">SW</abbr> Washington and <abbr title="northwest">NW</abbr> Oregon</a>
+          </cite> — <span class="vcard">
+            <a href="http://smallfarms.wsu.edu/" class="fn org url">Washington State University Small Farms Team</a>
+          </span>
+        </li>
+        <li id="source_3">
+          <cite>
+            <a href="http://tilth.org/files/oec-1/the-toolshed/planting%20and%20harvest%20calendar.pdf">Planting and Harvest Calendar</a>
+          </cite> — <span class="vcard">
+            <a href="http://tilth.org/" class="fn org url">Oregon Tilth</a>
+          </span>
+        </li>
+        <li id="source_4">
+          <cite>
+            <a href="http://www.oregonfresh.net/seasonal/vegetables.php">Vegetable Seasonality Chart</a>
+          </cite> — <span class="vcard">
+            <a href="http://www.aglink.org/" class="fn org url">Agri-Business Council of Oregon</a>
+          </span>
+        </li>
+        <li id="source_5">
+          <cite>
+            <a href="http://www.oregonfresh.net/seasonal/fruitnuts.php">Fruit/Nut Seasonality Chart</a>
+          </cite> — <span class="vcard">
+            <a href="http://www.aglink.org/" class="fn org url">Agri-Business Council of Oregon</a>
+          </span>
+        </li>
+      </ol>
+    </section>
+
+    <section id="about" class="vcard">
+      <h2>About</h2>
+
+      <p>
+        Collected and presented by
+        <a href="http://ratafia.info" class="fn author url">Jordan Cole</a>;
+        provided under the
+        <a href="http://creativecommons.org/licenses/by-nc/3.0/us/">
+          <abbr title="Creative Commons attribution, non-commercial"
+              class="smallcaps">CC:BY-NC</abbr>
+        </a> license. There’s no original research here — I ain’t responsible
+        if this information turns out to be wrong!
+      </p>
+    </section>
+  </body>
+</html>

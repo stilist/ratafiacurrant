@@ -1,0 +1,124 @@
+@charset 'utf-8';
+
+* {
+ margin: 0;
+ padding: 0;
+}
+body {
+ background: #f7f4e8 url('vellum.jpg');
+ color: rgba(34, 34, 51, 0.95); /* #223 */
+ font: 13pt 'Fell French Canon', Times, 'Times New Roman', serif;
+ line-height: 1.8em;
+ margin: 0 auto;
+ padding: 25px 0;
+ width: 37em;
+}
+article, footer, header, nav, section { display: block; } /* html5 */
+
+@font-face {
+ font-family: Fell French Canon;
+ src: local('IM FELL French Canon PRO Roman'),
+      url('http://dl.dropbox.com/u/3547643/FeFCrm27C.otf') format('opentype');
+}
+@font-face {
+ font-family: Fell French Canon;
+ src: local('IM FELL French Canon PRO Italic'),
+      url('http://dl.dropbox.com/u/3547643/FeFCit27C.otf') format('opentype');
+ font-style: italic;
+}
+
+a {
+ color: rgba(164, 68, 46, 0.95); /* #a4442e */
+ padding: 0 1px;
+ -webkit-transition: color 1s;
+}
+a:hover {
+ color: rgba(67, 88, 109, 0.95); /* #43586d */
+}
+a:active {
+ background-color: rgba(189, 166, 122, 0.95); /* #bda67a */
+}
+a:visited {
+ color: rgba(124, 128, 103, 0.95); /* #7c8067 */
+}
+.hfeed {
+ margin: 2.5em 0;
+}
+.hentry {
+ margin-top: 2.5em;
+}
+/* a definite hack, but acceptable */
+.hentry abbr.smallcaps {
+ font-size: 0.8em;
+ letter-spacing: 0.2em;
+ text-transform: uppercase;
+}
+.hentry blockquote {
+ margin: 1em 4em;
+}
+.hentry code {
+ font: 0.9em Inconsolata, Monaco, monospace;
+ line-height: 1.6em;
+}
+.hentry h1 {
+ font-size: 24pt;
+ font-weight: normal;
+ margin-bottom: 1em;
+}
+.hentry h2 {
+ font-size: 16pt;
+ margin: 1.5em 0 0.5em 0;
+}
+.hentry .meta {
+ font-size: 0.8em;
+ text-align: right;
+}
+.hentry .meta .keywords ul, .hentry .meta .keywords li {
+ list-style: none;
+}
+.hentry .meta .keywords ul {
+ clear: both;
+}
+.hentry .meta .keywords li {
+ float: right;
+ margin-left: 0.5em;
+}
+.entry-content hr {
+ background: url('hrule.png') center center no-repeat;
+ border: none;
+ height: 30px;
+ margin: 1em 0;
+}
+.entry-content ol {
+ margin-left: 2em;
+}
+.entry-content p+p {
+ text-indent: 2em;
+}
+.entry-content p {
+ text-indent: 0;
+}
+.entry-content > p:first-child:first-letter {
+ float: left;
+ font-size: 3.3em;
+ line-height: 1em;
+ margin-right: 0.2em;
+}
+.entry-content pre {
+ margin: 1em 0;
+}
+.entry-content ul ul {
+ margin-left: 2em;
+}
+
+.album, .book, .film, .game, .magazine, .newspaper, .programme {
+ font-style: italic;
+}
+
+footer#credits {
+ font-size: 9pt;
+ line-height: 1.2em;
+}
+footer#credits h1 {
+ font-size: 11pt;
+}
