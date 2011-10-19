@@ -2,22 +2,69 @@
 
 * {margin:0; padding:0;}
 
-html {background:#371d10 url("gradient.png") 0 0 fixed repeat-x;}
-body {background:#371d10 url("branch.png") right 41px no-repeat; border-top:10px solid #aa5a32; color:#ab8876; font-family:museo-sans-1, museo-sans-2, "Trebuchet MS", Arial, sans-serif; font-weight:500; line-height:1.55em; padding:39px 0 26px 0;}
+html {background:#371d10;}
+body {background:#371d10; border-top:10px solid #aa5a32; color:#ab8876; font-family:museo-sans-1, museo-sans-2, "Trebuchet MS", Arial, sans-serif; font-weight:500; line-height:1.55em; padding:39px 0 26px 0;}
 
 /* 22px baseline */
-@media all and (max-width:1024px) {
-	body {font-size:11pt; margin:0 auto; width:750px;}
+/* *** 320px+ *** */
+@media all and (max-width:480px) {
+	body {max-width:320px;}
+	#nameplate {height:68px;}
+	#nameplate #logo {font-size:43px; left:30px;}
+	#nameplate #archives, #nameplate #code, #nameplate #links {font-size:20px;}
+	#nameplate #archives {left:56px;}
+	#nameplate #links {left:140px;}
+	#nameplate #code {left:197px;}
+	.hentry .entry-content img {max-width:312px;}
+}
+/* *** 480px+ *** */
+@media all and (min-width:481px) {
+	#nameplate {height:121px;}
+	#nameplate #archives, #nameplate #code, #nameplate #links {font-size:33px;}
+}
+@media all and (min-width:481px) and (max-width:640px) {
+	body {max-width:480px;}
+	#nameplate #logo {font-size:70px; left:31px;}
+	#nameplate #archives {left:83px;}
+	#nameplate #links {left:228px;}
+	#nameplate #code {left:329px;}
+	.hentry .entry-content img {max-width:472px;}
+}
+@media all and (max-width:640px) {
+	.hfeed, #disqus_thread {margin:0 !important;}
+	.bottom {margin-left:25px; margin-right:25px;}
+	.hentry .entry-title {margin:57px 10px 13px 10px;}
+	.hentry .meta {font-size:0.9em; margin-right:10px;}
+}
+/* *** 640px+ *** */
+@media all and (min-width:641px) {
+	html {background-attachment:fixed; background-image:url("gradient.png"); background-position:0 0; background-repeat:repeat-x}
+	body {background-image:url("branch.png"); background-position:right 41px; background-repeat:no-repeat;}
+	#nameplate {width:750px;}
+	#nameplate #logo {font-size:90px; left:105px;}
+	#nameplate #archives {left:241px;}
+	#nameplate #links {left:448px;}
+	#nameplate #code {left:366px;}
+	.hentry .entry-title {margin:57px 0 13px 0;}
+	.hentry .meta {font-size:0.8em;}
+}
+@media all and (min-width:641px) and (max-width:1024px) {
+	body {width:750px;}
 	.hfeed, #disqus_thread, .bottom {margin:0 107px;}
+	/* .hentry .entry-content img {max-width:592px;} */
+	.hentry .entry-content img {max-width:100%;}
+}
+@media all and (max-width:1024px) {
+	body {font-size:11pt; margin:0 auto;}
 	.hentry .entry-title {font-size:18pt;}
 	.hentry .entry-content h2 {font-size:1.1em;}
-	.hentry .entry-content img {margin-left:-1px; max-width:100%;}
 }
 /* 26px baseline */
+/* *** 1024px+ *** */
 @media all and (min-width:1025px) {
 	body {font-size:13pt; margin:0 107px;}
 	#nameplate {margin-bottom:69px;}
-	.hfeed, #disqus_thread, .bottom {max-width:35em; margin:0 auto;}
+	.hfeed, #disqus_thread, .bottom {max-width:35em; margin:0 auto !important;}
 	.hentry .entry-title {font-size:20pt; margin-bottom:17px;}
 	.hentry .entry-content h2 {font-size:1em; margin-bottom:25px; margin-top:52px;}
 	.hentry .entry-content h2 + p {margin-top:25px;}
@@ -31,6 +78,7 @@ body {background:#371d10 url("branch.png") right 41px no-repeat; border-top:10px
 	.hentry .entry-content figure {margin-left:-33px; max-width:683px;}
 	.hentry .entry-content img {margin-left:-1px; width:675px;}
 }
+/* *** 1400px+ *** */
 @media all and (min-width:1400px) {
 	.hentry .entry-content figure {margin-left:-200px; max-width:1012px;}
 	.hentry .entry-content figure a img, .hentry .entry-content figure img {margin-left:0;}
@@ -63,31 +111,27 @@ q:lang(ru), q:lang(rus) {quotes:"«" "»" "„" "“";}
 strong {font-weight:normal;}
 .clear {clear:both;}
 
-#nameplate {height:116px; margin:0 auto 78px auto; position:relative; width:750px;}
-#nameplate a {background:none bottom center no-repeat; border-bottom:none; display:block; font-family:chaparral-pro-1,chaparral-pro-2, "Chaparral Pro", Times, "Times New Roman", serif; line-height:1em; position:absolute; text-transform:lowercase;}
+#nameplate {margin:0 auto 78px auto; position:relative;}
+#nameplate a {background:none; border-bottom:none; display:block; font-family:chaparral-pro-1,chaparral-pro-2, "Chaparral Pro", Times, "Times New Roman", serif; line-height:1em; position:absolute; text-transform:lowercase;}
 #nameplate a:hover {color:#c12d2d;}
 #nameplate ul {list-style:none;}
-#nameplate #logo {font-size:90px; height:72px; left:105px; width:538px;}
-#nameplate #archives, #nameplate #code, #nameplate #links {bottom:0; font-size:33px; font-weight:300; height:27px;}
-#nameplate #archives {left:237px; width:114px;}
-#nameplate #code {left:366px; width:63px;}
-#nameplate #links {right:237px; width:67px;}
+#nameplate #archives, #nameplate #code, #nameplate #links {bottom:0; font-weight:300;}
 
 .hentry + .hentry {margin-bottom:1em; margin-top:1em;}
 .hentry blockquote {margin:0 2em;}
 .hentry figure, .hentry ol, .hentry p, .hentry ul {clear:both; margin:22px 0;}
-.hentry .entry-title {font-weight:normal; line-height:1.9em; margin:57px 0 13px 0;}
+.hentry .entry-title {font-weight:normal; line-height:1.9em;}
 .hentry + .hentry .entry-title {margin-bottom:14px; margin-top:75px;}
 .hentry .entry-title a {border:none; margin-left:-1px;}
 .hentry .entry-title code, h2 code {font-size:inherit;}
 .hentry .entry-content > figure:first-child, .hentry .entry-content > p:first-child, .hentry .entry-content > blockquote:first-child > p:first-child {margin-top:9px;}
-/* margins are to hide default styling on links */
-.hentry .entry-content a img {background-color:#371d10; border:2px solid #c12d2d; margin-bottom:-5px; margin-right:-1px; padding:2px;}
+/* left/right margins compensate for 1px padding on links */
+.hentry .entry-content a img {background-color:#371d10; border:2px solid #c12d2d; margin-bottom:-5px; margin-left:-1px; margin-right:-1px; padding:2px;}
 .hentry .entry-content pre {margin-bottom:-1px; padding-top:1px;}
 .hentry .keywords, .hentry .keywords li {display:inline;}
 .hentry .keywords {line-height:1.55em; list-style:none;}
 .hentry .keywords li {float:right; margin-left:0.5em;}
-.hentry .meta {font-size:0.8em; line-height:1.25em; margin-top:25px; text-align:right;}
+.hentry .meta {line-height:1.25em; margin-top:25px; text-align:right;}
 .hentry .meta ul, .hentry .meta p {margin:0.5em 0;}
 .hentry .meta .clear + .signoff {margin-top:6px;}
 

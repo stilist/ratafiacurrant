@@ -2,6 +2,8 @@
 <html lang="en" xmlns:og="http://ogp.me/ns#">
   <head profile="http://gmpg.org/xfn/11">
     <meta charset="UTF-8">
+    <!-- mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Google Webmaster Tool -->
     <meta name="verify-v1"
         content="fBP5k+EA4BFJx2aaK3hiOymbZSUbEAkp8OcEdeK/Fk8=">
@@ -121,6 +123,7 @@
         title="dailymile">
     <link rel="me" href="http://stilist.deviantart.com/"
         title="deviantART">
+    <link rel="me" href="https://pod.geraspora.de/u/stilist" title="Diaspora*">
     <link rel="me" href="http://www.discogs.com/user/ratafia" title="discogs">
     <link rel="me" href="https://disqus.com/stilist/" title="Disqus">
     <link rel="me" href="http://dribbble.com/stilist" title="Dribbble">
@@ -139,6 +142,7 @@
         title="Facebook">
     <link rel="me" href="http://favstar.fm/users/stilist/" title="Favstar">
     <link rel="me" href="http://www.fitbit.com/user/22MNQW" title="Fitbit">
+    <link rel="me" href="https://flattr.com/profile/stilist" title="Flattr">
     <link rel="me" href="http://www.flickr.com/photos/stilist/" title="Flickr">
     <link rel="me" href="http://flightaware.com/user/stilist"
         title="FlightAware">
@@ -187,6 +191,7 @@
         title="KHDownloads forums">
     <link rel="me"
         href="http://www.kickstarter.com/profile/stilist" title="Kickstarter">
+    <link rel="me" href="http://www.kiva.org/lender/stilist" title="Kiva">
     <link rel="me" href="http://klout.com/stilist" title="Klout">
     <link rel="me" href="http://www.kongregate.com/accounts/stilist"
         title="Kongregate">
@@ -256,6 +261,7 @@
     <link rel="me" href="http://www.rockband.com/users/stilist"
         title="Rock Band">
     <link rel="me" href="http://rollyo.com/stilist/" title="Rollyo">
+    <link rel="me" href="http://rstat.us/users/stilist" title="rstat.us">
     <link rel="me" href="http://www.scribd.com/stilist" title="Scribd">
     <link rel="me"
         href="http://slashdot.org/~stilist" title="slashdot">
@@ -419,7 +425,7 @@ var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
             <a href="http://ratafia.info" class="url uid fn"
                 rel="me">Jordan Cole</a>,
             <abbr title="also known as" class="smallcaps">aka</abbr>
-            <a href="http://twitter.com/stilist" class="nickname">stilist</q>,
+            <a href="http://twitter.com/stilist" class="nickname">stilist</a>,
             who works as <span class="title">middle-end lead</span> at
             <a href="http://workwithopal.com" class="org">Opal Labs</a>
             (<script>hivelogic_enkoder();</script>).
@@ -459,7 +465,7 @@ var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
         <a href="http://ratafia.info" class="url uid fn"
             rel="me">Jordan Cole</a>,
         <abbr title="also known as" class="smallcaps">aka</abbr>
-        <a href="http://twitter.com/stilist" class="nickname">stilist</q>, who
+        <a href="http://twitter.com/stilist" class="nickname">stilist</a>, who
         works as <span class="title">middle-end lead</span> at
         <a href="http://workwithopal.com" class="org">Opal Labs</a>
         (<script>hivelogic_enkoder();</script>).
