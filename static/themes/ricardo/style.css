@@ -19,7 +19,7 @@ body {background:#371d10; border-top:10px solid #aa5a32; color:#ab8876; font-fam
 }
 /* *** 480px+ *** */
 @media all and (min-width:481px) {
-	#nameplate {height:121px;}
+	#nameplate {height:122px;}
 	#nameplate #archives, #nameplate #code, #nameplate #links {font-size:33px;}
 }
 @media all and (min-width:481px) and (max-width:640px) {
@@ -42,8 +42,8 @@ body {background:#371d10; border-top:10px solid #aa5a32; color:#ab8876; font-fam
 	body {background-image:url("branch.png"); background-position:right 41px; background-repeat:no-repeat;}
 	#nameplate {width:750px;}
 	#nameplate #logo {font-size:90px; left:105px;}
-	#nameplate #archives {left:241px;}
-	#nameplate #links {left:448px;}
+	#nameplate #archives {left:237px;}
+	#nameplate #links {left:444px;}
 	#nameplate #code {left:366px;}
 	.hentry .entry-title {margin:57px 0 13px 0;}
 	.hentry .meta {font-size:0.8em;}
@@ -111,7 +111,7 @@ q:lang(ru), q:lang(rus) {quotes:"«" "»" "„" "“";}
 strong {font-weight:normal;}
 .clear {clear:both;}
 
-#nameplate {margin:0 auto 78px auto; position:relative;}
+#nameplate {margin:0 auto 84px auto; position:relative;}
 #nameplate a {background:none; border-bottom:none; display:block; font-family:chaparral-pro-1,chaparral-pro-2, "Chaparral Pro", Times, "Times New Roman", serif; line-height:1em; position:absolute; text-transform:lowercase;}
 #nameplate a:hover {color:#c12d2d;}
 #nameplate ul {list-style:none;}

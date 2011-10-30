@@ -250,6 +250,7 @@
     <link rel="me"
         href="http://www.programmersheaven.com/user/stilist/"
         title="Programmer’s Heaven">
+    <link rel="me" href="http://protocol.by/stilist" title="PROTOCOL.BY">
     <link rel="me" href="http://www.quora.com/Jordan-Cole" title="Quora">
     <link rel="me" href="http://www.qwerly.com/stilist" title="Qwerly">
     <link rel="me" href="http://www.rdio.com/people/stilist/" title="rdio">
@@ -304,6 +305,7 @@
     <link rel="me" href="http://stilist.yelp.com" title="Yelp">
     <link rel="me" href="https://www.youtube.com/user/stilist" title="YouTube">
     <link rel="me" href="http://www.zerply.com/profile/stilist" title="Zerply">
+    {block:IndexPage}<link rel="canonical" href="/">{/block:IndexPage}
     {block:PermalinkPage}<link rel="canonical"
         href="{Permalink}">{/block:PermalinkPage}
     <script>
